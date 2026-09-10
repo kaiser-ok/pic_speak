@@ -6,16 +6,27 @@ from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 public=ROOT/'dist'
 data=json.loads((public/'data.json').read_text())
-assert len(data['photos'])==25
-assert len({p['id'] for p in data['photos']})==25
-assert {p['id'] for p in data['photos']}=={p.stem for p in (ROOT/'pic').glob('*.jpeg')}
+assert len(data['photos'])==62
+assert len({p['id'] for p in data['photos']})==62
+assert len(data['words'])==66
+assert {p['id'] for p in data['photos'] if p.get('category')=='life'}=={p.stem for p in (ROOT/'pic').glob('*.jpeg')}
+for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10)]:
+ assert sum(p.get('category')==category for p in data['photos'])==count,(category,count)
+for category in data['categories']:
+ visible=[p for p in data['photos'] if category['id']=='all' or p['category']==category['id']]
+ assert visible
+ assert visible[(len(visible)-1+1)%len(visible)]==visible[0]
+ assert visible[(0-1+len(visible))%len(visible)]==visible[-1]
 for photo in data['photos']:
- image=Image.open(public/'assets/photos'/f'{photo["id"]}.webp')
+ image=Image.open(public/photo['image'].lstrip('/'))
  assert image.size==(photo['width'],photo['height'])
  assert photo['objects']
  for obj in photo['objects']:
   assert obj['word'] in data['words']
   x,y,w,h=obj['box'];assert min(x,y)>=0 and min(w,h)>0 and x+w<=100 and y+h<=100
+ if photo.get('kind')=='pictogram':
+  assert photo['source']['creator'] and photo['source']['sourcePage'].startswith('https://arasaac.org/')
+  assert photo['source']['license']=='CC BY-NC-SA'
   # Minimum target size is reinforced by CSS, with full-size text buttons as an alternative.
 for key,word in data['words'].items():
  for field in ['zhAudio','twAudio']:

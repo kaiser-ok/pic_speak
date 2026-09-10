@@ -1,10 +1,10 @@
 """Download unchanged dictionary MP3s; generate Mandarin with macOS Meijia.
 Existing files are reused. Run from the project root after prepare_content.py.
 """
-import json, subprocess, tempfile, urllib.request, concurrent.futures
+import json, subprocess, tempfile, urllib.request, concurrent.futures, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-data=json.loads((ROOT/'dist/data.json').read_text())
+data=json.loads((Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'dist/data.json').read_text())
 
 def prepare(item):
  key,w=item

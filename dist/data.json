@@ -316,6 +316,413 @@
       "source": "itaigi",
       "sourceUrl": "https://itaigi.tw/k/遙控器",
       "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=iâu-khòng-khì"
+    },
+    "head": {
+      "zh": "頭",
+      "tw": "頭殼",
+      "roman": "thâu-khak",
+      "audioId": "12104",
+      "zhAudio": "/assets/audio/zh/head.mp3",
+      "twAudio": "/assets/audio/tw/12104.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'頭殼",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/12104.mp3"
+    },
+    "eyes": {
+      "zh": "眼睛",
+      "tw": "目睭",
+      "roman": "ba̍k-tsiu",
+      "audioId": "01985",
+      "zhAudio": "/assets/audio/zh/eyes.mp3",
+      "twAudio": "/assets/audio/tw/01985.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'目睭",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/01985.mp3"
+    },
+    "ears": {
+      "zh": "耳朵",
+      "tw": "耳仔",
+      "roman": "hīnn-á/hī-á",
+      "audioId": "02645",
+      "zhAudio": "/assets/audio/zh/ears.mp3",
+      "twAudio": "/assets/audio/tw/02645.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'耳仔",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/02645.mp3"
+    },
+    "nose": {
+      "zh": "鼻子",
+      "tw": "鼻",
+      "roman": "phīnn",
+      "audioId": "10972",
+      "zhAudio": "/assets/audio/zh/nose.mp3",
+      "twAudio": "/assets/audio/tw/10972.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'鼻",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10972.mp3"
+    },
+    "mouth": {
+      "zh": "嘴巴",
+      "tw": "喙",
+      "roman": "tshuì",
+      "audioId": "08199",
+      "zhAudio": "/assets/audio/zh/mouth.mp3",
+      "twAudio": "/assets/audio/tw/08199.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'喙",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08199.mp3"
+    },
+    "teeth": {
+      "zh": "牙齒",
+      "tw": "齒",
+      "roman": "khí",
+      "audioId": "11604",
+      "zhAudio": "/assets/audio/zh/teeth.mp3",
+      "twAudio": "/assets/audio/tw/11604.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'齒",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11604.mp3"
+    },
+    "tongue": {
+      "zh": "舌頭",
+      "tw": "舌",
+      "roman": "tsi̍h",
+      "audioId": "02611",
+      "zhAudio": "/assets/audio/zh/tongue.mp3",
+      "twAudio": "/assets/audio/tw/02611.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'舌",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/02611.mp3"
+    },
+    "neck": {
+      "zh": "脖子",
+      "tw": "頷頸",
+      "roman": "ām-kún",
+      "audioId": "12116",
+      "zhAudio": "/assets/audio/zh/neck.mp3",
+      "twAudio": "/assets/audio/tw/12116.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'頷頸",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/12116.mp3"
+    },
+    "shoulder": {
+      "zh": "肩膀",
+      "tw": "肩胛",
+      "roman": "king-kah",
+      "audioId": "04465",
+      "zhAudio": "/assets/audio/zh/shoulder.mp3",
+      "twAudio": "/assets/audio/tw/04465.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'肩胛",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/04465.mp3"
+    },
+    "hand": {
+      "zh": "手",
+      "tw": "手",
+      "roman": "tshiú",
+      "audioId": "00803",
+      "zhAudio": "/assets/audio/zh/hand.mp3",
+      "twAudio": "/assets/audio/tw/00803.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'手",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/00803.mp3"
+    },
+    "foot": {
+      "zh": "腳",
+      "tw": "跤",
+      "roman": "kha",
+      "audioId": "10089",
+      "zhAudio": "/assets/audio/zh/foot.mp3",
+      "twAudio": "/assets/audio/tw/10089.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'跤",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10089.mp3"
+    },
+    "belly": {
+      "zh": "肚子",
+      "tw": "腹肚",
+      "roman": "pak-tóo",
+      "audioId": "09937",
+      "zhAudio": "/assets/audio/zh/belly.mp3",
+      "twAudio": "/assets/audio/tw/09937.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'腹肚",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/09937.mp3"
+    },
+    "bowl": {
+      "zh": "碗",
+      "tw": "碗",
+      "roman": "uánn",
+      "audioId": "09805",
+      "zhAudio": "/assets/audio/zh/bowl.mp3",
+      "twAudio": "/assets/audio/tw/09805.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'碗",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/09805.mp3"
+    },
+    "plate": {
+      "zh": "盤子",
+      "tw": "盤",
+      "roman": "puânn",
+      "audioId": "11244",
+      "zhAudio": "/assets/audio/zh/plate.mp3",
+      "twAudio": "/assets/audio/tw/11244.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'盤",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11244.mp3"
+    },
+    "chopsticks": {
+      "zh": "筷子",
+      "tw": "箸",
+      "roman": "tī/tū",
+      "audioId": "10723",
+      "zhAudio": "/assets/audio/zh/chopsticks.mp3",
+      "twAudio": "/assets/audio/tw/10723.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'箸",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10723.mp3"
+    },
+    "spoon": {
+      "zh": "湯匙",
+      "tw": "湯匙仔",
+      "roman": "thng-sî-á",
+      "audioId": "08577",
+      "zhAudio": "/assets/audio/zh/spoon.mp3",
+      "twAudio": "/assets/audio/tw/08577.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'湯匙仔",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08577.mp3"
+    },
+    "fork": {
+      "zh": "叉子",
+      "tw": "攕仔",
+      "roman": "tshiám-á",
+      "audioId": "13010",
+      "zhAudio": "/assets/audio/zh/fork.mp3",
+      "twAudio": "/assets/audio/tw/13010.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'攕仔",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/13010.mp3"
+    },
+    "knife": {
+      "zh": "菜刀",
+      "tw": "菜刀",
+      "roman": "tshài-to",
+      "audioId": "08958",
+      "zhAudio": "/assets/audio/zh/knife.mp3",
+      "twAudio": "/assets/audio/tw/08958.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'菜刀",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08958.mp3"
+    },
+    "pot": {
+      "zh": "鍋子",
+      "tw": "鼎",
+      "roman": "tiánn",
+      "audioId": "10387",
+      "zhAudio": "/assets/audio/zh/pot.mp3",
+      "twAudio": "/assets/audio/tw/10387.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'鼎",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10387.mp3"
+    },
+    "spatula": {
+      "zh": "鍋鏟",
+      "tw": "煎匙",
+      "roman": "tsian-sî",
+      "audioId": "09737",
+      "zhAudio": "/assets/audio/zh/spatula.mp3",
+      "twAudio": "/assets/audio/tw/09737.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'煎匙",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/09737.mp3"
+    },
+    "cutting_board": {
+      "zh": "砧板",
+      "tw": "砧",
+      "roman": "tiam",
+      "audioId": "06399",
+      "zhAudio": "/assets/audio/zh/cutting_board.mp3",
+      "twAudio": "/assets/audio/tw/06399.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'砧",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/06399.mp3"
+    },
+    "ladle": {
+      "zh": "湯杓",
+      "tw": "杓仔",
+      "roman": "sia̍h-á",
+      "audioId": "03242",
+      "zhAudio": "/assets/audio/zh/ladle.mp3",
+      "twAudio": "/assets/audio/tw/03242.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'杓仔",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/03242.mp3"
+    },
+    "sunny": {
+      "zh": "晴天",
+      "tw": "好天",
+      "roman": "hó-thinn",
+      "audioId": "02306",
+      "zhAudio": "/assets/audio/zh/sunny.mp3",
+      "twAudio": "/assets/audio/tw/02306.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'好天",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/02306.mp3"
+    },
+    "cloudy": {
+      "zh": "陰天",
+      "tw": "烏陰",
+      "roman": "oo-im",
+      "audioId": "06303",
+      "zhAudio": "/assets/audio/zh/cloudy.mp3",
+      "twAudio": "/assets/audio/tw/06303.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'烏陰",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/06303.mp3"
+    },
+    "rain": {
+      "zh": "下雨",
+      "tw": "落雨",
+      "roman": "lo̍h-hōo",
+      "audioId": "09950",
+      "zhAudio": "/assets/audio/zh/rain.mp3",
+      "twAudio": "/assets/audio/tw/09950.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'落雨",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/09950.mp3"
+    },
+    "wind": {
+      "zh": "刮風",
+      "tw": "透風",
+      "roman": "thàu-hong",
+      "audioId": "07969",
+      "zhAudio": "/assets/audio/zh/wind.mp3",
+      "twAudio": "/assets/audio/tw/07969.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'透風",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/07969.mp3"
+    },
+    "thunder": {
+      "zh": "打雷",
+      "tw": "霆雷公",
+      "roman": "tân-luî-kong",
+      "audioId": "11597",
+      "zhAudio": "/assets/audio/zh/thunder.mp3",
+      "twAudio": "/assets/audio/tw/11597.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'霆雷公",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11597.mp3"
+    },
+    "cold": {
+      "zh": "冷",
+      "tw": "寒",
+      "roman": "kuânn",
+      "audioId": "08312",
+      "zhAudio": "/assets/audio/zh/cold.mp3",
+      "twAudio": "/assets/audio/tw/08312.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'寒",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08312.mp3"
+    },
+    "hot": {
+      "zh": "熱",
+      "tw": "熱",
+      "roman": "jua̍h/lua̍h",
+      "audioId": "11238",
+      "zhAudio": "/assets/audio/zh/hot.mp3",
+      "twAudio": "/assets/audio/tw/11238.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'熱",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11238.mp3"
+    },
+    "pain": {
+      "zh": "痛",
+      "tw": "疼",
+      "roman": "thiànn",
+      "audioId": "06362",
+      "zhAudio": "/assets/audio/zh/pain.mp3",
+      "twAudio": "/assets/audio/tw/06362.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'疼",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/06362.mp3"
+    },
+    "hungry": {
+      "zh": "餓",
+      "tw": "枵",
+      "roman": "iau",
+      "audioId": "05078",
+      "zhAudio": "/assets/audio/zh/hungry.mp3",
+      "twAudio": "/assets/audio/tw/05078.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'枵",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/05078.mp3"
+    },
+    "thirsty": {
+      "zh": "口渴",
+      "tw": "喙焦",
+      "roman": "tshuì-ta",
+      "audioId": "08250",
+      "zhAudio": "/assets/audio/zh/thirsty.mp3",
+      "twAudio": "/assets/audio/tw/08250.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'喙焦",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08250.mp3"
+    },
+    "tired": {
+      "zh": "累",
+      "tw": "忝",
+      "roman": "thiám",
+      "audioId": "03894",
+      "zhAudio": "/assets/audio/zh/tired.mp3",
+      "twAudio": "/assets/audio/tw/03894.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'忝",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/03894.mp3"
+    },
+    "dizzy": {
+      "zh": "頭暈",
+      "tw": "眩",
+      "roman": "hîn",
+      "audioId": "06398",
+      "zhAudio": "/assets/audio/zh/dizzy.mp3",
+      "twAudio": "/assets/audio/tw/06398.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'眩",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/06398.mp3"
+    },
+    "itchy": {
+      "zh": "癢",
+      "tw": "癢",
+      "roman": "tsiūnn",
+      "audioId": "13006",
+      "zhAudio": "/assets/audio/zh/itchy.mp3",
+      "twAudio": "/assets/audio/tw/13006.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'癢",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/13006.mp3"
+    },
+    "nauseous": {
+      "zh": "反胃",
+      "tw": "反腹",
+      "roman": "píng-pak",
+      "audioId": "01115",
+      "zhAudio": "/assets/audio/zh/nauseous.mp3",
+      "twAudio": "/assets/audio/tw/01115.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'反腹",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/01115.mp3"
+    },
+    "numbness": {
+      "zh": "發麻",
+      "tw": "麻",
+      "roman": "bâ",
+      "audioId": "08113",
+      "zhAudio": "/assets/audio/zh/numbness.mp3",
+      "twAudio": "/assets/audio/tw/08113.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'麻",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08113.mp3"
     }
   },
   "photos": [
@@ -335,7 +742,9 @@
             83
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4327.webp"
     },
     {
       "id": "IMG_4334",
@@ -353,7 +762,9 @@
             39
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4334.webp"
     },
     {
       "id": "IMG_4315",
@@ -371,7 +782,9 @@
             49
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4315.webp"
     },
     {
       "id": "IMG_4335",
@@ -389,7 +802,9 @@
             70
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4335.webp"
     },
     {
       "id": "IMG_4319",
@@ -407,7 +822,9 @@
             27
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4319.webp"
     },
     {
       "id": "IMG_4331",
@@ -425,7 +842,9 @@
             55
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4331.webp"
     },
     {
       "id": "IMG_4332",
@@ -443,7 +862,9 @@
             54
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4332.webp"
     },
     {
       "id": "IMG_4333",
@@ -461,7 +882,9 @@
             66
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4333.webp"
     },
     {
       "id": "IMG_4328",
@@ -479,7 +902,9 @@
             37
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4328.webp"
     },
     {
       "id": "IMG_4326",
@@ -506,7 +931,9 @@
             32
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4326.webp"
     },
     {
       "id": "IMG_4325",
@@ -524,7 +951,9 @@
             37
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4325.webp"
     },
     {
       "id": "IMG_4329",
@@ -542,7 +971,9 @@
             60
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4329.webp"
     },
     {
       "id": "IMG_4323",
@@ -560,7 +991,9 @@
             13
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4323.webp"
     },
     {
       "id": "IMG_4324",
@@ -578,7 +1011,9 @@
             84
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4324.webp"
     },
     {
       "id": "IMG_4322",
@@ -596,7 +1031,9 @@
             28
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4322.webp"
     },
     {
       "id": "IMG_4321",
@@ -623,7 +1060,9 @@
             17
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4321.webp"
     },
     {
       "id": "IMG_4313",
@@ -650,7 +1089,9 @@
             18
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4313.webp"
     },
     {
       "id": "IMG_4336",
@@ -668,7 +1109,9 @@
             77
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4336.webp"
     },
     {
       "id": "IMG_4314",
@@ -695,7 +1138,9 @@
             24
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4314.webp"
     },
     {
       "id": "IMG_4317",
@@ -722,7 +1167,9 @@
             49
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4317.webp"
     },
     {
       "id": "IMG_4320",
@@ -749,7 +1196,9 @@
             38
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4320.webp"
     },
     {
       "id": "IMG_4318",
@@ -767,7 +1216,9 @@
             34
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4318.webp"
     },
     {
       "id": "IMG_4316",
@@ -785,7 +1236,9 @@
             32
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4316.webp"
     },
     {
       "id": "IMG_4330",
@@ -803,7 +1256,9 @@
             43
           ]
         }
-      ]
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4330.webp"
     },
     {
       "id": "IMG_4337",
@@ -821,7 +1276,1219 @@
             48
           ]
         }
+      ],
+      "category": "life",
+      "image": "/assets/photos/IMG_4337.webp"
+    },
+    {
+      "id": "card_head",
+      "title": "頭",
+      "alt": "頭的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/head.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "head",
+        "originalUrl": "https://static.arasaac.org/pictograms/2673/2673_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2673",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Head outline; arrow points to head."
+      },
+      "objects": [
+        {
+          "word": "head",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
       ]
+    },
+    {
+      "id": "card_eyes",
+      "title": "眼睛",
+      "alt": "眼睛的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/eyes.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "eyes",
+        "originalUrl": "https://static.arasaac.org/pictograms/6573/6573_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/6573",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Single eye with iris and lashes represents eyes."
+      },
+      "objects": [
+        {
+          "word": "eyes",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_ears",
+      "title": "耳朵",
+      "alt": "耳朵的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/ears.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "ears",
+        "originalUrl": "https://static.arasaac.org/pictograms/2871/2871_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2871",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Single external ear represents ears."
+      },
+      "objects": [
+        {
+          "word": "ears",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_nose",
+      "title": "鼻子",
+      "alt": "鼻子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/nose.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "nose",
+        "originalUrl": "https://static.arasaac.org/pictograms/2887/2887_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2887",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Profile of nose with arrow."
+      },
+      "objects": [
+        {
+          "word": "nose",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_mouth",
+      "title": "嘴巴",
+      "alt": "嘴巴的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/mouth.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "mouth",
+        "originalUrl": "https://static.arasaac.org/pictograms/2663/2663_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2663",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Open mouth, lips and teeth."
+      },
+      "objects": [
+        {
+          "word": "mouth",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_teeth",
+      "title": "牙齒",
+      "alt": "牙齒的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/teeth.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "teeth",
+        "originalUrl": "https://static.arasaac.org/pictograms/2737/2737_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2737",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Teeth shown in mouth; arrow indicates teeth."
+      },
+      "objects": [
+        {
+          "word": "teeth",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_tongue",
+      "title": "舌頭",
+      "alt": "舌頭的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/tongue.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "tongue",
+        "originalUrl": "https://static.arasaac.org/pictograms/2944/2944_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2944",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Extended tongue in open mouth."
+      },
+      "objects": [
+        {
+          "word": "tongue",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_neck",
+      "title": "脖子",
+      "alt": "脖子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/neck.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "neck",
+        "originalUrl": "https://static.arasaac.org/pictograms/25040/25040_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/25040",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Head and shoulders outline with arrow pointing to neck."
+      },
+      "objects": [
+        {
+          "word": "neck",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_shoulder",
+      "title": "肩膀",
+      "alt": "肩膀的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/shoulder.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "shoulder",
+        "originalUrl": "https://static.arasaac.org/pictograms/2977/2977_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2977",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Upper torso detail; arrow indicates shoulder."
+      },
+      "objects": [
+        {
+          "word": "shoulder",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_hand",
+      "title": "手",
+      "alt": "手的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/hand.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "hand",
+        "originalUrl": "https://static.arasaac.org/pictograms/2928/2928_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2928",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Open hand."
+      },
+      "objects": [
+        {
+          "word": "hand",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_foot",
+      "title": "腳",
+      "alt": "腳的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/foot.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "foot",
+        "originalUrl": "https://static.arasaac.org/pictograms/25327/25327_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/25327",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Side view of foot and ankle."
+      },
+      "objects": [
+        {
+          "word": "foot",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_belly",
+      "title": "肚子",
+      "alt": "肚子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/belly.png",
+      "category": "body",
+      "kind": "pictogram",
+      "source": {
+        "key": "belly",
+        "originalUrl": "https://static.arasaac.org/pictograms/2786/2786_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2786",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Torso with arrow pointing to belly."
+      },
+      "objects": [
+        {
+          "word": "belly",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_bowl",
+      "title": "碗",
+      "alt": "碗的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/bowl.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "bowl",
+        "originalUrl": "https://static.arasaac.org/pictograms/24005/24005_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/24005",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Single deep bowl on plain background."
+      },
+      "objects": [
+        {
+          "word": "bowl",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_plate",
+      "title": "盤子",
+      "alt": "盤子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/plate.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "plate",
+        "originalUrl": "https://static.arasaac.org/pictograms/2532/2532_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2532",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Single empty plate."
+      },
+      "objects": [
+        {
+          "word": "plate",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_chopsticks",
+      "title": "筷子",
+      "alt": "筷子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/chopsticks.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "chopsticks",
+        "originalUrl": "https://static.arasaac.org/pictograms/32090/32090_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/32090",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Pair of chopsticks."
+      },
+      "objects": [
+        {
+          "word": "chopsticks",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_spoon",
+      "title": "湯匙",
+      "alt": "湯匙的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/spoon.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "spoon",
+        "originalUrl": "https://static.arasaac.org/pictograms/2362/2362_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2362",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Single spoon."
+      },
+      "objects": [
+        {
+          "word": "spoon",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_fork",
+      "title": "叉子",
+      "alt": "叉子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/fork.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "fork",
+        "originalUrl": "https://static.arasaac.org/pictograms/2588/2588_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2588",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Single fork."
+      },
+      "objects": [
+        {
+          "word": "fork",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_knife",
+      "title": "菜刀",
+      "alt": "菜刀的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/knife.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "knife",
+        "originalUrl": "https://static.arasaac.org/pictograms/3237/3237_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/3237",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Pointed kitchen knife with wooden handle."
+      },
+      "objects": [
+        {
+          "word": "knife",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_pot",
+      "title": "鍋子",
+      "alt": "鍋子的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/pot.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "pot",
+        "originalUrl": "https://static.arasaac.org/pictograms/9086/9086_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/9086",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Cooking pot with lid and two handles."
+      },
+      "objects": [
+        {
+          "word": "pot",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_spatula",
+      "title": "鍋鏟",
+      "alt": "鍋鏟的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/spatula.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "spatula",
+        "originalUrl": "https://static.arasaac.org/pictograms/7094/7094_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/7094",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Flat metal cooking spatula with wooden handle."
+      },
+      "objects": [
+        {
+          "word": "spatula",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_cutting_board",
+      "title": "砧板",
+      "alt": "砧板的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/cutting_board.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "cutting_board",
+        "originalUrl": "https://static.arasaac.org/pictograms/9090/9090_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/9090",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Cutting board with kitchen knife above it; board is primary object."
+      },
+      "objects": [
+        {
+          "word": "cutting_board",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_ladle",
+      "title": "湯杓",
+      "alt": "湯杓的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/ladle.png",
+      "category": "kitchen",
+      "kind": "pictogram",
+      "source": {
+        "key": "ladle",
+        "originalUrl": "https://static.arasaac.org/pictograms/2320/2320_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2320",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Deep round soup ladle with wooden handle."
+      },
+      "objects": [
+        {
+          "word": "ladle",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_sunny",
+      "title": "晴天",
+      "alt": "晴天的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/sunny.png",
+      "category": "weather",
+      "kind": "pictogram",
+      "source": {
+        "key": "sunny",
+        "originalUrl": "https://static.arasaac.org/pictograms/7252/7252_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/7252",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Simple bright yellow sun with rays; sun represents sunny weather."
+      },
+      "objects": [
+        {
+          "word": "sunny",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_cloudy",
+      "title": "陰天",
+      "alt": "陰天的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/cloudy.png",
+      "category": "weather",
+      "kind": "pictogram",
+      "source": {
+        "key": "cloudy",
+        "originalUrl": "https://static.arasaac.org/pictograms/34383/34383_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/34383",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Two overlapping clouds on plain background; represents overcast/cloudy."
+      },
+      "objects": [
+        {
+          "word": "cloudy",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_rain",
+      "title": "下雨",
+      "alt": "下雨的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/rain.png",
+      "category": "weather",
+      "kind": "pictogram",
+      "source": {
+        "key": "rain",
+        "originalUrl": "https://static.arasaac.org/pictograms/7148/7148_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/7148",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Cloud with falling raindrops."
+      },
+      "objects": [
+        {
+          "word": "rain",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_wind",
+      "title": "刮風",
+      "alt": "刮風的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/wind.png",
+      "category": "weather",
+      "kind": "pictogram",
+      "source": {
+        "key": "wind",
+        "originalUrl": "https://static.arasaac.org/pictograms/7259/7259_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/7259",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Tree bent sideways by visible wind strokes."
+      },
+      "objects": [
+        {
+          "word": "wind",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_thunder",
+      "title": "打雷",
+      "alt": "打雷的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/thunder.png",
+      "category": "weather",
+      "kind": "pictogram",
+      "source": {
+        "key": "thunder",
+        "originalUrl": "https://static.arasaac.org/pictograms/11389/11389_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/11389",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Storm cloud and lightning bolt; includes sound text BRUUMM!! to indicate thunder."
+      },
+      "objects": [
+        {
+          "word": "thunder",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_cold",
+      "title": "冷",
+      "alt": "冷的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/cold.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "cold",
+        "originalUrl": "https://static.arasaac.org/pictograms/2401/2401_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2401",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Person shivering with arms wrapped around body; feeling cold rather than object temperature."
+      },
+      "objects": [
+        {
+          "word": "cold",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_hot",
+      "title": "熱",
+      "alt": "熱的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/hot.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "hot",
+        "originalUrl": "https://static.arasaac.org/pictograms/2300/2300_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2300",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Sweating face beside sun; feeling hot."
+      },
+      "objects": [
+        {
+          "word": "hot",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_pain",
+      "title": "痛",
+      "alt": "痛的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/pain.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "pain",
+        "originalUrl": "https://static.arasaac.org/pictograms/2367/2367_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2367",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Distressed face surrounded by red pain flashes."
+      },
+      "objects": [
+        {
+          "word": "pain",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_hungry",
+      "title": "餓",
+      "alt": "餓的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/hungry.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "hungry",
+        "originalUrl": "https://static.arasaac.org/pictograms/4962/4962_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/4962",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Person with food/apple thought bubble."
+      },
+      "objects": [
+        {
+          "word": "hungry",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_thirsty",
+      "title": "口渴",
+      "alt": "口渴的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/thirsty.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "thirsty",
+        "originalUrl": "https://static.arasaac.org/pictograms/4963/4963_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/4963",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Person with glass of water thought bubble."
+      },
+      "objects": [
+        {
+          "word": "thirsty",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_tired",
+      "title": "累",
+      "alt": "累的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/tired.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "tired",
+        "originalUrl": "https://static.arasaac.org/pictograms/2314/2314_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2314",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Weary face with drooping eyelids."
+      },
+      "objects": [
+        {
+          "word": "tired",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_dizzy",
+      "title": "頭暈",
+      "alt": "頭暈的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/dizzy.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "dizzy",
+        "originalUrl": "https://static.arasaac.org/pictograms/2464/2464_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2464",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Face with spiral eyes and uneasy mouth."
+      },
+      "objects": [
+        {
+          "word": "dizzy",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_itchy",
+      "title": "癢",
+      "alt": "癢的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/itchy.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "itchy",
+        "originalUrl": "https://static.arasaac.org/pictograms/11356/11356_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/11356",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Hand scratching reddened skin."
+      },
+      "objects": [
+        {
+          "word": "itchy",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_nauseous",
+      "title": "反胃",
+      "alt": "反胃的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/nauseous.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "nauseous",
+        "originalUrl": "https://static.arasaac.org/pictograms/38404/38404_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/38404",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Person bending forward and covering mouth; exact source keyword nausea/retch."
+      },
+      "objects": [
+        {
+          "word": "nauseous",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card_numbness",
+      "title": "發麻",
+      "alt": "發麻的溝通圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/numbness.png",
+      "category": "feelings",
+      "kind": "pictogram",
+      "source": {
+        "key": "numbness",
+        "originalUrl": "https://static.arasaac.org/pictograms/34276/34276_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/34276",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Hand with highlighted tingling fingers; source keywords tickling/tingling, suitable for 發麻, not total loss of sensation."
+      },
+      "objects": [
+        {
+          "word": "numbness",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "全部"
+    },
+    {
+      "id": "life",
+      "label": "生活照片"
+    },
+    {
+      "id": "body",
+      "label": "身體部位"
+    },
+    {
+      "id": "kitchen",
+      "label": "廚房用具"
+    },
+    {
+      "id": "weather",
+      "label": "天氣"
+    },
+    {
+      "id": "feelings",
+      "label": "身體感受"
     }
   ]
 }
