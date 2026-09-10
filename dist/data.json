@@ -1,0 +1,827 @@
+{
+  "words": {
+    "fan": {
+      "zh": "電風扇",
+      "tw": "電風",
+      "roman": "tiān-hong",
+      "audioId": "10350",
+      "zhAudio": "/assets/audio/zh/fan.mp3",
+      "twAudio": "/assets/audio/tw/10350.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'電風",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10350.mp3"
+    },
+    "banana": {
+      "zh": "香蕉",
+      "tw": "弓蕉",
+      "roman": "king-tsio",
+      "audioId": "00538",
+      "zhAudio": "/assets/audio/zh/banana.mp3",
+      "twAudio": "/assets/audio/tw/00538.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'弓蕉",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/00538.mp3"
+    },
+    "dog": {
+      "zh": "狗",
+      "tw": "狗",
+      "roman": "káu",
+      "audioId": "04345",
+      "zhAudio": "/assets/audio/zh/dog.mp3",
+      "twAudio": "/assets/audio/tw/04345.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'狗",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/04345.mp3"
+    },
+    "phone": {
+      "zh": "電話",
+      "tw": "電話",
+      "roman": "tiān-uē",
+      "audioId": "10366",
+      "zhAudio": "/assets/audio/zh/phone.mp3",
+      "twAudio": "/assets/audio/tw/10366.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'電話",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10366.mp3"
+    },
+    "tv": {
+      "zh": "電視",
+      "tw": "電視",
+      "roman": "tiān-sī",
+      "audioId": "10359",
+      "zhAudio": "/assets/audio/zh/tv.mp3",
+      "twAudio": "/assets/audio/tw/10359.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'電視",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10359.mp3"
+    },
+    "fridge": {
+      "zh": "冰箱",
+      "tw": "冰箱",
+      "roman": "ping-siunn",
+      "audioId": "02257",
+      "zhAudio": "/assets/audio/zh/fridge.mp3",
+      "twAudio": "/assets/audio/tw/02257.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'冰箱",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/02257.mp3"
+    },
+    "ac": {
+      "zh": "冷氣",
+      "tw": "冷氣",
+      "roman": "líng-khì",
+      "audioId": "02929",
+      "zhAudio": "/assets/audio/zh/ac.mp3",
+      "twAudio": "/assets/audio/tw/02929.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'冷氣",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/02929.mp3"
+    },
+    "mirror": {
+      "zh": "鏡子",
+      "tw": "鏡",
+      "roman": "kiànn",
+      "audioId": "12932",
+      "zhAudio": "/assets/audio/zh/mirror.mp3",
+      "twAudio": "/assets/audio/tw/12932.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'鏡",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/12932.mp3"
+    },
+    "book": {
+      "zh": "書",
+      "tw": "冊",
+      "roman": "tsheh",
+      "audioId": "01322",
+      "zhAudio": "/assets/audio/zh/book.mp3",
+      "twAudio": "/assets/audio/tw/01322.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'冊",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/01322.mp3"
+    },
+    "computer": {
+      "zh": "電腦",
+      "tw": "電腦",
+      "roman": "tiān-náu",
+      "audioId": "10365",
+      "zhAudio": "/assets/audio/zh/computer.mp3",
+      "twAudio": "/assets/audio/tw/10365.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'電腦",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10365.mp3"
+    },
+    "bed": {
+      "zh": "床",
+      "tw": "床",
+      "roman": "tshn̂g",
+      "audioId": "03140",
+      "zhAudio": "/assets/audio/zh/bed.mp3",
+      "twAudio": "/assets/audio/tw/03140.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'床",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/03140.mp3"
+    },
+    "window": {
+      "zh": "窗戶",
+      "tw": "窗",
+      "roman": "thang",
+      "audioId": "08799",
+      "zhAudio": "/assets/audio/zh/window.mp3",
+      "twAudio": "/assets/audio/tw/08799.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'窗",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08799.mp3"
+    },
+    "sink": {
+      "zh": "水槽",
+      "tw": "水槽",
+      "roman": "tsuí-tsô",
+      "audioId": "01156",
+      "zhAudio": "/assets/audio/zh/sink.mp3",
+      "twAudio": "/assets/audio/tw/01156.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'水槽",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/01156.mp3"
+    },
+    "faucet": {
+      "zh": "水龍頭",
+      "tw": "水道頭",
+      "roman": "tsuí-tō-thâu",
+      "audioId": "01129",
+      "zhAudio": "/assets/audio/zh/faucet.mp3",
+      "twAudio": "/assets/audio/tw/01129.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'水道頭",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/01129.mp3"
+    },
+    "microwave": {
+      "zh": "微波爐",
+      "tw": "微波爐",
+      "roman": "bî-pho-lôo",
+      "audioId": "54779",
+      "zhAudio": "/assets/audio/zh/microwave.mp3",
+      "twAudio": "/assets/audio/tw/54779.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'微波爐",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/54779.mp3"
+    },
+    "egg": {
+      "zh": "雞蛋",
+      "tw": "雞卵",
+      "roman": "ke-nn̄g/kue-nn̄g",
+      "audioId": "12714",
+      "zhAudio": "/assets/audio/zh/egg.mp3",
+      "twAudio": "/assets/audio/tw/12714.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'雞卵",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/12714.mp3"
+    },
+    "slippers": {
+      "zh": "拖鞋",
+      "tw": "淺拖仔",
+      "roman": "tshián-thua-á",
+      "audioId": "07561",
+      "zhAudio": "/assets/audio/zh/slippers.mp3",
+      "twAudio": "/assets/audio/tw/07561.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'淺拖仔",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/07561.mp3"
+    },
+    "shoes": {
+      "zh": "鞋子",
+      "tw": "鞋",
+      "roman": "ê/uê",
+      "audioId": "11565",
+      "zhAudio": "/assets/audio/zh/shoes.mp3",
+      "twAudio": "/assets/audio/tw/11565.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'鞋",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11565.mp3"
+    },
+    "mushroom": {
+      "zh": "香菇",
+      "tw": "香菇",
+      "roman": "hiunn-koo",
+      "audioId": "05658",
+      "zhAudio": "/assets/audio/zh/mushroom.mp3",
+      "twAudio": "/assets/audio/tw/05658.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'香菇",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/05658.mp3"
+    },
+    "mask": {
+      "zh": "口罩",
+      "tw": "喙罨",
+      "roman": "tshuì-am",
+      "audioId": "08256",
+      "zhAudio": "/assets/audio/zh/mask.mp3",
+      "twAudio": "/assets/audio/tw/08256.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'喙罨",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08256.mp3"
+    },
+    "thermos": {
+      "zh": "保溫杯",
+      "tw": "保溫杯",
+      "roman": "pó-un-pue",
+      "audioId": "04759",
+      "zhAudio": "/assets/audio/zh/thermos.mp3",
+      "twAudio": "/assets/audio/tw/04759.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'保溫杯",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/04759.mp3"
+    },
+    "scale": {
+      "zh": "體重計",
+      "tw": "磅仔",
+      "roman": "pōng-á",
+      "audioId": "11287",
+      "zhAudio": "/assets/audio/zh/scale.mp3",
+      "twAudio": "/assets/audio/tw/11287.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'磅仔",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11287.mp3"
+    },
+    "hairdryer": {
+      "zh": "吹風機",
+      "tw": "吹風機",
+      "roman": "tshue-hong-ki/tshe-hong-ki",
+      "audioId": "03004",
+      "zhAudio": "/assets/audio/zh/hairdryer.mp3",
+      "twAudio": "/assets/audio/tw/03004.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'吹風機",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/03004.mp3"
+    },
+    "hotwater": {
+      "zh": "熱水瓶",
+      "tw": "滾水罐",
+      "roman": "kún-tsuí-kuàn",
+      "audioId": "10606",
+      "zhAudio": "/assets/audio/zh/hotwater.mp3",
+      "twAudio": "/assets/audio/tw/10606.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'滾水罐",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/10606.mp3"
+    },
+    "kettle": {
+      "zh": "茶壺",
+      "tw": "茶罐",
+      "roman": "tê-kuàn",
+      "audioId": "06650",
+      "zhAudio": "/assets/audio/zh/kettle.mp3",
+      "twAudio": "/assets/audio/tw/06650.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'茶罐",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/06650.mp3"
+    },
+    "altar": {
+      "zh": "神桌",
+      "tw": "神桌",
+      "roman": "sîn-toh",
+      "audioId": "06469",
+      "zhAudio": "/assets/audio/zh/altar.mp3",
+      "twAudio": "/assets/audio/tw/06469.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'神桌",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/06469.mp3"
+    },
+    "calendar": {
+      "zh": "月曆",
+      "tw": "曆日",
+      "roman": "la̍h-ji̍t/la̍h-li̍t",
+      "audioId": "11738",
+      "zhAudio": "/assets/audio/zh/calendar.mp3",
+      "twAudio": "/assets/audio/tw/11738.mp3",
+      "source": "moe",
+      "sourceUrl": "https://www.moedict.tw/'曆日",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/11738.mp3"
+    },
+    "bp": {
+      "zh": "血壓計",
+      "tw": "磅血壓的",
+      "roman": "pōng hueh-ap--ê",
+      "zhAudio": "/assets/audio/zh/bp.mp3",
+      "twAudio": "/assets/audio/tw/bp.mp3",
+      "source": "itaigi",
+      "sourceUrl": "https://itaigi.tw/k/血壓計",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=pōng hueh-ap--ê"
+    },
+    "remote": {
+      "zh": "遙控器",
+      "tw": "遙控器",
+      "roman": "iâu-khòng-khì",
+      "zhAudio": "/assets/audio/zh/remote.mp3",
+      "twAudio": "/assets/audio/tw/remote.mp3",
+      "source": "itaigi",
+      "sourceUrl": "https://itaigi.tw/k/遙控器",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=iâu-khòng-khì"
+    }
+  },
+  "photos": [
+    {
+      "id": "IMG_4327",
+      "title": "家裡的電風扇",
+      "alt": "一台淺藍色立式電風扇",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "fan",
+          "box": [
+            6,
+            9,
+            83,
+            83
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4334",
+      "title": "桌上的水果",
+      "alt": "桌上放著一串黃色香蕉",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "banana",
+          "box": [
+            3,
+            43,
+            80,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4315",
+      "title": "可愛的狗",
+      "alt": "一隻穿著粉紅色衣服的白色小狗",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "dog",
+          "box": [
+            9,
+            29,
+            63,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4335",
+      "title": "打電話",
+      "alt": "木桌上放著一支紅色電話",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "phone",
+          "box": [
+            8,
+            20,
+            76,
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4319",
+      "title": "看電視",
+      "alt": "櫃子上放著黑色電視，旁邊有電風扇",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "tv",
+          "box": [
+            23,
+            31,
+            57,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4331",
+      "title": "喝水的杯子",
+      "alt": "桌上放著綠色與銀色保溫杯",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "thermos",
+          "box": [
+            21,
+            33,
+            31,
+            55
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4332",
+      "title": "出門戴口罩",
+      "alt": "桌上放著淺藍色口罩，旁邊是保溫杯",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "mask",
+          "box": [
+            19,
+            36,
+            61,
+            54
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4333",
+      "title": "看電視用的物品",
+      "alt": "桌上放著黑色電視遙控器",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "remote",
+          "box": [
+            27,
+            31,
+            60,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4328",
+      "title": "穿拖鞋",
+      "alt": "地板上有一雙裝在透明袋裡的拖鞋",
+      "width": 1080,
+      "height": 810,
+      "objects": [
+        {
+          "word": "slippers",
+          "box": [
+            30,
+            46,
+            43,
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4326",
+      "title": "出門穿鞋",
+      "alt": "架子上放著白色鞋子和藍白色拖鞋",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "shoes",
+          "box": [
+            10,
+            22,
+            53,
+            36
+          ]
+        },
+        {
+          "word": "slippers",
+          "box": [
+            61,
+            39,
+            36,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4325",
+      "title": "吹乾頭髮",
+      "alt": "紙箱裡放著一支粉紅色吹風機",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "hairdryer",
+          "box": [
+            28,
+            40,
+            51,
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4329",
+      "title": "煮菜的食材",
+      "alt": "袋子裡裝著多朵乾香菇",
+      "width": 1080,
+      "height": 810,
+      "objects": [
+        {
+          "word": "mushroom",
+          "box": [
+            36,
+            17,
+            56,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4323",
+      "title": "冰箱裡的雞蛋",
+      "alt": "打開的冰箱門架上放著雞蛋",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "egg",
+          "box": [
+            66,
+            32,
+            22,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4324",
+      "title": "打開冰箱",
+      "alt": "打開的冰箱冷凍室裡裝著食材",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "fridge",
+          "box": [
+            2,
+            14,
+            96,
+            84
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4322",
+      "title": "廚房的家電",
+      "alt": "廚房架子下層放著米色微波爐",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "microwave",
+          "box": [
+            29,
+            60,
+            42,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4321",
+      "title": "洗東西的地方",
+      "alt": "廚房的不鏽鋼水槽和水龍頭",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "sink",
+          "box": [
+            2,
+            70,
+            49,
+            24
+          ]
+        },
+        {
+          "word": "faucet",
+          "box": [
+            28,
+            53,
+            18,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4313",
+      "title": "桌上的日用品",
+      "alt": "木桌上有金屬茶壺及白色熱水瓶",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "kettle",
+          "box": [
+            2,
+            57,
+            37,
+            28
+          ]
+        },
+        {
+          "word": "hotwater",
+          "box": [
+            10,
+            39,
+            20,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4336",
+      "title": "倒一杯熱水",
+      "alt": "白色電熱水瓶放在桌上",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "hotwater",
+          "box": [
+            7,
+            10,
+            79,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4314",
+      "title": "書桌上的物品",
+      "alt": "書桌上有一排書和黑色電腦螢幕",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "book",
+          "box": [
+            30,
+            40,
+            28,
+            20
+          ]
+        },
+        {
+          "word": "computer",
+          "box": [
+            69,
+            40,
+            30,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4317",
+      "title": "房間的牆上",
+      "alt": "牆上裝著冷氣，下方掛著月曆",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "ac",
+          "box": [
+            33,
+            4,
+            61,
+            37
+          ]
+        },
+        {
+          "word": "calendar",
+          "box": [
+            27,
+            47,
+            42,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4320",
+      "title": "休息的地方",
+      "alt": "窗邊是一張鋪著彩色床單的床",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "bed",
+          "box": [
+            5,
+            57,
+            92,
+            37
+          ]
+        },
+        {
+          "word": "window",
+          "box": [
+            44,
+            14,
+            55,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4318",
+      "title": "照照鏡子",
+      "alt": "梳妝台上有一面方形鏡子",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "mirror",
+          "box": [
+            25,
+            25,
+            48,
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4316",
+      "title": "家裡的神桌",
+      "alt": "供奉神明的深色木製神桌",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "altar",
+          "box": [
+            3,
+            62,
+            78,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4330",
+      "title": "量血壓的物品",
+      "alt": "桌上放著白色電子血壓計",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "bp",
+          "box": [
+            15,
+            35,
+            43,
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IMG_4337",
+      "title": "量體重的物品",
+      "alt": "地板上放著灰色電子體重計",
+      "width": 1080,
+      "height": 1440,
+      "objects": [
+        {
+          "word": "scale",
+          "box": [
+            19,
+            29,
+            70,
+            48
+          ]
+        }
+      ]
+    }
+  ]
+}

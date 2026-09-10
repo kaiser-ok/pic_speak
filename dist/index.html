@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#154bc4">
+  <meta name="description" content="看熟悉的生活照片，點一下物品，聽中文與台語，慢慢練習說。">
+  <title>一起說｜看照片練習發音</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23154bc4'/%3E%3Cpath d='M18 28v8m9-16v24m10-30v36m10-23v10' stroke='white' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="一起說首頁"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>一起說</a>
+    <span class="header-note">生活照片・發音練習</span>
+  </header>
+  <main>
+    <div class="intro"><h1>點一下，跟著說</h1><p>點照片裡的黃色框框，就能聽發音。</p></div>
+    <div class="practice">
+      <section class="photo-section" aria-label="生活照片">
+        <div class="photo-topline"><span id="scene-title">生活照片</span><span id="photo-counter" aria-live="polite"></span></div>
+        <div id="photo-stage" class="photo-stage" aria-label="左右滑動換照片">
+          <img id="photo" alt="" draggable="false" fetchpriority="high">
+          <div id="hotspots" class="hotspots"></div>
+          <p id="photo-error" class="photo-error" hidden>照片載入失敗，請換張照片或重新整理。</p>
+        </div>
+        <nav class="photo-nav" aria-label="切換照片">
+          <button id="previous" class="nav-button" type="button"><span aria-hidden="true">←</span> 上一張</button>
+          <span class="swipe-hint">左右滑動<br><span aria-hidden="true">↔</span></span>
+          <button id="next" class="nav-button" type="button">下一張 <span aria-hidden="true">→</span></button>
+        </nav>
+      </section>
+      <section class="listen-section" aria-label="發音練習">
+        <div class="listen-heading"><span class="step-number">1</span><h2>選一個物品</h2></div>
+        <div id="object-buttons" class="object-buttons"></div>
+        <div class="word-card">
+          <p class="word-eyebrow">一起唸唸看</p>
+          <h3 id="word-zh"></h3>
+          <p class="taiwanese"><span>台語</span> <b id="word-tw" lang="nan-TW"></b></p>
+          <p id="romanization" class="romanization" lang="nan-Latn-TW"></p>
+          <button id="replay" type="button" class="replay"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></svg><span>聽發音</span></button>
+          <p id="play-status" class="play-status" role="status" aria-live="polite">點一下，聽中文與台語</p>
+          <button id="stop" type="button" class="stop" hidden>■ 停止播放</button>
+        </div>
+        <fieldset class="language-field"><legend>想聽哪一種？</legend><div class="language-options">
+          <label><input type="radio" name="language" value="both" checked><span>中文＋台語</span></label>
+          <label><input type="radio" name="language" value="zh"><span>中文</span></label>
+          <label><input type="radio" name="language" value="tw"><span>台語</span></label>
+        </div></fieldset>
+        <p class="gentle-note"><span class="step-number">2</span>聽一聽，慢慢跟著說。<br><span>想再聽一次，就再點一下。</span></p>
+      </section>
+    </div>
+    <details class="credits"><summary>關於發音與照片</summary><p>照片來自本練習的生活相簿。每張照片標示適合練習、可清楚辨識的物品。</p><p>27 個台語詞彙的錄音與台羅取自教育部《臺灣台語常用詞辭典》，由 <a href="https://www.moedict.tw/" target="_blank" rel="noopener noreferrer">萌典</a>提供音檔，依 <a href="https://creativecommons.org/licenses/by-nd/3.0/tw/" target="_blank" rel="noopener noreferrer">CC 姓名標示－禁止改作 3.0 臺灣</a>使用，錄音保留原檔。「血壓計、遙控器」的台語讀法取自 <a href="https://itaigi.tw/" target="_blank" rel="noopener noreferrer">iTaigi 愛台語</a>群眾辭典，使用其意傳科技合成發音。中文為台灣中文合成語音。台語有地區腔調差異，本練習採用音檔中的讀法。</p><p><a href="/sources.html">查看各物品的發音來源</a></p></details>
+    <noscript><p>請開啟瀏覽器的 JavaScript，才能切換照片並聽發音。</p></noscript>
+  </main>
+</body>
+</html>

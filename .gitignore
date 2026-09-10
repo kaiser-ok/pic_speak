@@ -1,0 +1,6 @@
+.DS_Store
+pic/
+.preview/
+node_modules/
+.env*
+!.env.example
