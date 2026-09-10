@@ -25,12 +25,12 @@
 
 「生活需求」包含疼痛、覺得冷、上廁所、休息、求助。每張卡有單字／短語／句子三種長度，以「練短一點」「練長一點」切換；換卡會回到單字。所有長度都能直接選擇，不設過關條件，也不自動播放。
 
-「先自己說」只套用於生活需求卡，會隱藏詞句、台羅、圖片上的詞名及情境標題。「顯示文字」只揭示答案；點圖片或聽發音會揭示並播放目前長度。換卡、改長度或切換語言會重新隱藏答案並取消之前的播放。此設定在當次瀏覽中保留；此版沒有評分或練習紀錄。
+詞句、台羅與圖片上的詞名直接顯示；點圖片或「聽發音」會播放目前長度。換卡、改長度或切換語言會取消之前的播放。此版沒有評分或練習紀錄。
 
 - 詞句設定：`content/needs.json`；新增圖片來源：`content/needs-image-sources.json`。4 張新 ARASAAC 原圖採 CC BY-NC-SA 4.0，作者與所有權依來源頁標註。
 - 重建流程：在原本詞彙資料準備好後執行 `python3 scripts/prepare_needs.py --audio-only`、`python3 scripts/prepare_needs_audio.py`、`python3 scripts/prepare_needs.py`、`python3 scripts/build_sources.py`。語音準備需要網路、macOS Meijia 與 ffmpeg。
 - 若重新執行 `expand_content.py`，接著執行 `prepare_needs.py` 以補回生活需求卡，再更新來源頁。
-- 狀態回歸測試：`node --test scripts/practice-state.test.mjs`，涵蓋三段長度、答案隱藏重設與回到原照片模式；完整驗證也會執行此測試。
+- 狀態回歸測試：`node --test scripts/practice-state.test.mjs`，涵蓋三段長度與切換圖卡後的長度重設；完整驗證也會執行此測試。
 
 ## 驗證範圍
 

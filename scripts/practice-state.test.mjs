@@ -22,36 +22,15 @@ test('each needs card exposes three complete, selectable utterances with bounded
   }
 });
 
-test('revealing an answer never leaks it into the next attempt, level or language', () => {
+test('switching between needs cards and ordinary photos resets the selected length', () => {
   const state = new PhrasePractice();
   state.selectPhoto(cards[0]);
-  state.setSelfPractice(true);
-  assert.equal(state.concealed, true);
-  state.reveal();
-  assert.equal(state.concealed, false);
-  state.setLevel(1);
-  assert.equal(state.concealed, true);
-  state.reveal();
-  state.resetAnswer(); // The app calls this on language changes.
-  assert.equal(state.concealed, true);
-  state.reveal();
-  state.selectPhoto(cards[1]);
-  assert.equal(state.level, 0);
-  assert.equal(state.concealed, true);
-  state.setSelfPractice(false);
-  assert.equal(state.concealed, false);
-});
-
-test('ordinary photo practice remains visible when leaving a self-practice needs card', () => {
-  const state = new PhrasePractice();
-  state.selectPhoto(cards[0]);
-  state.setSelfPractice(true);
   state.setLevel(2);
   const ordinary = data.photos.find(p => p.category === 'life');
   state.selectPhoto(ordinary);
-  assert.equal(state.concealed, false);
   assert.equal(state.word, ordinary.objects[0].word);
   assert.equal(state.level, 0);
   state.selectPhoto(cards[0]);
-  assert.equal(state.concealed, true);
+  assert.equal(state.level, 0);
+  assert.equal(state.word, cards[0].levels[0]);
 });
