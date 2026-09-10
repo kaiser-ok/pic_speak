@@ -1,4 +1,5 @@
 import { PhrasePractice } from './practice-state.mjs';
+import { applyAudioLevel } from './audio-levels.mjs';
 const $ = (id) => document.getElementById(id);
 const phrase = new PhrasePractice();
 const speaker = '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8"/></svg>';
@@ -48,7 +49,10 @@ async function getBuffer(url) {
       .then(r => {if (!r.ok) throw new Error('audio-missing'); return r.arrayBuffer();})
       .then(async bytes => {
         if (bytes.byteLength < 1000) throw new Error('audio-invalid');
-        try {return await context.decodeAudioData(bytes);}
+        try {
+          const buffer = await context.decodeAudioData(bytes);
+          return applyAudioLevel(buffer, data.audioLevels?.clips[url]?.gainDb);
+        }
         catch {throw new Error('audio-invalid');}
       }).finally(() => clearTimeout(timeout));
     buffers.set(url, promise); promise.catch(() => buffers.delete(url));

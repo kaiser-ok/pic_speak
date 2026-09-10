@@ -1,5 +1,5 @@
 """Check every asset, photo annotation and actual audio decode before release."""
-import json, subprocess, re
+import json, subprocess, re, sys
 from pathlib import Path
 from html.parser import HTMLParser
 from PIL import Image
@@ -54,5 +54,8 @@ class AssetParser(HTMLParser):
 for page in public.glob('*.html'):AssetParser().feed(page.read_text())
 subprocess.run(['node','--check',str(public/'app.js')],check=True)
 subprocess.run(['node','--check',str(public/'practice-state.mjs')],check=True)
+subprocess.run(['node','--check',str(public/'audio-levels.mjs')],check=True)
 subprocess.run(['node','--test',str(ROOT/'scripts/practice-state.test.mjs')],check=True)
+subprocess.run(['node','--test',str(ROOT/'scripts/audio-levels.test.mjs')],check=True)
+subprocess.run([sys.executable,str(ROOT/'scripts/prepare_audio_levels.py'),'--check'],check=True)
 print(f'PASS: {len(data["photos"])} photos, {sum(len(p["objects"]) for p in data["photos"])} annotations, {2*len(data["words"])} playable, non-silent audio files; HTML assets and JS syntax valid.')

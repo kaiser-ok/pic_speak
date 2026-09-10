@@ -4,6 +4,8 @@
 
 預設每次點擊依序播放一次中文、一次台語，中間停頓 0.65 秒；再點會從頭播放，聲音不重疊。可選擇只聽中文或台語。左右滑動、上一張／下一張及鍵盤左右鍵均可換圖。
 
+播放時會依每段錄音的量測結果自動平衡音量，補足較小聲的台語，同時降低過大的錄音；不需要逐字調整音量。
+
 新增的身體感受為：冷、熱、痛、餓、口渴、累、頭暈、癢、反胃、發麻。「冷」採身體感冷的「寒 kuânn」；「熱」採口語熱感的「熱 jua̍h/lua̍h」，未使用物品溫度的 jia̍t/lia̍t。「發麻」圖卡表達刺麻感，不表示完全失去感覺。
 
 ## 維護
@@ -19,7 +21,15 @@
 - `scripts/prepare_content.py` 可用 g0v/moedict-data-twblg 的 `dict-twblg.json` 與 `dict-twblg-ext.json` 重建資料。
 - `scripts/prepare_audio.py` 重用已存在音檔，下載詞典原始台語音檔並產生缺少的中文音檔。需要 macOS、ffmpeg，以及生成中文語音的系統服務權限。空音檔會檢查並拒絕。
 - 本機預覽：`python3 -m http.server 4173 --bind 127.0.0.1 --directory dist`。
-- 驗證：`python3 scripts/validate.py`。檢查全部資產、框的位置、照片完整性、所有音檔實際解碼、長度與非靜音，及 JavaScript 語法。
+- 新增或重建詞句、替換音檔後，最後執行 `python3 scripts/prepare_audio_levels.py` 重建音量資料，再執行驗證。
+- 驗證：`python3 scripts/validate.py`。檢查全部資產、框的位置、照片完整性、所有音檔實際解碼、長度與非靜音、音量資料與檔案是否一致，及 JavaScript 語法與播放增益測試。
+
+## 音量平衡
+
+- `scripts/prepare_audio_levels.py` 以 [FFmpeg loudnorm](https://ffmpeg.org/ffmpeg-filters.html#loudnorm) 量測全部中文及台語，使用 dual-mono 對齊單聲道在雙聲道輸出的響度。短於 0.5 秒的錄音只在分析時補靜音，不改變實際播放長度。
+- 目標為 -16 LUFS，真峰值上限 -1.5 dBTP，最大增益 18 dB。峰值較高的錄音優先保留餘量，因此不強制每段達到完全相同的響度。
+- 結果與原音檔 SHA-256 儲存在 `dist/data.json` 的 `audioLevels`；執行 `python3 scripts/prepare_audio_levels.py --check` 可檢查新增、缺漏或已替換的音檔，避免沿用錯誤增益。
+- `dist/audio-levels.mjs` 在音檔解碼後一次套用增益，並依實際解碼樣本限制峰值。快取保留調整後的音訊，重播不會累加音量；原始 MP3 不重編碼，不改語速、音高或字句。
 
 ## 生活需求練習
 
@@ -50,6 +60,8 @@
 - 感受用語為練習表達範例，沒有症狀判讀。台語採詞典口語讀音：身體感熱採 jua̍h，痠採 sng，想吐採 siūnn-beh thòo，並保留台語本調文字供參照。
 
 ## 驗證範圍
+
+音量調整已將全部 414 段解碼為 48 kHz 浮點音訊，套用實際播放函式後重新量測：響度範圍 -17.85～-15.59 LUFS，最高真峰值 -1.5 dBTP。另有增益、雙聲道峰值限制、靜音及缺少設定的回歸測試。
 
 本次已進行靜態資產與所有音檔的實際解碼檢查。尚未在實體 iPhone／Android 上驗證觸控及音訊輸出；台語整句合成也尚未經使用者或台語教師審聽。支援 WebMCP 的瀏覽器可使用 `read_photo_practice` 和 `select_photo_practice`；目前環境無可用 WebMCP 驗證上下文，未驗證其註冊與執行。
 

@@ -4432,5 +4432,2497 @@
       "id": "feelings",
       "label": "身體感受"
     }
-  ]
+  ],
+  "audioLevels": {
+    "targetLufs": -16.0,
+    "maxTruePeakDb": -1.5,
+    "maxGainDb": 18.0,
+    "measurement": "loudnorm-dual-mono-pad-0.5s-v1",
+    "clips": {
+      "/assets/audio/tw/00538.mp3": {
+        "gainDb": -4.97,
+        "loudnessLufs": -11.03,
+        "truePeakDb": -1.01,
+        "sha256": "f9bfc31d5b284f5710269dfbd98d0eaf830b20ac0ddfd2d7d62cdb78fd921034"
+      },
+      "/assets/audio/tw/00803.mp3": {
+        "gainDb": -2.85,
+        "loudnessLufs": -13.15,
+        "truePeakDb": -0.77,
+        "sha256": "9ade138c9bf34f7381a5726354e5cdf8f0f01a6c9c61ababada5e178cfcee7f4"
+      },
+      "/assets/audio/tw/01115.mp3": {
+        "gainDb": -7.19,
+        "loudnessLufs": -8.81,
+        "truePeakDb": -0.53,
+        "sha256": "6fab0e0ea82241d15e3ad4db221f60de873cd4ebd4444f57c8f9f5fbdf68d25f"
+      },
+      "/assets/audio/tw/01129.mp3": {
+        "gainDb": -4.74,
+        "loudnessLufs": -11.26,
+        "truePeakDb": 0.02,
+        "sha256": "d726636d073a4b6782db70569aed59f87c4159ecb211a150cb60d41629486b5b"
+      },
+      "/assets/audio/tw/01156.mp3": {
+        "gainDb": -4.71,
+        "loudnessLufs": -11.29,
+        "truePeakDb": -0.88,
+        "sha256": "c0913499fda86779ff62784041ea15b30e18dcf536443f87bcc7ca2a4a6fbe74"
+      },
+      "/assets/audio/tw/01322.mp3": {
+        "gainDb": -9.01,
+        "loudnessLufs": -6.99,
+        "truePeakDb": 2.81,
+        "sha256": "005a5c0989c71121238acafa23e8a63a37258042e3959db6d0674bf138839db8"
+      },
+      "/assets/audio/tw/01985.mp3": {
+        "gainDb": -5.49,
+        "loudnessLufs": -10.51,
+        "truePeakDb": 0.21,
+        "sha256": "4d628943e9c623e6c7b4c4e5d879a4f209eef23693d08317c7d851dd692dbb7f"
+      },
+      "/assets/audio/tw/02257.mp3": {
+        "gainDb": -4.91,
+        "loudnessLufs": -11.09,
+        "truePeakDb": -2.87,
+        "sha256": "8d5dda8676a451e8b464144e594b4ae5631db959ddde2896d2a25e9056943263"
+      },
+      "/assets/audio/tw/02306.mp3": {
+        "gainDb": -5.11,
+        "loudnessLufs": -10.89,
+        "truePeakDb": -2.21,
+        "sha256": "b35f2ba9b415404a7b00a449efad8a2672269cfad3648c05456495338fea5d4f"
+      },
+      "/assets/audio/tw/02611.mp3": {
+        "gainDb": -9.18,
+        "loudnessLufs": -6.82,
+        "truePeakDb": 1.5,
+        "sha256": "2c7e4b5d429e11174fb9f3fc01e39b2366538329928bd996cd03994afa4df944"
+      },
+      "/assets/audio/tw/02645.mp3": {
+        "gainDb": -6.41,
+        "loudnessLufs": -9.59,
+        "truePeakDb": -0.78,
+        "sha256": "64c303c1929804329556795d92105b2729d6ac85e7357e9fe966f8699f46908a"
+      },
+      "/assets/audio/tw/02929.mp3": {
+        "gainDb": -6.0,
+        "loudnessLufs": -10.0,
+        "truePeakDb": -1.64,
+        "sha256": "29bb25d67a4ddab056923ea66d369e58199e9b1dd23c19120cf32d52b2f24575"
+      },
+      "/assets/audio/tw/03004.mp3": {
+        "gainDb": -5.53,
+        "loudnessLufs": -10.47,
+        "truePeakDb": -0.99,
+        "sha256": "8442bb1553411a21079d14d6d9184659e3bea8360062ac77bfe7d3a1ef965192"
+      },
+      "/assets/audio/tw/03140.mp3": {
+        "gainDb": -6.41,
+        "loudnessLufs": -9.59,
+        "truePeakDb": -1.62,
+        "sha256": "63915676781f341376e26b063f24e7f7b04e91ff4bb55a7e94b21232861fd153"
+      },
+      "/assets/audio/tw/03242.mp3": {
+        "gainDb": -7.37,
+        "loudnessLufs": -8.63,
+        "truePeakDb": -0.24,
+        "sha256": "526e65b046cace72475aa9cce9d1c9f18cb0423efe5c87c9c84f860922e4cfce"
+      },
+      "/assets/audio/tw/03894.mp3": {
+        "gainDb": -8.23,
+        "loudnessLufs": -7.77,
+        "truePeakDb": 0.0,
+        "sha256": "94bb05e3dc2623da81386c2941cedfb7bdcc8de029a13caff33f764cabe6eac4"
+      },
+      "/assets/audio/tw/04345.mp3": {
+        "gainDb": 0.57,
+        "loudnessLufs": -16.57,
+        "truePeakDb": -5.1,
+        "sha256": "d48ddbbf7c9c7ec65467cc6502948b67a9e3833ae796fb6675c45eab3f58f119"
+      },
+      "/assets/audio/tw/04465.mp3": {
+        "gainDb": -6.35,
+        "loudnessLufs": -9.65,
+        "truePeakDb": -0.34,
+        "sha256": "001abf982a03d5026980e37f46f0d9acbaa30adc94fbd84467f0cce045eecae3"
+      },
+      "/assets/audio/tw/04691.mp3": {
+        "gainDb": -7.45,
+        "loudnessLufs": -8.55,
+        "truePeakDb": 0.02,
+        "sha256": "6ba93528bc6d5ae7783bd49d879105117330bc089030d6dee127fa49b6b7fc33"
+      },
+      "/assets/audio/tw/04759.mp3": {
+        "gainDb": -4.68,
+        "loudnessLufs": -11.32,
+        "truePeakDb": -0.83,
+        "sha256": "e7e838e6630444654969075e42f12d2b6b14275766c1f994e97fbb7f79ffcbc4"
+      },
+      "/assets/audio/tw/05078.mp3": {
+        "gainDb": -3.67,
+        "loudnessLufs": -12.33,
+        "truePeakDb": -2.04,
+        "sha256": "ff243b9a2a84d5c2aa2799a2c8a511b3ca6d4fd07c39707c908f878101b7b3cd"
+      },
+      "/assets/audio/tw/05658.mp3": {
+        "gainDb": -5.5,
+        "loudnessLufs": -10.5,
+        "truePeakDb": -1.84,
+        "sha256": "b6ecfed5e1a1a646a17e64c28b56b789387a3d8a8f832f7fd63d4264a2bb5850"
+      },
+      "/assets/audio/tw/06303.mp3": {
+        "gainDb": -5.57,
+        "loudnessLufs": -10.43,
+        "truePeakDb": -2.78,
+        "sha256": "b1527b30f9e5d7613ec6b8b45569e4c6522de2a03f617e2b8d8da8d6de2a2708"
+      },
+      "/assets/audio/tw/06362.mp3": {
+        "gainDb": -7.84,
+        "loudnessLufs": -8.16,
+        "truePeakDb": -0.37,
+        "sha256": "d619a2741ef5bcdee4178fe58e59b205f26a2b62f82f20d4fde572cae883cd5b"
+      },
+      "/assets/audio/tw/06398.mp3": {
+        "gainDb": -5.62,
+        "loudnessLufs": -10.38,
+        "truePeakDb": -3.09,
+        "sha256": "28b3621173734eb144b84fb481ee48cfa94ce871f16cdbaa9da764a7f2f6aa34"
+      },
+      "/assets/audio/tw/06399.mp3": {
+        "gainDb": -7.03,
+        "loudnessLufs": -8.97,
+        "truePeakDb": -0.13,
+        "sha256": "8b7ed039a5763f5864a1269f9936ddf8e91c12aed0f06e54d7e9bf72f63ddedc"
+      },
+      "/assets/audio/tw/06469.mp3": {
+        "gainDb": -6.14,
+        "loudnessLufs": -9.86,
+        "truePeakDb": -0.25,
+        "sha256": "62b9ead24a59c32aca2fb4d1da4b0cdf516c4275787b692adb073133d898c56a"
+      },
+      "/assets/audio/tw/06650.mp3": {
+        "gainDb": -6.35,
+        "loudnessLufs": -9.65,
+        "truePeakDb": -0.43,
+        "sha256": "a91f3650ac769d3648e92dfc408dfc0bac8ea086f883d556a5f8bb4f8c147c14"
+      },
+      "/assets/audio/tw/07561.mp3": {
+        "gainDb": -6.26,
+        "loudnessLufs": -9.74,
+        "truePeakDb": -0.58,
+        "sha256": "ae8ad8bf58c8a9785d555cd9fb69c53b53be601e59aadf5754cbb4705656d175"
+      },
+      "/assets/audio/tw/07969.mp3": {
+        "gainDb": -5.67,
+        "loudnessLufs": -10.33,
+        "truePeakDb": -1.12,
+        "sha256": "9285875b9658790bf34b9133d02d2ad9111e38bbac7be2d2629dc6bf2a5f3604"
+      },
+      "/assets/audio/tw/08113.mp3": {
+        "gainDb": -6.38,
+        "loudnessLufs": -9.62,
+        "truePeakDb": -0.82,
+        "sha256": "d17b959d6c3bd4a429effe67809193adf4526103116d1fba6feb568691260471"
+      },
+      "/assets/audio/tw/08199.mp3": {
+        "gainDb": -7.89,
+        "loudnessLufs": -8.11,
+        "truePeakDb": -0.44,
+        "sha256": "2adfb45548f665b91f33652a997f0a6ec01b3e74b71a5bc08cf6dd8f61085a76"
+      },
+      "/assets/audio/tw/08250.mp3": {
+        "gainDb": -6.04,
+        "loudnessLufs": -9.96,
+        "truePeakDb": -0.83,
+        "sha256": "9c9aaf260c3c79b43c87fe1a1baedeb614a7955b946b68368ec1038ac25ac9e7"
+      },
+      "/assets/audio/tw/08256.mp3": {
+        "gainDb": -5.27,
+        "loudnessLufs": -10.73,
+        "truePeakDb": -1.15,
+        "sha256": "d427717dd93971bfc3b52203e1a267b5c6c4cc1ca35954fdc9f58c49c87e1705"
+      },
+      "/assets/audio/tw/08312.mp3": {
+        "gainDb": -6.16,
+        "loudnessLufs": -9.84,
+        "truePeakDb": -1.47,
+        "sha256": "614068ac00bbe4650e11bad74239e425387995d71f3b9ea8516e67cd9f323c6d"
+      },
+      "/assets/audio/tw/08577.mp3": {
+        "gainDb": -7.06,
+        "loudnessLufs": -8.94,
+        "truePeakDb": -0.57,
+        "sha256": "a39c247e0cff292800a6b9462897cd29abc4d684ec70be5d1dac77d3fae9493a"
+      },
+      "/assets/audio/tw/08799.mp3": {
+        "gainDb": -6.07,
+        "loudnessLufs": -9.93,
+        "truePeakDb": -0.63,
+        "sha256": "7877cc67ed9d17450c7503abc6d5250d80c5099f08fa15784fd528473d60237d"
+      },
+      "/assets/audio/tw/08958.mp3": {
+        "gainDb": -6.02,
+        "loudnessLufs": -9.98,
+        "truePeakDb": -0.88,
+        "sha256": "a3aba3514af177198a5c6a079db07353bed167730e0c76890a63680c64bbbec3"
+      },
+      "/assets/audio/tw/09694.mp3": {
+        "gainDb": -6.05,
+        "loudnessLufs": -9.95,
+        "truePeakDb": -0.9,
+        "sha256": "4071116422544df298ab220bdcc131e5622e62276fae09625207c2639e643add"
+      },
+      "/assets/audio/tw/09737.mp3": {
+        "gainDb": -6.35,
+        "loudnessLufs": -9.65,
+        "truePeakDb": -0.07,
+        "sha256": "6807e97aae38298e14576e03d35523b992dc141bb15db5ad4affb387f4a0d6d0"
+      },
+      "/assets/audio/tw/09805.mp3": {
+        "gainDb": -7.11,
+        "loudnessLufs": -8.89,
+        "truePeakDb": -0.73,
+        "sha256": "fa464c0481acc7ee5da6c2c28a4d0e9940b601894d19bc5d2fe1ff2abd2fb24d"
+      },
+      "/assets/audio/tw/09937.mp3": {
+        "gainDb": -6.37,
+        "loudnessLufs": -9.63,
+        "truePeakDb": -0.42,
+        "sha256": "77b297b15a8f16871fbd00dd5ff166c18acfd51fd567c6d4b6b95be685ba75be"
+      },
+      "/assets/audio/tw/09950.mp3": {
+        "gainDb": -5.7,
+        "loudnessLufs": -10.3,
+        "truePeakDb": -0.46,
+        "sha256": "0702056593c9066c7fc52c4ecb897b63aaa5f8bd82789dbc9fd6fd9bd3b5b469"
+      },
+      "/assets/audio/tw/10089.mp3": {
+        "gainDb": -7.82,
+        "loudnessLufs": -8.18,
+        "truePeakDb": -0.37,
+        "sha256": "1951a5d1a389638587c36fcf48957abcc522b1d7cdb0b78e8dd7731a1da52e91"
+      },
+      "/assets/audio/tw/10350.mp3": {
+        "gainDb": -5.39,
+        "loudnessLufs": -10.61,
+        "truePeakDb": -0.49,
+        "sha256": "74679fe33dab8c622f28bc45b19db0aa329edb3adfe0f8319b68ed58558899f8"
+      },
+      "/assets/audio/tw/10359.mp3": {
+        "gainDb": -5.56,
+        "loudnessLufs": -10.44,
+        "truePeakDb": -0.7,
+        "sha256": "4c8874e00ee4afd63c437d386d6d5a0b4dc18456ebdb3601d1d791272f9fc00d"
+      },
+      "/assets/audio/tw/10365.mp3": {
+        "gainDb": -6.03,
+        "loudnessLufs": -9.97,
+        "truePeakDb": -0.68,
+        "sha256": "5c36bfb17d8bea2bd1264039d88b9fa2a508e0203c5e5e6d443e15b3fd65de77"
+      },
+      "/assets/audio/tw/10366.mp3": {
+        "gainDb": -5.33,
+        "loudnessLufs": -10.67,
+        "truePeakDb": -0.54,
+        "sha256": "c43934e41ff594d85a5a6577ed5be9de7fc75f82f469ace36e47bf38cbcb4284"
+      },
+      "/assets/audio/tw/10387.mp3": {
+        "gainDb": -7.78,
+        "loudnessLufs": -8.22,
+        "truePeakDb": 0.42,
+        "sha256": "f42cb2cfc86c6b76d3a4c4aae2c449647b9c364c8f9d5bb83410bd0ce1f535dc"
+      },
+      "/assets/audio/tw/10606.mp3": {
+        "gainDb": -6.45,
+        "loudnessLufs": -9.55,
+        "truePeakDb": -0.27,
+        "sha256": "5209e74a327f5c84f0d9280afe35f4263e6b3f3f998a3133ade5a09ac7e773bc"
+      },
+      "/assets/audio/tw/10723.mp3": {
+        "gainDb": -6.76,
+        "loudnessLufs": -9.24,
+        "truePeakDb": -1.03,
+        "sha256": "78d66c77886de6d05feb1dbf2e62a4f317a04fc5394ad263773d98794d3b3d33"
+      },
+      "/assets/audio/tw/10972.mp3": {
+        "gainDb": -5.99,
+        "loudnessLufs": -10.01,
+        "truePeakDb": -1.62,
+        "sha256": "366e72acd784327121e350d0aa0b1b57ec9bf4b4456bf94f6101d1136f8fa854"
+      },
+      "/assets/audio/tw/11238.mp3": {
+        "gainDb": -9.62,
+        "loudnessLufs": -6.38,
+        "truePeakDb": 0.16,
+        "sha256": "00e6fbd4b8e15a10d7ca2d39edeb8ed7faa8d1757cd45012828b89d4d07b3c1d"
+      },
+      "/assets/audio/tw/11244.mp3": {
+        "gainDb": -5.92,
+        "loudnessLufs": -10.08,
+        "truePeakDb": -0.66,
+        "sha256": "bdbbc80c64ea1d953324e058137f153fdb117b626b7cc9d60cd2bd7c2107e6ed"
+      },
+      "/assets/audio/tw/11287.mp3": {
+        "gainDb": -7.57,
+        "loudnessLufs": -8.43,
+        "truePeakDb": -0.68,
+        "sha256": "d78e1273e4afce11d9d423527503e7f365607402f0f53e1115df4c27745a2dce"
+      },
+      "/assets/audio/tw/11565.mp3": {
+        "gainDb": -6.8,
+        "loudnessLufs": -9.2,
+        "truePeakDb": -0.27,
+        "sha256": "d7c97bb1425988f6856cc6c200d9aba4d402eda8e503fb5f140210ebb0ab1cf3"
+      },
+      "/assets/audio/tw/11597.mp3": {
+        "gainDb": -5.95,
+        "loudnessLufs": -10.05,
+        "truePeakDb": -1.27,
+        "sha256": "43a9722db300fe1fe4ed797e9ebad293bdd6535c87e1c7c9c8136f3e04390ddb"
+      },
+      "/assets/audio/tw/11604.mp3": {
+        "gainDb": -9.02,
+        "loudnessLufs": -6.98,
+        "truePeakDb": 0.66,
+        "sha256": "4b5e2126a9a18944ff7ec825283fefa2deebf0eea318273b46c1bc9eb826ba48"
+      },
+      "/assets/audio/tw/11738.mp3": {
+        "gainDb": -7.6,
+        "loudnessLufs": -8.4,
+        "truePeakDb": 0.38,
+        "sha256": "b91a8f0bf8d3f6ce4c565b4dd83a8cee7e7b7c5301b12c684ed83d9f5743c1fd"
+      },
+      "/assets/audio/tw/12104.mp3": {
+        "gainDb": -8.11,
+        "loudnessLufs": -7.89,
+        "truePeakDb": 0.28,
+        "sha256": "ad71dda563e8bf6b663f8a146f5f24c1ce1221ed1f4323e12e236bdd4b20f569"
+      },
+      "/assets/audio/tw/12116.mp3": {
+        "gainDb": -5.98,
+        "loudnessLufs": -10.02,
+        "truePeakDb": -0.95,
+        "sha256": "57560d0797cb16d95b4b564fac1f46b504eadeb5b750f331a4f0b86cf38249bc"
+      },
+      "/assets/audio/tw/12189.mp3": {
+        "gainDb": -5.38,
+        "loudnessLufs": -10.62,
+        "truePeakDb": -0.44,
+        "sha256": "57591d4cbe872ac3ed3dc4d1e576d78646ee715688196b6acb3505d56b9c280e"
+      },
+      "/assets/audio/tw/12714.mp3": {
+        "gainDb": -6.05,
+        "loudnessLufs": -9.95,
+        "truePeakDb": -1.09,
+        "sha256": "69a956174e56414fa8a1fcc7b58aeada990c343a38275874c6bfebb4c92e000a"
+      },
+      "/assets/audio/tw/12932.mp3": {
+        "gainDb": -7.89,
+        "loudnessLufs": -8.11,
+        "truePeakDb": -0.59,
+        "sha256": "6c094a914ffe505c25e7719122304c624edf40630945484ec960f573d0cac629"
+      },
+      "/assets/audio/tw/13006.mp3": {
+        "gainDb": -7.02,
+        "loudnessLufs": -8.98,
+        "truePeakDb": -2.16,
+        "sha256": "39e550e473027c92db6971036bebe31b41c2981d6068354d22111f699702556b"
+      },
+      "/assets/audio/tw/13010.mp3": {
+        "gainDb": -7.26,
+        "loudnessLufs": -8.74,
+        "truePeakDb": -1.0,
+        "sha256": "49ce46f4133f19af519c5cd8ca60e1b20c4a8df9b85abcf34b4ddc1fc82181c1"
+      },
+      "/assets/audio/tw/54779.mp3": {
+        "gainDb": -4.04,
+        "loudnessLufs": -11.96,
+        "truePeakDb": -1.1,
+        "sha256": "a016c51b16c49cfa6ed93e87c0112a916b61fd34cc706aef29ec94844b028e03"
+      },
+      "/assets/audio/tw/bp.mp3": {
+        "gainDb": 10.18,
+        "loudnessLufs": -27.49,
+        "truePeakDb": -11.68,
+        "sha256": "9cc07ff39963ec083b4dca8b8869d0a21dc90460891827a1bd2007b7785de6ab"
+      },
+      "/assets/audio/tw/life_ac_phrase.mp3": {
+        "gainDb": 12.03,
+        "loudnessLufs": -28.03,
+        "truePeakDb": -15.02,
+        "sha256": "89879b0c7a6915c66f6abedff55b0526f8028439316e682ba02cfa98dae12973"
+      },
+      "/assets/audio/tw/life_ac_sentence.mp3": {
+        "gainDb": 10.36,
+        "loudnessLufs": -26.36,
+        "truePeakDb": -12.13,
+        "sha256": "2951071c4c9b2521b30663e6c0cd4a1b21f10807988380368f65cd95215d9e8d"
+      },
+      "/assets/audio/tw/life_altar_phrase.mp3": {
+        "gainDb": 9.26,
+        "loudnessLufs": -25.26,
+        "truePeakDb": -14.86,
+        "sha256": "30696e5345f5a05e0b52735cc04429eac8591c2f53dafcacb2f6dc062a2cd531"
+      },
+      "/assets/audio/tw/life_altar_sentence.mp3": {
+        "gainDb": 9.42,
+        "loudnessLufs": -25.42,
+        "truePeakDb": -11.19,
+        "sha256": "b61b012561e4e2e5ec658d98d30927cde26e8dccafa986f7b0a795e56b5a6a01"
+      },
+      "/assets/audio/tw/life_banana_phrase.mp3": {
+        "gainDb": 10.88,
+        "loudnessLufs": -26.88,
+        "truePeakDb": -14.47,
+        "sha256": "d3304f30c15248aca5b40e6dd403dff93995edecd156741aef93d6ca9eb0227a"
+      },
+      "/assets/audio/tw/life_banana_sentence.mp3": {
+        "gainDb": 9.2,
+        "loudnessLufs": -25.66,
+        "truePeakDb": -10.7,
+        "sha256": "26a41b4275a3073b0b63b49e29179d365ea898c7e1399601a6e2b8a42fd9900d"
+      },
+      "/assets/audio/tw/life_bed_phrase.mp3": {
+        "gainDb": 10.61,
+        "loudnessLufs": -26.61,
+        "truePeakDb": -16.52,
+        "sha256": "71f5952c6ac62a6e6db4436c9ea877bc6bb69be24af62ff38a20add4c095d245"
+      },
+      "/assets/audio/tw/life_bed_sentence.mp3": {
+        "gainDb": 7.2,
+        "loudnessLufs": -23.36,
+        "truePeakDb": -8.7,
+        "sha256": "1472183f5417e3b22d6be18c6f3802c595fc77aed77f8e42b440918b87a14f83"
+      },
+      "/assets/audio/tw/life_book_phrase.mp3": {
+        "gainDb": 9.45,
+        "loudnessLufs": -25.45,
+        "truePeakDb": -13.23,
+        "sha256": "5ebecea78bee6be52e8f7a8a20332a46d3011b448f9c99bc87ce2914383243a8"
+      },
+      "/assets/audio/tw/life_book_sentence.mp3": {
+        "gainDb": 9.26,
+        "loudnessLufs": -25.26,
+        "truePeakDb": -13.49,
+        "sha256": "6c4b8601ed37c50bb22a4623e0815f7df725ebecbc07de5a5430fb6e020d0f23"
+      },
+      "/assets/audio/tw/life_bp_phrase.mp3": {
+        "gainDb": 9.02,
+        "loudnessLufs": -25.02,
+        "truePeakDb": -11.35,
+        "sha256": "5f83455b0a76912ad38951bf70d7bc9230fda824d13f53bc2a8a9b8e8fe6b95b"
+      },
+      "/assets/audio/tw/life_bp_sentence.mp3": {
+        "gainDb": 7.84,
+        "loudnessLufs": -23.84,
+        "truePeakDb": -11.02,
+        "sha256": "5bfd1799bddd51549a3521c26153d1212873d2a6ddf8ea3cd690fb0358c6cf34"
+      },
+      "/assets/audio/tw/life_calendar_phrase.mp3": {
+        "gainDb": 3.09,
+        "loudnessLufs": -19.09,
+        "truePeakDb": -7.64,
+        "sha256": "d49e1d46106901f3710eed7658e52a82053da9ce4d7fa0e4db77a4bb349193ed"
+      },
+      "/assets/audio/tw/life_calendar_sentence.mp3": {
+        "gainDb": 9.67,
+        "loudnessLufs": -25.67,
+        "truePeakDb": -14.83,
+        "sha256": "c039d3cac1da085b2a1e107cb35b2aa5e8a96ee6c940049d2f5334e1a4f687ba"
+      },
+      "/assets/audio/tw/life_computer_phrase.mp3": {
+        "gainDb": 7.11,
+        "loudnessLufs": -23.11,
+        "truePeakDb": -11.9,
+        "sha256": "ea64755a9499a2d0a94865e1074e0348c30a0846412154d73bee34beed32ebc3"
+      },
+      "/assets/audio/tw/life_computer_sentence.mp3": {
+        "gainDb": 5.47,
+        "loudnessLufs": -21.47,
+        "truePeakDb": -8.75,
+        "sha256": "2bf0785f8e277aaa42a6317ee1e11e5bba68cc17596b958fb31a9b0cc84351d0"
+      },
+      "/assets/audio/tw/life_dog_phrase.mp3": {
+        "gainDb": 2.04,
+        "loudnessLufs": -18.04,
+        "truePeakDb": -6.44,
+        "sha256": "421ef0a7b1d135121599ff729f5dfdc15466d6640f326bb7ce883c6c67cdd332"
+      },
+      "/assets/audio/tw/life_dog_sentence.mp3": {
+        "gainDb": 8.1,
+        "loudnessLufs": -24.1,
+        "truePeakDb": -11.4,
+        "sha256": "c6ca04d7cb23c2c0aead1414151d0c1ab9ed8c24d65c8841842d36807b25edf5"
+      },
+      "/assets/audio/tw/life_egg_phrase.mp3": {
+        "gainDb": 6.65,
+        "loudnessLufs": -22.65,
+        "truePeakDb": -11.31,
+        "sha256": "802365767269a22b526d693197227fc59f73abf55c29584d3485c97d08171196"
+      },
+      "/assets/audio/tw/life_egg_sentence.mp3": {
+        "gainDb": 3.72,
+        "loudnessLufs": -19.72,
+        "truePeakDb": -7.15,
+        "sha256": "18e76649e48286e3bd4985bd33c566fd7487423ff73238210ad67146389c5702"
+      },
+      "/assets/audio/tw/life_fan_phrase.mp3": {
+        "gainDb": 4.57,
+        "loudnessLufs": -20.57,
+        "truePeakDb": -8.75,
+        "sha256": "b841a6e4a03b2229a77b485a6449da39b21c55ee0e3df7349d3884b2535b8c24"
+      },
+      "/assets/audio/tw/life_fan_sentence.mp3": {
+        "gainDb": 7.26,
+        "loudnessLufs": -23.26,
+        "truePeakDb": -11.19,
+        "sha256": "1860e380272039984d9fdaab0d2ddcad25ee32cb69898f2b3c3dc9c85ccc81b2"
+      },
+      "/assets/audio/tw/life_faucet_phrase.mp3": {
+        "gainDb": 13.4,
+        "loudnessLufs": -29.4,
+        "truePeakDb": -15.74,
+        "sha256": "2be0ee45173b8abcdb5d93be6b9c971fa529af108fb7246ea60e634d21500d03"
+      },
+      "/assets/audio/tw/life_faucet_sentence.mp3": {
+        "gainDb": 11.45,
+        "loudnessLufs": -27.45,
+        "truePeakDb": -13.09,
+        "sha256": "c0f4bf5c8d2b29a36ff21eb2083d90ef56c75f6e1ac2a98baa042c277e636c11"
+      },
+      "/assets/audio/tw/life_fridge_phrase.mp3": {
+        "gainDb": 8.8,
+        "loudnessLufs": -24.8,
+        "truePeakDb": -14.27,
+        "sha256": "b3a7cf8c31009dab606914d18d8aeb8be18296275700c7967042b9416b8306f0"
+      },
+      "/assets/audio/tw/life_fridge_sentence.mp3": {
+        "gainDb": 8.02,
+        "loudnessLufs": -24.02,
+        "truePeakDb": -9.7,
+        "sha256": "b613f8fd830ef18547b055922417dad6be7577536cc4e5d3a88377decdf99b97"
+      },
+      "/assets/audio/tw/life_hairdryer_phrase.mp3": {
+        "gainDb": 12.43,
+        "loudnessLufs": -28.43,
+        "truePeakDb": -17.18,
+        "sha256": "64f3f3b4f7788ba265156e94747862d0b5c5250a8f25d9bfc5df38c79bdc007f"
+      },
+      "/assets/audio/tw/life_hairdryer_sentence.mp3": {
+        "gainDb": 10.68,
+        "loudnessLufs": -27.28,
+        "truePeakDb": -12.18,
+        "sha256": "98cfdb56eee2031e068961ea7eab976eb303144c2ec779bacb73b6ae606378ea"
+      },
+      "/assets/audio/tw/life_hotwater_phrase.mp3": {
+        "gainDb": 7.78,
+        "loudnessLufs": -23.78,
+        "truePeakDb": -11.65,
+        "sha256": "da7323ed2c8569de8d401214ed5bb35762c001046b147ac9f1404f3beb34fcce"
+      },
+      "/assets/audio/tw/life_hotwater_sentence.mp3": {
+        "gainDb": 9.58,
+        "loudnessLufs": -25.58,
+        "truePeakDb": -12.84,
+        "sha256": "1c9b7aff6e3fd0cff099ece104191d6f121495c8242de380c9d251e83417dc12"
+      },
+      "/assets/audio/tw/life_kettle_phrase.mp3": {
+        "gainDb": 8.55,
+        "loudnessLufs": -24.55,
+        "truePeakDb": -11.12,
+        "sha256": "5d9663bfc29025f58b72d28655869a3b94acaa7a1bccdc0b541a3f3a3a1c1592"
+      },
+      "/assets/audio/tw/life_kettle_sentence.mp3": {
+        "gainDb": 11.83,
+        "loudnessLufs": -27.83,
+        "truePeakDb": -15.76,
+        "sha256": "ded5abb49783696d95f7728a5db6c466c4944f36235b3c6f68455546720d87ed"
+      },
+      "/assets/audio/tw/life_mask_phrase.mp3": {
+        "gainDb": 5.83,
+        "loudnessLufs": -23.37,
+        "truePeakDb": -7.33,
+        "sha256": "f5d509519e06296ae88f077ca2b127a2680dcdc2704e2f6ba57e40db62ea800a"
+      },
+      "/assets/audio/tw/life_mask_sentence.mp3": {
+        "gainDb": 6.6,
+        "loudnessLufs": -22.6,
+        "truePeakDb": -9.3,
+        "sha256": "761dac94f65e493930961e624ebcc3bfe3cd2ae301e5188b85a5deb21c213d06"
+      },
+      "/assets/audio/tw/life_microwave_phrase.mp3": {
+        "gainDb": 3.38,
+        "loudnessLufs": -19.38,
+        "truePeakDb": -7.5,
+        "sha256": "fb613770ae4339a4e2c739b801acec04b8c064b67ce6954fc5ca6d79f5a18408"
+      },
+      "/assets/audio/tw/life_microwave_sentence.mp3": {
+        "gainDb": 7.98,
+        "loudnessLufs": -23.98,
+        "truePeakDb": -13.66,
+        "sha256": "257ffdbd3bff14db6cd0db89a1e22e8ee7b03add617066c2df5546d621863050"
+      },
+      "/assets/audio/tw/life_mirror_phrase.mp3": {
+        "gainDb": 10.33,
+        "loudnessLufs": -26.33,
+        "truePeakDb": -14.25,
+        "sha256": "359442bc5fbb261ff4232ef796a61971a7382c07fdf7b8fac9655c4abac4ee4d"
+      },
+      "/assets/audio/tw/life_mirror_sentence.mp3": {
+        "gainDb": 8.53,
+        "loudnessLufs": -24.53,
+        "truePeakDb": -10.96,
+        "sha256": "df4d1b15bf9337b126383e42ac4968fc660dda6638baee8338172840f37c0f11"
+      },
+      "/assets/audio/tw/life_mushroom_phrase.mp3": {
+        "gainDb": 1.5,
+        "loudnessLufs": -17.5,
+        "truePeakDb": -7.37,
+        "sha256": "4e716f66abcf352c4436bc691d958b6fffb7fb83f888b981e6342ce1ca406527"
+      },
+      "/assets/audio/tw/life_mushroom_sentence.mp3": {
+        "gainDb": 8.62,
+        "loudnessLufs": -24.62,
+        "truePeakDb": -12.59,
+        "sha256": "4bd2679e3137f7ca4edf9fea88d84bbfc6a86e0e709454c5290b24cfedb405c8"
+      },
+      "/assets/audio/tw/life_phone_phrase.mp3": {
+        "gainDb": 11.07,
+        "loudnessLufs": -27.07,
+        "truePeakDb": -13.41,
+        "sha256": "dd0831557520a43ffbcaadd24b74394a6a83679129f1ae1d7fe4ec93981ec6f8"
+      },
+      "/assets/audio/tw/life_phone_sentence.mp3": {
+        "gainDb": 8.9,
+        "loudnessLufs": -24.9,
+        "truePeakDb": -10.89,
+        "sha256": "134f77034aa8aa22dc0a94899f43028d4c778d0514212d44df64b41e4d50c5c2"
+      },
+      "/assets/audio/tw/life_remote_phrase.mp3": {
+        "gainDb": 8.03,
+        "loudnessLufs": -24.03,
+        "truePeakDb": -12.68,
+        "sha256": "a1d53351804b45ee2b32f05b346ab8d1a4b5162c9d734b995390bbea9ba0a229"
+      },
+      "/assets/audio/tw/life_remote_sentence.mp3": {
+        "gainDb": 10.52,
+        "loudnessLufs": -26.52,
+        "truePeakDb": -16.09,
+        "sha256": "fb489c0b24e35f77cda1e2b7ac17cbe8fa1f962cd8ff8f68ab3011054c541348"
+      },
+      "/assets/audio/tw/life_scale_phrase.mp3": {
+        "gainDb": 9.17,
+        "loudnessLufs": -25.17,
+        "truePeakDb": -10.71,
+        "sha256": "a1fa0ae9c5e43b835c26dd51b2c4285ea736f384e604886050e74fb5dc3b92e1"
+      },
+      "/assets/audio/tw/life_scale_sentence.mp3": {
+        "gainDb": 9.21,
+        "loudnessLufs": -25.21,
+        "truePeakDb": -11.6,
+        "sha256": "4563bdca5931fa3fb56019f2144fa3de63a776cdd45b6ef16a8e48fbbad43ff7"
+      },
+      "/assets/audio/tw/life_shoes_phrase.mp3": {
+        "gainDb": 11.39,
+        "loudnessLufs": -27.39,
+        "truePeakDb": -13.9,
+        "sha256": "2faefbf5ee65f2d597b3fd9415ca20f785e176dba64f9c2b1bd2a4b80bceb061"
+      },
+      "/assets/audio/tw/life_shoes_sentence.mp3": {
+        "gainDb": 9.49,
+        "loudnessLufs": -25.49,
+        "truePeakDb": -12.06,
+        "sha256": "c04885c521be93f1028b01f540d3e3b6b0dd916648cf9cf2a9f6b86829012f7a"
+      },
+      "/assets/audio/tw/life_sink_phrase.mp3": {
+        "gainDb": 8.62,
+        "loudnessLufs": -24.62,
+        "truePeakDb": -11.68,
+        "sha256": "cd0f87c4e4d12e2e7f351b2410121e697deb1f54e16952032efa12d9453b6d19"
+      },
+      "/assets/audio/tw/life_sink_sentence.mp3": {
+        "gainDb": 9.45,
+        "loudnessLufs": -25.45,
+        "truePeakDb": -13.39,
+        "sha256": "0044bd62c0c5623fab3d3742bb51293e1fde1c3d5548cc7dc0562317c5bee2bc"
+      },
+      "/assets/audio/tw/life_slippers_phrase.mp3": {
+        "gainDb": 8.89,
+        "loudnessLufs": -24.89,
+        "truePeakDb": -14.06,
+        "sha256": "fdb0e4c013e21503e350f545ed7e107aca664974ef525a6b8542b96e53e5c1cf"
+      },
+      "/assets/audio/tw/life_slippers_sentence.mp3": {
+        "gainDb": 9.04,
+        "loudnessLufs": -25.41,
+        "truePeakDb": -10.54,
+        "sha256": "c6fa1474b0dc349ef823747f01abb9b8a30a6c79f53c74abba53a4654cdb3438"
+      },
+      "/assets/audio/tw/life_thermos_phrase.mp3": {
+        "gainDb": 5.1,
+        "loudnessLufs": -21.46,
+        "truePeakDb": -6.6,
+        "sha256": "f0fa0688d373db3361b0a55d9ead1f386ee86d587dbb97c30afc21a7631e9cc3"
+      },
+      "/assets/audio/tw/life_thermos_sentence.mp3": {
+        "gainDb": 7.92,
+        "loudnessLufs": -23.92,
+        "truePeakDb": -12.14,
+        "sha256": "63ae349d2e31c4ff764d772bd824ad1cd30a0e3ecaaa8269b0ef2e52a5764cef"
+      },
+      "/assets/audio/tw/life_tv_phrase.mp3": {
+        "gainDb": 5.77,
+        "loudnessLufs": -23.0,
+        "truePeakDb": -7.27,
+        "sha256": "7879ab7b35a1565aa0598cb3fdc8ce34cf59f1dbff9be45987fcc72828476864"
+      },
+      "/assets/audio/tw/life_tv_sentence.mp3": {
+        "gainDb": 10.89,
+        "loudnessLufs": -27.1,
+        "truePeakDb": -12.39,
+        "sha256": "eb45185e76240e72935d383883682f28ee097c01b828ef715166b6a675673cc9"
+      },
+      "/assets/audio/tw/life_window_phrase.mp3": {
+        "gainDb": 6.13,
+        "loudnessLufs": -22.13,
+        "truePeakDb": -11.63,
+        "sha256": "a8d02f8eda8067ef7ee8cddc0f5306549e9a2f18ca584d849036426e672d0f95"
+      },
+      "/assets/audio/tw/life_window_sentence.mp3": {
+        "gainDb": 8.16,
+        "loudnessLufs": -24.16,
+        "truePeakDb": -12.37,
+        "sha256": "dbad2658c38ca81596d18557b3db8bae5128b3fd63e7c666f1b68b6c11be8c0f"
+      },
+      "/assets/audio/tw/need_cold_phrase.mp3": {
+        "gainDb": 8.51,
+        "loudnessLufs": -24.51,
+        "truePeakDb": -12.67,
+        "sha256": "d672fe825a3beac51797a93eab1491edd6b31fb452af2284f34612353fd1f337"
+      },
+      "/assets/audio/tw/need_cold_sentence.mp3": {
+        "gainDb": 11.89,
+        "loudnessLufs": -27.89,
+        "truePeakDb": -14.94,
+        "sha256": "2cbd542b1fb4892e598cd73676013db7a5fab6f047e5b67306ea4fb2775784a1"
+      },
+      "/assets/audio/tw/need_help_phrase.mp3": {
+        "gainDb": 8.24,
+        "loudnessLufs": -24.24,
+        "truePeakDb": -10.37,
+        "sha256": "8da00ab01a2f1ac2e85865d3b58096d4412a480047d39e8f7ad979b40c5257c9"
+      },
+      "/assets/audio/tw/need_help_sentence.mp3": {
+        "gainDb": 8.83,
+        "loudnessLufs": -24.83,
+        "truePeakDb": -12.29,
+        "sha256": "a380a3ee84ed0371e288356d83f7c1702a5838450426889d043c82cab35f3991"
+      },
+      "/assets/audio/tw/need_pain_phrase.mp3": {
+        "gainDb": 11.8,
+        "loudnessLufs": -27.8,
+        "truePeakDb": -16.28,
+        "sha256": "11fe339b4a749a855566339455e6a42bdb882985f4db5e0febe7466cc607170b"
+      },
+      "/assets/audio/tw/need_pain_sentence.mp3": {
+        "gainDb": 10.95,
+        "loudnessLufs": -26.95,
+        "truePeakDb": -15.65,
+        "sha256": "13f9800f3ed7fd552122c415a0a276b575b519bd059495bdf8d562364841732e"
+      },
+      "/assets/audio/tw/need_rest_phrase.mp3": {
+        "gainDb": 10.49,
+        "loudnessLufs": -26.49,
+        "truePeakDb": -14.69,
+        "sha256": "827b7a85abf9d9173871684747fbfe30cbb22396819e2b8debe6d7b8ac69d545"
+      },
+      "/assets/audio/tw/need_rest_sentence.mp3": {
+        "gainDb": 10.35,
+        "loudnessLufs": -26.35,
+        "truePeakDb": -11.96,
+        "sha256": "a39ed5c0692cf57b9f38aaaf759febc5222cb880748990ac4915952b8db606c3"
+      },
+      "/assets/audio/tw/need_toilet_phrase.mp3": {
+        "gainDb": 11.99,
+        "loudnessLufs": -27.99,
+        "truePeakDb": -14.45,
+        "sha256": "b18dbc3fbcb75abe9d56923d23112bd8b09fc7d77cc83954ffa9054f5602d18a"
+      },
+      "/assets/audio/tw/need_toilet_sentence.mp3": {
+        "gainDb": 10.34,
+        "loudnessLufs": -26.34,
+        "truePeakDb": -13.65,
+        "sha256": "9d89cb371eb1a2cff3ede835f95b694fba188f5e3178bfc0c05bd8c62f976aa7"
+      },
+      "/assets/audio/tw/remote.mp3": {
+        "gainDb": 6.35,
+        "loudnessLufs": -22.35,
+        "truePeakDb": -8.84,
+        "sha256": "1bf7cd7371e1864aa7dbced4b8eec81fecdb05ce8708870909279afd879af16e"
+      },
+      "/assets/audio/tw/topic_belly_phrase.mp3": {
+        "gainDb": 7.82,
+        "loudnessLufs": -23.82,
+        "truePeakDb": -12.14,
+        "sha256": "564997f3d222aded97b503c6177e0b556c86c694fbc425551ffc021f2208cf6c"
+      },
+      "/assets/audio/tw/topic_belly_sentence.mp3": {
+        "gainDb": 7.47,
+        "loudnessLufs": -23.47,
+        "truePeakDb": -12.41,
+        "sha256": "35f9489b4a4d9e72d0340342ba1f52a47840fbc8bc6192589615504a04d7f2f9"
+      },
+      "/assets/audio/tw/topic_bowl_phrase.mp3": {
+        "gainDb": 4.49,
+        "loudnessLufs": -20.49,
+        "truePeakDb": -8.63,
+        "sha256": "9b021bbdad80b7c901d399bbf60210903c0a7fcb5b49050faa9a78cb4f3730b3"
+      },
+      "/assets/audio/tw/topic_bowl_sentence.mp3": {
+        "gainDb": 8.2,
+        "loudnessLufs": -24.2,
+        "truePeakDb": -13.09,
+        "sha256": "36d616165e096e6d628585615adf6f44716b31797b24d33452850a81ef8f7093"
+      },
+      "/assets/audio/tw/topic_chopsticks_phrase.mp3": {
+        "gainDb": 7.0,
+        "loudnessLufs": -23.0,
+        "truePeakDb": -10.92,
+        "sha256": "3822d6e7fc27d9edeed8ec29066637fbab27dc8cabc3d9f28900eef30047d64f"
+      },
+      "/assets/audio/tw/topic_chopsticks_sentence.mp3": {
+        "gainDb": 7.61,
+        "loudnessLufs": -23.61,
+        "truePeakDb": -10.02,
+        "sha256": "3ed0ab284400130eb22e099333fd5c239124f9a0879e75711c7c28c688347264"
+      },
+      "/assets/audio/tw/topic_cloudy_phrase.mp3": {
+        "gainDb": 9.16,
+        "loudnessLufs": -25.16,
+        "truePeakDb": -14.61,
+        "sha256": "b4486802e3746c64ea30a481a3c67e891cb11e1ccffcc08ad59184011711c071"
+      },
+      "/assets/audio/tw/topic_cloudy_sentence.mp3": {
+        "gainDb": 7.76,
+        "loudnessLufs": -23.76,
+        "truePeakDb": -12.69,
+        "sha256": "3d3052daa45a68b2ebbfb568dfc6271bd6976387759ecebf574219d7cb06e24d"
+      },
+      "/assets/audio/tw/topic_cutting_board_phrase.mp3": {
+        "gainDb": 4.89,
+        "loudnessLufs": -20.89,
+        "truePeakDb": -11.38,
+        "sha256": "103eaf38d198afdba9d69f4ddd376fb338a8875e5e28b2e92b81b7844b84e516"
+      },
+      "/assets/audio/tw/topic_cutting_board_sentence.mp3": {
+        "gainDb": 7.61,
+        "loudnessLufs": -23.61,
+        "truePeakDb": -12.68,
+        "sha256": "d21706dad6801683d1a7bb83fbac5aaac0e18b6d93f40f99d746c41e3fa204ca"
+      },
+      "/assets/audio/tw/topic_dizzy_phrase.mp3": {
+        "gainDb": 6.73,
+        "loudnessLufs": -23.28,
+        "truePeakDb": -8.23,
+        "sha256": "8b3cf3d61ed086a9e954ad52e12dde990edfdb92ea3e8f73112ee578c40d2ab8"
+      },
+      "/assets/audio/tw/topic_dizzy_sentence.mp3": {
+        "gainDb": 10.47,
+        "loudnessLufs": -27.28,
+        "truePeakDb": -11.97,
+        "sha256": "70c6933c8b5f42c51a4a09889bfc159c71094dcea5172c1a7b2937a0feb78dff"
+      },
+      "/assets/audio/tw/topic_ears_phrase.mp3": {
+        "gainDb": 9.16,
+        "loudnessLufs": -25.16,
+        "truePeakDb": -14.66,
+        "sha256": "f9ee54db4eef0ffb551ec696b59cdfd8ce55d5fdd805ec572107827d62d496a8"
+      },
+      "/assets/audio/tw/topic_ears_sentence.mp3": {
+        "gainDb": 9.25,
+        "loudnessLufs": -25.25,
+        "truePeakDb": -12.59,
+        "sha256": "6018d51123663511ea9ba67f1a33599475e67cf4b6072a2403e95b5283f6aaf2"
+      },
+      "/assets/audio/tw/topic_eyes_phrase.mp3": {
+        "gainDb": 6.24,
+        "loudnessLufs": -22.24,
+        "truePeakDb": -10.18,
+        "sha256": "cb91fb3abd64e9e873305e89aad7375565a9badc88b826d421e615899d0eb8e0"
+      },
+      "/assets/audio/tw/topic_eyes_sentence.mp3": {
+        "gainDb": 10.59,
+        "loudnessLufs": -26.59,
+        "truePeakDb": -16.8,
+        "sha256": "80b16c8fea19d63a56cd65137e6cf207bae53d85813ef5a3f87655bc18390a70"
+      },
+      "/assets/audio/tw/topic_fork_phrase.mp3": {
+        "gainDb": 4.17,
+        "loudnessLufs": -20.17,
+        "truePeakDb": -10.02,
+        "sha256": "9fc8a3eac42410a03c04ed8405b411c2f384a227c14ac1243179966aab3cf2ea"
+      },
+      "/assets/audio/tw/topic_fork_sentence.mp3": {
+        "gainDb": 7.01,
+        "loudnessLufs": -23.01,
+        "truePeakDb": -11.32,
+        "sha256": "c7d6e0621a2eed75b9e1be241c21afd5aeb5bad8612b1c354bde0ef46b4545b7"
+      },
+      "/assets/audio/tw/topic_hand_phrase.mp3": {
+        "gainDb": 11.62,
+        "loudnessLufs": -27.62,
+        "truePeakDb": -17.41,
+        "sha256": "4cb0cb6c091b87bb6a7ad89965d71e0699d52d0ffdc2d40fc5a8e0e30b8edbea"
+      },
+      "/assets/audio/tw/topic_hand_sentence.mp3": {
+        "gainDb": 11.5,
+        "loudnessLufs": -27.5,
+        "truePeakDb": -15.47,
+        "sha256": "5649d87d70ac2da969150f2cf3d0653834bfcc8e3a25f2ce2ec99fead4d5ec0a"
+      },
+      "/assets/audio/tw/topic_head_phrase.mp3": {
+        "gainDb": 8.46,
+        "loudnessLufs": -24.46,
+        "truePeakDb": -11.46,
+        "sha256": "eb025233a73eee64b4c69b12b8f274cf9a906ff980ba12240eb07f08f69142cb"
+      },
+      "/assets/audio/tw/topic_head_sentence.mp3": {
+        "gainDb": 8.97,
+        "loudnessLufs": -24.97,
+        "truePeakDb": -12.11,
+        "sha256": "cedb8978180d5821cda2253e6b70a135c8c15aa8620226231d626536115b54b1"
+      },
+      "/assets/audio/tw/topic_hot_phrase.mp3": {
+        "gainDb": 9.62,
+        "loudnessLufs": -25.62,
+        "truePeakDb": -13.41,
+        "sha256": "a03750becf289b8219386bc6e54340b6525ffff5f77dec0993746339f4ee41ca"
+      },
+      "/assets/audio/tw/topic_hot_sentence.mp3": {
+        "gainDb": 7.05,
+        "loudnessLufs": -23.05,
+        "truePeakDb": -9.94,
+        "sha256": "f5387f0748db3f5032236130cfa72ebd9df37cc84f64353d93a1e2c058338069"
+      },
+      "/assets/audio/tw/topic_hungry_phrase.mp3": {
+        "gainDb": 4.05,
+        "loudnessLufs": -20.05,
+        "truePeakDb": -10.46,
+        "sha256": "42fdbaf5ba4d0f0c7cc7870ddc0d856a885de1d66ba45027edb20f30b7bd032a"
+      },
+      "/assets/audio/tw/topic_hungry_sentence.mp3": {
+        "gainDb": 6.5,
+        "loudnessLufs": -22.5,
+        "truePeakDb": -11.5,
+        "sha256": "2648ec1a54d88d733dfb9c057046ae968f7000e4177bb73a331a906f8869312a"
+      },
+      "/assets/audio/tw/topic_itchy_phrase.mp3": {
+        "gainDb": 6.39,
+        "loudnessLufs": -22.39,
+        "truePeakDb": -10.08,
+        "sha256": "53de901153fa4413720890d9544ed48f532436a13b6a36c185a8b2623918021f"
+      },
+      "/assets/audio/tw/topic_itchy_sentence.mp3": {
+        "gainDb": 11.04,
+        "loudnessLufs": -27.33,
+        "truePeakDb": -12.54,
+        "sha256": "ecaa5dac268fc401e2de244bf6fc9527d780f789fb0c8d85ad9d977181efc620"
+      },
+      "/assets/audio/tw/topic_knife_phrase.mp3": {
+        "gainDb": 10.78,
+        "loudnessLufs": -26.78,
+        "truePeakDb": -14.54,
+        "sha256": "eda4aea25d5ddde2fec6f9955af7d0399daf63e0daf61d5851ea40c6384076a7"
+      },
+      "/assets/audio/tw/topic_knife_sentence.mp3": {
+        "gainDb": 11.21,
+        "loudnessLufs": -27.21,
+        "truePeakDb": -13.71,
+        "sha256": "49cb565b837df2c8ff8dacde382b07c8f7e607e9f26dfe609206349a3dd728fb"
+      },
+      "/assets/audio/tw/topic_ladle_phrase.mp3": {
+        "gainDb": 8.66,
+        "loudnessLufs": -24.66,
+        "truePeakDb": -13.63,
+        "sha256": "6cfa2737016ec50a0e520d0bb863ae919910a893116b629ecfa61241c1bfa4ef"
+      },
+      "/assets/audio/tw/topic_ladle_sentence.mp3": {
+        "gainDb": 10.72,
+        "loudnessLufs": -26.72,
+        "truePeakDb": -13.45,
+        "sha256": "ba4adb789257d61f0cacd650aeb66d84f1c0f586813956f8b583397bb78bcc0f"
+      },
+      "/assets/audio/tw/topic_mouth_phrase.mp3": {
+        "gainDb": 15.86,
+        "loudnessLufs": -31.86,
+        "truePeakDb": -17.77,
+        "sha256": "10525fa24c2ce2533a10c00e7331bfbaad0eb091ee47ba9be157b121f36fa24e"
+      },
+      "/assets/audio/tw/topic_mouth_sentence.mp3": {
+        "gainDb": 11.55,
+        "loudnessLufs": -27.55,
+        "truePeakDb": -14.47,
+        "sha256": "13455fa5860ecd44d84094076aea24825f7e61b4e058bbbdbb6f1c1ecc2a737a"
+      },
+      "/assets/audio/tw/topic_nauseous_phrase.mp3": {
+        "gainDb": 10.52,
+        "loudnessLufs": -26.52,
+        "truePeakDb": -15.9,
+        "sha256": "5e9eb3591813d8e8b744f05ef098220081910ca49349ec4852267ef731b11ab7"
+      },
+      "/assets/audio/tw/topic_nauseous_sentence.mp3": {
+        "gainDb": 11.98,
+        "loudnessLufs": -27.98,
+        "truePeakDb": -16.11,
+        "sha256": "c302f3fbe0553f8348dd3974a0a8d5a354e55c8736b928d02d778cf0d386e4c0"
+      },
+      "/assets/audio/tw/topic_neck_phrase.mp3": {
+        "gainDb": 4.55,
+        "loudnessLufs": -20.55,
+        "truePeakDb": -9.5,
+        "sha256": "d583d865c5a805af44f8423e413a8d6857d11c8fca38682df7d9072f4e9dec37"
+      },
+      "/assets/audio/tw/topic_neck_sentence.mp3": {
+        "gainDb": 6.01,
+        "loudnessLufs": -22.01,
+        "truePeakDb": -8.24,
+        "sha256": "80bd08fcf8b2216166729d4774283a56685dba6bc34ffb4ed19fa0995fc20b63"
+      },
+      "/assets/audio/tw/topic_nose_phrase.mp3": {
+        "gainDb": 9.42,
+        "loudnessLufs": -25.42,
+        "truePeakDb": -15.57,
+        "sha256": "5f62ce64a2bb6080ea43c2da7088f7fbb5c164e14a20c9de556c7a71efbca4d2"
+      },
+      "/assets/audio/tw/topic_nose_sentence.mp3": {
+        "gainDb": 8.51,
+        "loudnessLufs": -24.82,
+        "truePeakDb": -10.01,
+        "sha256": "b0b62ff0666a4563571c6e9f279c09796edf59b1663f888e3b38177ea3431f1c"
+      },
+      "/assets/audio/tw/topic_numbness_phrase.mp3": {
+        "gainDb": 9.08,
+        "loudnessLufs": -25.39,
+        "truePeakDb": -10.58,
+        "sha256": "d9c22ce2648ddf0d78e480a587fe873feee20f54a91618fa45ed7758cf08e005"
+      },
+      "/assets/audio/tw/topic_numbness_sentence.mp3": {
+        "gainDb": 7.96,
+        "loudnessLufs": -23.96,
+        "truePeakDb": -10.71,
+        "sha256": "08dbb6ec0e6f1fe44b496e6f6d9c33842fae251027fba3faff356f1bf1b3345d"
+      },
+      "/assets/audio/tw/topic_pain_phrase.mp3": {
+        "gainDb": 10.74,
+        "loudnessLufs": -26.74,
+        "truePeakDb": -14.11,
+        "sha256": "b79c1bbb0fde42f767ea08305d60e98b21837bb79e38eaab86b086f22358c261"
+      },
+      "/assets/audio/tw/topic_pain_sentence.mp3": {
+        "gainDb": 11.31,
+        "loudnessLufs": -27.31,
+        "truePeakDb": -15.71,
+        "sha256": "83eb070e203bba20b19f3c17320b5411f1658051c37e90e9e29ffd755ac16d2d"
+      },
+      "/assets/audio/tw/topic_plate_phrase.mp3": {
+        "gainDb": 5.24,
+        "loudnessLufs": -21.24,
+        "truePeakDb": -10.89,
+        "sha256": "56e7ca6342b9b28272823d5a15d3f59ab615e1e8c5a12a3a1f34aa4e591089d2"
+      },
+      "/assets/audio/tw/topic_plate_sentence.mp3": {
+        "gainDb": 8.85,
+        "loudnessLufs": -24.85,
+        "truePeakDb": -10.68,
+        "sha256": "07e6aa9ef4a54be08dba1a52fe3a9a1136492f855efc4e76dc19ea3afe28ab7b"
+      },
+      "/assets/audio/tw/topic_pot_phrase.mp3": {
+        "gainDb": 9.11,
+        "loudnessLufs": -25.11,
+        "truePeakDb": -14.45,
+        "sha256": "b4d507bfc333f3c63d4568e4cdc812e5112b5498c878daad12206803b5e36039"
+      },
+      "/assets/audio/tw/topic_pot_sentence.mp3": {
+        "gainDb": 8.26,
+        "loudnessLufs": -24.26,
+        "truePeakDb": -12.71,
+        "sha256": "e1dee0ca08f919caeb0c5477e16bb26a82a3f1161a412a1e7cca19030d0338fe"
+      },
+      "/assets/audio/tw/topic_rain_phrase.mp3": {
+        "gainDb": 1.86,
+        "loudnessLufs": -17.86,
+        "truePeakDb": -7.67,
+        "sha256": "f7b5b9920db99294129ab461e8307268670e94f302d2ed8d7a6dfaedf9ec3609"
+      },
+      "/assets/audio/tw/topic_rain_sentence.mp3": {
+        "gainDb": 7.23,
+        "loudnessLufs": -23.23,
+        "truePeakDb": -11.3,
+        "sha256": "9a5747fb1c42499c46cd3eba8d7770ddb4a324753e5896bcdb82d24784ca8371"
+      },
+      "/assets/audio/tw/topic_shoulder_phrase.mp3": {
+        "gainDb": 7.08,
+        "loudnessLufs": -23.08,
+        "truePeakDb": -12.3,
+        "sha256": "cf613d3d02205db0b23720fc9d14600bcf4e15a46f5fbcb1cc9449d8ae1b3a30"
+      },
+      "/assets/audio/tw/topic_shoulder_sentence.mp3": {
+        "gainDb": 6.11,
+        "loudnessLufs": -22.11,
+        "truePeakDb": -10.96,
+        "sha256": "2e1fe1722f56dc23b28d192867d29e1fe951923acf70549b8401be7c76b0cafe"
+      },
+      "/assets/audio/tw/topic_spatula_phrase.mp3": {
+        "gainDb": 11.59,
+        "loudnessLufs": -27.59,
+        "truePeakDb": -13.73,
+        "sha256": "1520d58a85aba16e88e4d80913f3661ddc6e42cf72833e3c7024c95db0b1b9fe"
+      },
+      "/assets/audio/tw/topic_spatula_sentence.mp3": {
+        "gainDb": 11.75,
+        "loudnessLufs": -27.94,
+        "truePeakDb": -13.25,
+        "sha256": "ca877617a12f743655b8d3ce0a375b584a7a79b9455b124ab56f9522f6e6dc42"
+      },
+      "/assets/audio/tw/topic_spoon_phrase.mp3": {
+        "gainDb": 9.8,
+        "loudnessLufs": -25.8,
+        "truePeakDb": -12.45,
+        "sha256": "5eb7d8846f6919d74ce9635c510d666cc886541c8f32b314793dd2d9d3b890bc"
+      },
+      "/assets/audio/tw/topic_spoon_sentence.mp3": {
+        "gainDb": 9.13,
+        "loudnessLufs": -25.13,
+        "truePeakDb": -12.73,
+        "sha256": "18e426a89d2b55307a718cb848aebc13ec2c2ab3db22c23ca940133576d49de8"
+      },
+      "/assets/audio/tw/topic_sunny_phrase.mp3": {
+        "gainDb": 11.84,
+        "loudnessLufs": -27.84,
+        "truePeakDb": -14.46,
+        "sha256": "4f16661619e7333468df4a2883c663cd29035850f84a2e6f3a8238a804fa91f9"
+      },
+      "/assets/audio/tw/topic_sunny_sentence.mp3": {
+        "gainDb": 11.2,
+        "loudnessLufs": -27.2,
+        "truePeakDb": -14.75,
+        "sha256": "384f7e33a8407187e7c62d65ea16267c33d30b0e2ca9b8f1060c03a00e26a2ea"
+      },
+      "/assets/audio/tw/topic_teeth_phrase.mp3": {
+        "gainDb": 11.57,
+        "loudnessLufs": -27.57,
+        "truePeakDb": -18.99,
+        "sha256": "d96f8caa8d48584d71ac5da5b208f183f8ccf65c47fe09d35f086f73bba24fd2"
+      },
+      "/assets/audio/tw/topic_teeth_sentence.mp3": {
+        "gainDb": 11.84,
+        "loudnessLufs": -27.84,
+        "truePeakDb": -15.02,
+        "sha256": "3891f64c3a69188e29b2af3418ce3808c4e038fc7054b1988f662efd720b7aff"
+      },
+      "/assets/audio/tw/topic_thirsty_phrase.mp3": {
+        "gainDb": 10.3,
+        "loudnessLufs": -26.3,
+        "truePeakDb": -13.62,
+        "sha256": "1f38985a0e73ee7838e63c9edc6aa48be994dd25475bdde69925ffc2f1e762a1"
+      },
+      "/assets/audio/tw/topic_thirsty_sentence.mp3": {
+        "gainDb": 10.95,
+        "loudnessLufs": -26.95,
+        "truePeakDb": -16.18,
+        "sha256": "fe9c0bf9865befab61ff714efd8c38621bd0ecd48fa0121c1205ad514a6fe9ac"
+      },
+      "/assets/audio/tw/topic_thunder_phrase.mp3": {
+        "gainDb": 7.98,
+        "loudnessLufs": -23.98,
+        "truePeakDb": -10.77,
+        "sha256": "5e782326f72f8dcbf0a2b540f4c914ab968cc634c4db629f60ee2a11a11453a5"
+      },
+      "/assets/audio/tw/topic_thunder_sentence.mp3": {
+        "gainDb": 5.78,
+        "loudnessLufs": -21.78,
+        "truePeakDb": -7.74,
+        "sha256": "a36447a134208088b4b9d6efdf4cca3355f4a0536ef0dcafcaea594d8eaa4a61"
+      },
+      "/assets/audio/tw/topic_tired_phrase.mp3": {
+        "gainDb": 10.86,
+        "loudnessLufs": -26.86,
+        "truePeakDb": -13.76,
+        "sha256": "1ffafa82bc65c773c598a1889c0d53f126d49ac02ab1a63a08a7904abb1fcf6d"
+      },
+      "/assets/audio/tw/topic_tired_sentence.mp3": {
+        "gainDb": 11.23,
+        "loudnessLufs": -27.23,
+        "truePeakDb": -14.17,
+        "sha256": "f7f3431a97df929392a401557b8a45df7208ecfc200591ea7f798ae47df9885b"
+      },
+      "/assets/audio/tw/topic_tongue_phrase.mp3": {
+        "gainDb": 9.65,
+        "loudnessLufs": -25.65,
+        "truePeakDb": -15.92,
+        "sha256": "dc0870e51188477689ffef723cf4933f6c36da25b035d92a68b15187d04c5ef0"
+      },
+      "/assets/audio/tw/topic_tongue_sentence.mp3": {
+        "gainDb": 10.12,
+        "loudnessLufs": -26.12,
+        "truePeakDb": -15.39,
+        "sha256": "48c0367b149b67ac9a129b5b07831ae7f4bf2013a2eb1fbfb6ebfd917f2a3088"
+      },
+      "/assets/audio/tw/topic_wind_phrase.mp3": {
+        "gainDb": 4.23,
+        "loudnessLufs": -20.23,
+        "truePeakDb": -7.49,
+        "sha256": "03993f865287ba755084cd3724c0de09e0b654b8f0fb1018941584e9f922457f"
+      },
+      "/assets/audio/tw/topic_wind_sentence.mp3": {
+        "gainDb": 5.51,
+        "loudnessLufs": -23.36,
+        "truePeakDb": -7.01,
+        "sha256": "5cfceae60540953927827c4750a930cf746aa66efa6f4613727bdbd40b2d77b1"
+      },
+      "/assets/audio/zh/ac.mp3": {
+        "gainDb": -2.14,
+        "loudnessLufs": -13.86,
+        "truePeakDb": -3.89,
+        "sha256": "bc7f233029c3e60fbfa721a36f9968a15be0b9aa490ecb7f5b44489c948505d6"
+      },
+      "/assets/audio/zh/altar.mp3": {
+        "gainDb": -3.55,
+        "loudnessLufs": -12.45,
+        "truePeakDb": -1.95,
+        "sha256": "45fa05659eccbb578974d7462d7fb65f26575988dc8617108bcfb9b2dcad1042"
+      },
+      "/assets/audio/zh/banana.mp3": {
+        "gainDb": -3.24,
+        "loudnessLufs": -12.76,
+        "truePeakDb": -2.5,
+        "sha256": "6d61a7106c2e54dde0339bbbe692c3f5768d41ff7b13588160f4142f43389469"
+      },
+      "/assets/audio/zh/bed.mp3": {
+        "gainDb": -1.75,
+        "loudnessLufs": -14.25,
+        "truePeakDb": -2.34,
+        "sha256": "18bd3f770521e7eb41b684066069d524f5401151e423083bc0587f40ff358b25"
+      },
+      "/assets/audio/zh/belly.mp3": {
+        "gainDb": -0.94,
+        "loudnessLufs": -15.06,
+        "truePeakDb": -5.66,
+        "sha256": "34fd684a621db5642949f7d03c55173f4b1de7ab1d442b1207114ce8a7686508"
+      },
+      "/assets/audio/zh/book.mp3": {
+        "gainDb": -2.6,
+        "loudnessLufs": -13.4,
+        "truePeakDb": -5.0,
+        "sha256": "872e5589e113bd7bb7458746a7c11b6105a30e992725d587e4a2350d5872a259"
+      },
+      "/assets/audio/zh/bowl.mp3": {
+        "gainDb": 0.6,
+        "loudnessLufs": -16.6,
+        "truePeakDb": -3.4,
+        "sha256": "755afe19525fc1c8750da501699ea221e43d887829099c8a7f0561164af19229"
+      },
+      "/assets/audio/zh/bp.mp3": {
+        "gainDb": -3.35,
+        "loudnessLufs": -12.65,
+        "truePeakDb": -3.08,
+        "sha256": "c6c023de19d653b98e75aef5101a8938bb68aabb48a353b08ae29cfbe0832dc0"
+      },
+      "/assets/audio/zh/calendar.mp3": {
+        "gainDb": -4.63,
+        "loudnessLufs": -11.37,
+        "truePeakDb": -4.36,
+        "sha256": "d26f945c4966ae7614c4dd3430eb5c6e5b66e3448f1c60273fe2fdf419be6b40"
+      },
+      "/assets/audio/zh/chopsticks.mp3": {
+        "gainDb": -2.47,
+        "loudnessLufs": -13.53,
+        "truePeakDb": -4.48,
+        "sha256": "16d187aa33675ace126aeef790e0a7ee6046417aafd5b9f4cff293b0c6254256"
+      },
+      "/assets/audio/zh/cloudy.mp3": {
+        "gainDb": -4.2,
+        "loudnessLufs": -11.8,
+        "truePeakDb": -3.65,
+        "sha256": "5079afbc115555cd31479eee737cef260fa69e2df7ab411695649c15c25c25d8"
+      },
+      "/assets/audio/zh/cold.mp3": {
+        "gainDb": 0.05,
+        "loudnessLufs": -16.05,
+        "truePeakDb": -4.19,
+        "sha256": "19f841283b6aa260e5110643b4d55c6a3b97a775c418d4a05849fb5f2a86e671"
+      },
+      "/assets/audio/zh/computer.mp3": {
+        "gainDb": -4.69,
+        "loudnessLufs": -11.31,
+        "truePeakDb": -2.33,
+        "sha256": "6b8a74d165203bd340becc7ea70414137b7ba94cd73342ff582b55f8f1c0214a"
+      },
+      "/assets/audio/zh/cutting_board.mp3": {
+        "gainDb": -1.82,
+        "loudnessLufs": -14.18,
+        "truePeakDb": -4.29,
+        "sha256": "70cb41bface1f56210001fb4a5b56206a3a46d709191ba25852117dda9df37f2"
+      },
+      "/assets/audio/zh/dizzy.mp3": {
+        "gainDb": -3.85,
+        "loudnessLufs": -12.15,
+        "truePeakDb": -2.88,
+        "sha256": "60a3fb19b888efdf13149766147aada8d6e08529c1aa09c9f71617ff13661a8c"
+      },
+      "/assets/audio/zh/dog.mp3": {
+        "gainDb": 1.23,
+        "loudnessLufs": -17.23,
+        "truePeakDb": -3.22,
+        "sha256": "efc7669998779445abee0a7fd2327f8fed83ef426a71967433c2effea9c13a62"
+      },
+      "/assets/audio/zh/ears.mp3": {
+        "gainDb": -3.31,
+        "loudnessLufs": -12.69,
+        "truePeakDb": -2.91,
+        "sha256": "2b53f20f98ee9e87b8464538e39399fb409c7a64441d5f1694a20fe10e4fb074"
+      },
+      "/assets/audio/zh/egg.mp3": {
+        "gainDb": -2.46,
+        "loudnessLufs": -13.54,
+        "truePeakDb": -5.04,
+        "sha256": "a3489cdc130a1914e6da88dbde46ea38cdf587cdd27be096cf396e404a094197"
+      },
+      "/assets/audio/zh/eyes.mp3": {
+        "gainDb": -3.92,
+        "loudnessLufs": -12.08,
+        "truePeakDb": -2.61,
+        "sha256": "e9ed154a10760f31847ba66a1ab48b1f5972b515e9eb55423fd9733cfa9f0a80"
+      },
+      "/assets/audio/zh/fan.mp3": {
+        "gainDb": -2.68,
+        "loudnessLufs": -13.32,
+        "truePeakDb": -3.24,
+        "sha256": "fac0a547e90484afb64af8d0b4d19593f3a20a2848002cc164405ab4ffcb45b9"
+      },
+      "/assets/audio/zh/faucet.mp3": {
+        "gainDb": -2.79,
+        "loudnessLufs": -13.21,
+        "truePeakDb": -2.43,
+        "sha256": "b095a3f5753cdb1214b06b85c4cef6383e349fa0667d84d367fda04ec3d2b4b0"
+      },
+      "/assets/audio/zh/foot.mp3": {
+        "gainDb": -0.14,
+        "loudnessLufs": -15.86,
+        "truePeakDb": -3.81,
+        "sha256": "88e7ec517715602c855ffc76aa8f5bcb2145741af47c714015a114866a6b0329"
+      },
+      "/assets/audio/zh/fork.mp3": {
+        "gainDb": -2.05,
+        "loudnessLufs": -13.95,
+        "truePeakDb": -3.09,
+        "sha256": "387f82879b46d23b7fa571038bf07d2da8f513017f3ccbed97b3a5461afc3335"
+      },
+      "/assets/audio/zh/fridge.mp3": {
+        "gainDb": -4.11,
+        "loudnessLufs": -11.89,
+        "truePeakDb": -3.26,
+        "sha256": "577b19473bec3fa06d4a3914ed4a2e8fd9a6bcd8868f9487fb7a24220cc64b14"
+      },
+      "/assets/audio/zh/hairdryer.mp3": {
+        "gainDb": -3.05,
+        "loudnessLufs": -12.95,
+        "truePeakDb": -3.3,
+        "sha256": "71d65b9011ae829f57d779d6514708161f0eb717cb833ce198bf2c615511019b"
+      },
+      "/assets/audio/zh/hand.mp3": {
+        "gainDb": -0.51,
+        "loudnessLufs": -15.49,
+        "truePeakDb": -3.37,
+        "sha256": "89c140e8a8ca18c7df072ef71b781aa4a55a9bf674039c1be54ee6d808cc4a6f"
+      },
+      "/assets/audio/zh/head.mp3": {
+        "gainDb": -0.45,
+        "loudnessLufs": -15.55,
+        "truePeakDb": -3.5,
+        "sha256": "80a9f73b051b6bb66461f7daecdc5e6eec882ace0a97721e6d45b47e295c933b"
+      },
+      "/assets/audio/zh/hot.mp3": {
+        "gainDb": -1.04,
+        "loudnessLufs": -14.96,
+        "truePeakDb": -4.79,
+        "sha256": "0bd564ec5376d7c776469dc8b319e832556d69812113d956c28fe33180d2224a"
+      },
+      "/assets/audio/zh/hotwater.mp3": {
+        "gainDb": -2.15,
+        "loudnessLufs": -13.85,
+        "truePeakDb": -3.11,
+        "sha256": "62d46aeeeb1c5cb051344718ca0a88ae93d691bf01869619ea26f6dd9bb8572b"
+      },
+      "/assets/audio/zh/hungry.mp3": {
+        "gainDb": -0.95,
+        "loudnessLufs": -15.05,
+        "truePeakDb": -4.94,
+        "sha256": "01360a8b8ae0fef0fef1b218bbcf508836de9a552833f8eec1bdd5e923bae31e"
+      },
+      "/assets/audio/zh/itchy.mp3": {
+        "gainDb": -0.08,
+        "loudnessLufs": -15.92,
+        "truePeakDb": -4.52,
+        "sha256": "98b8014f1ddac9366e4c995cbb710ab672fd9242f9179220d3ba956ccb943cff"
+      },
+      "/assets/audio/zh/kettle.mp3": {
+        "gainDb": -1.57,
+        "loudnessLufs": -14.43,
+        "truePeakDb": -4.5,
+        "sha256": "425b03098c222fe5fec2c8be6c56a68f433fcb6f4a50ef510cc199c79c17d364"
+      },
+      "/assets/audio/zh/knife.mp3": {
+        "gainDb": -2.53,
+        "loudnessLufs": -13.47,
+        "truePeakDb": -1.89,
+        "sha256": "533313487184ce7aaf132416de863f5a79b5714fd1012e7946d94f9c2beaeaa7"
+      },
+      "/assets/audio/zh/ladle.mp3": {
+        "gainDb": -2.52,
+        "loudnessLufs": -13.48,
+        "truePeakDb": -1.88,
+        "sha256": "c8d001482e2d9c45decce755856d6718658ee70600d498fffd5f8cb87c2ad786"
+      },
+      "/assets/audio/zh/life_ac_phrase.mp3": {
+        "gainDb": -2.84,
+        "loudnessLufs": -13.16,
+        "truePeakDb": -5.54,
+        "sha256": "3a990ea63380735b3340344d9853d883daff082719b856349861ef1b67964f4c"
+      },
+      "/assets/audio/zh/life_ac_sentence.mp3": {
+        "gainDb": -2.83,
+        "loudnessLufs": -13.17,
+        "truePeakDb": -3.22,
+        "sha256": "0538f91a239903dd27e596ce457f9c2a9c8376f92fbfe428cfff4bf1256f8843"
+      },
+      "/assets/audio/zh/life_altar_phrase.mp3": {
+        "gainDb": -3.09,
+        "loudnessLufs": -12.91,
+        "truePeakDb": -3.39,
+        "sha256": "956114508e261dd34e40f7e558c362bf6770255c9732b035f1481235960c7bd8"
+      },
+      "/assets/audio/zh/life_altar_sentence.mp3": {
+        "gainDb": -3.07,
+        "loudnessLufs": -12.93,
+        "truePeakDb": -2.27,
+        "sha256": "17f106a59584542d012af09bdeff470a6466e07f643b63bcc987cc0c3eb634c3"
+      },
+      "/assets/audio/zh/life_banana_phrase.mp3": {
+        "gainDb": -3.33,
+        "loudnessLufs": -12.67,
+        "truePeakDb": -1.95,
+        "sha256": "4836a73003f4137808d936c2a77d532de0af45bf17fa6813577eaac6bcb6205a"
+      },
+      "/assets/audio/zh/life_banana_sentence.mp3": {
+        "gainDb": -3.31,
+        "loudnessLufs": -12.69,
+        "truePeakDb": -1.37,
+        "sha256": "0898ead91237087dd48480afdf9e008b24c90e1e72b241d96f6ebe86c63e99bf"
+      },
+      "/assets/audio/zh/life_bed_phrase.mp3": {
+        "gainDb": -2.04,
+        "loudnessLufs": -13.96,
+        "truePeakDb": -2.87,
+        "sha256": "28bdd9b6d59d0856ac6b6a6b3a5d0ec2144e381c4ce2d8954c51469afc2a9434"
+      },
+      "/assets/audio/zh/life_bed_sentence.mp3": {
+        "gainDb": -2.22,
+        "loudnessLufs": -13.78,
+        "truePeakDb": -1.9,
+        "sha256": "754b60695dd9409242428a4ed6182039e0d100bab92b9328df7f64446e9ca762"
+      },
+      "/assets/audio/zh/life_book_phrase.mp3": {
+        "gainDb": -2.62,
+        "loudnessLufs": -13.38,
+        "truePeakDb": -5.87,
+        "sha256": "a97f04cf32365ea3b1e5666ea8a4b901804bddfaa46f7e692ee2aa3670bb575b"
+      },
+      "/assets/audio/zh/life_book_sentence.mp3": {
+        "gainDb": -2.7,
+        "loudnessLufs": -13.3,
+        "truePeakDb": -1.08,
+        "sha256": "415ae853fe3266a6936867dafac5ee02c5a55b60581051e72ddac898545f6f44"
+      },
+      "/assets/audio/zh/life_bp_phrase.mp3": {
+        "gainDb": -3.55,
+        "loudnessLufs": -12.45,
+        "truePeakDb": -3.3,
+        "sha256": "b54470c7a81379cfe888e9bfaa1e9475c37e2cc051b819286fb4de5684c0c726"
+      },
+      "/assets/audio/zh/life_bp_sentence.mp3": {
+        "gainDb": -3.97,
+        "loudnessLufs": -12.03,
+        "truePeakDb": -2.0,
+        "sha256": "d4ee68ff9461a3e8dc87cd2520a728f0f3802b398cc917dd72ba7e65f894508b"
+      },
+      "/assets/audio/zh/life_calendar_phrase.mp3": {
+        "gainDb": -4.62,
+        "loudnessLufs": -11.38,
+        "truePeakDb": -4.55,
+        "sha256": "a07d803111a6d2de40a1252619cd9fe30a053c5e4fdeb1d6eb6fa3e898549e04"
+      },
+      "/assets/audio/zh/life_calendar_sentence.mp3": {
+        "gainDb": -3.87,
+        "loudnessLufs": -12.13,
+        "truePeakDb": -1.48,
+        "sha256": "2b39a5f12492ec2128179f6946f68937276c8ee39420e4f39fb6470b8706903a"
+      },
+      "/assets/audio/zh/life_computer_phrase.mp3": {
+        "gainDb": -5.23,
+        "loudnessLufs": -10.77,
+        "truePeakDb": -2.38,
+        "sha256": "006c6a7883a49775f31fd3c4cfbced06bc5a424eddf12cc343026de6d666f3cf"
+      },
+      "/assets/audio/zh/life_computer_sentence.mp3": {
+        "gainDb": -4.94,
+        "loudnessLufs": -11.06,
+        "truePeakDb": -1.9,
+        "sha256": "ac51acc4b07ed46b592ff7278fe6d7585a662418a54cb7f3f2e94d76036d43c3"
+      },
+      "/assets/audio/zh/life_dog_phrase.mp3": {
+        "gainDb": -2.41,
+        "loudnessLufs": -13.59,
+        "truePeakDb": -2.81,
+        "sha256": "31ec83c62d336ddd01c31d488468fe5bc05baeacc262c2137681806c9c13f451"
+      },
+      "/assets/audio/zh/life_dog_sentence.mp3": {
+        "gainDb": -2.17,
+        "loudnessLufs": -13.83,
+        "truePeakDb": -2.01,
+        "sha256": "e55be4aa29cba7dee719ab7800a52520c1621fa1ef87a133de006f15713277c4"
+      },
+      "/assets/audio/zh/life_egg_phrase.mp3": {
+        "gainDb": -2.12,
+        "loudnessLufs": -13.88,
+        "truePeakDb": -3.29,
+        "sha256": "e05a8f56417f6d1caa016c96c08e7f12ba299bcafbeeaa07dd4e114b4b63a13a"
+      },
+      "/assets/audio/zh/life_egg_sentence.mp3": {
+        "gainDb": -2.8,
+        "loudnessLufs": -13.2,
+        "truePeakDb": -1.59,
+        "sha256": "d5ec57532de29efd14df09cfcf61a78f3193afc1d0f3523d6467d477ef531274"
+      },
+      "/assets/audio/zh/life_fan_phrase.mp3": {
+        "gainDb": -2.58,
+        "loudnessLufs": -13.42,
+        "truePeakDb": -3.09,
+        "sha256": "9c7044ae91eafbfb7d937728c3695dbcbabe934414486f0d9ad3901c7a8209a2"
+      },
+      "/assets/audio/zh/life_fan_sentence.mp3": {
+        "gainDb": -2.81,
+        "loudnessLufs": -13.19,
+        "truePeakDb": -1.76,
+        "sha256": "880c9ad51617f0534b7545c8af39a748b6f0c06978a4cbf70eec82ba7d554114"
+      },
+      "/assets/audio/zh/life_faucet_phrase.mp3": {
+        "gainDb": -2.88,
+        "loudnessLufs": -13.12,
+        "truePeakDb": -2.11,
+        "sha256": "82ad8b88af86a657745aca85010cadf51818bcb073b4ceec77ba9c15da2c405a"
+      },
+      "/assets/audio/zh/life_faucet_sentence.mp3": {
+        "gainDb": -2.82,
+        "loudnessLufs": -13.18,
+        "truePeakDb": -2.38,
+        "sha256": "13f248624d2d0e370e1b42dfe2b326a04431d2c692556431e014845cf0562e9a"
+      },
+      "/assets/audio/zh/life_fridge_phrase.mp3": {
+        "gainDb": -3.89,
+        "loudnessLufs": -12.11,
+        "truePeakDb": -2.81,
+        "sha256": "b2de15474be537209a07f9e35ba8f0d411aba8e3779da19f09297917edda53c8"
+      },
+      "/assets/audio/zh/life_fridge_sentence.mp3": {
+        "gainDb": -3.23,
+        "loudnessLufs": -12.77,
+        "truePeakDb": -1.44,
+        "sha256": "a958ce58c8485c411323f4073150be2f5133864237d6590823437e1abe9b953e"
+      },
+      "/assets/audio/zh/life_hairdryer_phrase.mp3": {
+        "gainDb": -2.98,
+        "loudnessLufs": -13.02,
+        "truePeakDb": -3.19,
+        "sha256": "03fa5653fd007e029ceeb58bca53d04d3a65678ea76359e3d581a1bd780d311f"
+      },
+      "/assets/audio/zh/life_hairdryer_sentence.mp3": {
+        "gainDb": -3.08,
+        "loudnessLufs": -12.92,
+        "truePeakDb": -3.35,
+        "sha256": "0ce07cef527263701489d4fddd84084c57c644a4c8c4f4618a61b12cc0ae9a86"
+      },
+      "/assets/audio/zh/life_hotwater_phrase.mp3": {
+        "gainDb": -2.71,
+        "loudnessLufs": -13.29,
+        "truePeakDb": -3.12,
+        "sha256": "85f9cd3b3c2322a1f0aa1801d0c78125a560132549b41824f50347873eac2e8e"
+      },
+      "/assets/audio/zh/life_hotwater_sentence.mp3": {
+        "gainDb": -2.9,
+        "loudnessLufs": -13.1,
+        "truePeakDb": -2.68,
+        "sha256": "25d36f848a3c160e7bbf9b4322147751232278f082b0f217e289ce8411b4b9ad"
+      },
+      "/assets/audio/zh/life_kettle_phrase.mp3": {
+        "gainDb": -1.38,
+        "loudnessLufs": -14.62,
+        "truePeakDb": -3.38,
+        "sha256": "9c223ff1703b7fc01fb86f130a7c0804964d257d53c86bb58659e4b4b83d8bff"
+      },
+      "/assets/audio/zh/life_kettle_sentence.mp3": {
+        "gainDb": -2.24,
+        "loudnessLufs": -13.76,
+        "truePeakDb": -3.36,
+        "sha256": "de5b238cea7b7dc508111ee893e2ba68e6d055d7e8bc79879a98c5683e2fd483"
+      },
+      "/assets/audio/zh/life_mask_phrase.mp3": {
+        "gainDb": -1.21,
+        "loudnessLufs": -14.79,
+        "truePeakDb": -2.68,
+        "sha256": "91322dd818b5fe40b2a573dd3bdc911350ca79c92db2434a9dc055c36807f582"
+      },
+      "/assets/audio/zh/life_mask_sentence.mp3": {
+        "gainDb": -2.33,
+        "loudnessLufs": -13.67,
+        "truePeakDb": -1.9,
+        "sha256": "b84a08865868e07acb377bbbda120e71eaea9a17ce0fb026c65aaf17ded77ddf"
+      },
+      "/assets/audio/zh/life_microwave_phrase.mp3": {
+        "gainDb": -3.75,
+        "loudnessLufs": -12.25,
+        "truePeakDb": -3.4,
+        "sha256": "d5f37a26d025182a186076ce5dd14069004712421861ef323daed923a4846743"
+      },
+      "/assets/audio/zh/life_microwave_sentence.mp3": {
+        "gainDb": -4.2,
+        "loudnessLufs": -11.8,
+        "truePeakDb": -2.64,
+        "sha256": "ba7869b358155bfd37fd5b8c57ea7d9158c89aaba5505dbc13a4b0f36f0e9e31"
+      },
+      "/assets/audio/zh/life_mirror_phrase.mp3": {
+        "gainDb": -3.62,
+        "loudnessLufs": -12.38,
+        "truePeakDb": -2.13,
+        "sha256": "fbf55a329f490bd0e0809f3327b7adc92c8180e73da98ad1069a669670eb7c4d"
+      },
+      "/assets/audio/zh/life_mirror_sentence.mp3": {
+        "gainDb": -3.64,
+        "loudnessLufs": -12.36,
+        "truePeakDb": -1.66,
+        "sha256": "afc7142e4a9ea755abb9233407fcc0a3281aae3816941c84ce3c848d7d97a800"
+      },
+      "/assets/audio/zh/life_mushroom_phrase.mp3": {
+        "gainDb": -3.14,
+        "loudnessLufs": -12.86,
+        "truePeakDb": -3.17,
+        "sha256": "18b3d583b87ac8ee1be14bcea3f74e6cc38c148110b3377c394ab1b5dbd9a70f"
+      },
+      "/assets/audio/zh/life_mushroom_sentence.mp3": {
+        "gainDb": -3.17,
+        "loudnessLufs": -12.83,
+        "truePeakDb": -1.84,
+        "sha256": "c50f0e328cb6d2d79f57fe7bda3ef76e533d2134a42e6176bea8feeabefbdd70"
+      },
+      "/assets/audio/zh/life_phone_phrase.mp3": {
+        "gainDb": -2.96,
+        "loudnessLufs": -13.04,
+        "truePeakDb": -3.15,
+        "sha256": "46a6f0cf94a80907b97202a4181ccf1e135bfff230225f44d2d9b37cc314eab0"
+      },
+      "/assets/audio/zh/life_phone_sentence.mp3": {
+        "gainDb": -3.0,
+        "loudnessLufs": -13.0,
+        "truePeakDb": -1.71,
+        "sha256": "deb37b776b33d1dc6adfb7d2b3fd1212e98ec5e190f43cd4b13421586203e2ef"
+      },
+      "/assets/audio/zh/life_remote_phrase.mp3": {
+        "gainDb": -2.78,
+        "loudnessLufs": -13.22,
+        "truePeakDb": -2.91,
+        "sha256": "6806f522c402f56855bed704d8d10f9f5962985bfdda825938b0827b979d7149"
+      },
+      "/assets/audio/zh/life_remote_sentence.mp3": {
+        "gainDb": -3.18,
+        "loudnessLufs": -12.82,
+        "truePeakDb": -2.91,
+        "sha256": "59862a4dcd42d1e590c367c8316c65753851c8a7ed77d79bae0ff1ceff2b1e9f"
+      },
+      "/assets/audio/zh/life_scale_phrase.mp3": {
+        "gainDb": -1.78,
+        "loudnessLufs": -14.22,
+        "truePeakDb": -3.71,
+        "sha256": "56af293cd0ad14605957211ab0f91188ebbcefcbb76a299771e972e94d74674f"
+      },
+      "/assets/audio/zh/life_scale_sentence.mp3": {
+        "gainDb": -3.14,
+        "loudnessLufs": -12.86,
+        "truePeakDb": -2.0,
+        "sha256": "c1488b2a4e12c8dac1d559ef26859881524f79b24befa3347a6d90f05ad2c508"
+      },
+      "/assets/audio/zh/life_shoes_phrase.mp3": {
+        "gainDb": -2.41,
+        "loudnessLufs": -13.59,
+        "truePeakDb": -3.54,
+        "sha256": "b2d2e106f13e5baec8326b753621b2cffa19333606f0d10d1c9b03ef7a1ae661"
+      },
+      "/assets/audio/zh/life_shoes_sentence.mp3": {
+        "gainDb": -2.87,
+        "loudnessLufs": -13.13,
+        "truePeakDb": -2.44,
+        "sha256": "d27a8cbfd3ad9a4cf1139484824420616e22d26b9eddc70f58e4164074d0d5e7"
+      },
+      "/assets/audio/zh/life_sink_phrase.mp3": {
+        "gainDb": -1.96,
+        "loudnessLufs": -14.04,
+        "truePeakDb": -4.09,
+        "sha256": "9dc9c0b9a16aff47129e257e03f4ce4222728567d94d2e335328c0a9b56f40aa"
+      },
+      "/assets/audio/zh/life_sink_sentence.mp3": {
+        "gainDb": -2.8,
+        "loudnessLufs": -13.2,
+        "truePeakDb": -1.59,
+        "sha256": "d17eb6ddda28ffcbf205de493b89612ef904af75f4f5d6ffa856956ad3080892"
+      },
+      "/assets/audio/zh/life_slippers_phrase.mp3": {
+        "gainDb": -2.48,
+        "loudnessLufs": -13.52,
+        "truePeakDb": -3.21,
+        "sha256": "77eea4dd57e8dc9ef9c9d8f34b4ef6f6bcac150256b172080759e275e5a36574"
+      },
+      "/assets/audio/zh/life_slippers_sentence.mp3": {
+        "gainDb": -2.83,
+        "loudnessLufs": -13.17,
+        "truePeakDb": -2.44,
+        "sha256": "a48925000eab3864edd0147fc202b844bad12aa1e459ee2bac4428291dda1fda"
+      },
+      "/assets/audio/zh/life_thermos_phrase.mp3": {
+        "gainDb": -3.88,
+        "loudnessLufs": -12.12,
+        "truePeakDb": -2.69,
+        "sha256": "3444a0d6562e1f7e338654cb9941169ae883c9c4999e7308ea41bd4aeec8532f"
+      },
+      "/assets/audio/zh/life_thermos_sentence.mp3": {
+        "gainDb": -3.7,
+        "loudnessLufs": -12.3,
+        "truePeakDb": -2.39,
+        "sha256": "d77f84ffe479ac2179d01b1715d7cd240edad143be0b680764f7c17a36b55489"
+      },
+      "/assets/audio/zh/life_tv_phrase.mp3": {
+        "gainDb": -3.79,
+        "loudnessLufs": -12.21,
+        "truePeakDb": -3.11,
+        "sha256": "0d7b1d94394281e3c6ade223eb0f7cfee17f1db68e170f5bcf8e41e509e0dd98"
+      },
+      "/assets/audio/zh/life_tv_sentence.mp3": {
+        "gainDb": -3.24,
+        "loudnessLufs": -12.76,
+        "truePeakDb": -1.48,
+        "sha256": "d5ce37eb6fa18be5d0d5ab158dad80713e3b779509e4a9e9d5203bfc04f7f717"
+      },
+      "/assets/audio/zh/life_window_phrase.mp3": {
+        "gainDb": -1.46,
+        "loudnessLufs": -14.54,
+        "truePeakDb": -4.3,
+        "sha256": "8a03f40589a58734c6d42574f9cccaf7fbd93b30738bee019a2bb0564e39de45"
+      },
+      "/assets/audio/zh/life_window_sentence.mp3": {
+        "gainDb": -1.75,
+        "loudnessLufs": -14.25,
+        "truePeakDb": -3.22,
+        "sha256": "39cd7e1db9b5f5a4c162917eb803143514e23ffeda85d865dbbb4633fe749b6d"
+      },
+      "/assets/audio/zh/mask.mp3": {
+        "gainDb": -1.98,
+        "loudnessLufs": -14.02,
+        "truePeakDb": -3.02,
+        "sha256": "80f821e79519c4b75c08a1598473e7f8bb02a5b88a5fb8a9dd4e24e87d9b4b14"
+      },
+      "/assets/audio/zh/microwave.mp3": {
+        "gainDb": -3.38,
+        "loudnessLufs": -12.62,
+        "truePeakDb": -4.26,
+        "sha256": "3d22e7a7e30769b36361a506e1486b97e707eb648a4fbdf1b2056613e30c9333"
+      },
+      "/assets/audio/zh/mirror.mp3": {
+        "gainDb": -3.71,
+        "loudnessLufs": -12.29,
+        "truePeakDb": -3.89,
+        "sha256": "416ad6e1029698abb513f37c78f9a9bb324497a14c244cab6cfac54c483645ea"
+      },
+      "/assets/audio/zh/mouth.mp3": {
+        "gainDb": -1.65,
+        "loudnessLufs": -14.35,
+        "truePeakDb": -3.15,
+        "sha256": "fb59f6c4d243f9e4dcc0751702fa2eff684b128eb17b4a581b74eec6adcc01e6"
+      },
+      "/assets/audio/zh/mushroom.mp3": {
+        "gainDb": -3.15,
+        "loudnessLufs": -12.85,
+        "truePeakDb": -3.61,
+        "sha256": "9ecc307362b838f79a5c371963a1b23c3bb461d53df59785f625695c8c452215"
+      },
+      "/assets/audio/zh/nauseous.mp3": {
+        "gainDb": -2.89,
+        "loudnessLufs": -13.11,
+        "truePeakDb": -2.9,
+        "sha256": "1bb3049d0fb001d7aa2b188ef533f466c9e7089791bdca452b0c6364e2582338"
+      },
+      "/assets/audio/zh/neck.mp3": {
+        "gainDb": -1.19,
+        "loudnessLufs": -14.81,
+        "truePeakDb": -2.89,
+        "sha256": "bb41585b35a2f0df0b35c36b347f8cef09b19f9ceee938a602f0d3cf670c6b97"
+      },
+      "/assets/audio/zh/need_cold_phrase.mp3": {
+        "gainDb": -2.82,
+        "loudnessLufs": -13.18,
+        "truePeakDb": -4.39,
+        "sha256": "9d1af178dad65acf2011a4b4bdfa4950bf47a9db59e6f604657e29e541b547fe"
+      },
+      "/assets/audio/zh/need_cold_sentence.mp3": {
+        "gainDb": -3.08,
+        "loudnessLufs": -12.92,
+        "truePeakDb": -0.88,
+        "sha256": "e399272cde60f5248c7d5b43d5297193e1a4c527df05ad20d315c4e118e47e5a"
+      },
+      "/assets/audio/zh/need_help_phrase.mp3": {
+        "gainDb": -4.07,
+        "loudnessLufs": -11.93,
+        "truePeakDb": -3.24,
+        "sha256": "63ddd65b9b8ea7b6adc867299f185777a6951fdb8d44a1ece1c46faa8c11ae27"
+      },
+      "/assets/audio/zh/need_help_sentence.mp3": {
+        "gainDb": -3.65,
+        "loudnessLufs": -12.35,
+        "truePeakDb": -3.09,
+        "sha256": "489577fed1ece2b9376f8b738b57b2c31592c7a7bc8091639e1ba67c0836806b"
+      },
+      "/assets/audio/zh/need_help_word.mp3": {
+        "gainDb": -5.11,
+        "loudnessLufs": -10.89,
+        "truePeakDb": -3.1,
+        "sha256": "e2ad7b7ffc38a4c59d928f328a262ab797bcd086402a67d8967784f6f7489ca5"
+      },
+      "/assets/audio/zh/need_pain_phrase.mp3": {
+        "gainDb": -1.19,
+        "loudnessLufs": -14.81,
+        "truePeakDb": -1.09,
+        "sha256": "79c38e896e03adb09f00bbfc269de433ae582545fa14facd73436cec35768e81"
+      },
+      "/assets/audio/zh/need_pain_sentence.mp3": {
+        "gainDb": -1.85,
+        "loudnessLufs": -14.15,
+        "truePeakDb": -1.78,
+        "sha256": "d45811dd9f966dd992de2673be830f3d76eefa62f93aac189d85dd22e2a6cdd9"
+      },
+      "/assets/audio/zh/need_rest_phrase.mp3": {
+        "gainDb": -2.4,
+        "loudnessLufs": -13.6,
+        "truePeakDb": -4.19,
+        "sha256": "2032addc9836de388af474b7a609e4aa56087ad6eb355ae01545cc5493f71b3a"
+      },
+      "/assets/audio/zh/need_rest_sentence.mp3": {
+        "gainDb": -2.68,
+        "loudnessLufs": -13.32,
+        "truePeakDb": -2.44,
+        "sha256": "2bb04eb2e687e809cebbdb5c359c7ccdc21ad1e960912ffbb581a9cc75010c61"
+      },
+      "/assets/audio/zh/need_rest_word.mp3": {
+        "gainDb": -2.65,
+        "loudnessLufs": -13.35,
+        "truePeakDb": -4.23,
+        "sha256": "fa04a163938c09a0782bb9957fce00af460ff30b84d9c6ce56a69033adfe90ca"
+      },
+      "/assets/audio/zh/need_toilet_phrase.mp3": {
+        "gainDb": -2.01,
+        "loudnessLufs": -13.99,
+        "truePeakDb": -3.69,
+        "sha256": "bc33174594c4cc25c16dbe5820de0aff225e7466e77e5dd51542b5695a4454b1"
+      },
+      "/assets/audio/zh/need_toilet_sentence.mp3": {
+        "gainDb": -2.96,
+        "loudnessLufs": -13.04,
+        "truePeakDb": -1.37,
+        "sha256": "77790fec07072af85911ec3f538c3d3effde0c3f70b5bf4d9572216b73013ee4"
+      },
+      "/assets/audio/zh/need_toilet_word.mp3": {
+        "gainDb": -2.05,
+        "loudnessLufs": -13.95,
+        "truePeakDb": -3.57,
+        "sha256": "db8c06c3182851b820df9f7a4780201120a841a47c0a19765968e394a6c5c502"
+      },
+      "/assets/audio/zh/nose.mp3": {
+        "gainDb": -2.28,
+        "loudnessLufs": -13.72,
+        "truePeakDb": -3.46,
+        "sha256": "016a8eb2df94d4533a3561fcc9cbb2520f822f52eb72eb1d569964a6141eb32f"
+      },
+      "/assets/audio/zh/numbness.mp3": {
+        "gainDb": -4.02,
+        "loudnessLufs": -11.98,
+        "truePeakDb": -4.48,
+        "sha256": "88c4fecf1b2ab12e7cb1caa6d30112cddadd4d35e66712b683aba07e0db041e8"
+      },
+      "/assets/audio/zh/pain.mp3": {
+        "gainDb": 0.65,
+        "loudnessLufs": -16.65,
+        "truePeakDb": -4.34,
+        "sha256": "e1a94988c380ca2297d9bb58eda254f2d912b8e84c6687744a28d5ffd3ac1423"
+      },
+      "/assets/audio/zh/phone.mp3": {
+        "gainDb": -2.93,
+        "loudnessLufs": -13.07,
+        "truePeakDb": -3.29,
+        "sha256": "cf6556363a330969b06d218eda6168bbc8eb591a809505086f35ce46e7bbffd1"
+      },
+      "/assets/audio/zh/plate.mp3": {
+        "gainDb": -1.6,
+        "loudnessLufs": -14.4,
+        "truePeakDb": -3.44,
+        "sha256": "4d6d38baae12217eee05f2e8bc9adb799ad172944703bba29d0b849c7727c966"
+      },
+      "/assets/audio/zh/pot.mp3": {
+        "gainDb": -1.78,
+        "loudnessLufs": -14.22,
+        "truePeakDb": -3.84,
+        "sha256": "15944437ebf2f05f7cff4d8d4778361a4ecb4cc1064ad45756555e6b937fe0d6"
+      },
+      "/assets/audio/zh/rain.mp3": {
+        "gainDb": -2.91,
+        "loudnessLufs": -13.09,
+        "truePeakDb": -3.3,
+        "sha256": "eb1b3c9c0cfa60ac8636618467c2b7c936f987d7e8e5cfae0aff592fc16c4ed4"
+      },
+      "/assets/audio/zh/remote.mp3": {
+        "gainDb": -2.53,
+        "loudnessLufs": -13.47,
+        "truePeakDb": -1.59,
+        "sha256": "50041750dd506556370c07fac7603ffffe2e748d35493d386d8442f1b318c808"
+      },
+      "/assets/audio/zh/scale.mp3": {
+        "gainDb": -3.28,
+        "loudnessLufs": -12.72,
+        "truePeakDb": -5.21,
+        "sha256": "e83b993510e240a6806716a420e4002d31e1faf6e92f5912dbc824e2d79ce1dc"
+      },
+      "/assets/audio/zh/shoes.mp3": {
+        "gainDb": -2.36,
+        "loudnessLufs": -13.64,
+        "truePeakDb": -2.29,
+        "sha256": "2d7d9b6b0fe58c2a8ba0ad13ff91b83550472b1770f91d9d0c9988d29e9e2b99"
+      },
+      "/assets/audio/zh/shoulder.mp3": {
+        "gainDb": -3.75,
+        "loudnessLufs": -12.25,
+        "truePeakDb": -1.87,
+        "sha256": "9db3f20681f1d1f0f5ed4b8bd94742f3232d47ed9f79e6f6bf25aea04d10a376"
+      },
+      "/assets/audio/zh/sink.mp3": {
+        "gainDb": -1.1,
+        "loudnessLufs": -14.9,
+        "truePeakDb": -3.6,
+        "sha256": "6ab6a3e9ec8770168f1e26de4a24cb8309c1cb9d2478aebf932c61dc99caecc0"
+      },
+      "/assets/audio/zh/slippers.mp3": {
+        "gainDb": -2.79,
+        "loudnessLufs": -13.21,
+        "truePeakDb": -4.09,
+        "sha256": "b1fca75efe6e0e9d0d1d727c1ff13d42911a17e14c73c86a53bb4d2f1dd0eb8e"
+      },
+      "/assets/audio/zh/spatula.mp3": {
+        "gainDb": -1.35,
+        "loudnessLufs": -14.65,
+        "truePeakDb": -4.35,
+        "sha256": "d9c6c8422af5e79cdc25d84226871225aa529991edb986620e25e228bbe8c350"
+      },
+      "/assets/audio/zh/spoon.mp3": {
+        "gainDb": -2.52,
+        "loudnessLufs": -13.48,
+        "truePeakDb": -3.44,
+        "sha256": "489bff5dc10043f58bc0a5a5d1f059ded0b98738a6364d0ce9c605ea4a5699ef"
+      },
+      "/assets/audio/zh/sunny.mp3": {
+        "gainDb": -3.4,
+        "loudnessLufs": -12.6,
+        "truePeakDb": -2.55,
+        "sha256": "2f9003c212bca1439de025d8b4cfd379a6ca5070c2ec2481684122d86495af54"
+      },
+      "/assets/audio/zh/teeth.mp3": {
+        "gainDb": -2.4,
+        "loudnessLufs": -13.6,
+        "truePeakDb": -3.57,
+        "sha256": "89f14c2938cf552bedba7938be8799caea852b99c6b6ef4886a3885e353efe9a"
+      },
+      "/assets/audio/zh/thermos.mp3": {
+        "gainDb": -3.86,
+        "loudnessLufs": -12.14,
+        "truePeakDb": -2.19,
+        "sha256": "9edeb03ddd032a5e7e310d227a9d9c4269c60d6f268f6556402bd85d50226fc7"
+      },
+      "/assets/audio/zh/thirsty.mp3": {
+        "gainDb": -0.14,
+        "loudnessLufs": -15.86,
+        "truePeakDb": -3.35,
+        "sha256": "6d42b282d8aee2d136f5cccf499bae208036c4715d452896a5c54f196f005afe"
+      },
+      "/assets/audio/zh/thunder.mp3": {
+        "gainDb": -3.56,
+        "loudnessLufs": -12.44,
+        "truePeakDb": -2.06,
+        "sha256": "6b6317cbaf7ecb5be70a5fdc997ec0c43792b6dfda1dca2ce7822728b46e2f87"
+      },
+      "/assets/audio/zh/tired.mp3": {
+        "gainDb": -0.59,
+        "loudnessLufs": -15.41,
+        "truePeakDb": -3.8,
+        "sha256": "98d6f6b9117545cf2b9e64b7ee8b23d9fe7793d6dcb684587aab5618c3c0abc8"
+      },
+      "/assets/audio/zh/tongue.mp3": {
+        "gainDb": -1.16,
+        "loudnessLufs": -14.84,
+        "truePeakDb": -3.44,
+        "sha256": "684f516ab610c6dada6cfa2d754f710494f0fb666b697312b5645024bab417a6"
+      },
+      "/assets/audio/zh/topic_belly_phrase.mp3": {
+        "gainDb": -1.25,
+        "loudnessLufs": -14.75,
+        "truePeakDb": -4.02,
+        "sha256": "2e9511182cf66d65bb0b687da6be091714258a228d8f8b847ee4fafa0acb1073"
+      },
+      "/assets/audio/zh/topic_belly_sentence.mp3": {
+        "gainDb": -2.22,
+        "loudnessLufs": -13.78,
+        "truePeakDb": -1.92,
+        "sha256": "a585339f874528c9bb46507c8866c3f7b3caa4e867f8a99fb1227a1a945fdb47"
+      },
+      "/assets/audio/zh/topic_bowl_phrase.mp3": {
+        "gainDb": -3.0,
+        "loudnessLufs": -13.0,
+        "truePeakDb": -3.39,
+        "sha256": "e484b33a9d09c3a53b0bb679bf48aff8c55bcb7ab65fd3e71f332d0dc6f5c573"
+      },
+      "/assets/audio/zh/topic_bowl_sentence.mp3": {
+        "gainDb": -3.72,
+        "loudnessLufs": -12.28,
+        "truePeakDb": -1.23,
+        "sha256": "c3768c132c62e5b1a5440933ec985ca78d6d01eac4decad5a98d5a4ff4ccf2d9"
+      },
+      "/assets/audio/zh/topic_chopsticks_phrase.mp3": {
+        "gainDb": -2.53,
+        "loudnessLufs": -13.47,
+        "truePeakDb": -3.89,
+        "sha256": "6cecec7b6ccf0acbc96130982a10218848d7dbc7721661c5b5e64fe2aa4b0bd5"
+      },
+      "/assets/audio/zh/topic_chopsticks_sentence.mp3": {
+        "gainDb": -3.61,
+        "loudnessLufs": -12.39,
+        "truePeakDb": -2.18,
+        "sha256": "ae853a68a9444d379e0f78e2f77ceaa4a9d7a0966a367c458d63948efc8800c3"
+      },
+      "/assets/audio/zh/topic_cloudy_phrase.mp3": {
+        "gainDb": -3.57,
+        "loudnessLufs": -12.43,
+        "truePeakDb": -3.76,
+        "sha256": "4c3f785abf5a5c1862f44f582c9ebf701eb4256936947702089d7857b0fdb5c9"
+      },
+      "/assets/audio/zh/topic_cloudy_sentence.mp3": {
+        "gainDb": -3.69,
+        "loudnessLufs": -12.31,
+        "truePeakDb": -3.23,
+        "sha256": "5fe7027a5256a0a6d907dc5dcbe9c1d05e8affbf4b605605f53c23a16a59fcc4"
+      },
+      "/assets/audio/zh/topic_cutting_board_phrase.mp3": {
+        "gainDb": -2.58,
+        "loudnessLufs": -13.42,
+        "truePeakDb": -4.09,
+        "sha256": "1be5249fd3dde6b180ce282777034bd3c1a6738107ad3c6aebf01bb82e292f0b"
+      },
+      "/assets/audio/zh/topic_cutting_board_sentence.mp3": {
+        "gainDb": -2.98,
+        "loudnessLufs": -13.02,
+        "truePeakDb": -1.87,
+        "sha256": "a2751fb8f4566bf1a628cd0eb173dbd146bd192142c5bde6aa504351359e9241"
+      },
+      "/assets/audio/zh/topic_dizzy_phrase.mp3": {
+        "gainDb": -2.55,
+        "loudnessLufs": -13.45,
+        "truePeakDb": -2.36,
+        "sha256": "8f6525ba3ccac5cedb8f2d72ffa757f544f2781e7a04deb0002ff5ae0cb84d12"
+      },
+      "/assets/audio/zh/topic_dizzy_sentence.mp3": {
+        "gainDb": -2.35,
+        "loudnessLufs": -13.65,
+        "truePeakDb": -2.11,
+        "sha256": "6ed0c4b42ed58c5dd83810f5274c86f8b3ed5212602434229152687d48f01970"
+      },
+      "/assets/audio/zh/topic_ears_phrase.mp3": {
+        "gainDb": -3.73,
+        "loudnessLufs": -12.27,
+        "truePeakDb": -3.24,
+        "sha256": "b177575be69e10c85e247995d2028d3272451d3f6dc3bd15bdf0ec2fb2ba771e"
+      },
+      "/assets/audio/zh/topic_ears_sentence.mp3": {
+        "gainDb": -2.9,
+        "loudnessLufs": -13.1,
+        "truePeakDb": -1.85,
+        "sha256": "13e8f67d2e46f7749494d10e86dc09fa9720213aeee5be6d10296062794cddc7"
+      },
+      "/assets/audio/zh/topic_eyes_phrase.mp3": {
+        "gainDb": -3.59,
+        "loudnessLufs": -12.41,
+        "truePeakDb": -2.83,
+        "sha256": "7a3ca2df0d0d586ba3de143b7e6ae9b112783c26ac4d72af600c88f0bfaf02b2"
+      },
+      "/assets/audio/zh/topic_eyes_sentence.mp3": {
+        "gainDb": -3.38,
+        "loudnessLufs": -12.62,
+        "truePeakDb": -1.75,
+        "sha256": "c45fd240e5a9e1f60eb01211be920704f8876894570a9668c41eb237aab9be61"
+      },
+      "/assets/audio/zh/topic_fork_phrase.mp3": {
+        "gainDb": -2.81,
+        "loudnessLufs": -13.19,
+        "truePeakDb": -3.98,
+        "sha256": "e671f212f540e97133575806289ac65c4be4d2260e33c41159b980cb1f74b7c8"
+      },
+      "/assets/audio/zh/topic_fork_sentence.mp3": {
+        "gainDb": -3.86,
+        "loudnessLufs": -12.14,
+        "truePeakDb": -1.76,
+        "sha256": "504ce583f6520002046c17e6ec24fb12614764525dd84e0790b79be9808dadbd"
+      },
+      "/assets/audio/zh/topic_hand_phrase.mp3": {
+        "gainDb": -2.49,
+        "loudnessLufs": -13.51,
+        "truePeakDb": -3.73,
+        "sha256": "7b510bb37b5a49e2a6ae3b1089d8fd6972e5d92ce91ed5726e2c12d465b1ef64"
+      },
+      "/assets/audio/zh/topic_hand_sentence.mp3": {
+        "gainDb": -3.51,
+        "loudnessLufs": -12.49,
+        "truePeakDb": -1.23,
+        "sha256": "98bcbc644fcbab8d57e036fef72c7e2bb901b2e0df547fc33b99c8ac0645c68b"
+      },
+      "/assets/audio/zh/topic_head_phrase.mp3": {
+        "gainDb": -1.35,
+        "loudnessLufs": -14.65,
+        "truePeakDb": -2.99,
+        "sha256": "e8089ebef0c1feb89ddecb9655cf820239cffbd8c37e9d3fa20861b039031800"
+      },
+      "/assets/audio/zh/topic_head_sentence.mp3": {
+        "gainDb": -2.66,
+        "loudnessLufs": -13.34,
+        "truePeakDb": -1.28,
+        "sha256": "5fbcde87deec610851aa74ad655a7b6bd425b2b67e2bd3e61872938d6726a6a7"
+      },
+      "/assets/audio/zh/topic_hot_phrase.mp3": {
+        "gainDb": -3.32,
+        "loudnessLufs": -12.68,
+        "truePeakDb": -3.54,
+        "sha256": "0aed94c275464bb76435feece212a45f7d198660a3f32a5efb9ae90332b87ce1"
+      },
+      "/assets/audio/zh/topic_hot_sentence.mp3": {
+        "gainDb": -2.56,
+        "loudnessLufs": -13.44,
+        "truePeakDb": -2.44,
+        "sha256": "716899a2c37874695f4969dbbd011f721d2a2b6b23520bf7193a1e48147b85ec"
+      },
+      "/assets/audio/zh/topic_hungry_phrase.mp3": {
+        "gainDb": -3.37,
+        "loudnessLufs": -12.63,
+        "truePeakDb": -3.74,
+        "sha256": "931880db4b20983073c508187e65c01443b8c287d2f8f6cf9157ed5e45a3ae46"
+      },
+      "/assets/audio/zh/topic_hungry_sentence.mp3": {
+        "gainDb": -2.71,
+        "loudnessLufs": -13.29,
+        "truePeakDb": -2.95,
+        "sha256": "5e9bb59cbfd40945636bc6a7df6111ff86772d8f7903c82f134824f63789f86e"
+      },
+      "/assets/audio/zh/topic_itchy_phrase.mp3": {
+        "gainDb": -3.91,
+        "loudnessLufs": -12.09,
+        "truePeakDb": -3.83,
+        "sha256": "7a5d1e60a4a4ad5abc81deb2b98735a25f23ea97de8b925ff7d0d7477a803642"
+      },
+      "/assets/audio/zh/topic_itchy_sentence.mp3": {
+        "gainDb": -3.52,
+        "loudnessLufs": -12.48,
+        "truePeakDb": -1.96,
+        "sha256": "8395c770a390a1d0c3027e4f2e19d26bf780e23ac646f198fbdcc723cf8adf5e"
+      },
+      "/assets/audio/zh/topic_knife_phrase.mp3": {
+        "gainDb": -2.6,
+        "loudnessLufs": -13.4,
+        "truePeakDb": -1.58,
+        "sha256": "7b03827adde1b8f38a638cbc5f1646ffa7813397f5b82a89cb59b3dfa56ee9b7"
+      },
+      "/assets/audio/zh/topic_knife_sentence.mp3": {
+        "gainDb": -2.89,
+        "loudnessLufs": -13.11,
+        "truePeakDb": -1.14,
+        "sha256": "9b2606de4d6a0c27628fcd087e561f6daee00dec98a675a29969247b3191aa80"
+      },
+      "/assets/audio/zh/topic_ladle_phrase.mp3": {
+        "gainDb": -2.43,
+        "loudnessLufs": -13.57,
+        "truePeakDb": -1.62,
+        "sha256": "1f02243abd058b1905c0945182bdfafbb4d3f396c3ed2409521f871f7f71409a"
+      },
+      "/assets/audio/zh/topic_ladle_sentence.mp3": {
+        "gainDb": -2.83,
+        "loudnessLufs": -13.17,
+        "truePeakDb": -2.36,
+        "sha256": "f067ba5f437126bf91a4b0de27e007036bf77033de44efa5fbee3b82984c24d6"
+      },
+      "/assets/audio/zh/topic_mouth_phrase.mp3": {
+        "gainDb": -2.59,
+        "loudnessLufs": -13.41,
+        "truePeakDb": -2.83,
+        "sha256": "e6adb031c0dc4b29d0d5f692e50371f22ec26fe77960de923a84a801fd6abd62"
+      },
+      "/assets/audio/zh/topic_mouth_sentence.mp3": {
+        "gainDb": -2.92,
+        "loudnessLufs": -13.08,
+        "truePeakDb": -1.96,
+        "sha256": "934df19b4218b255ea22add0de81d27208c7a74c5bb1b8fa934c2732cdedb8e7"
+      },
+      "/assets/audio/zh/topic_nauseous_phrase.mp3": {
+        "gainDb": -0.91,
+        "loudnessLufs": -15.09,
+        "truePeakDb": -4.08,
+        "sha256": "7a842d5b7f13402b87d5c591792cbcc22f0cda608111b36dec32060217f44a59"
+      },
+      "/assets/audio/zh/topic_nauseous_sentence.mp3": {
+        "gainDb": -1.59,
+        "loudnessLufs": -14.41,
+        "truePeakDb": -2.44,
+        "sha256": "3227ec973fbfaff6549fdf8edc0bd21b26af613fadbe25a611d36d51fe4a253d"
+      },
+      "/assets/audio/zh/topic_neck_phrase.mp3": {
+        "gainDb": -2.03,
+        "loudnessLufs": -13.97,
+        "truePeakDb": -3.16,
+        "sha256": "1e5c719f8a7e6ffb4e9395dee7f31bf87412d0e2676144b548112ce1b27d8171"
+      },
+      "/assets/audio/zh/topic_neck_sentence.mp3": {
+        "gainDb": -2.18,
+        "loudnessLufs": -13.82,
+        "truePeakDb": -2.0,
+        "sha256": "c1b58a048bdda7cc0ef95270a3a0307e7a9db753044b9cfd39f0b06c9b9ecbee"
+      },
+      "/assets/audio/zh/topic_nose_phrase.mp3": {
+        "gainDb": -2.49,
+        "loudnessLufs": -13.51,
+        "truePeakDb": -2.31,
+        "sha256": "0c2c73bc2d9366989a207a9e042a1f977bc1811d6bc4bffdd19f609f98230476"
+      },
+      "/assets/audio/zh/topic_nose_sentence.mp3": {
+        "gainDb": -2.5,
+        "loudnessLufs": -13.5,
+        "truePeakDb": -2.32,
+        "sha256": "391994e59f78fd58c51c076cb2fedd68a556e631fd8ff5032e524aad37b97502"
+      },
+      "/assets/audio/zh/topic_numbness_phrase.mp3": {
+        "gainDb": -3.18,
+        "loudnessLufs": -12.82,
+        "truePeakDb": -2.89,
+        "sha256": "25e2380eef0fca6049d2c03f444bf93518fc986bdd107b79ec913bcf281d393a"
+      },
+      "/assets/audio/zh/topic_numbness_sentence.mp3": {
+        "gainDb": -3.1,
+        "loudnessLufs": -12.9,
+        "truePeakDb": -1.77,
+        "sha256": "c2d14643376e890e892ff3573f330fad37ad87e5e2c18b6497de598a5f5d3893"
+      },
+      "/assets/audio/zh/topic_pain_phrase.mp3": {
+        "gainDb": -1.31,
+        "loudnessLufs": -14.69,
+        "truePeakDb": -3.16,
+        "sha256": "c5e05b3cb78ab29e6e96fa90caa8419e5cef30a518e3dd3959111ef820210f61"
+      },
+      "/assets/audio/zh/topic_pain_sentence.mp3": {
+        "gainDb": -1.23,
+        "loudnessLufs": -14.77,
+        "truePeakDb": -2.95,
+        "sha256": "d576d7eee44450b3ff6e741f57c5f6defc5fc8e5f16d245b4a768f3a4f7416f4"
+      },
+      "/assets/audio/zh/topic_plate_phrase.mp3": {
+        "gainDb": -1.44,
+        "loudnessLufs": -14.56,
+        "truePeakDb": -3.77,
+        "sha256": "eea6f1bc1d999fd56af7da69e38d0523b46e9b0ce4a5d34f352b86bd855253a5"
+      },
+      "/assets/audio/zh/topic_plate_sentence.mp3": {
+        "gainDb": -2.42,
+        "loudnessLufs": -13.58,
+        "truePeakDb": -3.36,
+        "sha256": "cebd7731b2328887f0ab117acd5a70ffd64a932a4438b66f88612c940a6d08fe"
+      },
+      "/assets/audio/zh/topic_pot_phrase.mp3": {
+        "gainDb": -2.43,
+        "loudnessLufs": -13.57,
+        "truePeakDb": -3.69,
+        "sha256": "65dc8c007d03599b847573f97af2d05fe5577de62dc750ad306c1e16f1c5ea5f"
+      },
+      "/assets/audio/zh/topic_pot_sentence.mp3": {
+        "gainDb": -2.95,
+        "loudnessLufs": -13.05,
+        "truePeakDb": -1.87,
+        "sha256": "6b400410d09931b3a8d994804eb39844d7ba5853b7169ca932316f9a7abb8f37"
+      },
+      "/assets/audio/zh/topic_rain_phrase.mp3": {
+        "gainDb": -3.13,
+        "loudnessLufs": -12.87,
+        "truePeakDb": -4.15,
+        "sha256": "be7eb2e71c8b38e8a83427e32b8208e86c59247fdc07b094b4e2523346a2b4cb"
+      },
+      "/assets/audio/zh/topic_rain_sentence.mp3": {
+        "gainDb": -3.93,
+        "loudnessLufs": -12.07,
+        "truePeakDb": -3.21,
+        "sha256": "b4c471e703b9c914f86c6d99eb41b4a6a1b50ed6e310b2bd5e9b76b378e60335"
+      },
+      "/assets/audio/zh/topic_shoulder_phrase.mp3": {
+        "gainDb": -2.97,
+        "loudnessLufs": -13.03,
+        "truePeakDb": -3.21,
+        "sha256": "a96c0dfbb7694d7b1bed45e46986a851cf34418e1d068c07cdb9517ecc19720d"
+      },
+      "/assets/audio/zh/topic_shoulder_sentence.mp3": {
+        "gainDb": -2.98,
+        "loudnessLufs": -13.02,
+        "truePeakDb": -1.21,
+        "sha256": "bee61614b103fa908ca4104a634fc27547db98c4d8ff500c0ef3919b6f9ebbf7"
+      },
+      "/assets/audio/zh/topic_spatula_phrase.mp3": {
+        "gainDb": -2.14,
+        "loudnessLufs": -13.86,
+        "truePeakDb": -3.42,
+        "sha256": "228edc1b0ba8ca12fb0a7a193051c0297e32195047945452219d752ae248779f"
+      },
+      "/assets/audio/zh/topic_spatula_sentence.mp3": {
+        "gainDb": -2.58,
+        "loudnessLufs": -13.42,
+        "truePeakDb": -3.36,
+        "sha256": "4ebe674649d2799e7d707f5fd79a00d2558291807b1e3907ffa8cc311b828a95"
+      },
+      "/assets/audio/zh/topic_spoon_phrase.mp3": {
+        "gainDb": -2.91,
+        "loudnessLufs": -13.09,
+        "truePeakDb": -3.79,
+        "sha256": "3906aec337a2025b5253ab3fe2ed80e6367d5e0044244fc4c1ec099640af16f3"
+      },
+      "/assets/audio/zh/topic_spoon_sentence.mp3": {
+        "gainDb": -3.54,
+        "loudnessLufs": -12.46,
+        "truePeakDb": -1.76,
+        "sha256": "a1ec5f09be19e6f71210f40e7919cba7bb4852f3ed1892a731144ce24cb66ce7"
+      },
+      "/assets/audio/zh/topic_sunny_phrase.mp3": {
+        "gainDb": -3.15,
+        "loudnessLufs": -12.85,
+        "truePeakDb": -3.46,
+        "sha256": "4d83e3a84c54de9541e34bfa3858bd388175a87171953ca650779905c42d1446"
+      },
+      "/assets/audio/zh/topic_sunny_sentence.mp3": {
+        "gainDb": -3.5,
+        "loudnessLufs": -12.5,
+        "truePeakDb": -3.26,
+        "sha256": "1fd9975d4f8cee392b71895fa4817519cd600818cdb5551bc7a6a7cbc535ee0d"
+      },
+      "/assets/audio/zh/topic_teeth_phrase.mp3": {
+        "gainDb": -1.7,
+        "loudnessLufs": -14.3,
+        "truePeakDb": -3.46,
+        "sha256": "a306ca6b9d08d269ee7bdb29e187362b51e4cea56648737743884e84f78d1fc7"
+      },
+      "/assets/audio/zh/topic_teeth_sentence.mp3": {
+        "gainDb": -2.33,
+        "loudnessLufs": -13.67,
+        "truePeakDb": -1.74,
+        "sha256": "101a8d66b9ea50d582df1b1451c0701eb34de100c7babc8b954ca2267bb7ee1e"
+      },
+      "/assets/audio/zh/topic_thirsty_phrase.mp3": {
+        "gainDb": -0.26,
+        "loudnessLufs": -15.74,
+        "truePeakDb": -3.53,
+        "sha256": "48c9bbe9217af6f397a7d197e08afdb05404b29402adc6daba053fd5f42442c9"
+      },
+      "/assets/audio/zh/topic_thirsty_sentence.mp3": {
+        "gainDb": -0.83,
+        "loudnessLufs": -15.17,
+        "truePeakDb": -2.39,
+        "sha256": "6778d6023aaa2bc0b254af659d13df5c0437ec2c759191662e4574ed8193bfa2"
+      },
+      "/assets/audio/zh/topic_thunder_phrase.mp3": {
+        "gainDb": -2.97,
+        "loudnessLufs": -13.03,
+        "truePeakDb": -1.94,
+        "sha256": "1a3f0b8b9388754d9569f83b0803933d6d54905d41f19901dddde0b8de1d46f7"
+      },
+      "/assets/audio/zh/topic_thunder_sentence.mp3": {
+        "gainDb": -4.11,
+        "loudnessLufs": -11.89,
+        "truePeakDb": -2.77,
+        "sha256": "fb81ec72d200aab49df960019cddfca26c896ca5b3adbaa8b8f515d2c2214b57"
+      },
+      "/assets/audio/zh/topic_tired_phrase.mp3": {
+        "gainDb": -3.61,
+        "loudnessLufs": -12.39,
+        "truePeakDb": -3.65,
+        "sha256": "8a63ccb1aa57bd4d8157943d2f8e94332a19a7e788b8d1b76a00363e117782f1"
+      },
+      "/assets/audio/zh/topic_tired_sentence.mp3": {
+        "gainDb": -2.9,
+        "loudnessLufs": -13.1,
+        "truePeakDb": -2.95,
+        "sha256": "f925479196f119ce15aa6ff3e35cdf8fbf3a2f48a8a7043dce8e2ae9b8129913"
+      },
+      "/assets/audio/zh/topic_tongue_phrase.mp3": {
+        "gainDb": -1.26,
+        "loudnessLufs": -14.74,
+        "truePeakDb": -3.24,
+        "sha256": "414ae559226fdb39d41a82200f6201f40ba828534e0168ef873fe63c1b8d9678"
+      },
+      "/assets/audio/zh/topic_tongue_sentence.mp3": {
+        "gainDb": -1.9,
+        "loudnessLufs": -14.1,
+        "truePeakDb": -1.48,
+        "sha256": "7cf29075303b30a67b02b651f2b63b32f54bbd82ebe9f8418fc55c367effe608"
+      },
+      "/assets/audio/zh/topic_wind_phrase.mp3": {
+        "gainDb": -1.62,
+        "loudnessLufs": -14.38,
+        "truePeakDb": -4.5,
+        "sha256": "63efc193464dc348372ed3fde1afea85b9fa57df4b306b20e1b7c396b02a360c"
+      },
+      "/assets/audio/zh/topic_wind_sentence.mp3": {
+        "gainDb": -3.13,
+        "loudnessLufs": -12.87,
+        "truePeakDb": -3.14,
+        "sha256": "2f9bca4fd46b3ffcba45c09b85d947fa58a8b8efa5f1bf17e2014b994073a798"
+      },
+      "/assets/audio/zh/tv.mp3": {
+        "gainDb": -3.24,
+        "loudnessLufs": -12.76,
+        "truePeakDb": -3.52,
+        "sha256": "9b281a2c5d74b1d011e8580950f4ef952d68f7de2b051eef87c028dd44e9e206"
+      },
+      "/assets/audio/zh/wind.mp3": {
+        "gainDb": -3.51,
+        "loudnessLufs": -12.49,
+        "truePeakDb": -2.35,
+        "sha256": "8247add23fafa0b060bff8f43be2912e0b725f1240f6b1a197f4eeca68a67816"
+      },
+      "/assets/audio/zh/window.mp3": {
+        "gainDb": -1.54,
+        "loudnessLufs": -14.46,
+        "truePeakDb": -3.63,
+        "sha256": "e2f29a500aa8155a50f397cddb637d141ab9403cab9a6d527f723adf114a5592"
+      }
+    }
+  }
 }
