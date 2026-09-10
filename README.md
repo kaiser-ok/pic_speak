@@ -1,6 +1,6 @@
 # 一起說
 
-手機看圖發音練習。共 67 張練習卡、79 組詞彙與短句、158 個中台語音檔。分類為生活照片（25）、生活需求（5）、身體部位（12）、廚房用具（10）、天氣（5）、身體感受（10）；也可選全部。生活需求重用「冷」圖卡，另增加 4 張圖片。切換分類不自動發音，左右滑動僅在所選分類換圖。
+手機看圖發音練習。共 67 張練習卡、137 組詞彙與短句、274 個中台語音檔。分類為生活照片（25）、生活需求（5）、身體部位（12）、廚房用具（10）、天氣（5）、身體感受（10）；也可選全部。生活需求重用「冷」圖卡，另增加 4 張圖片。切換分類不自動發音，左右滑動僅在所選分類換圖。
 
 預設每次點擊依序播放一次中文、一次台語，中間停頓 0.65 秒；再點會從頭播放，聲音不重疊。可選擇只聽中文或台語。左右滑動、上一張／下一張及鍵盤左右鍵均可換圖。
 
@@ -13,7 +13,7 @@
 - 網頁直接位於 `dist/`，沒有第三方前端套件、登入程式或分析追蹤。
 - 原圖保留在 `pic/`。部署圖片在 `dist/assets/photos/`，縮至 1080 像素寬的 WebP 並保留方向、比例，移除原圖 EXIF。
 - `dist/data.json` 是實際使用的照片清單、詞彙和百分比點選框 `[left, top, width, height]`。
-- 來源標註見 `dist/sources.html`。67 詞使用教育部詞典原始台語錄音；2 詞使用 iTaigi／意傳科技台語合成發音；生活需求的 10 段短語與句子由意傳服務以完整台羅合成，沒有拼接單字錄音；中文使用 macOS Meijia。
+- 來源標註見 `dist/sources.html`。67 詞使用教育部詞典原始台語錄音；2 詞使用 iTaigi／意傳科技台語合成發音；生活需求的 10 段、生活照片的 58 段短語與句子由意傳服務以完整台羅合成，沒有拼接單字錄音；中文使用 macOS Meijia。
 - 新增圖片在 `dist/assets/pictograms/`，保留 ARASAAC 原始 PNG。作者 Sergio Palao，所有者 Gobierno de Aragón。依 CC BY-NC-SA 非商業授權使用；衍生圖卡須以相同授權分享。逐張來源見 `content/image-sources.json`，官方條款：https://arasaac.org/terms-of-use 。此授權不改變教育部錄音或原始生活照片的各自權利。
 - 新增詞彙設定在 `content/expansion.json`；執行 `scripts/expand_content.py`（相同兩個詞典參數）可合併為完整資料。執行 `python3 scripts/build_sources.py` 更新來源頁。
 - `scripts/prepare_content.py` 可用 g0v/moedict-data-twblg 的 `dict-twblg.json` 與 `dict-twblg-ext.json` 重建資料。
@@ -29,8 +29,16 @@
 
 - 詞句設定：`content/needs.json`；新增圖片來源：`content/needs-image-sources.json`。4 張新 ARASAAC 原圖採 CC BY-NC-SA 4.0，作者與所有權依來源頁標註。
 - 重建流程：在原本詞彙資料準備好後執行 `python3 scripts/prepare_needs.py --audio-only`、`python3 scripts/prepare_needs_audio.py`、`python3 scripts/prepare_needs.py`、`python3 scripts/build_sources.py`。語音準備需要網路、macOS Meijia 與 ffmpeg。
-- 若重新執行 `expand_content.py`，接著執行 `prepare_needs.py` 以補回生活需求卡，再更新來源頁。
-- 狀態回歸測試：`node --test scripts/practice-state.test.mjs`，涵蓋三段長度與切換圖卡後的長度重設；完整驗證也會執行此測試。
+- 若重新執行 `expand_content.py`，接著執行 `prepare_needs.py` 以補回生活需求卡，並執行 `prepare_life_phrases.py` 以補上生活照片短句，再更新來源頁。
+- 狀態回歸測試：`node --test scripts/practice-state.test.mjs`，涵蓋三段長度、切換圖卡及物品後的長度重設、多物品照片、同一物品重播，以及其他分類的原有單字模式；完整驗證也會執行此測試。
+
+## 生活照片長短句
+
+25 張生活照片的 29 種物品都有單字、短語、句子三種長度，例如「電話 → 打電話 → 我要打電話」。照片上的框與物品按鈕保留物品名稱，發音卡顯示目前長度。切換長度不會自動播放；點目前物品會重播目前長度，改點另一個物品會回到它的單字並播放。換照片也會回到第一個物品的單字。
+
+- 設定檔：`content/life-phrases.json`。同一物品出現在不同照片時共用詞句與音檔。
+- 新增或修改後依序執行：`python3 scripts/prepare_life_phrases.py --audio-only`、`python3 scripts/prepare_needs_audio.py /tmp/speak-life-audio.json --prefix life_`、`python3 scripts/prepare_life_phrases.py`、`python3 scripts/build_sources.py`。語音腳本共用整句產生與下載流程。
+- 台語短句採固定的一種讀音，不將詞典列出的斜線腔調直接送入合成；例：鞋採 ê、吹風機採 tshue-hong-ki、雞卵採 ke-nn̄g、曆日採 la̍h-ji̍t。語句用於練習表達，不代表照片中的人物正在執行該動作。
 
 ## 驗證範圍
 

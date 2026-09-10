@@ -856,6 +856,586 @@
       "twAudio": "/assets/audio/tw/need_help_sentence.mp3",
       "sourceUrl": "https://itaigi.tw/",
       "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tshi%C3%A1nn+k%C4%81+gu%C3%A1+t%C3%A0u-sann-k%C4%81ng"
+    },
+    "life_fan_phrase": {
+      "zh": "開電風扇",
+      "tw": "開電風",
+      "roman": "khui tiān-hong",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_fan_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_fan_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khui+ti%C4%81n-hong"
+    },
+    "life_fan_sentence": {
+      "zh": "我要開電風扇",
+      "tw": "我欲開電風",
+      "roman": "guá beh khui tiān-hong",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_fan_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_fan_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+khui+ti%C4%81n-hong"
+    },
+    "life_banana_phrase": {
+      "zh": "吃香蕉",
+      "tw": "食弓蕉",
+      "roman": "tsia̍h king-tsio",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_banana_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_banana_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsia%CC%8Dh+king-tsio"
+    },
+    "life_banana_sentence": {
+      "zh": "我要吃香蕉",
+      "tw": "我欲食弓蕉",
+      "roman": "guá beh tsia̍h king-tsio",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_banana_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_banana_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tsia%CC%8Dh+king-tsio"
+    },
+    "life_dog_phrase": {
+      "zh": "看狗",
+      "tw": "看狗",
+      "roman": "khuànn káu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_dog_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_dog_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khu%C3%A0nn+k%C3%A1u"
+    },
+    "life_dog_sentence": {
+      "zh": "我在看狗",
+      "tw": "我咧看狗",
+      "roman": "guá teh khuànn káu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_dog_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_dog_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+teh+khu%C3%A0nn+k%C3%A1u"
+    },
+    "life_phone_phrase": {
+      "zh": "打電話",
+      "tw": "拍電話",
+      "roman": "phah tiān-uē",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_phone_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_phone_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=phah+ti%C4%81n-u%C4%93"
+    },
+    "life_phone_sentence": {
+      "zh": "我要打電話",
+      "tw": "我欲拍電話",
+      "roman": "guá beh phah tiān-uē",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_phone_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_phone_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+phah+ti%C4%81n-u%C4%93"
+    },
+    "life_tv_phrase": {
+      "zh": "看電視",
+      "tw": "看電視",
+      "roman": "khuànn tiān-sī",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_tv_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_tv_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khu%C3%A0nn+ti%C4%81n-s%C4%AB"
+    },
+    "life_tv_sentence": {
+      "zh": "我要看電視",
+      "tw": "我欲看電視",
+      "roman": "guá beh khuànn tiān-sī",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_tv_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_tv_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+khu%C3%A0nn+ti%C4%81n-s%C4%AB"
+    },
+    "life_thermos_phrase": {
+      "zh": "拿保溫杯",
+      "tw": "提保溫杯",
+      "roman": "the̍h pó-un-pue",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_thermos_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_thermos_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+p%C3%B3-un-pue"
+    },
+    "life_thermos_sentence": {
+      "zh": "幫我拿保溫杯",
+      "tw": "共我提保溫杯",
+      "roman": "kā guá the̍h pó-un-pue",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_thermos_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_thermos_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+p%C3%B3-un-pue"
+    },
+    "life_mask_phrase": {
+      "zh": "戴口罩",
+      "tw": "掛喙罨",
+      "roman": "kuà tshuì-am",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_mask_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_mask_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=ku%C3%A0+tshu%C3%AC-am"
+    },
+    "life_mask_sentence": {
+      "zh": "我要戴口罩",
+      "tw": "我欲掛喙罨",
+      "roman": "guá beh kuà tshuì-am",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_mask_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_mask_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+ku%C3%A0+tshu%C3%AC-am"
+    },
+    "life_remote_phrase": {
+      "zh": "拿遙控器",
+      "tw": "提遙控器",
+      "roman": "the̍h iâu-khòng-khì",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_remote_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_remote_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+i%C3%A2u-kh%C3%B2ng-kh%C3%AC"
+    },
+    "life_remote_sentence": {
+      "zh": "幫我拿遙控器",
+      "tw": "共我提遙控器",
+      "roman": "kā guá the̍h iâu-khòng-khì",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_remote_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_remote_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+i%C3%A2u-kh%C3%B2ng-kh%C3%AC"
+    },
+    "life_slippers_phrase": {
+      "zh": "穿拖鞋",
+      "tw": "穿淺拖仔",
+      "roman": "tshīng tshián-thua-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_slippers_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_slippers_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsh%C4%ABng+tshi%C3%A1n-thua-%C3%A1"
+    },
+    "life_slippers_sentence": {
+      "zh": "我要穿拖鞋",
+      "tw": "我欲穿淺拖仔",
+      "roman": "guá beh tshīng tshián-thua-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_slippers_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_slippers_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tsh%C4%ABng+tshi%C3%A1n-thua-%C3%A1"
+    },
+    "life_shoes_phrase": {
+      "zh": "穿鞋子",
+      "tw": "穿鞋",
+      "roman": "tshīng ê",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_shoes_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_shoes_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsh%C4%ABng+%C3%AA"
+    },
+    "life_shoes_sentence": {
+      "zh": "我要穿鞋子",
+      "tw": "我欲穿鞋",
+      "roman": "guá beh tshīng ê",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_shoes_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_shoes_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tsh%C4%ABng+%C3%AA"
+    },
+    "life_hairdryer_phrase": {
+      "zh": "拿吹風機",
+      "tw": "提吹風機",
+      "roman": "the̍h tshue-hong-ki",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_hairdryer_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_hairdryer_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+tshue-hong-ki"
+    },
+    "life_hairdryer_sentence": {
+      "zh": "幫我拿吹風機",
+      "tw": "共我提吹風機",
+      "roman": "kā guá the̍h tshue-hong-ki",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_hairdryer_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_hairdryer_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+tshue-hong-ki"
+    },
+    "life_mushroom_phrase": {
+      "zh": "煮香菇",
+      "tw": "煮香菇",
+      "roman": "tsú hiunn-koo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_mushroom_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_mushroom_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=ts%C3%BA+hiunn-koo"
+    },
+    "life_mushroom_sentence": {
+      "zh": "我要煮香菇",
+      "tw": "我欲煮香菇",
+      "roman": "guá beh tsú hiunn-koo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_mushroom_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_mushroom_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+ts%C3%BA+hiunn-koo"
+    },
+    "life_egg_phrase": {
+      "zh": "煮雞蛋",
+      "tw": "煮雞卵",
+      "roman": "tsú ke-nn̄g",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_egg_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_egg_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=ts%C3%BA+ke-nn%CC%84g"
+    },
+    "life_egg_sentence": {
+      "zh": "我要煮雞蛋",
+      "tw": "我欲煮雞卵",
+      "roman": "guá beh tsú ke-nn̄g",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_egg_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_egg_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+ts%C3%BA+ke-nn%CC%84g"
+    },
+    "life_fridge_phrase": {
+      "zh": "開冰箱",
+      "tw": "開冰箱",
+      "roman": "khui ping-siunn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_fridge_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_fridge_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khui+ping-siunn"
+    },
+    "life_fridge_sentence": {
+      "zh": "我要開冰箱",
+      "tw": "我欲開冰箱",
+      "roman": "guá beh khui ping-siunn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_fridge_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_fridge_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+khui+ping-siunn"
+    },
+    "life_microwave_phrase": {
+      "zh": "用微波爐",
+      "tw": "用微波爐",
+      "roman": "īng bî-pho-lôo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_microwave_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_microwave_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=%C4%ABng+b%C3%AE-pho-l%C3%B4o"
+    },
+    "life_microwave_sentence": {
+      "zh": "我要用微波爐",
+      "tw": "我欲用微波爐",
+      "roman": "guá beh īng bî-pho-lôo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_microwave_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_microwave_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+%C4%ABng+b%C3%AE-pho-l%C3%B4o"
+    },
+    "life_sink_phrase": {
+      "zh": "洗水槽",
+      "tw": "洗水槽",
+      "roman": "sé tsuí-tsô",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_sink_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_sink_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=s%C3%A9+tsu%C3%AD-ts%C3%B4"
+    },
+    "life_sink_sentence": {
+      "zh": "我要洗水槽",
+      "tw": "我欲洗水槽",
+      "roman": "guá beh sé tsuí-tsô",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_sink_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_sink_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+s%C3%A9+tsu%C3%AD-ts%C3%B4"
+    },
+    "life_faucet_phrase": {
+      "zh": "開水龍頭",
+      "tw": "開水道頭",
+      "roman": "khui tsuí-tō-thâu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_faucet_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_faucet_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khui+tsu%C3%AD-t%C5%8D-th%C3%A2u"
+    },
+    "life_faucet_sentence": {
+      "zh": "幫我開水龍頭",
+      "tw": "共我開水道頭",
+      "roman": "kā guá khui tsuí-tō-thâu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_faucet_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_faucet_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+khui+tsu%C3%AD-t%C5%8D-th%C3%A2u"
+    },
+    "life_kettle_phrase": {
+      "zh": "拿茶壺",
+      "tw": "提茶罐",
+      "roman": "the̍h tê-kuàn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_kettle_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_kettle_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+t%C3%AA-ku%C3%A0n"
+    },
+    "life_kettle_sentence": {
+      "zh": "幫我拿茶壺",
+      "tw": "共我提茶罐",
+      "roman": "kā guá the̍h tê-kuàn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_kettle_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_kettle_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+t%C3%AA-ku%C3%A0n"
+    },
+    "life_hotwater_phrase": {
+      "zh": "拿熱水瓶",
+      "tw": "提滾水罐",
+      "roman": "the̍h kún-tsuí-kuàn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_hotwater_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_hotwater_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+k%C3%BAn-tsu%C3%AD-ku%C3%A0n"
+    },
+    "life_hotwater_sentence": {
+      "zh": "幫我拿熱水瓶",
+      "tw": "共我提滾水罐",
+      "roman": "kā guá the̍h kún-tsuí-kuàn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_hotwater_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_hotwater_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+k%C3%BAn-tsu%C3%AD-ku%C3%A0n"
+    },
+    "life_book_phrase": {
+      "zh": "看書",
+      "tw": "看冊",
+      "roman": "khuànn tsheh",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_book_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_book_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khu%C3%A0nn+tsheh"
+    },
+    "life_book_sentence": {
+      "zh": "我要看書",
+      "tw": "我欲看冊",
+      "roman": "guá beh khuànn tsheh",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_book_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_book_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+khu%C3%A0nn+tsheh"
+    },
+    "life_computer_phrase": {
+      "zh": "用電腦",
+      "tw": "用電腦",
+      "roman": "īng tiān-náu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_computer_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_computer_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=%C4%ABng+ti%C4%81n-n%C3%A1u"
+    },
+    "life_computer_sentence": {
+      "zh": "我要用電腦",
+      "tw": "我欲用電腦",
+      "roman": "guá beh īng tiān-náu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_computer_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_computer_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+%C4%ABng+ti%C4%81n-n%C3%A1u"
+    },
+    "life_ac_phrase": {
+      "zh": "開冷氣",
+      "tw": "開冷氣",
+      "roman": "khui líng-khì",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_ac_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_ac_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khui+l%C3%ADng-kh%C3%AC"
+    },
+    "life_ac_sentence": {
+      "zh": "幫我開冷氣",
+      "tw": "共我開冷氣",
+      "roman": "kā guá khui líng-khì",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_ac_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_ac_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+khui+l%C3%ADng-kh%C3%AC"
+    },
+    "life_calendar_phrase": {
+      "zh": "看月曆",
+      "tw": "看曆日",
+      "roman": "khuànn la̍h-ji̍t",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_calendar_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_calendar_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khu%C3%A0nn+la%CC%8Dh-ji%CC%8Dt"
+    },
+    "life_calendar_sentence": {
+      "zh": "我要看月曆",
+      "tw": "我欲看曆日",
+      "roman": "guá beh khuànn la̍h-ji̍t",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_calendar_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_calendar_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+khu%C3%A0nn+la%CC%8Dh-ji%CC%8Dt"
+    },
+    "life_bed_phrase": {
+      "zh": "躺在床上",
+      "tw": "倒佇床頂",
+      "roman": "tó tī tshn̂g-tíng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_bed_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_bed_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=t%C3%B3+t%C4%AB+tshn%CC%82g-t%C3%ADng"
+    },
+    "life_bed_sentence": {
+      "zh": "我要躺在床上",
+      "tw": "我欲倒佇床頂",
+      "roman": "guá beh tó tī tshn̂g-tíng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_bed_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_bed_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+t%C3%B3+t%C4%AB+tshn%CC%82g-t%C3%ADng"
+    },
+    "life_window_phrase": {
+      "zh": "開窗戶",
+      "tw": "開窗",
+      "roman": "khui thang",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_window_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_window_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=khui+thang"
+    },
+    "life_window_sentence": {
+      "zh": "幫我開窗戶",
+      "tw": "共我開窗",
+      "roman": "kā guá khui thang",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_window_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_window_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+khui+thang"
+    },
+    "life_mirror_phrase": {
+      "zh": "照鏡子",
+      "tw": "照鏡",
+      "roman": "tsiò kiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_mirror_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_mirror_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsi%C3%B2+ki%C3%A0nn"
+    },
+    "life_mirror_sentence": {
+      "zh": "我要照鏡子",
+      "tw": "我欲照鏡",
+      "roman": "guá beh tsiò kiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_mirror_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_mirror_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tsi%C3%B2+ki%C3%A0nn"
+    },
+    "life_altar_phrase": {
+      "zh": "擦神桌",
+      "tw": "拭神桌",
+      "roman": "tshit sîn-toh",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_altar_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_altar_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tshit+s%C3%AEn-toh"
+    },
+    "life_altar_sentence": {
+      "zh": "我要擦神桌",
+      "tw": "我欲拭神桌",
+      "roman": "guá beh tshit sîn-toh",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_altar_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_altar_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tshit+s%C3%AEn-toh"
+    },
+    "life_bp_phrase": {
+      "zh": "量血壓",
+      "tw": "磅血壓",
+      "roman": "pōng hueh-ap",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_bp_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_bp_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=p%C5%8Dng+hueh-ap"
+    },
+    "life_bp_sentence": {
+      "zh": "我要量血壓",
+      "tw": "我欲磅血壓",
+      "roman": "guá beh pōng hueh-ap",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_bp_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_bp_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+p%C5%8Dng+hueh-ap"
+    },
+    "life_scale_phrase": {
+      "zh": "量體重",
+      "tw": "磅體重",
+      "roman": "pōng thé-tāng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_scale_phrase.mp3",
+      "twAudio": "/assets/audio/tw/life_scale_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=p%C5%8Dng+th%C3%A9-t%C4%81ng"
+    },
+    "life_scale_sentence": {
+      "zh": "我要量體重",
+      "tw": "我欲磅體重",
+      "roman": "guá beh pōng thé-tāng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/life_scale_sentence.mp3",
+      "twAudio": "/assets/audio/tw/life_scale_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+p%C5%8Dng+th%C3%A9-t%C4%81ng"
     }
   },
   "photos": [
@@ -873,6 +1453,11 @@
             9,
             83,
             83
+          ],
+          "levels": [
+            "fan",
+            "life_fan_phrase",
+            "life_fan_sentence"
           ]
         }
       ],
@@ -893,6 +1478,11 @@
             43,
             80,
             39
+          ],
+          "levels": [
+            "banana",
+            "life_banana_phrase",
+            "life_banana_sentence"
           ]
         }
       ],
@@ -913,6 +1503,11 @@
             29,
             63,
             49
+          ],
+          "levels": [
+            "dog",
+            "life_dog_phrase",
+            "life_dog_sentence"
           ]
         }
       ],
@@ -933,6 +1528,11 @@
             20,
             76,
             70
+          ],
+          "levels": [
+            "phone",
+            "life_phone_phrase",
+            "life_phone_sentence"
           ]
         }
       ],
@@ -953,6 +1553,11 @@
             31,
             57,
             27
+          ],
+          "levels": [
+            "tv",
+            "life_tv_phrase",
+            "life_tv_sentence"
           ]
         }
       ],
@@ -973,6 +1578,11 @@
             33,
             31,
             55
+          ],
+          "levels": [
+            "thermos",
+            "life_thermos_phrase",
+            "life_thermos_sentence"
           ]
         }
       ],
@@ -993,6 +1603,11 @@
             36,
             61,
             54
+          ],
+          "levels": [
+            "mask",
+            "life_mask_phrase",
+            "life_mask_sentence"
           ]
         }
       ],
@@ -1013,6 +1628,11 @@
             31,
             60,
             66
+          ],
+          "levels": [
+            "remote",
+            "life_remote_phrase",
+            "life_remote_sentence"
           ]
         }
       ],
@@ -1033,6 +1653,11 @@
             46,
             43,
             37
+          ],
+          "levels": [
+            "slippers",
+            "life_slippers_phrase",
+            "life_slippers_sentence"
           ]
         }
       ],
@@ -1053,6 +1678,11 @@
             22,
             53,
             36
+          ],
+          "levels": [
+            "shoes",
+            "life_shoes_phrase",
+            "life_shoes_sentence"
           ]
         },
         {
@@ -1062,6 +1692,11 @@
             39,
             36,
             32
+          ],
+          "levels": [
+            "slippers",
+            "life_slippers_phrase",
+            "life_slippers_sentence"
           ]
         }
       ],
@@ -1082,6 +1717,11 @@
             40,
             51,
             37
+          ],
+          "levels": [
+            "hairdryer",
+            "life_hairdryer_phrase",
+            "life_hairdryer_sentence"
           ]
         }
       ],
@@ -1102,6 +1742,11 @@
             17,
             56,
             60
+          ],
+          "levels": [
+            "mushroom",
+            "life_mushroom_phrase",
+            "life_mushroom_sentence"
           ]
         }
       ],
@@ -1122,6 +1767,11 @@
             32,
             22,
             13
+          ],
+          "levels": [
+            "egg",
+            "life_egg_phrase",
+            "life_egg_sentence"
           ]
         }
       ],
@@ -1142,6 +1792,11 @@
             14,
             96,
             84
+          ],
+          "levels": [
+            "fridge",
+            "life_fridge_phrase",
+            "life_fridge_sentence"
           ]
         }
       ],
@@ -1162,6 +1817,11 @@
             60,
             42,
             28
+          ],
+          "levels": [
+            "microwave",
+            "life_microwave_phrase",
+            "life_microwave_sentence"
           ]
         }
       ],
@@ -1182,6 +1842,11 @@
             70,
             49,
             24
+          ],
+          "levels": [
+            "sink",
+            "life_sink_phrase",
+            "life_sink_sentence"
           ]
         },
         {
@@ -1191,6 +1856,11 @@
             53,
             18,
             17
+          ],
+          "levels": [
+            "faucet",
+            "life_faucet_phrase",
+            "life_faucet_sentence"
           ]
         }
       ],
@@ -1211,6 +1881,11 @@
             57,
             37,
             28
+          ],
+          "levels": [
+            "kettle",
+            "life_kettle_phrase",
+            "life_kettle_sentence"
           ]
         },
         {
@@ -1220,6 +1895,11 @@
             39,
             20,
             18
+          ],
+          "levels": [
+            "hotwater",
+            "life_hotwater_phrase",
+            "life_hotwater_sentence"
           ]
         }
       ],
@@ -1240,6 +1920,11 @@
             10,
             79,
             77
+          ],
+          "levels": [
+            "hotwater",
+            "life_hotwater_phrase",
+            "life_hotwater_sentence"
           ]
         }
       ],
@@ -1260,6 +1945,11 @@
             40,
             28,
             20
+          ],
+          "levels": [
+            "book",
+            "life_book_phrase",
+            "life_book_sentence"
           ]
         },
         {
@@ -1269,6 +1959,11 @@
             40,
             30,
             24
+          ],
+          "levels": [
+            "computer",
+            "life_computer_phrase",
+            "life_computer_sentence"
           ]
         }
       ],
@@ -1289,6 +1984,11 @@
             4,
             61,
             37
+          ],
+          "levels": [
+            "ac",
+            "life_ac_phrase",
+            "life_ac_sentence"
           ]
         },
         {
@@ -1298,6 +1998,11 @@
             47,
             42,
             49
+          ],
+          "levels": [
+            "calendar",
+            "life_calendar_phrase",
+            "life_calendar_sentence"
           ]
         }
       ],
@@ -1318,6 +2023,11 @@
             57,
             92,
             37
+          ],
+          "levels": [
+            "bed",
+            "life_bed_phrase",
+            "life_bed_sentence"
           ]
         },
         {
@@ -1327,6 +2037,11 @@
             14,
             55,
             38
+          ],
+          "levels": [
+            "window",
+            "life_window_phrase",
+            "life_window_sentence"
           ]
         }
       ],
@@ -1347,6 +2062,11 @@
             25,
             48,
             34
+          ],
+          "levels": [
+            "mirror",
+            "life_mirror_phrase",
+            "life_mirror_sentence"
           ]
         }
       ],
@@ -1367,6 +2087,11 @@
             62,
             78,
             32
+          ],
+          "levels": [
+            "altar",
+            "life_altar_phrase",
+            "life_altar_sentence"
           ]
         }
       ],
@@ -1387,6 +2112,11 @@
             35,
             43,
             43
+          ],
+          "levels": [
+            "bp",
+            "life_bp_phrase",
+            "life_bp_sentence"
           ]
         }
       ],
@@ -1407,6 +2137,11 @@
             29,
             70,
             48
+          ],
+          "levels": [
+            "scale",
+            "life_scale_phrase",
+            "life_scale_sentence"
           ]
         }
       ],

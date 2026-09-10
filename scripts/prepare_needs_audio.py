@@ -1,10 +1,14 @@
 """Prepare complete utterances without concatenating dictionary clips."""
-import json, subprocess, tempfile, urllib.request
+import argparse, json, subprocess, tempfile, urllib.request, time
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-data = json.loads(Path('/tmp/speak-needs-audio.json').read_text())
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('data', nargs='?', default='/tmp/speak-needs-audio.json')
+parser.add_argument('--prefix', default='need_')
+args = parser.parse_args()
+data = json.loads(Path(args.data).read_text())
 for key, word in data['words'].items():
-    if not key.startswith('need_'):
+    if not key.startswith(args.prefix):
         continue
     for language in ['zh', 'tw']:
         output = ROOT / 'dist' / word[language + 'Audio'].lstrip('/')
@@ -19,6 +23,7 @@ for key, word in data['words'].items():
             else:
                 with urllib.request.urlopen(word['recordingUrl'], timeout=50) as response:
                     target.write_bytes(response.read())
+                time.sleep(1)
             assert target.stat().st_size > 1000, (key, language, 'Empty audio')
             subprocess.run(['ffmpeg', '-v', 'error', '-i', str(target), '-f', 'null', '-'], check=True)
             output.parent.mkdir(parents=True, exist_ok=True)

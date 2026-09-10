@@ -1,0 +1,379 @@
+[
+  {
+    "word": "fan",
+    "phrase": {
+      "zh": "開電風扇",
+      "tw": "開電風",
+      "roman": "khui tiān-hong"
+    },
+    "sentence": {
+      "zh": "我要開電風扇",
+      "tw": "我欲開電風",
+      "roman": "guá beh khui tiān-hong"
+    }
+  },
+  {
+    "word": "banana",
+    "phrase": {
+      "zh": "吃香蕉",
+      "tw": "食弓蕉",
+      "roman": "tsia̍h king-tsio"
+    },
+    "sentence": {
+      "zh": "我要吃香蕉",
+      "tw": "我欲食弓蕉",
+      "roman": "guá beh tsia̍h king-tsio"
+    }
+  },
+  {
+    "word": "dog",
+    "phrase": {
+      "zh": "看狗",
+      "tw": "看狗",
+      "roman": "khuànn káu"
+    },
+    "sentence": {
+      "zh": "我在看狗",
+      "tw": "我咧看狗",
+      "roman": "guá teh khuànn káu"
+    }
+  },
+  {
+    "word": "phone",
+    "phrase": {
+      "zh": "打電話",
+      "tw": "拍電話",
+      "roman": "phah tiān-uē"
+    },
+    "sentence": {
+      "zh": "我要打電話",
+      "tw": "我欲拍電話",
+      "roman": "guá beh phah tiān-uē"
+    }
+  },
+  {
+    "word": "tv",
+    "phrase": {
+      "zh": "看電視",
+      "tw": "看電視",
+      "roman": "khuànn tiān-sī"
+    },
+    "sentence": {
+      "zh": "我要看電視",
+      "tw": "我欲看電視",
+      "roman": "guá beh khuànn tiān-sī"
+    }
+  },
+  {
+    "word": "thermos",
+    "phrase": {
+      "zh": "拿保溫杯",
+      "tw": "提保溫杯",
+      "roman": "the̍h pó-un-pue"
+    },
+    "sentence": {
+      "zh": "幫我拿保溫杯",
+      "tw": "共我提保溫杯",
+      "roman": "kā guá the̍h pó-un-pue"
+    }
+  },
+  {
+    "word": "mask",
+    "phrase": {
+      "zh": "戴口罩",
+      "tw": "掛喙罨",
+      "roman": "kuà tshuì-am"
+    },
+    "sentence": {
+      "zh": "我要戴口罩",
+      "tw": "我欲掛喙罨",
+      "roman": "guá beh kuà tshuì-am"
+    }
+  },
+  {
+    "word": "remote",
+    "phrase": {
+      "zh": "拿遙控器",
+      "tw": "提遙控器",
+      "roman": "the̍h iâu-khòng-khì"
+    },
+    "sentence": {
+      "zh": "幫我拿遙控器",
+      "tw": "共我提遙控器",
+      "roman": "kā guá the̍h iâu-khòng-khì"
+    }
+  },
+  {
+    "word": "slippers",
+    "phrase": {
+      "zh": "穿拖鞋",
+      "tw": "穿淺拖仔",
+      "roman": "tshīng tshián-thua-á"
+    },
+    "sentence": {
+      "zh": "我要穿拖鞋",
+      "tw": "我欲穿淺拖仔",
+      "roman": "guá beh tshīng tshián-thua-á"
+    }
+  },
+  {
+    "word": "shoes",
+    "phrase": {
+      "zh": "穿鞋子",
+      "tw": "穿鞋",
+      "roman": "tshīng ê"
+    },
+    "sentence": {
+      "zh": "我要穿鞋子",
+      "tw": "我欲穿鞋",
+      "roman": "guá beh tshīng ê"
+    }
+  },
+  {
+    "word": "hairdryer",
+    "phrase": {
+      "zh": "拿吹風機",
+      "tw": "提吹風機",
+      "roman": "the̍h tshue-hong-ki"
+    },
+    "sentence": {
+      "zh": "幫我拿吹風機",
+      "tw": "共我提吹風機",
+      "roman": "kā guá the̍h tshue-hong-ki"
+    }
+  },
+  {
+    "word": "mushroom",
+    "phrase": {
+      "zh": "煮香菇",
+      "tw": "煮香菇",
+      "roman": "tsú hiunn-koo"
+    },
+    "sentence": {
+      "zh": "我要煮香菇",
+      "tw": "我欲煮香菇",
+      "roman": "guá beh tsú hiunn-koo"
+    }
+  },
+  {
+    "word": "egg",
+    "phrase": {
+      "zh": "煮雞蛋",
+      "tw": "煮雞卵",
+      "roman": "tsú ke-nn̄g"
+    },
+    "sentence": {
+      "zh": "我要煮雞蛋",
+      "tw": "我欲煮雞卵",
+      "roman": "guá beh tsú ke-nn̄g"
+    }
+  },
+  {
+    "word": "fridge",
+    "phrase": {
+      "zh": "開冰箱",
+      "tw": "開冰箱",
+      "roman": "khui ping-siunn"
+    },
+    "sentence": {
+      "zh": "我要開冰箱",
+      "tw": "我欲開冰箱",
+      "roman": "guá beh khui ping-siunn"
+    }
+  },
+  {
+    "word": "microwave",
+    "phrase": {
+      "zh": "用微波爐",
+      "tw": "用微波爐",
+      "roman": "īng bî-pho-lôo"
+    },
+    "sentence": {
+      "zh": "我要用微波爐",
+      "tw": "我欲用微波爐",
+      "roman": "guá beh īng bî-pho-lôo"
+    }
+  },
+  {
+    "word": "sink",
+    "phrase": {
+      "zh": "洗水槽",
+      "tw": "洗水槽",
+      "roman": "sé tsuí-tsô"
+    },
+    "sentence": {
+      "zh": "我要洗水槽",
+      "tw": "我欲洗水槽",
+      "roman": "guá beh sé tsuí-tsô"
+    }
+  },
+  {
+    "word": "faucet",
+    "phrase": {
+      "zh": "開水龍頭",
+      "tw": "開水道頭",
+      "roman": "khui tsuí-tō-thâu"
+    },
+    "sentence": {
+      "zh": "幫我開水龍頭",
+      "tw": "共我開水道頭",
+      "roman": "kā guá khui tsuí-tō-thâu"
+    }
+  },
+  {
+    "word": "kettle",
+    "phrase": {
+      "zh": "拿茶壺",
+      "tw": "提茶罐",
+      "roman": "the̍h tê-kuàn"
+    },
+    "sentence": {
+      "zh": "幫我拿茶壺",
+      "tw": "共我提茶罐",
+      "roman": "kā guá the̍h tê-kuàn"
+    }
+  },
+  {
+    "word": "hotwater",
+    "phrase": {
+      "zh": "拿熱水瓶",
+      "tw": "提滾水罐",
+      "roman": "the̍h kún-tsuí-kuàn"
+    },
+    "sentence": {
+      "zh": "幫我拿熱水瓶",
+      "tw": "共我提滾水罐",
+      "roman": "kā guá the̍h kún-tsuí-kuàn"
+    }
+  },
+  {
+    "word": "book",
+    "phrase": {
+      "zh": "看書",
+      "tw": "看冊",
+      "roman": "khuànn tsheh"
+    },
+    "sentence": {
+      "zh": "我要看書",
+      "tw": "我欲看冊",
+      "roman": "guá beh khuànn tsheh"
+    }
+  },
+  {
+    "word": "computer",
+    "phrase": {
+      "zh": "用電腦",
+      "tw": "用電腦",
+      "roman": "īng tiān-náu"
+    },
+    "sentence": {
+      "zh": "我要用電腦",
+      "tw": "我欲用電腦",
+      "roman": "guá beh īng tiān-náu"
+    }
+  },
+  {
+    "word": "ac",
+    "phrase": {
+      "zh": "開冷氣",
+      "tw": "開冷氣",
+      "roman": "khui líng-khì"
+    },
+    "sentence": {
+      "zh": "幫我開冷氣",
+      "tw": "共我開冷氣",
+      "roman": "kā guá khui líng-khì"
+    }
+  },
+  {
+    "word": "calendar",
+    "phrase": {
+      "zh": "看月曆",
+      "tw": "看曆日",
+      "roman": "khuànn la̍h-ji̍t"
+    },
+    "sentence": {
+      "zh": "我要看月曆",
+      "tw": "我欲看曆日",
+      "roman": "guá beh khuànn la̍h-ji̍t"
+    }
+  },
+  {
+    "word": "bed",
+    "phrase": {
+      "zh": "躺在床上",
+      "tw": "倒佇床頂",
+      "roman": "tó tī tshn̂g-tíng"
+    },
+    "sentence": {
+      "zh": "我要躺在床上",
+      "tw": "我欲倒佇床頂",
+      "roman": "guá beh tó tī tshn̂g-tíng"
+    }
+  },
+  {
+    "word": "window",
+    "phrase": {
+      "zh": "開窗戶",
+      "tw": "開窗",
+      "roman": "khui thang"
+    },
+    "sentence": {
+      "zh": "幫我開窗戶",
+      "tw": "共我開窗",
+      "roman": "kā guá khui thang"
+    }
+  },
+  {
+    "word": "mirror",
+    "phrase": {
+      "zh": "照鏡子",
+      "tw": "照鏡",
+      "roman": "tsiò kiànn"
+    },
+    "sentence": {
+      "zh": "我要照鏡子",
+      "tw": "我欲照鏡",
+      "roman": "guá beh tsiò kiànn"
+    }
+  },
+  {
+    "word": "altar",
+    "phrase": {
+      "zh": "擦神桌",
+      "tw": "拭神桌",
+      "roman": "tshit sîn-toh"
+    },
+    "sentence": {
+      "zh": "我要擦神桌",
+      "tw": "我欲拭神桌",
+      "roman": "guá beh tshit sîn-toh"
+    }
+  },
+  {
+    "word": "bp",
+    "phrase": {
+      "zh": "量血壓",
+      "tw": "磅血壓",
+      "roman": "pōng hueh-ap"
+    },
+    "sentence": {
+      "zh": "我要量血壓",
+      "tw": "我欲磅血壓",
+      "roman": "guá beh pōng hueh-ap"
+    }
+  },
+  {
+    "word": "scale",
+    "phrase": {
+      "zh": "量體重",
+      "tw": "磅體重",
+      "roman": "pōng thé-tāng"
+    },
+    "sentence": {
+      "zh": "我要量體重",
+      "tw": "我欲磅體重",
+      "roman": "guá beh pōng thé-tāng"
+    }
+  }
+]

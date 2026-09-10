@@ -34,3 +34,48 @@ test('switching between needs cards and ordinary photos resets the selected leng
   assert.equal(state.level, 0);
   assert.equal(state.word, cards[0].levels[0]);
 });
+
+test('every life-photo object has its own three lengths, including the secondary objects', () => {
+  const state = new PhrasePractice();
+  const photos = data.photos.filter(p => p.category === 'life');
+  for (const photo of photos) {
+    state.selectPhoto(photo);
+    for (const object of photo.objects) {
+      state.selectObject(object.word);
+      assert.equal(state.word, object.word);
+      assert.equal(state.levels.length, 3);
+      state.setLevel(2);
+      assert.equal(state.word, object.levels[2]);
+      // Clicking the same object again repeats the currently selected sentence.
+      state.selectObject(object.word);
+      assert.equal(state.level, 2);
+      assert.equal(state.word, object.levels[2]);
+    }
+  }
+});
+
+test('switching between a sink and faucet resets length without selecting the wrong audio', () => {
+  const state = new PhrasePractice();
+  const photo = data.photos.find(p => p.id === 'IMG_4321');
+  state.selectPhoto(photo);
+  state.setLevel(2);
+  assert.equal(state.word, 'life_sink_sentence');
+  state.selectObject('faucet');
+  assert.equal(state.level, 0);
+  assert.equal(state.word, 'faucet');
+  state.setLevel(1);
+  assert.equal(state.word, 'life_faucet_phrase');
+  state.selectObject('sink');
+  assert.equal(state.word, 'sink');
+  assert.throws(() => state.selectObject('tv'), /Unknown photo object/);
+  assert.equal(state.word, 'sink');
+});
+
+test('categories without phrases still select and play their single word', () => {
+  const state = new PhrasePractice();
+  state.selectPhoto(data.photos.find(p => p.category === 'body'));
+  state.setLevel(2);
+  assert.equal(state.level, 0);
+  assert.equal(state.levels.length, 1);
+  assert.equal(state.word, state.objectWord);
+});
