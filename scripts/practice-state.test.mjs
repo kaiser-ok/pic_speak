@@ -71,11 +71,39 @@ test('switching between a sink and faucet resets length without selecting the wr
   assert.equal(state.word, 'sink');
 });
 
-test('categories without phrases still select and play their single word', () => {
+test('all four additional categories support words, phrases and sentences', () => {
   const state = new PhrasePractice();
-  state.selectPhoto(data.photos.find(p => p.category === 'body'));
+  for (const category of ['body', 'kitchen', 'weather', 'feelings']) {
+    const photos = data.photos.filter(p => p.category === category);
+    assert.ok(photos.length > 0);
+    for (const photo of photos) {
+      state.selectPhoto(photo);
+      for (const object of photo.objects) {
+        state.selectObject(object.word);
+        assert.equal(state.level, 0);
+        assert.equal(state.word, object.word);
+        for (const level of [1, 2, 1, 0]) {
+          state.setLevel(level);
+          assert.equal(state.word, object.levels[level]);
+          assert.ok(data.words[state.word].zhAudio);
+          assert.ok(data.words[state.word].twAudio);
+        }
+      }
+    }
+  }
+});
+
+test('shared phrases retain each category’s base word and reset on navigation', () => {
+  const state = new PhrasePractice();
+  const foot = data.photos.find(p => p.category === 'body' && p.objects[0].word === 'foot');
+  const pain = data.photos.find(p => p.id === 'need_pain');
+  state.selectPhoto(foot);
+  assert.equal(state.word, 'foot');
   state.setLevel(2);
+  assert.equal(state.word, 'need_pain_sentence');
+  state.selectPhoto(pain);
+  assert.equal(state.word, 'pain');
   assert.equal(state.level, 0);
-  assert.equal(state.levels.length, 1);
-  assert.equal(state.word, state.objectWord);
+  state.setLevel(2);
+  assert.equal(state.word, 'need_pain_sentence');
 });

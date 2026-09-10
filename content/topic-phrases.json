@@ -1,0 +1,513 @@
+[
+  {
+    "word": "head",
+    "category": "body",
+    "phrase": {
+      "zh": "洗頭",
+      "tw": "洗頭",
+      "roman": "sé thâu"
+    },
+    "sentence": {
+      "zh": "我要洗頭",
+      "tw": "我欲洗頭",
+      "roman": "guá beh sé thâu"
+    }
+  },
+  {
+    "word": "eyes",
+    "category": "body",
+    "phrase": {
+      "zh": "眼睛痠",
+      "tw": "目睭痠",
+      "roman": "ba̍k-tsiu sng"
+    },
+    "sentence": {
+      "zh": "我的眼睛痠",
+      "tw": "我的目睭痠",
+      "roman": "guá ê ba̍k-tsiu sng"
+    }
+  },
+  {
+    "word": "ears",
+    "category": "body",
+    "phrase": {
+      "zh": "耳朵癢",
+      "tw": "耳仔癢",
+      "roman": "hīnn-á tsiūnn"
+    },
+    "sentence": {
+      "zh": "我的耳朵癢",
+      "tw": "我的耳仔癢",
+      "roman": "guá ê hīnn-á tsiūnn"
+    }
+  },
+  {
+    "word": "nose",
+    "category": "body",
+    "phrase": {
+      "zh": "擦鼻子",
+      "tw": "拭鼻",
+      "roman": "tshit phīnn"
+    },
+    "sentence": {
+      "zh": "我要擦鼻子",
+      "tw": "我欲拭鼻",
+      "roman": "guá beh tshit phīnn"
+    }
+  },
+  {
+    "word": "mouth",
+    "category": "body",
+    "phrase": {
+      "zh": "擦嘴巴",
+      "tw": "拭喙",
+      "roman": "tshit tshuì"
+    },
+    "sentence": {
+      "zh": "我要擦嘴巴",
+      "tw": "我欲拭喙",
+      "roman": "guá beh tshit tshuì"
+    }
+  },
+  {
+    "word": "teeth",
+    "category": "body",
+    "phrase": {
+      "zh": "牙齒痛",
+      "tw": "齒疼",
+      "roman": "khí thiànn"
+    },
+    "sentence": {
+      "zh": "我的牙齒痛",
+      "tw": "我的齒疼",
+      "roman": "guá ê khí thiànn"
+    }
+  },
+  {
+    "word": "tongue",
+    "category": "body",
+    "phrase": {
+      "zh": "舌頭痛",
+      "tw": "舌疼",
+      "roman": "tsi̍h thiànn"
+    },
+    "sentence": {
+      "zh": "我的舌頭痛",
+      "tw": "我的舌疼",
+      "roman": "guá ê tsi̍h thiànn"
+    }
+  },
+  {
+    "word": "neck",
+    "category": "body",
+    "phrase": {
+      "zh": "脖子痠",
+      "tw": "頷頸痠",
+      "roman": "ām-kún sng"
+    },
+    "sentence": {
+      "zh": "我的脖子痠",
+      "tw": "我的頷頸痠",
+      "roman": "guá ê ām-kún sng"
+    }
+  },
+  {
+    "word": "shoulder",
+    "category": "body",
+    "phrase": {
+      "zh": "肩膀痠",
+      "tw": "肩胛痠",
+      "roman": "king-kah sng"
+    },
+    "sentence": {
+      "zh": "我的肩膀痠",
+      "tw": "我的肩胛痠",
+      "roman": "guá ê king-kah sng"
+    }
+  },
+  {
+    "word": "hand",
+    "category": "body",
+    "phrase": {
+      "zh": "洗手",
+      "tw": "洗手",
+      "roman": "sé tshiú"
+    },
+    "sentence": {
+      "zh": "我要洗手",
+      "tw": "我欲洗手",
+      "roman": "guá beh sé tshiú"
+    }
+  },
+  {
+    "word": "foot",
+    "category": "body",
+    "phrase": {
+      "word": "need_pain_phrase"
+    },
+    "sentence": {
+      "word": "need_pain_sentence"
+    }
+  },
+  {
+    "word": "belly",
+    "category": "body",
+    "phrase": {
+      "zh": "肚子痛",
+      "tw": "腹肚疼",
+      "roman": "pak-tóo thiànn"
+    },
+    "sentence": {
+      "zh": "我的肚子痛",
+      "tw": "我的腹肚疼",
+      "roman": "guá ê pak-tóo thiànn"
+    }
+  },
+  {
+    "word": "bowl",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "洗碗",
+      "tw": "洗碗",
+      "roman": "sé uánn"
+    },
+    "sentence": {
+      "zh": "我要洗碗",
+      "tw": "我欲洗碗",
+      "roman": "guá beh sé uánn"
+    }
+  },
+  {
+    "word": "plate",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "拿盤子",
+      "tw": "提盤",
+      "roman": "the̍h puânn"
+    },
+    "sentence": {
+      "zh": "幫我拿盤子",
+      "tw": "共我提盤",
+      "roman": "kā guá the̍h puânn"
+    }
+  },
+  {
+    "word": "chopsticks",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "用筷子",
+      "tw": "用箸",
+      "roman": "īng tī",
+      "synthesisRoman": "īng tī."
+    },
+    "sentence": {
+      "zh": "我要用筷子",
+      "tw": "我欲用箸",
+      "roman": "guá beh īng tī"
+    }
+  },
+  {
+    "word": "spoon",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "用湯匙",
+      "tw": "用湯匙仔",
+      "roman": "īng thng-sî-á"
+    },
+    "sentence": {
+      "zh": "我要用湯匙",
+      "tw": "我欲用湯匙仔",
+      "roman": "guá beh īng thng-sî-á"
+    }
+  },
+  {
+    "word": "fork",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "用叉子",
+      "tw": "用攕仔",
+      "roman": "īng tshiám-á"
+    },
+    "sentence": {
+      "zh": "我要用叉子",
+      "tw": "我欲用攕仔",
+      "roman": "guá beh īng tshiám-á"
+    }
+  },
+  {
+    "word": "knife",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "拿菜刀",
+      "tw": "提菜刀",
+      "roman": "the̍h tshài-to"
+    },
+    "sentence": {
+      "zh": "幫我拿菜刀",
+      "tw": "共我提菜刀",
+      "roman": "kā guá the̍h tshài-to"
+    }
+  },
+  {
+    "word": "pot",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "洗鍋子",
+      "tw": "洗鼎",
+      "roman": "sé tiánn"
+    },
+    "sentence": {
+      "zh": "我要洗鍋子",
+      "tw": "我欲洗鼎",
+      "roman": "guá beh sé tiánn"
+    }
+  },
+  {
+    "word": "spatula",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "拿鍋鏟",
+      "tw": "提煎匙",
+      "roman": "the̍h tsian-sî"
+    },
+    "sentence": {
+      "zh": "幫我拿鍋鏟",
+      "tw": "共我提煎匙",
+      "roman": "kā guá the̍h tsian-sî"
+    }
+  },
+  {
+    "word": "cutting_board",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "洗砧板",
+      "tw": "洗砧",
+      "roman": "sé tiam"
+    },
+    "sentence": {
+      "zh": "我要洗砧板",
+      "tw": "我欲洗砧",
+      "roman": "guá beh sé tiam"
+    }
+  },
+  {
+    "word": "ladle",
+    "category": "kitchen",
+    "phrase": {
+      "zh": "拿湯杓",
+      "tw": "提杓仔",
+      "roman": "the̍h sia̍h-á"
+    },
+    "sentence": {
+      "zh": "幫我拿湯杓",
+      "tw": "共我提杓仔",
+      "roman": "kā guá the̍h sia̍h-á"
+    }
+  },
+  {
+    "word": "sunny",
+    "category": "weather",
+    "phrase": {
+      "zh": "天氣晴朗",
+      "tw": "天氣好",
+      "roman": "thinn-khì hó"
+    },
+    "sentence": {
+      "zh": "今天天氣晴朗",
+      "tw": "今仔日天氣好",
+      "roman": "kin-á-ji̍t thinn-khì hó"
+    }
+  },
+  {
+    "word": "cloudy",
+    "category": "weather",
+    "phrase": {
+      "zh": "天色陰暗",
+      "tw": "天色烏陰",
+      "roman": "thinn-sik oo-im"
+    },
+    "sentence": {
+      "zh": "今天天色陰暗",
+      "tw": "今仔日天色烏陰",
+      "roman": "kin-á-ji̍t thinn-sik oo-im"
+    }
+  },
+  {
+    "word": "rain",
+    "category": "weather",
+    "phrase": {
+      "zh": "在下雨",
+      "tw": "咧落雨",
+      "roman": "teh lo̍h-hōo"
+    },
+    "sentence": {
+      "zh": "外面在下雨",
+      "tw": "外口咧落雨",
+      "roman": "guā-kháu teh lo̍h-hōo"
+    }
+  },
+  {
+    "word": "wind",
+    "category": "weather",
+    "phrase": {
+      "zh": "風很大",
+      "tw": "風真大",
+      "roman": "hong tsin tuā"
+    },
+    "sentence": {
+      "zh": "外面風很大",
+      "tw": "外口風真大",
+      "roman": "guā-kháu hong tsin tuā"
+    }
+  },
+  {
+    "word": "thunder",
+    "category": "weather",
+    "phrase": {
+      "zh": "在打雷",
+      "tw": "咧霆雷公",
+      "roman": "teh tân-luî-kong"
+    },
+    "sentence": {
+      "zh": "外面在打雷",
+      "tw": "外口咧霆雷公",
+      "roman": "guā-kháu teh tân-luî-kong"
+    }
+  },
+  {
+    "word": "cold",
+    "category": "feelings",
+    "phrase": {
+      "word": "need_cold_phrase"
+    },
+    "sentence": {
+      "word": "need_cold_sentence"
+    }
+  },
+  {
+    "word": "hot",
+    "category": "feelings",
+    "phrase": {
+      "zh": "很熱",
+      "tw": "足熱",
+      "roman": "tsiok jua̍h"
+    },
+    "sentence": {
+      "zh": "我很熱",
+      "tw": "我足熱",
+      "roman": "guá tsiok jua̍h"
+    }
+  },
+  {
+    "word": "pain",
+    "category": "feelings",
+    "phrase": {
+      "zh": "很痛",
+      "tw": "足疼",
+      "roman": "tsiok thiànn"
+    },
+    "sentence": {
+      "zh": "我很痛",
+      "tw": "我足疼",
+      "roman": "guá tsiok thiànn"
+    }
+  },
+  {
+    "word": "hungry",
+    "category": "feelings",
+    "phrase": {
+      "zh": "很餓",
+      "tw": "足枵",
+      "roman": "tsiok iau"
+    },
+    "sentence": {
+      "zh": "我很餓",
+      "tw": "我足枵",
+      "roman": "guá tsiok iau"
+    }
+  },
+  {
+    "word": "thirsty",
+    "category": "feelings",
+    "phrase": {
+      "zh": "很口渴",
+      "tw": "足喙焦",
+      "roman": "tsiok tshuì-ta"
+    },
+    "sentence": {
+      "zh": "我很口渴",
+      "tw": "我足喙焦",
+      "roman": "guá tsiok tshuì-ta"
+    }
+  },
+  {
+    "word": "tired",
+    "category": "feelings",
+    "phrase": {
+      "zh": "很累",
+      "tw": "足忝",
+      "roman": "tsiok thiám"
+    },
+    "sentence": {
+      "zh": "我很累",
+      "tw": "我足忝",
+      "roman": "guá tsiok thiám"
+    }
+  },
+  {
+    "word": "itchy",
+    "category": "feelings",
+    "phrase": {
+      "zh": "很癢",
+      "tw": "足癢",
+      "roman": "tsiok tsiūnn"
+    },
+    "sentence": {
+      "zh": "我很癢",
+      "tw": "我足癢",
+      "roman": "guá tsiok tsiūnn"
+    }
+  },
+  {
+    "word": "dizzy",
+    "category": "feelings",
+    "phrase": {
+      "zh": "頭很暈",
+      "tw": "頭殼足眩",
+      "roman": "thâu-khak tsiok hîn"
+    },
+    "sentence": {
+      "zh": "我頭很暈",
+      "tw": "我頭殼足眩",
+      "roman": "guá thâu-khak tsiok hîn"
+    }
+  },
+  {
+    "word": "nauseous",
+    "category": "feelings",
+    "phrase": {
+      "zh": "想吐",
+      "tw": "想欲吐",
+      "roman": "siūnn-beh thòo"
+    },
+    "sentence": {
+      "zh": "我想吐",
+      "tw": "我想欲吐",
+      "roman": "guá siūnn-beh thòo"
+    }
+  },
+  {
+    "word": "numbness",
+    "category": "feelings",
+    "phrase": {
+      "zh": "手發麻",
+      "tw": "手麻",
+      "roman": "tshiú bâ"
+    },
+    "sentence": {
+      "zh": "我的手發麻",
+      "tw": "我的手麻",
+      "roman": "guá ê tshiú bâ"
+    }
+  }
+]

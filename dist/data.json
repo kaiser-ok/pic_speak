@@ -1436,6 +1436,706 @@
       "zhAudio": "/assets/audio/zh/life_scale_sentence.mp3",
       "twAudio": "/assets/audio/tw/life_scale_sentence.mp3",
       "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+p%C5%8Dng+th%C3%A9-t%C4%81ng"
+    },
+    "topic_head_phrase": {
+      "zh": "洗頭",
+      "tw": "洗頭",
+      "roman": "sé thâu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_head_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_head_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=s%C3%A9+th%C3%A2u"
+    },
+    "topic_head_sentence": {
+      "zh": "我要洗頭",
+      "tw": "我欲洗頭",
+      "roman": "guá beh sé thâu",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_head_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_head_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+s%C3%A9+th%C3%A2u"
+    },
+    "topic_eyes_phrase": {
+      "zh": "眼睛痠",
+      "tw": "目睭痠",
+      "roman": "ba̍k-tsiu sng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_eyes_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_eyes_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=ba%CC%8Dk-tsiu+sng"
+    },
+    "topic_eyes_sentence": {
+      "zh": "我的眼睛痠",
+      "tw": "我的目睭痠",
+      "roman": "guá ê ba̍k-tsiu sng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_eyes_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_eyes_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+ba%CC%8Dk-tsiu+sng"
+    },
+    "topic_ears_phrase": {
+      "zh": "耳朵癢",
+      "tw": "耳仔癢",
+      "roman": "hīnn-á tsiūnn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_ears_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_ears_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=h%C4%ABnn-%C3%A1+tsi%C5%ABnn"
+    },
+    "topic_ears_sentence": {
+      "zh": "我的耳朵癢",
+      "tw": "我的耳仔癢",
+      "roman": "guá ê hīnn-á tsiūnn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_ears_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_ears_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+h%C4%ABnn-%C3%A1+tsi%C5%ABnn"
+    },
+    "topic_nose_phrase": {
+      "zh": "擦鼻子",
+      "tw": "拭鼻",
+      "roman": "tshit phīnn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_nose_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_nose_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tshit+ph%C4%ABnn"
+    },
+    "topic_nose_sentence": {
+      "zh": "我要擦鼻子",
+      "tw": "我欲拭鼻",
+      "roman": "guá beh tshit phīnn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_nose_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_nose_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tshit+ph%C4%ABnn"
+    },
+    "topic_mouth_phrase": {
+      "zh": "擦嘴巴",
+      "tw": "拭喙",
+      "roman": "tshit tshuì",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_mouth_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_mouth_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tshit+tshu%C3%AC"
+    },
+    "topic_mouth_sentence": {
+      "zh": "我要擦嘴巴",
+      "tw": "我欲拭喙",
+      "roman": "guá beh tshit tshuì",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_mouth_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_mouth_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+tshit+tshu%C3%AC"
+    },
+    "topic_teeth_phrase": {
+      "zh": "牙齒痛",
+      "tw": "齒疼",
+      "roman": "khí thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_teeth_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_teeth_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kh%C3%AD+thi%C3%A0nn"
+    },
+    "topic_teeth_sentence": {
+      "zh": "我的牙齒痛",
+      "tw": "我的齒疼",
+      "roman": "guá ê khí thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_teeth_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_teeth_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+kh%C3%AD+thi%C3%A0nn"
+    },
+    "topic_tongue_phrase": {
+      "zh": "舌頭痛",
+      "tw": "舌疼",
+      "roman": "tsi̍h thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_tongue_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_tongue_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsi%CC%8Dh+thi%C3%A0nn"
+    },
+    "topic_tongue_sentence": {
+      "zh": "我的舌頭痛",
+      "tw": "我的舌疼",
+      "roman": "guá ê tsi̍h thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_tongue_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_tongue_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+tsi%CC%8Dh+thi%C3%A0nn"
+    },
+    "topic_neck_phrase": {
+      "zh": "脖子痠",
+      "tw": "頷頸痠",
+      "roman": "ām-kún sng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_neck_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_neck_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=%C4%81m-k%C3%BAn+sng"
+    },
+    "topic_neck_sentence": {
+      "zh": "我的脖子痠",
+      "tw": "我的頷頸痠",
+      "roman": "guá ê ām-kún sng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_neck_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_neck_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+%C4%81m-k%C3%BAn+sng"
+    },
+    "topic_shoulder_phrase": {
+      "zh": "肩膀痠",
+      "tw": "肩胛痠",
+      "roman": "king-kah sng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_shoulder_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_shoulder_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=king-kah+sng"
+    },
+    "topic_shoulder_sentence": {
+      "zh": "我的肩膀痠",
+      "tw": "我的肩胛痠",
+      "roman": "guá ê king-kah sng",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_shoulder_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_shoulder_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+king-kah+sng"
+    },
+    "topic_hand_phrase": {
+      "zh": "洗手",
+      "tw": "洗手",
+      "roman": "sé tshiú",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_hand_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_hand_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=s%C3%A9+tshi%C3%BA"
+    },
+    "topic_hand_sentence": {
+      "zh": "我要洗手",
+      "tw": "我欲洗手",
+      "roman": "guá beh sé tshiú",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_hand_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_hand_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+s%C3%A9+tshi%C3%BA"
+    },
+    "topic_belly_phrase": {
+      "zh": "肚子痛",
+      "tw": "腹肚疼",
+      "roman": "pak-tóo thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_belly_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_belly_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=pak-t%C3%B3o+thi%C3%A0nn"
+    },
+    "topic_belly_sentence": {
+      "zh": "我的肚子痛",
+      "tw": "我的腹肚疼",
+      "roman": "guá ê pak-tóo thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_belly_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_belly_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+pak-t%C3%B3o+thi%C3%A0nn"
+    },
+    "topic_bowl_phrase": {
+      "zh": "洗碗",
+      "tw": "洗碗",
+      "roman": "sé uánn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_bowl_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_bowl_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=s%C3%A9+u%C3%A1nn"
+    },
+    "topic_bowl_sentence": {
+      "zh": "我要洗碗",
+      "tw": "我欲洗碗",
+      "roman": "guá beh sé uánn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_bowl_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_bowl_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+s%C3%A9+u%C3%A1nn"
+    },
+    "topic_plate_phrase": {
+      "zh": "拿盤子",
+      "tw": "提盤",
+      "roman": "the̍h puânn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_plate_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_plate_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+pu%C3%A2nn"
+    },
+    "topic_plate_sentence": {
+      "zh": "幫我拿盤子",
+      "tw": "共我提盤",
+      "roman": "kā guá the̍h puânn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_plate_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_plate_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+pu%C3%A2nn"
+    },
+    "topic_chopsticks_phrase": {
+      "zh": "用筷子",
+      "tw": "用箸",
+      "roman": "īng tī",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_chopsticks_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_chopsticks_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=%C4%ABng+t%C4%AB."
+    },
+    "topic_chopsticks_sentence": {
+      "zh": "我要用筷子",
+      "tw": "我欲用箸",
+      "roman": "guá beh īng tī",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_chopsticks_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_chopsticks_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+%C4%ABng+t%C4%AB"
+    },
+    "topic_spoon_phrase": {
+      "zh": "用湯匙",
+      "tw": "用湯匙仔",
+      "roman": "īng thng-sî-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_spoon_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_spoon_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=%C4%ABng+thng-s%C3%AE-%C3%A1"
+    },
+    "topic_spoon_sentence": {
+      "zh": "我要用湯匙",
+      "tw": "我欲用湯匙仔",
+      "roman": "guá beh īng thng-sî-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_spoon_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_spoon_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+%C4%ABng+thng-s%C3%AE-%C3%A1"
+    },
+    "topic_fork_phrase": {
+      "zh": "用叉子",
+      "tw": "用攕仔",
+      "roman": "īng tshiám-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_fork_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_fork_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=%C4%ABng+tshi%C3%A1m-%C3%A1"
+    },
+    "topic_fork_sentence": {
+      "zh": "我要用叉子",
+      "tw": "我欲用攕仔",
+      "roman": "guá beh īng tshiám-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_fork_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_fork_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+%C4%ABng+tshi%C3%A1m-%C3%A1"
+    },
+    "topic_knife_phrase": {
+      "zh": "拿菜刀",
+      "tw": "提菜刀",
+      "roman": "the̍h tshài-to",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_knife_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_knife_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+tsh%C3%A0i-to"
+    },
+    "topic_knife_sentence": {
+      "zh": "幫我拿菜刀",
+      "tw": "共我提菜刀",
+      "roman": "kā guá the̍h tshài-to",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_knife_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_knife_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+tsh%C3%A0i-to"
+    },
+    "topic_pot_phrase": {
+      "zh": "洗鍋子",
+      "tw": "洗鼎",
+      "roman": "sé tiánn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_pot_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_pot_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=s%C3%A9+ti%C3%A1nn"
+    },
+    "topic_pot_sentence": {
+      "zh": "我要洗鍋子",
+      "tw": "我欲洗鼎",
+      "roman": "guá beh sé tiánn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_pot_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_pot_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+s%C3%A9+ti%C3%A1nn"
+    },
+    "topic_spatula_phrase": {
+      "zh": "拿鍋鏟",
+      "tw": "提煎匙",
+      "roman": "the̍h tsian-sî",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_spatula_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_spatula_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+tsian-s%C3%AE"
+    },
+    "topic_spatula_sentence": {
+      "zh": "幫我拿鍋鏟",
+      "tw": "共我提煎匙",
+      "roman": "kā guá the̍h tsian-sî",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_spatula_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_spatula_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+tsian-s%C3%AE"
+    },
+    "topic_cutting_board_phrase": {
+      "zh": "洗砧板",
+      "tw": "洗砧",
+      "roman": "sé tiam",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_cutting_board_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_cutting_board_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=s%C3%A9+tiam"
+    },
+    "topic_cutting_board_sentence": {
+      "zh": "我要洗砧板",
+      "tw": "我欲洗砧",
+      "roman": "guá beh sé tiam",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_cutting_board_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_cutting_board_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+s%C3%A9+tiam"
+    },
+    "topic_ladle_phrase": {
+      "zh": "拿湯杓",
+      "tw": "提杓仔",
+      "roman": "the̍h sia̍h-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_ladle_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_ladle_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=the%CC%8Dh+sia%CC%8Dh-%C3%A1"
+    },
+    "topic_ladle_sentence": {
+      "zh": "幫我拿湯杓",
+      "tw": "共我提杓仔",
+      "roman": "kā guá the̍h sia̍h-á",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_ladle_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_ladle_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+the%CC%8Dh+sia%CC%8Dh-%C3%A1"
+    },
+    "topic_sunny_phrase": {
+      "zh": "天氣晴朗",
+      "tw": "天氣好",
+      "roman": "thinn-khì hó",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_sunny_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_sunny_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=thinn-kh%C3%AC+h%C3%B3"
+    },
+    "topic_sunny_sentence": {
+      "zh": "今天天氣晴朗",
+      "tw": "今仔日天氣好",
+      "roman": "kin-á-ji̍t thinn-khì hó",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_sunny_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_sunny_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kin-%C3%A1-ji%CC%8Dt+thinn-kh%C3%AC+h%C3%B3"
+    },
+    "topic_cloudy_phrase": {
+      "zh": "天色陰暗",
+      "tw": "天色烏陰",
+      "roman": "thinn-sik oo-im",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_cloudy_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_cloudy_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=thinn-sik+oo-im"
+    },
+    "topic_cloudy_sentence": {
+      "zh": "今天天色陰暗",
+      "tw": "今仔日天色烏陰",
+      "roman": "kin-á-ji̍t thinn-sik oo-im",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_cloudy_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_cloudy_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kin-%C3%A1-ji%CC%8Dt+thinn-sik+oo-im"
+    },
+    "topic_rain_phrase": {
+      "zh": "在下雨",
+      "tw": "咧落雨",
+      "roman": "teh lo̍h-hōo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_rain_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_rain_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=teh+lo%CC%8Dh-h%C5%8Do"
+    },
+    "topic_rain_sentence": {
+      "zh": "外面在下雨",
+      "tw": "外口咧落雨",
+      "roman": "guā-kháu teh lo̍h-hōo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_rain_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_rain_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C4%81-kh%C3%A1u+teh+lo%CC%8Dh-h%C5%8Do"
+    },
+    "topic_wind_phrase": {
+      "zh": "風很大",
+      "tw": "風真大",
+      "roman": "hong tsin tuā",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_wind_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_wind_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=hong+tsin+tu%C4%81"
+    },
+    "topic_wind_sentence": {
+      "zh": "外面風很大",
+      "tw": "外口風真大",
+      "roman": "guā-kháu hong tsin tuā",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_wind_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_wind_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C4%81-kh%C3%A1u+hong+tsin+tu%C4%81"
+    },
+    "topic_thunder_phrase": {
+      "zh": "在打雷",
+      "tw": "咧霆雷公",
+      "roman": "teh tân-luî-kong",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_thunder_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_thunder_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=teh+t%C3%A2n-lu%C3%AE-kong"
+    },
+    "topic_thunder_sentence": {
+      "zh": "外面在打雷",
+      "tw": "外口咧霆雷公",
+      "roman": "guā-kháu teh tân-luî-kong",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_thunder_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_thunder_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C4%81-kh%C3%A1u+teh+t%C3%A2n-lu%C3%AE-kong"
+    },
+    "topic_hot_phrase": {
+      "zh": "很熱",
+      "tw": "足熱",
+      "roman": "tsiok jua̍h",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_hot_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_hot_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+jua%CC%8Dh"
+    },
+    "topic_hot_sentence": {
+      "zh": "我很熱",
+      "tw": "我足熱",
+      "roman": "guá tsiok jua̍h",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_hot_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_hot_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+jua%CC%8Dh"
+    },
+    "topic_pain_phrase": {
+      "zh": "很痛",
+      "tw": "足疼",
+      "roman": "tsiok thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_pain_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_pain_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+thi%C3%A0nn"
+    },
+    "topic_pain_sentence": {
+      "zh": "我很痛",
+      "tw": "我足疼",
+      "roman": "guá tsiok thiànn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_pain_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_pain_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+thi%C3%A0nn"
+    },
+    "topic_hungry_phrase": {
+      "zh": "很餓",
+      "tw": "足枵",
+      "roman": "tsiok iau",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_hungry_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_hungry_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+iau"
+    },
+    "topic_hungry_sentence": {
+      "zh": "我很餓",
+      "tw": "我足枵",
+      "roman": "guá tsiok iau",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_hungry_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_hungry_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+iau"
+    },
+    "topic_thirsty_phrase": {
+      "zh": "很口渴",
+      "tw": "足喙焦",
+      "roman": "tsiok tshuì-ta",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_thirsty_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_thirsty_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+tshu%C3%AC-ta"
+    },
+    "topic_thirsty_sentence": {
+      "zh": "我很口渴",
+      "tw": "我足喙焦",
+      "roman": "guá tsiok tshuì-ta",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_thirsty_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_thirsty_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+tshu%C3%AC-ta"
+    },
+    "topic_tired_phrase": {
+      "zh": "很累",
+      "tw": "足忝",
+      "roman": "tsiok thiám",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_tired_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_tired_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+thi%C3%A1m"
+    },
+    "topic_tired_sentence": {
+      "zh": "我很累",
+      "tw": "我足忝",
+      "roman": "guá tsiok thiám",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_tired_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_tired_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+thi%C3%A1m"
+    },
+    "topic_itchy_phrase": {
+      "zh": "很癢",
+      "tw": "足癢",
+      "roman": "tsiok tsiūnn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_itchy_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_itchy_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+tsi%C5%ABnn"
+    },
+    "topic_itchy_sentence": {
+      "zh": "我很癢",
+      "tw": "我足癢",
+      "roman": "guá tsiok tsiūnn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_itchy_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_itchy_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+tsi%C5%ABnn"
+    },
+    "topic_dizzy_phrase": {
+      "zh": "頭很暈",
+      "tw": "頭殼足眩",
+      "roman": "thâu-khak tsiok hîn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_dizzy_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_dizzy_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=th%C3%A2u-khak+tsiok+h%C3%AEn"
+    },
+    "topic_dizzy_sentence": {
+      "zh": "我頭很暈",
+      "tw": "我頭殼足眩",
+      "roman": "guá thâu-khak tsiok hîn",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_dizzy_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_dizzy_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+th%C3%A2u-khak+tsiok+h%C3%AEn"
+    },
+    "topic_nauseous_phrase": {
+      "zh": "想吐",
+      "tw": "想欲吐",
+      "roman": "siūnn-beh thòo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_nauseous_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_nauseous_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=si%C5%ABnn-beh+th%C3%B2o"
+    },
+    "topic_nauseous_sentence": {
+      "zh": "我想吐",
+      "tw": "我想欲吐",
+      "roman": "guá siūnn-beh thòo",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_nauseous_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_nauseous_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+si%C5%ABnn-beh+th%C3%B2o"
+    },
+    "topic_numbness_phrase": {
+      "zh": "手發麻",
+      "tw": "手麻",
+      "roman": "tshiú bâ",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_numbness_phrase.mp3",
+      "twAudio": "/assets/audio/tw/topic_numbness_phrase.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tshi%C3%BA+b%C3%A2"
+    },
+    "topic_numbness_sentence": {
+      "zh": "我的手發麻",
+      "tw": "我的手麻",
+      "roman": "guá ê tshiú bâ",
+      "source": "ithuan-sentence",
+      "sourceUrl": "https://itaigi.tw/",
+      "zhAudio": "/assets/audio/zh/topic_numbness_sentence.mp3",
+      "twAudio": "/assets/audio/tw/topic_numbness_sentence.mp3",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+tshi%C3%BA+b%C3%A2"
     }
   },
   "photos": [
@@ -2176,6 +2876,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "head",
+            "topic_head_phrase",
+            "topic_head_sentence"
           ]
         }
       ]
@@ -2208,6 +2913,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "eyes",
+            "topic_eyes_phrase",
+            "topic_eyes_sentence"
           ]
         }
       ]
@@ -2240,6 +2950,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "ears",
+            "topic_ears_phrase",
+            "topic_ears_sentence"
           ]
         }
       ]
@@ -2272,6 +2987,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "nose",
+            "topic_nose_phrase",
+            "topic_nose_sentence"
           ]
         }
       ]
@@ -2304,6 +3024,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "mouth",
+            "topic_mouth_phrase",
+            "topic_mouth_sentence"
           ]
         }
       ]
@@ -2336,6 +3061,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "teeth",
+            "topic_teeth_phrase",
+            "topic_teeth_sentence"
           ]
         }
       ]
@@ -2368,6 +3098,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "tongue",
+            "topic_tongue_phrase",
+            "topic_tongue_sentence"
           ]
         }
       ]
@@ -2400,6 +3135,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "neck",
+            "topic_neck_phrase",
+            "topic_neck_sentence"
           ]
         }
       ]
@@ -2432,6 +3172,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "shoulder",
+            "topic_shoulder_phrase",
+            "topic_shoulder_sentence"
           ]
         }
       ]
@@ -2464,6 +3209,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "hand",
+            "topic_hand_phrase",
+            "topic_hand_sentence"
           ]
         }
       ]
@@ -2496,6 +3246,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "foot",
+            "need_pain_phrase",
+            "need_pain_sentence"
           ]
         }
       ]
@@ -2528,6 +3283,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "belly",
+            "topic_belly_phrase",
+            "topic_belly_sentence"
           ]
         }
       ]
@@ -2560,6 +3320,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "bowl",
+            "topic_bowl_phrase",
+            "topic_bowl_sentence"
           ]
         }
       ]
@@ -2592,6 +3357,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "plate",
+            "topic_plate_phrase",
+            "topic_plate_sentence"
           ]
         }
       ]
@@ -2624,6 +3394,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "chopsticks",
+            "topic_chopsticks_phrase",
+            "topic_chopsticks_sentence"
           ]
         }
       ]
@@ -2656,6 +3431,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "spoon",
+            "topic_spoon_phrase",
+            "topic_spoon_sentence"
           ]
         }
       ]
@@ -2688,6 +3468,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "fork",
+            "topic_fork_phrase",
+            "topic_fork_sentence"
           ]
         }
       ]
@@ -2720,6 +3505,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "knife",
+            "topic_knife_phrase",
+            "topic_knife_sentence"
           ]
         }
       ]
@@ -2752,6 +3542,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "pot",
+            "topic_pot_phrase",
+            "topic_pot_sentence"
           ]
         }
       ]
@@ -2784,6 +3579,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "spatula",
+            "topic_spatula_phrase",
+            "topic_spatula_sentence"
           ]
         }
       ]
@@ -2816,6 +3616,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "cutting_board",
+            "topic_cutting_board_phrase",
+            "topic_cutting_board_sentence"
           ]
         }
       ]
@@ -2848,6 +3653,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "ladle",
+            "topic_ladle_phrase",
+            "topic_ladle_sentence"
           ]
         }
       ]
@@ -2880,6 +3690,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "sunny",
+            "topic_sunny_phrase",
+            "topic_sunny_sentence"
           ]
         }
       ]
@@ -2912,6 +3727,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "cloudy",
+            "topic_cloudy_phrase",
+            "topic_cloudy_sentence"
           ]
         }
       ]
@@ -2944,6 +3764,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "rain",
+            "topic_rain_phrase",
+            "topic_rain_sentence"
           ]
         }
       ]
@@ -2976,6 +3801,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "wind",
+            "topic_wind_phrase",
+            "topic_wind_sentence"
           ]
         }
       ]
@@ -3008,6 +3838,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "thunder",
+            "topic_thunder_phrase",
+            "topic_thunder_sentence"
           ]
         }
       ]
@@ -3040,6 +3875,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "cold",
+            "need_cold_phrase",
+            "need_cold_sentence"
           ]
         }
       ]
@@ -3072,6 +3912,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "hot",
+            "topic_hot_phrase",
+            "topic_hot_sentence"
           ]
         }
       ]
@@ -3104,6 +3949,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "pain",
+            "topic_pain_phrase",
+            "topic_pain_sentence"
           ]
         }
       ]
@@ -3136,6 +3986,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "hungry",
+            "topic_hungry_phrase",
+            "topic_hungry_sentence"
           ]
         }
       ]
@@ -3168,6 +4023,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "thirsty",
+            "topic_thirsty_phrase",
+            "topic_thirsty_sentence"
           ]
         }
       ]
@@ -3200,6 +4060,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "tired",
+            "topic_tired_phrase",
+            "topic_tired_sentence"
           ]
         }
       ]
@@ -3232,6 +4097,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "dizzy",
+            "topic_dizzy_phrase",
+            "topic_dizzy_sentence"
           ]
         }
       ]
@@ -3264,6 +4134,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "itchy",
+            "topic_itchy_phrase",
+            "topic_itchy_sentence"
           ]
         }
       ]
@@ -3296,6 +4171,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "nauseous",
+            "topic_nauseous_phrase",
+            "topic_nauseous_sentence"
           ]
         }
       ]
@@ -3328,6 +4208,11 @@
             3,
             94,
             94
+          ],
+          "levels": [
+            "numbness",
+            "topic_numbness_phrase",
+            "topic_numbness_sentence"
           ]
         }
       ]

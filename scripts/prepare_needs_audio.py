@@ -25,6 +25,10 @@ for key, word in data['words'].items():
                     target.write_bytes(response.read())
                 time.sleep(1)
             assert target.stat().st_size > 1000, (key, language, 'Empty audio')
+            probe = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration',
+                                    '-of', 'json', str(target)], check=True, capture_output=True, text=True)
+            duration = float(json.loads(probe.stdout)['format']['duration'])
+            assert .2 < duration < 15, (key, language, 'Unexpected audio duration', duration)
             subprocess.run(['ffmpeg', '-v', 'error', '-i', str(target), '-f', 'null', '-'], check=True)
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_bytes(target.read_bytes())

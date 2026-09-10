@@ -8,7 +8,7 @@ public=ROOT/'dist'
 data=json.loads((public/'data.json').read_text())
 assert len(data['photos'])==67
 assert len({p['id'] for p in data['photos']})==67
-assert len(data['words'])==137
+assert len(data['words'])==207
 assert {p['id'] for p in data['photos'] if p.get('category')=='life'}=={p.stem for p in (ROOT/'pic').glob('*.jpeg')}
 for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10),('needs',5)]:
  assert sum(p.get('category')==category for p in data['photos'])==count,(category,count)
@@ -24,7 +24,7 @@ for photo in data['photos']:
  for obj in photo['objects']:
   assert obj['word'] in data['words']
   x,y,w,h=obj['box'];assert min(x,y)>=0 and min(w,h)>0 and x+w<=100 and y+h<=100
-  if photo['category']=='life':
+  if photo['category']!='needs':
    assert len(obj['levels'])==3
    assert len(set(obj['levels']))==3
    assert obj['levels'][0]==obj['word']

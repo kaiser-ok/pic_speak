@@ -103,9 +103,9 @@ function renderPhoto(resetLevel = true) {
   const objects = p.objects;
   renderLengthControls();
   $('object-buttons').hidden = isNeed;
-  document.querySelector('.listen-heading h2').textContent = isNeed ? '從單字，慢慢說成一句話' : supportsPhrases ? '選一個物品，練習長短句' : '選一個單字';
-  $('gentle-note').textContent = supportsPhrases ? '換圖或切換長度不會自動播放。點物品或「聽發音」才會唸；換另一個物品會回到單字。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
-  document.querySelector('.intro h1').textContent = isNeed ? '從單字，說出生活需要' : supportsPhrases ? '看照片，從單字練到句子' : '點一下，跟著說';
+  document.querySelector('.listen-heading h2').textContent = isNeed ? '從單字，慢慢說成一句話' : supportsPhrases ? '選一個詞，練習長短句' : '選一個單字';
+  $('gentle-note').textContent = supportsPhrases ? '換圖或切換長度不會自動播放。點黃色框或「聽發音」才會唸；改選另一個詞會回到單字。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
+  document.querySelector('.intro h1').textContent = isNeed ? '從單字，說出生活需要' : supportsPhrases ? '看圖，從單字練到句子' : '點一下，跟著說';
   document.querySelector('.intro p').textContent = isNeed ? '選擇適合的長度，點一下聽發音，慢慢說。' : '點圖片裡的黃色框框，就能聽發音。';
   $('scene-title').textContent = p.title; $('photo-counter').textContent = `${index+1} / ${photos.length}`;
   $('photo-error').hidden = true;
