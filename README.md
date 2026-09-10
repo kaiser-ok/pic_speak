@@ -8,6 +8,8 @@
 
 ## 維護
 
+- Vercel 部署使用根目錄的 `vercel.json`，直接發布 `dist/`，不需要建置。匯入 GitHub 專案時 Root Directory 保持儲存庫根目錄；`main` 更新後會觸發重新部署。
+
 - 網頁直接位於 `dist/`，沒有第三方前端套件、登入程式或分析追蹤。
 - 原圖保留在 `pic/`。部署圖片在 `dist/assets/photos/`，縮至 1080 像素寬的 WebP 並保留方向、比例，移除原圖 EXIF。
 - `dist/data.json` 是實際使用的照片清單、詞彙和百分比點選框 `[left, top, width, height]`。
