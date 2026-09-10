@@ -1,0 +1,46 @@
+[
+  {
+    "originalUrl": "https://static.arasaac.org/pictograms/35809/35809_500.png",
+    "sourcePage": "https://arasaac.org/pictograms/en/35809/foot%20pain",
+    "creator": "Sergio Palao",
+    "owner": "Gobierno de Aragón",
+    "source": "ARASAAC",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "sha256": "90c65ce48206b8eb775e310fce6828bbed1384982e33ad92dcdd95bd6f2b329e",
+    "key": "leg_pain"
+  },
+  {
+    "originalUrl": "https://static.arasaac.org/pictograms/16889/16889_500.png",
+    "sourcePage": "https://arasaac.org/pictograms/en/16889/sit%20on%20the%20toilet",
+    "creator": "Sergio Palao",
+    "owner": "Gobierno de Aragón",
+    "source": "ARASAAC",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "sha256": "b54e1053f7cbc92b1d0ed6a2460a935544ae8cf5e74bebd0aa046f01f4e4371f",
+    "key": "toilet"
+  },
+  {
+    "originalUrl": "https://static.arasaac.org/pictograms/16643/16643_500.png",
+    "sourcePage": "https://arasaac.org/pictograms/en/16643/rest",
+    "creator": "Sergio Palao",
+    "owner": "Gobierno de Aragón",
+    "source": "ARASAAC",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "sha256": "0f219c6d7c1e454bd5740c9bea7042ab485d6e4059ca30dd7c844b188097c1eb",
+    "key": "rest"
+  },
+  {
+    "originalUrl": "https://static.arasaac.org/pictograms/32648/32648_500.png",
+    "sourcePage": "https://arasaac.org/pictograms/en/32648/help",
+    "creator": "Sergio Palao",
+    "owner": "Gobierno de Aragón",
+    "source": "ARASAAC",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "sha256": "487daa686481eb42a3ad32abe06c9d1369088a8172aedf9d60a74293da99899b",
+    "key": "help"
+  }
+]

@@ -1,4 +1,6 @@
+import { PhrasePractice } from './practice-state.mjs';
 const $ = (id) => document.getElementById(id);
+const phrase = new PhrasePractice();
 const speaker = '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8"/></svg>';
 let data, index = 0, selected, category = 'life', mode = 'both', context, generation = 0, nodes = [], timers = [];
 const photosInCategory = () => data.photos.filter(p => category === 'all' || (p.category || 'life') === category);
@@ -37,6 +39,23 @@ function setWord(word) {
     button.classList.toggle('is-selected', active);
     if (button.classList.contains('object-button')) button.setAttribute('aria-pressed', String(active));
   });
+  renderAnswer();
+}
+function renderAnswer() {
+  const hidden = phrase.concealed;
+  for (const id of ['word-zh', 'taiwanese-line', 'romanization']) $(id).hidden = hidden;
+  $('answer-prompt').hidden = !hidden;
+  $('replay').setAttribute('aria-label', hidden ? `聽${modeText()}示範` : `播放${data.words[selected].zh}的${modeText()}發音`);
+  const p = phrase.photo;
+  if (!p) return;
+  $('scene-title').textContent = hidden ? '生活需求' : p.title;
+  $('photo').alt = hidden ? '生活需求情境圖，請試著表達圖中的需求' : p.alt;
+  document.querySelectorAll('.hotspot').forEach(button => {
+    const label = button.querySelector('.hotspot-label');
+    const text = hidden ? '聽示範' : data.words[button.dataset.word].zh;
+    label.replaceChildren(); label.innerHTML = speaker; label.append(document.createTextNode(text));
+    button.setAttribute('aria-label', hidden ? '聽這張情境圖的示範發音' : `${text}，點一下聽發音`);
+  });
 }
 async function getBuffer(url) {
   if (!buffers.has(url)) {
@@ -55,7 +74,7 @@ async function getBuffer(url) {
 }
 async function play(word = selected) {
   if (!word || !data) return;
-  stopPlayback(); setWord(word);
+  stopPlayback(); phrase.reveal(); setWord(word);
   const run = generation; const w = data.words[word];
   const plan = mode === 'both' ? [[w.zhAudio,'中文'],[w.twAudio,'台語']] : [[mode === 'zh' ? w.zhAudio : w.twAudio, modeText()]];
   $('stop').hidden = false; status('正在準備發音…');
@@ -87,8 +106,21 @@ async function play(word = selected) {
     status(errors[error.message] || (error.name === 'NotAllowedError' ? '請再點一次「聽發音」，允許瀏覽器播放聲音。' : '音檔載入失敗，請確認網路後再點一次。'), true);
   }
 }
-function renderPhoto() {
+function renderPhoto(resetLevel = true) {
   stopPlayback(); const photos = photosInCategory(); const p = photos[index];
+  if (resetLevel) phrase.selectPhoto(p);
+  const isNeed = !!p.levels;
+  const objects = isNeed ? [{...p.objects[0], word: phrase.word}] : p.objects;
+  $('phrase-controls').hidden = !isNeed;
+  $('object-buttons').hidden = isNeed;
+  document.querySelector('.listen-heading h2').textContent = isNeed ? '從單字，慢慢說成一句話' : '選一個單字';
+  $('phrase-level').textContent = `${['單字','短語','句子'][phrase.level]} · ${phrase.level + 1} / 3`;
+  $('shorter').disabled = phrase.level === 0;
+  $('longer').disabled = !isNeed || phrase.level === p.levels.length - 1;
+  $('self-practice').checked = phrase.selfPractice;
+  $('gentle-note').textContent = isNeed ? '換圖或切換長度不會自動播放。想聽時再點一下，每次只唸一遍；也可以隨時練短一點。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
+  document.querySelector('.intro h1').textContent = isNeed ? '從單字，說出生活需要' : '點一下，跟著說';
+  document.querySelector('.intro p').textContent = isNeed ? '選擇適合的長度，點一下聽發音，慢慢說。' : '點圖片裡的黃色框框，就能聽發音。';
   $('scene-title').textContent = p.title; $('photo-counter').textContent = `${index+1} / ${photos.length}`;
   $('photo-error').hidden = true;
   $('photo-stage').style.setProperty('--photo-ratio',p.width/p.height);
@@ -100,7 +132,7 @@ function renderPhoto() {
     $('image-credit').append(link,document.createTextNode(' · Sergio Palao · Gobierno de Aragón · CC BY-NC-SA'));
   }
   $('hotspots').replaceChildren(); $('object-buttons').replaceChildren();
-  p.objects.forEach(o => {
+  objects.forEach(o => {
     const w = data.words[o.word]; const b = document.createElement('button');
     b.type = 'button'; b.className = 'hotspot'; b.dataset.word = o.word;
     b.setAttribute('aria-label', `${w.zh}，點一下聽發音`);
@@ -112,14 +144,18 @@ function renderPhoto() {
     const chip = document.createElement('button'); chip.type = 'button'; chip.className = 'object-button'; chip.dataset.word = o.word;
     chip.textContent = w.zh; chip.onclick = () => play(o.word); $('object-buttons').append(chip);
   });
-  setWord(p.objects[0].word); status(`點一下，聽${modeText()}`);
+  setWord(objects[0].word); status(phrase.concealed ? '慢慢想，需要時再看文字或聽示範。' : `點一下，聽${modeText()}`);
   for (const offset of [-1,1]) {const img = new Image();img.src = photoURL(photos[(index+offset+photos.length)%photos.length]);}
 }
 function navigate(delta) {if (!data) return; const length=photosInCategory().length;index = (index + delta + length) % length;renderPhoto();}
 $('previous').onclick = () => navigate(-1); $('next').onclick = () => navigate(1);
 $('replay').onclick = () => play(); $('stop').onclick = () => stopPlayback('已停止。點一下可以再聽。');
+$('shorter').onclick = () => { phrase.setLevel(phrase.level - 1); renderPhoto(false); };
+$('longer').onclick = () => { phrase.setLevel(phrase.level + 1); renderPhoto(false); };
+$('self-practice').onchange = event => { stopPlayback(); phrase.setSelfPractice(event.target.checked); renderAnswer(); status(phrase.concealed ? '慢慢想，需要時再看文字或聽示範。' : `點一下，聽${modeText()}`); };
+$('show-answer').onclick = () => { phrase.reveal(); renderAnswer(); status('文字已顯示。想聽時再點「聽發音」。'); };
 $('photo').onerror = () => {$('photo-error').hidden = false;};
-document.querySelectorAll('input[name="language"]').forEach(radio => radio.onchange = () => {mode = radio.value;stopPlayback(`點一下，聽${modeText()}`);if(selected) setWord(selected);});
+document.querySelectorAll('input[name="language"]').forEach(radio => radio.onchange = () => {mode = radio.value;stopPlayback(`點一下，聽${modeText()}`);phrase.resetAnswer();if(selected) setWord(selected);});
 document.addEventListener('keydown', e => {if(e.target.matches('input,textarea,select')) return;if(e.key==='ArrowLeft'){e.preventDefault();navigate(-1);}if(e.key==='ArrowRight'){e.preventDefault();navigate(1);}if(e.key==='Escape')stopPlayback('已停止播放。');});
 let pointer, suppressClick = false;
 $('photo-stage').addEventListener('pointerdown', e => {if (e.isPrimary) pointer = {x:e.clientX,y:e.clientY,id:e.pointerId};});
@@ -138,7 +174,7 @@ catch {$('scene-title').textContent='載入失敗';status('照片資料無法載
 // Optional agent controls share the same state as the visible interface.
 if (data && document.modelContext?.registerTool) {
   const lifecycle = new AbortController();
-  const snapshot = () => ({photoId:photosInCategory()[index].id,photoNumber:index+1,totalPhotos:photosInCategory().length,category,word:selected,language:mode});
+  const snapshot = () => ({photoId:photosInCategory()[index].id,photoNumber:index+1,totalPhotos:photosInCategory().length,category,word:selected,language:mode,phraseLevel:phrase.level,selfPractice:phrase.selfPractice,answerHidden:phrase.concealed});
   const register = tool => {
     try {Promise.resolve(document.modelContext.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{});} catch {}
   };

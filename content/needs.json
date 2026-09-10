@@ -1,0 +1,27 @@
+[
+  {"id":"pain","title":"疼痛","imageKey":"leg_pain","levels":[
+    {"word":"pain"},
+    {"word":"need_pain_phrase","zh":"腳痛","tw":"跤疼","roman":"kha thiànn"},
+    {"word":"need_pain_sentence","zh":"我的腳痛","tw":"我的跤疼","roman":"guá ê kha thiànn"}
+  ]},
+  {"id":"cold","title":"覺得冷","imageKey":"cold","levels":[
+    {"word":"cold"},
+    {"word":"need_cold_phrase","zh":"很冷","tw":"足寒","roman":"tsiok kuânn"},
+    {"word":"need_cold_sentence","zh":"我很冷","tw":"我足寒","roman":"guá tsiok kuânn"}
+  ]},
+  {"id":"toilet","title":"上廁所","imageKey":"toilet","levels":[
+    {"word":"need_toilet_word","zh":"廁所","tw":"便所","roman":"piān-sóo","audioId":"04691"},
+    {"word":"need_toilet_phrase","zh":"上廁所","tw":"去便所","roman":"khì piān-sóo"},
+    {"word":"need_toilet_sentence","zh":"我要上廁所","tw":"我欲去便所","roman":"guá beh khì piān-sóo"}
+  ]},
+  {"id":"rest","title":"休息","imageKey":"rest","levels":[
+    {"word":"need_rest_word","zh":"休息","tw":"歇睏","roman":"hioh-khùn","audioId":"09694"},
+    {"word":"need_rest_phrase","zh":"想休息","tw":"欲歇睏","roman":"beh hioh-khùn"},
+    {"word":"need_rest_sentence","zh":"我想休息","tw":"我欲歇睏","roman":"guá beh hioh-khùn"}
+  ]},
+  {"id":"help","title":"求助","imageKey":"help","levels":[
+    {"word":"need_help_word","zh":"幫忙","tw":"幫忙","roman":"pang-bâng","audioId":"12189"},
+    {"word":"need_help_phrase","zh":"幫我","tw":"共我鬥相共","roman":"kā guá tàu-sann-kāng"},
+    {"word":"need_help_sentence","zh":"請幫我","tw":"請共我鬥相共","roman":"tshiánn kā guá tàu-sann-kāng"}
+  ]}
+]

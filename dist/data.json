@@ -723,6 +723,139 @@
       "source": "moe",
       "sourceUrl": "https://www.moedict.tw/'麻",
       "recordingUrl": "https://r2-assets.moedict.tw/audio/t/08113.mp3"
+    },
+    "need_pain_phrase": {
+      "zh": "腳痛",
+      "tw": "跤疼",
+      "roman": "kha thiànn",
+      "zhAudio": "/assets/audio/zh/need_pain_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_pain_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kha+thi%C3%A0nn"
+    },
+    "need_pain_sentence": {
+      "zh": "我的腳痛",
+      "tw": "我的跤疼",
+      "roman": "guá ê kha thiànn",
+      "zhAudio": "/assets/audio/zh/need_pain_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_pain_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+kha+thi%C3%A0nn"
+    },
+    "need_cold_phrase": {
+      "zh": "很冷",
+      "tw": "足寒",
+      "roman": "tsiok kuânn",
+      "zhAudio": "/assets/audio/zh/need_cold_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_cold_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tsiok+ku%C3%A2nn"
+    },
+    "need_cold_sentence": {
+      "zh": "我很冷",
+      "tw": "我足寒",
+      "roman": "guá tsiok kuânn",
+      "zhAudio": "/assets/audio/zh/need_cold_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_cold_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+tsiok+ku%C3%A2nn"
+    },
+    "need_toilet_word": {
+      "zh": "廁所",
+      "tw": "便所",
+      "roman": "piān-sóo",
+      "zhAudio": "/assets/audio/zh/need_toilet_word.mp3",
+      "source": "moe",
+      "audioId": "04691",
+      "twAudio": "/assets/audio/tw/04691.mp3",
+      "sourceUrl": "https://www.moedict.tw/'便所",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/04691.mp3"
+    },
+    "need_toilet_phrase": {
+      "zh": "上廁所",
+      "tw": "去便所",
+      "roman": "khì piān-sóo",
+      "zhAudio": "/assets/audio/zh/need_toilet_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_toilet_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kh%C3%AC+pi%C4%81n-s%C3%B3o"
+    },
+    "need_toilet_sentence": {
+      "zh": "我要上廁所",
+      "tw": "我欲去便所",
+      "roman": "guá beh khì piān-sóo",
+      "zhAudio": "/assets/audio/zh/need_toilet_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_toilet_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+kh%C3%AC+pi%C4%81n-s%C3%B3o"
+    },
+    "need_rest_word": {
+      "zh": "休息",
+      "tw": "歇睏",
+      "roman": "hioh-khùn",
+      "zhAudio": "/assets/audio/zh/need_rest_word.mp3",
+      "source": "moe",
+      "audioId": "09694",
+      "twAudio": "/assets/audio/tw/09694.mp3",
+      "sourceUrl": "https://www.moedict.tw/'歇睏",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/09694.mp3"
+    },
+    "need_rest_phrase": {
+      "zh": "想休息",
+      "tw": "欲歇睏",
+      "roman": "beh hioh-khùn",
+      "zhAudio": "/assets/audio/zh/need_rest_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_rest_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=beh+hioh-kh%C3%B9n"
+    },
+    "need_rest_sentence": {
+      "zh": "我想休息",
+      "tw": "我欲歇睏",
+      "roman": "guá beh hioh-khùn",
+      "zhAudio": "/assets/audio/zh/need_rest_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_rest_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+hioh-kh%C3%B9n"
+    },
+    "need_help_word": {
+      "zh": "幫忙",
+      "tw": "幫忙",
+      "roman": "pang-bâng",
+      "zhAudio": "/assets/audio/zh/need_help_word.mp3",
+      "source": "moe",
+      "audioId": "12189",
+      "twAudio": "/assets/audio/tw/12189.mp3",
+      "sourceUrl": "https://www.moedict.tw/'幫忙",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/12189.mp3"
+    },
+    "need_help_phrase": {
+      "zh": "幫我",
+      "tw": "共我鬥相共",
+      "roman": "kā guá tàu-sann-kāng",
+      "zhAudio": "/assets/audio/zh/need_help_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_help_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=k%C4%81+gu%C3%A1+t%C3%A0u-sann-k%C4%81ng"
+    },
+    "need_help_sentence": {
+      "zh": "請幫我",
+      "tw": "請共我鬥相共",
+      "roman": "tshiánn kā guá tàu-sann-kāng",
+      "zhAudio": "/assets/audio/zh/need_help_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/need_help_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=tshi%C3%A1nn+k%C4%81+gu%C3%A1+t%C3%A0u-sann-k%C4%81ng"
     }
   },
   "photos": [
@@ -2463,12 +2596,201 @@
           ]
         }
       ]
+    },
+    {
+      "id": "need_pain",
+      "title": "疼痛",
+      "alt": "疼痛的情境圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/leg_pain.png",
+      "category": "needs",
+      "kind": "pictogram",
+      "source": {
+        "originalUrl": "https://static.arasaac.org/pictograms/35809/35809_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/35809/foot%20pain",
+        "creator": "Sergio Palao",
+        "owner": "Gobierno de Aragón",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "sha256": "90c65ce48206b8eb775e310fce6828bbed1384982e33ad92dcdd95bd6f2b329e",
+        "key": "leg_pain"
+      },
+      "levels": [
+        "pain",
+        "need_pain_phrase",
+        "need_pain_sentence"
+      ],
+      "objects": [
+        {
+          "word": "pain",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "need_cold",
+      "title": "覺得冷",
+      "alt": "覺得冷的情境圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/cold.png",
+      "category": "needs",
+      "kind": "pictogram",
+      "source": {
+        "key": "cold",
+        "originalUrl": "https://static.arasaac.org/pictograms/2401/2401_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/2401",
+        "creator": "Sergio Palao",
+        "owner": "Government of Aragón (Spain)",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA",
+        "licenseUrl": "https://arasaac.org/terms-of-use",
+        "description": "Person shivering with arms wrapped around body; feeling cold rather than object temperature."
+      },
+      "levels": [
+        "cold",
+        "need_cold_phrase",
+        "need_cold_sentence"
+      ],
+      "objects": [
+        {
+          "word": "cold",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "need_toilet",
+      "title": "上廁所",
+      "alt": "上廁所的情境圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/toilet.png",
+      "category": "needs",
+      "kind": "pictogram",
+      "source": {
+        "originalUrl": "https://static.arasaac.org/pictograms/16889/16889_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/16889/sit%20on%20the%20toilet",
+        "creator": "Sergio Palao",
+        "owner": "Gobierno de Aragón",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "sha256": "b54e1053f7cbc92b1d0ed6a2460a935544ae8cf5e74bebd0aa046f01f4e4371f",
+        "key": "toilet"
+      },
+      "levels": [
+        "need_toilet_word",
+        "need_toilet_phrase",
+        "need_toilet_sentence"
+      ],
+      "objects": [
+        {
+          "word": "need_toilet_word",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "need_rest",
+      "title": "休息",
+      "alt": "休息的情境圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/rest.png",
+      "category": "needs",
+      "kind": "pictogram",
+      "source": {
+        "originalUrl": "https://static.arasaac.org/pictograms/16643/16643_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/16643/rest",
+        "creator": "Sergio Palao",
+        "owner": "Gobierno de Aragón",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "sha256": "0f219c6d7c1e454bd5740c9bea7042ab485d6e4059ca30dd7c844b188097c1eb",
+        "key": "rest"
+      },
+      "levels": [
+        "need_rest_word",
+        "need_rest_phrase",
+        "need_rest_sentence"
+      ],
+      "objects": [
+        {
+          "word": "need_rest_word",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "need_help",
+      "title": "求助",
+      "alt": "求助的情境圖卡",
+      "width": 500,
+      "height": 500,
+      "image": "/assets/pictograms/help.png",
+      "category": "needs",
+      "kind": "pictogram",
+      "source": {
+        "originalUrl": "https://static.arasaac.org/pictograms/32648/32648_500.png",
+        "sourcePage": "https://arasaac.org/pictograms/en/32648/help",
+        "creator": "Sergio Palao",
+        "owner": "Gobierno de Aragón",
+        "source": "ARASAAC",
+        "license": "CC BY-NC-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "sha256": "487daa686481eb42a3ad32abe06c9d1369088a8172aedf9d60a74293da99899b",
+        "key": "help"
+      },
+      "levels": [
+        "need_help_word",
+        "need_help_phrase",
+        "need_help_sentence"
+      ],
+      "objects": [
+        {
+          "word": "need_help_word",
+          "box": [
+            3,
+            3,
+            94,
+            94
+          ]
+        }
+      ]
     }
   ],
   "categories": [
     {
       "id": "all",
       "label": "全部"
+    },
+    {
+      "id": "needs",
+      "label": "生活需求"
     },
     {
       "id": "life",
