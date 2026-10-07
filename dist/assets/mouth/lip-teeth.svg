@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">上齒輕碰下唇的起音位置</title><desc id="desc">正面示意：上排門牙輕輕靠在下嘴唇上，氣流由牙齒與下唇間通過。</desc>
+  <rect width="600" height="360" rx="24" fill="#f5f8fd"/>
+  <path d="M204 65 Q170 150 185 238 Q208 302 300 318 Q392 302 415 238 Q430 150 396 65" fill="#fff0e5" stroke="#c2a092" stroke-width="3"/>
+  <path d="M284 65 L270 139 Q277 152 294 147 M306 147 Q323 152 330 139 L316 65" fill="none" stroke="#c2a092" stroke-width="3" stroke-linecap="round"/>
+  <path d="M215 212 Q250 175 280 189 Q300 198 320 189 Q350 175 385 212 Q350 235 300 232 Q250 235 215 212" fill="#e8aba6" stroke="#9e5362" stroke-width="3"/>
+  <path d="M239 206 Q300 193 361 206 L350 229 Q300 239 250 229Z" fill="white" stroke="#b8a6a5" stroke-width="2"/>
+  <path d="M281 199 L281 231 M319 199 L319 231 M300 198 L300 233" stroke="#b8a6a5" stroke-width="2"/>
+  <path d="M225 224 Q259 230 278 226 Q300 222 322 226 Q341 230 375 224 Q352 262 300 259 Q248 262 225 224Z" fill="#e8aba6" stroke="#9e5362" stroke-width="3"/>
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#162b4d">上齒輕碰下唇</text>
+</svg>

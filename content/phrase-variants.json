@@ -1,0 +1,2260 @@
+[
+  {
+    "word": "fan",
+    "phrases": [
+      {
+        "zh": "關電風扇",
+        "tw": "關電風",
+        "roman": "kuainn tiān-hong"
+      },
+      {
+        "zh": "買電風扇",
+        "tw": "買電風",
+        "roman": "bé tiān-hong"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要關電風扇",
+        "tw": "我欲關電風",
+        "roman": "guá beh kuainn tiān-hong"
+      },
+      {
+        "zh": "請幫我買電風扇",
+        "tw": "請共我買電風",
+        "roman": "tshiánn kā guá bé tiān-hong"
+      }
+    ]
+  },
+  {
+    "word": "banana",
+    "phrases": [
+      {
+        "zh": "買香蕉",
+        "tw": "買弓蕉",
+        "roman": "bé king-tsio"
+      },
+      {
+        "zh": "拿香蕉",
+        "tw": "提弓蕉",
+        "roman": "the̍h king-tsio"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要買香蕉",
+        "tw": "我欲買弓蕉",
+        "roman": "guá beh bé king-tsio"
+      },
+      {
+        "zh": "請幫我拿香蕉",
+        "tw": "請共我提弓蕉",
+        "roman": "tshiánn kā guá the̍h king-tsio"
+      }
+    ]
+  },
+  {
+    "word": "dog",
+    "phrases": [
+      {
+        "zh": "摸狗",
+        "tw": "摸狗",
+        "roman": "bong káu"
+      },
+      {
+        "zh": "找狗",
+        "tw": "揣狗",
+        "roman": "tshuē káu"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要摸狗",
+        "tw": "我欲摸狗",
+        "roman": "guá beh bong káu"
+      },
+      {
+        "zh": "請幫我找狗",
+        "tw": "請共我揣狗",
+        "roman": "tshiánn kā guá tshuē káu"
+      }
+    ]
+  },
+  {
+    "word": "phone",
+    "phrases": [
+      {
+        "zh": "拿電話",
+        "tw": "提電話",
+        "roman": "the̍h tiān-uē"
+      },
+      {
+        "zh": "找電話",
+        "tw": "揣電話",
+        "roman": "tshuē tiān-uē"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿電話",
+        "tw": "我欲提電話",
+        "roman": "guá beh the̍h tiān-uē"
+      },
+      {
+        "zh": "請幫我找電話",
+        "tw": "請共我揣電話",
+        "roman": "tshiánn kā guá tshuē tiān-uē"
+      }
+    ]
+  },
+  {
+    "word": "tv",
+    "phrases": [
+      {
+        "zh": "開電視",
+        "tw": "開電視",
+        "roman": "khui tiān-sī"
+      },
+      {
+        "zh": "關電視",
+        "tw": "關電視",
+        "roman": "kuainn tiān-sī"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要開電視",
+        "tw": "我欲開電視",
+        "roman": "guá beh khui tiān-sī"
+      },
+      {
+        "zh": "請幫我關電視",
+        "tw": "請共我關電視",
+        "roman": "tshiánn kā guá kuainn tiān-sī"
+      }
+    ]
+  },
+  {
+    "word": "thermos",
+    "phrases": [
+      {
+        "zh": "洗保溫杯",
+        "tw": "洗保溫杯",
+        "roman": "sé pó-un-pue"
+      },
+      {
+        "zh": "找保溫杯",
+        "tw": "揣保溫杯",
+        "roman": "tshuē pó-un-pue"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗保溫杯",
+        "tw": "我欲洗保溫杯",
+        "roman": "guá beh sé pó-un-pue"
+      },
+      {
+        "zh": "請幫我找保溫杯",
+        "tw": "請共我揣保溫杯",
+        "roman": "tshiánn kā guá tshuē pó-un-pue"
+      }
+    ]
+  },
+  {
+    "word": "mask",
+    "phrases": [
+      {
+        "zh": "拿口罩",
+        "tw": "提喙罨",
+        "roman": "the̍h tshuì-am"
+      },
+      {
+        "zh": "換口罩",
+        "tw": "換喙罨",
+        "roman": "uānn tshuì-am"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿口罩",
+        "tw": "我欲提喙罨",
+        "roman": "guá beh the̍h tshuì-am"
+      },
+      {
+        "zh": "請幫我換口罩",
+        "tw": "請共我換喙罨",
+        "roman": "tshiánn kā guá uānn tshuì-am"
+      }
+    ]
+  },
+  {
+    "word": "remote",
+    "phrases": [
+      {
+        "zh": "找遙控器",
+        "tw": "揣遙控器",
+        "roman": "tshuē iâu-khòng-khì"
+      },
+      {
+        "zh": "用遙控器",
+        "tw": "用遙控器",
+        "roman": "īng iâu-khòng-khì"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要找遙控器",
+        "tw": "我欲揣遙控器",
+        "roman": "guá beh tshuē iâu-khòng-khì"
+      },
+      {
+        "zh": "請幫我用遙控器",
+        "tw": "請共我用遙控器",
+        "roman": "tshiánn kā guá īng iâu-khòng-khì"
+      }
+    ]
+  },
+  {
+    "word": "slippers",
+    "phrases": [
+      {
+        "zh": "拿拖鞋",
+        "tw": "提淺拖仔",
+        "roman": "the̍h tshián-thua-á"
+      },
+      {
+        "zh": "找拖鞋",
+        "tw": "揣淺拖仔",
+        "roman": "tshuē tshián-thua-á"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿拖鞋",
+        "tw": "我欲提淺拖仔",
+        "roman": "guá beh the̍h tshián-thua-á"
+      },
+      {
+        "zh": "請幫我找拖鞋",
+        "tw": "請共我揣淺拖仔",
+        "roman": "tshiánn kā guá tshuē tshián-thua-á"
+      }
+    ]
+  },
+  {
+    "word": "shoes",
+    "phrases": [
+      {
+        "zh": "拿鞋子",
+        "tw": "提鞋",
+        "roman": "the̍h ê"
+      },
+      {
+        "zh": "換鞋子",
+        "tw": "換鞋",
+        "roman": "uānn ê"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿鞋子",
+        "tw": "我欲提鞋",
+        "roman": "guá beh the̍h ê"
+      },
+      {
+        "zh": "請幫我換鞋子",
+        "tw": "請共我換鞋",
+        "roman": "tshiánn kā guá uānn ê"
+      }
+    ]
+  },
+  {
+    "word": "hairdryer",
+    "phrases": [
+      {
+        "zh": "用吹風機",
+        "tw": "用吹風機",
+        "roman": "īng tshue-hong-ki"
+      },
+      {
+        "zh": "收吹風機",
+        "tw": "收吹風機",
+        "roman": "siu tshue-hong-ki"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要用吹風機",
+        "tw": "我欲用吹風機",
+        "roman": "guá beh īng tshue-hong-ki"
+      },
+      {
+        "zh": "請幫我收吹風機",
+        "tw": "請共我收吹風機",
+        "roman": "tshiánn kā guá siu tshue-hong-ki"
+      }
+    ]
+  },
+  {
+    "word": "mushroom",
+    "phrases": [
+      {
+        "zh": "買香菇",
+        "tw": "買香菇",
+        "roman": "bé hiunn-koo"
+      },
+      {
+        "zh": "洗香菇",
+        "tw": "洗香菇",
+        "roman": "sé hiunn-koo"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要買香菇",
+        "tw": "我欲買香菇",
+        "roman": "guá beh bé hiunn-koo"
+      },
+      {
+        "zh": "請幫我洗香菇",
+        "tw": "請共我洗香菇",
+        "roman": "tshiánn kā guá sé hiunn-koo"
+      }
+    ]
+  },
+  {
+    "word": "egg",
+    "phrases": [
+      {
+        "zh": "買雞蛋",
+        "tw": "買雞卵",
+        "roman": "bé ke-nn̄g"
+      },
+      {
+        "zh": "吃雞蛋",
+        "tw": "食雞卵",
+        "roman": "tsia̍h ke-nn̄g"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要買雞蛋",
+        "tw": "我欲買雞卵",
+        "roman": "guá beh bé ke-nn̄g"
+      },
+      {
+        "zh": "我要吃雞蛋",
+        "tw": "我欲食雞卵",
+        "roman": "guá beh tsia̍h ke-nn̄g",
+        "synthesisRoman": "guá beh tsia̍h ke-nn̄g."
+      }
+    ]
+  },
+  {
+    "word": "fridge",
+    "phrases": [
+      {
+        "zh": "關冰箱",
+        "tw": "關冰箱",
+        "roman": "kuainn ping-siunn"
+      },
+      {
+        "zh": "擦冰箱",
+        "tw": "拭冰箱",
+        "roman": "tshit ping-siunn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要關冰箱",
+        "tw": "我欲關冰箱",
+        "roman": "guá beh kuainn ping-siunn"
+      },
+      {
+        "zh": "請幫我擦冰箱",
+        "tw": "請共我拭冰箱",
+        "roman": "tshiánn kā guá tshit ping-siunn"
+      }
+    ]
+  },
+  {
+    "word": "microwave",
+    "phrases": [
+      {
+        "zh": "開微波爐",
+        "tw": "開微波爐",
+        "roman": "khui bî-pho-lôo"
+      },
+      {
+        "zh": "擦微波爐",
+        "tw": "拭微波爐",
+        "roman": "tshit bî-pho-lôo"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要開微波爐",
+        "tw": "我欲開微波爐",
+        "roman": "guá beh khui bî-pho-lôo"
+      },
+      {
+        "zh": "請幫我擦微波爐",
+        "tw": "請共我拭微波爐",
+        "roman": "tshiánn kā guá tshit bî-pho-lôo"
+      }
+    ]
+  },
+  {
+    "word": "sink",
+    "phrases": [
+      {
+        "zh": "擦水槽",
+        "tw": "拭水槽",
+        "roman": "tshit tsuí-tsô"
+      },
+      {
+        "zh": "看水槽",
+        "tw": "看水槽",
+        "roman": "khuànn tsuí-tsô"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要擦水槽",
+        "tw": "我欲拭水槽",
+        "roman": "guá beh tshit tsuí-tsô"
+      },
+      {
+        "zh": "請幫我看水槽",
+        "tw": "請共我看水槽",
+        "roman": "tshiánn kā guá khuànn tsuí-tsô"
+      }
+    ]
+  },
+  {
+    "word": "faucet",
+    "phrases": [
+      {
+        "zh": "關水龍頭",
+        "tw": "關水道頭",
+        "roman": "kuainn tsuí-tō-thâu"
+      },
+      {
+        "zh": "擦水龍頭",
+        "tw": "拭水道頭",
+        "roman": "tshit tsuí-tō-thâu"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要關水龍頭",
+        "tw": "我欲關水道頭",
+        "roman": "guá beh kuainn tsuí-tō-thâu"
+      },
+      {
+        "zh": "請幫我擦水龍頭",
+        "tw": "請共我拭水道頭",
+        "roman": "tshiánn kā guá tshit tsuí-tō-thâu"
+      }
+    ]
+  },
+  {
+    "word": "kettle",
+    "phrases": [
+      {
+        "zh": "洗茶壺",
+        "tw": "洗茶罐",
+        "roman": "sé tê-kuàn"
+      },
+      {
+        "zh": "找茶壺",
+        "tw": "揣茶罐",
+        "roman": "tshuē tê-kuàn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗茶壺",
+        "tw": "我欲洗茶罐",
+        "roman": "guá beh sé tê-kuàn"
+      },
+      {
+        "zh": "請幫我找茶壺",
+        "tw": "請共我揣茶罐",
+        "roman": "tshiánn kā guá tshuē tê-kuàn"
+      }
+    ]
+  },
+  {
+    "word": "hotwater",
+    "phrases": [
+      {
+        "zh": "用熱水瓶",
+        "tw": "用滾水罐",
+        "roman": "īng kún-tsuí-kuàn"
+      },
+      {
+        "zh": "找熱水瓶",
+        "tw": "揣滾水罐",
+        "roman": "tshuē kún-tsuí-kuàn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要用熱水瓶",
+        "tw": "我欲用滾水罐",
+        "roman": "guá beh īng kún-tsuí-kuàn"
+      },
+      {
+        "zh": "請幫我找熱水瓶",
+        "tw": "請共我揣滾水罐",
+        "roman": "tshiánn kā guá tshuē kún-tsuí-kuàn"
+      }
+    ]
+  },
+  {
+    "word": "book",
+    "phrases": [
+      {
+        "zh": "拿書",
+        "tw": "提冊",
+        "roman": "the̍h tsheh"
+      },
+      {
+        "zh": "買書",
+        "tw": "買冊",
+        "roman": "bé tsheh"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿書",
+        "tw": "我欲提冊",
+        "roman": "guá beh the̍h tsheh"
+      },
+      {
+        "zh": "請幫我買書",
+        "tw": "請共我買冊",
+        "roman": "tshiánn kā guá bé tsheh"
+      }
+    ]
+  },
+  {
+    "word": "computer",
+    "phrases": [
+      {
+        "zh": "開電腦",
+        "tw": "開電腦",
+        "roman": "khui tiān-náu"
+      },
+      {
+        "zh": "關電腦",
+        "tw": "關電腦",
+        "roman": "kuainn tiān-náu"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要開電腦",
+        "tw": "我欲開電腦",
+        "roman": "guá beh khui tiān-náu"
+      },
+      {
+        "zh": "請幫我關電腦",
+        "tw": "請共我關電腦",
+        "roman": "tshiánn kā guá kuainn tiān-náu"
+      }
+    ]
+  },
+  {
+    "word": "ac",
+    "phrases": [
+      {
+        "zh": "關冷氣",
+        "tw": "關冷氣",
+        "roman": "kuainn líng-khì"
+      },
+      {
+        "zh": "吹冷氣",
+        "tw": "吹冷氣",
+        "roman": "tshue líng-khì"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要關冷氣",
+        "tw": "我欲關冷氣",
+        "roman": "guá beh kuainn líng-khì"
+      },
+      {
+        "zh": "我想吹冷氣",
+        "tw": "我想欲吹冷氣",
+        "roman": "guá siūnn-beh tshue líng-khì",
+        "synthesisRoman": "guá siūnn-beh tshue líng-khì."
+      }
+    ]
+  },
+  {
+    "word": "calendar",
+    "phrases": [
+      {
+        "zh": "拿月曆",
+        "tw": "提曆日",
+        "roman": "the̍h la̍h-ji̍t"
+      },
+      {
+        "zh": "換月曆",
+        "tw": "換曆日",
+        "roman": "uānn la̍h-ji̍t"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿月曆",
+        "tw": "我欲提曆日",
+        "roman": "guá beh the̍h la̍h-ji̍t"
+      },
+      {
+        "zh": "請幫我換月曆",
+        "tw": "請共我換曆日",
+        "roman": "tshiánn kā guá uānn la̍h-ji̍t"
+      }
+    ]
+  },
+  {
+    "word": "window",
+    "phrases": [
+      {
+        "zh": "關窗戶",
+        "tw": "關窗",
+        "roman": "kuainn thang"
+      },
+      {
+        "zh": "擦窗戶",
+        "tw": "拭窗",
+        "roman": "tshit thang"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要關窗戶",
+        "tw": "我欲關窗",
+        "roman": "guá beh kuainn thang"
+      },
+      {
+        "zh": "請幫我擦窗戶",
+        "tw": "請共我拭窗",
+        "roman": "tshiánn kā guá tshit thang"
+      }
+    ]
+  },
+  {
+    "word": "mirror",
+    "phrases": [
+      {
+        "zh": "擦鏡子",
+        "tw": "拭鏡",
+        "roman": "tshit kiànn"
+      },
+      {
+        "zh": "拿鏡子",
+        "tw": "提鏡",
+        "roman": "the̍h kiànn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要擦鏡子",
+        "tw": "我欲拭鏡",
+        "roman": "guá beh tshit kiànn"
+      },
+      {
+        "zh": "請幫我拿鏡子",
+        "tw": "請共我提鏡",
+        "roman": "tshiánn kā guá the̍h kiànn"
+      }
+    ]
+  },
+  {
+    "word": "altar",
+    "phrases": [
+      {
+        "zh": "看神桌",
+        "tw": "看神桌",
+        "roman": "khuànn sîn-toh"
+      },
+      {
+        "zh": "找神桌",
+        "tw": "揣神桌",
+        "roman": "tshuē sîn-toh"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看神桌",
+        "tw": "我欲看神桌",
+        "roman": "guá beh khuànn sîn-toh"
+      },
+      {
+        "zh": "請幫我找神桌",
+        "tw": "請共我揣神桌",
+        "roman": "tshiánn kā guá tshuē sîn-toh"
+      }
+    ]
+  },
+  {
+    "word": "bowl",
+    "phrases": [
+      {
+        "zh": "拿碗",
+        "tw": "提碗",
+        "roman": "the̍h uánn"
+      },
+      {
+        "zh": "收碗",
+        "tw": "收碗",
+        "roman": "siu uánn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿碗",
+        "tw": "我欲提碗",
+        "roman": "guá beh the̍h uánn"
+      },
+      {
+        "zh": "請幫我收碗",
+        "tw": "請共我收碗",
+        "roman": "tshiánn kā guá siu uánn"
+      }
+    ]
+  },
+  {
+    "word": "plate",
+    "phrases": [
+      {
+        "zh": "洗盤子",
+        "tw": "洗盤",
+        "roman": "sé puânn"
+      },
+      {
+        "zh": "收盤子",
+        "tw": "收盤",
+        "roman": "siu puânn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗盤子",
+        "tw": "我欲洗盤",
+        "roman": "guá beh sé puânn"
+      },
+      {
+        "zh": "請幫我收盤子",
+        "tw": "請共我收盤",
+        "roman": "tshiánn kā guá siu puânn"
+      }
+    ]
+  },
+  {
+    "word": "chopsticks",
+    "phrases": [
+      {
+        "zh": "拿筷子",
+        "tw": "提箸",
+        "roman": "the̍h tī",
+        "synthesisRoman": "the̍h tī."
+      },
+      {
+        "zh": "洗筷子",
+        "tw": "洗箸",
+        "roman": "sé tī",
+        "synthesisRoman": "sé tī."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿筷子",
+        "tw": "我欲提箸",
+        "roman": "guá beh the̍h tī"
+      },
+      {
+        "zh": "請幫我洗筷子",
+        "tw": "請共我洗箸",
+        "roman": "tshiánn kā guá sé tī"
+      }
+    ]
+  },
+  {
+    "word": "spoon",
+    "phrases": [
+      {
+        "zh": "拿湯匙",
+        "tw": "提湯匙仔",
+        "roman": "the̍h thng-sî-á"
+      },
+      {
+        "zh": "洗湯匙",
+        "tw": "洗湯匙仔",
+        "roman": "sé thng-sî-á"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿湯匙",
+        "tw": "我欲提湯匙仔",
+        "roman": "guá beh the̍h thng-sî-á"
+      },
+      {
+        "zh": "請幫我洗湯匙",
+        "tw": "請共我洗湯匙仔",
+        "roman": "tshiánn kā guá sé thng-sî-á"
+      }
+    ]
+  },
+  {
+    "word": "fork",
+    "phrases": [
+      {
+        "zh": "拿叉子",
+        "tw": "提攕仔",
+        "roman": "the̍h tshiám-á"
+      },
+      {
+        "zh": "洗叉子",
+        "tw": "洗攕仔",
+        "roman": "sé tshiám-á"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿叉子",
+        "tw": "我欲提攕仔",
+        "roman": "guá beh the̍h tshiám-á"
+      },
+      {
+        "zh": "請幫我洗叉子",
+        "tw": "請共我洗攕仔",
+        "roman": "tshiánn kā guá sé tshiám-á"
+      }
+    ]
+  },
+  {
+    "word": "knife",
+    "phrases": [
+      {
+        "zh": "洗菜刀",
+        "tw": "洗菜刀",
+        "roman": "sé tshài-to"
+      },
+      {
+        "zh": "找菜刀",
+        "tw": "揣菜刀",
+        "roman": "tshuē tshài-to"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗菜刀",
+        "tw": "我欲洗菜刀",
+        "roman": "guá beh sé tshài-to"
+      },
+      {
+        "zh": "請幫我找菜刀",
+        "tw": "請共我揣菜刀",
+        "roman": "tshiánn kā guá tshuē tshài-to"
+      }
+    ]
+  },
+  {
+    "word": "pot",
+    "phrases": [
+      {
+        "zh": "拿鍋子",
+        "tw": "提鼎",
+        "roman": "the̍h tiánn"
+      },
+      {
+        "zh": "找鍋子",
+        "tw": "揣鼎",
+        "roman": "tshuē tiánn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿鍋子",
+        "tw": "我欲提鼎",
+        "roman": "guá beh the̍h tiánn"
+      },
+      {
+        "zh": "請幫我找鍋子",
+        "tw": "請共我揣鼎",
+        "roman": "tshiánn kā guá tshuē tiánn"
+      }
+    ]
+  },
+  {
+    "word": "spatula",
+    "phrases": [
+      {
+        "zh": "洗鍋鏟",
+        "tw": "洗煎匙",
+        "roman": "sé tsian-sî"
+      },
+      {
+        "zh": "用鍋鏟",
+        "tw": "用煎匙",
+        "roman": "īng tsian-sî"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗鍋鏟",
+        "tw": "我欲洗煎匙",
+        "roman": "guá beh sé tsian-sî"
+      },
+      {
+        "zh": "請幫我用鍋鏟",
+        "tw": "請共我用煎匙",
+        "roman": "tshiánn kā guá īng tsian-sî"
+      }
+    ]
+  },
+  {
+    "word": "cutting_board",
+    "phrases": [
+      {
+        "zh": "拿砧板",
+        "tw": "提砧",
+        "roman": "the̍h tiam"
+      },
+      {
+        "zh": "找砧板",
+        "tw": "揣砧",
+        "roman": "tshuē tiam"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要拿砧板",
+        "tw": "我欲提砧",
+        "roman": "guá beh the̍h tiam"
+      },
+      {
+        "zh": "請幫我找砧板",
+        "tw": "請共我揣砧",
+        "roman": "tshiánn kā guá tshuē tiam"
+      }
+    ]
+  },
+  {
+    "word": "ladle",
+    "phrases": [
+      {
+        "zh": "洗湯杓",
+        "tw": "洗杓仔",
+        "roman": "sé sia̍h-á"
+      },
+      {
+        "zh": "用湯杓",
+        "tw": "用杓仔",
+        "roman": "īng sia̍h-á"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗湯杓",
+        "tw": "我欲洗杓仔",
+        "roman": "guá beh sé sia̍h-á"
+      },
+      {
+        "zh": "請幫我用湯杓",
+        "tw": "請共我用杓仔",
+        "roman": "tshiánn kā guá īng sia̍h-á"
+      }
+    ]
+  },
+  {
+    "word": "faith_incense_burner_word",
+    "phrases": [
+      {
+        "zh": "洗香爐",
+        "tw": "洗香爐",
+        "roman": "sé hiunn-lôo"
+      },
+      {
+        "zh": "找香爐",
+        "tw": "揣香爐",
+        "roman": "tshuē hiunn-lôo"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗香爐",
+        "tw": "我欲洗香爐",
+        "roman": "guá beh sé hiunn-lôo"
+      },
+      {
+        "zh": "請幫我找香爐",
+        "tw": "請共我揣香爐",
+        "roman": "tshiánn kā guá tshuē hiunn-lôo"
+      }
+    ]
+  },
+  {
+    "word": "faith_prayer_beads_word",
+    "phrases": [
+      {
+        "zh": "看佛珠",
+        "tw": "看念珠",
+        "roman": "khuànn liām-tsu"
+      },
+      {
+        "zh": "找佛珠",
+        "tw": "揣念珠",
+        "roman": "tshuē liām-tsu"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看佛珠",
+        "tw": "我欲看念珠",
+        "roman": "guá beh khuànn liām-tsu"
+      },
+      {
+        "zh": "請幫我找佛珠",
+        "tw": "請共我揣念珠",
+        "roman": "tshiánn kā guá tshuē liām-tsu"
+      }
+    ]
+  },
+  {
+    "word": "bed",
+    "phrases": [
+      {
+        "zh": "坐在床上",
+        "tw": "坐佇床頂",
+        "roman": "tsē tī tshn̂g-tíng"
+      },
+      {
+        "zh": "整理床鋪",
+        "tw": "整理床鋪",
+        "roman": "tsíng-lí tshn̂g-phoo"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要坐在床上",
+        "tw": "我欲坐佇床頂",
+        "roman": "guá beh tsē tī tshn̂g-tíng"
+      },
+      {
+        "zh": "請幫我整理床鋪",
+        "tw": "請共我整理床鋪",
+        "roman": "tshiánn kā guá tsíng-lí tshn̂g-phoo"
+      }
+    ]
+  },
+  {
+    "word": "bp",
+    "phrases": [
+      {
+        "zh": "拿血壓計",
+        "tw": "提磅血壓的",
+        "roman": "the̍h pōng hueh-ap--ê"
+      },
+      {
+        "zh": "找血壓計",
+        "tw": "揣磅血壓的",
+        "roman": "tshuē pōng hueh-ap--ê"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "請幫我拿血壓計",
+        "tw": "請共我提磅血壓的",
+        "roman": "tshiánn kā guá the̍h pōng hueh-ap--ê"
+      },
+      {
+        "zh": "請幫我找血壓計",
+        "tw": "請共我揣磅血壓的",
+        "roman": "tshiánn kā guá tshuē pōng hueh-ap--ê"
+      }
+    ]
+  },
+  {
+    "word": "scale",
+    "phrases": [
+      {
+        "zh": "拿體重計",
+        "tw": "提磅仔",
+        "roman": "the̍h pōng-á"
+      },
+      {
+        "zh": "找體重計",
+        "tw": "揣磅仔",
+        "roman": "tshuē pōng-á"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "請幫我拿體重計",
+        "tw": "請共我提磅仔",
+        "roman": "tshiánn kā guá the̍h pōng-á"
+      },
+      {
+        "zh": "請幫我找體重計",
+        "tw": "請共我揣磅仔",
+        "roman": "tshiánn kā guá tshuē pōng-á"
+      }
+    ]
+  },
+  {
+    "word": "head",
+    "phrases": [
+      {
+        "zh": "頭痛",
+        "tw": "頭疼",
+        "roman": "thâu thiànn"
+      },
+      {
+        "zh": "摸頭",
+        "tw": "摸頭",
+        "roman": "bong thâu"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的頭痛",
+        "tw": "我的頭疼",
+        "roman": "guá ê thâu thiànn"
+      },
+      {
+        "zh": "我要摸頭",
+        "tw": "我欲摸頭",
+        "roman": "guá beh bong thâu"
+      }
+    ]
+  },
+  {
+    "word": "eyes",
+    "phrases": [
+      {
+        "zh": "眼睛痛",
+        "tw": "目睭疼",
+        "roman": "ba̍k-tsiu thiànn"
+      },
+      {
+        "zh": "眼睛癢",
+        "tw": "目睭癢",
+        "roman": "ba̍k-tsiu tsiūnn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的眼睛痛",
+        "tw": "我的目睭疼",
+        "roman": "guá ê ba̍k-tsiu thiànn"
+      },
+      {
+        "zh": "我的眼睛癢",
+        "tw": "我的目睭癢",
+        "roman": "guá ê ba̍k-tsiu tsiūnn"
+      }
+    ]
+  },
+  {
+    "word": "ears",
+    "phrases": [
+      {
+        "zh": "耳朵痛",
+        "tw": "耳仔疼",
+        "roman": "hīnn-á thiànn"
+      },
+      {
+        "zh": "摸耳朵",
+        "tw": "摸耳仔",
+        "roman": "bong hīnn-á"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的耳朵痛",
+        "tw": "我的耳仔疼",
+        "roman": "guá ê hīnn-á thiànn"
+      },
+      {
+        "zh": "我要摸耳朵",
+        "tw": "我欲摸耳仔",
+        "roman": "guá beh bong hīnn-á"
+      }
+    ]
+  },
+  {
+    "word": "nose",
+    "phrases": [
+      {
+        "zh": "鼻子癢",
+        "tw": "鼻癢",
+        "roman": "phīnn tsiūnn"
+      },
+      {
+        "zh": "摸鼻子",
+        "tw": "摸鼻",
+        "roman": "bong phīnn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的鼻子癢",
+        "tw": "我的鼻癢",
+        "roman": "guá ê phīnn tsiūnn"
+      },
+      {
+        "zh": "我要摸鼻子",
+        "tw": "我欲摸鼻",
+        "roman": "guá beh bong phīnn"
+      }
+    ]
+  },
+  {
+    "word": "mouth",
+    "phrases": [
+      {
+        "zh": "嘴巴痛",
+        "tw": "喙疼",
+        "roman": "tshuì thiànn"
+      },
+      {
+        "zh": "張嘴",
+        "tw": "開喙",
+        "roman": "khui tshuì"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的嘴巴痛",
+        "tw": "我的喙疼",
+        "roman": "guá ê tshuì thiànn"
+      },
+      {
+        "zh": "我要張嘴",
+        "tw": "我欲開喙",
+        "roman": "guá beh khui tshuì"
+      }
+    ]
+  },
+  {
+    "word": "teeth",
+    "phrases": [
+      {
+        "zh": "刷牙",
+        "tw": "洗喙",
+        "roman": "sé tshuì"
+      },
+      {
+        "zh": "牙齒痠",
+        "tw": "齒痠",
+        "roman": "khí sng"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要刷牙",
+        "tw": "我欲洗喙",
+        "roman": "guá beh sé tshuì"
+      },
+      {
+        "zh": "我的牙齒痠",
+        "tw": "我的齒痠",
+        "roman": "guá ê khí sng"
+      }
+    ]
+  },
+  {
+    "word": "tongue",
+    "phrases": [
+      {
+        "zh": "舌頭麻",
+        "tw": "舌麻",
+        "roman": "tsi̍h bâ"
+      },
+      {
+        "zh": "舌頭痠",
+        "tw": "舌痠",
+        "roman": "tsi̍h sng"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的舌頭麻",
+        "tw": "我的舌麻",
+        "roman": "guá ê tsi̍h bâ",
+        "synthesisRoman": "guá ê tsi̍h bâ."
+      },
+      {
+        "zh": "我的舌頭痠",
+        "tw": "我的舌痠",
+        "roman": "guá ê tsi̍h sng"
+      }
+    ]
+  },
+  {
+    "word": "neck",
+    "phrases": [
+      {
+        "zh": "脖子痛",
+        "tw": "頷頸疼",
+        "roman": "ām-kún thiànn"
+      },
+      {
+        "zh": "摸脖子",
+        "tw": "摸頷頸",
+        "roman": "bong ām-kún",
+        "synthesisRoman": "bong ām-kún."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的脖子痛",
+        "tw": "我的頷頸疼",
+        "roman": "guá ê ām-kún thiànn",
+        "synthesisRoman": "guá ê ām-kún thiànn."
+      },
+      {
+        "zh": "我要摸脖子",
+        "tw": "我欲摸頷頸",
+        "roman": "guá beh bong ām-kún",
+        "synthesisRoman": "guá beh bong ām-kún."
+      }
+    ]
+  },
+  {
+    "word": "shoulder",
+    "phrases": [
+      {
+        "zh": "肩膀痛",
+        "tw": "肩胛疼",
+        "roman": "king-kah thiànn",
+        "synthesisRoman": "king-kah thiànn."
+      },
+      {
+        "zh": "摸肩膀",
+        "tw": "摸肩胛",
+        "roman": "bong king-kah",
+        "synthesisRoman": "bong king-kah."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的肩膀痛",
+        "tw": "我的肩胛疼",
+        "roman": "guá ê king-kah thiànn",
+        "synthesisRoman": "guá ê king-kah thiànn."
+      },
+      {
+        "zh": "我要摸肩膀",
+        "tw": "我欲摸肩胛",
+        "roman": "guá beh bong king-kah",
+        "synthesisRoman": "guá beh bong king-kah."
+      }
+    ]
+  },
+  {
+    "word": "hand",
+    "phrases": [
+      {
+        "zh": "手痛",
+        "tw": "手疼",
+        "roman": "tshiú thiànn",
+        "synthesisRoman": "tshiú thiànn."
+      },
+      {
+        "zh": "擦手",
+        "tw": "拭手",
+        "roman": "tshit tshiú",
+        "synthesisRoman": "tshit tshiú."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的手痛",
+        "tw": "我的手疼",
+        "roman": "guá ê tshiú thiànn",
+        "synthesisRoman": "guá ê tshiú thiànn."
+      },
+      {
+        "zh": "我要擦手",
+        "tw": "我欲拭手",
+        "roman": "guá beh tshit tshiú",
+        "synthesisRoman": "guá beh tshit tshiú."
+      }
+    ]
+  },
+  {
+    "word": "foot",
+    "phrases": [
+      {
+        "zh": "洗腳",
+        "tw": "洗跤",
+        "roman": "sé kha",
+        "synthesisRoman": "sé kha."
+      },
+      {
+        "zh": "腳痠",
+        "tw": "跤痠",
+        "roman": "kha sng",
+        "synthesisRoman": "kha sng."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要洗腳",
+        "tw": "我欲洗跤",
+        "roman": "guá beh sé kha",
+        "synthesisRoman": "guá beh sé kha."
+      },
+      {
+        "zh": "我的腳痠",
+        "tw": "我的跤痠",
+        "roman": "guá ê kha sng",
+        "synthesisRoman": "guá ê kha sng."
+      }
+    ]
+  },
+  {
+    "word": "belly",
+    "phrases": [
+      {
+        "zh": "肚子餓",
+        "tw": "腹肚枵",
+        "roman": "pak-tóo iau",
+        "synthesisRoman": "pak-tóo iau."
+      },
+      {
+        "zh": "摸肚子",
+        "tw": "摸腹肚",
+        "roman": "bong pak-tóo",
+        "synthesisRoman": "bong pak-tóo."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我的肚子餓",
+        "tw": "我的腹肚枵",
+        "roman": "guá ê pak-tóo iau",
+        "synthesisRoman": "guá ê pak-tóo iau."
+      },
+      {
+        "zh": "我要摸肚子",
+        "tw": "我欲摸腹肚",
+        "roman": "guá beh bong pak-tóo",
+        "synthesisRoman": "guá beh bong pak-tóo."
+      }
+    ]
+  },
+  {
+    "word": "cold",
+    "phrases": [
+      {
+        "zh": "手很冷",
+        "tw": "手足寒",
+        "roman": "tshiú tsiok kuânn",
+        "synthesisRoman": "tshiú tsiok kuânn."
+      },
+      {
+        "zh": "腳很冷",
+        "tw": "跤足寒",
+        "roman": "kha tsiok kuânn",
+        "synthesisRoman": "kha tsiok kuânn."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我手很冷",
+        "tw": "我手足寒",
+        "roman": "guá tshiú tsiok kuânn",
+        "synthesisRoman": "guá tshiú tsiok kuânn."
+      },
+      {
+        "zh": "我腳很冷",
+        "tw": "我跤足寒",
+        "roman": "guá kha tsiok kuânn",
+        "synthesisRoman": "guá kha tsiok kuânn."
+      }
+    ]
+  },
+  {
+    "word": "hot",
+    "phrases": [
+      {
+        "zh": "天氣很熱",
+        "tw": "天氣足熱",
+        "roman": "thinn-khì tsiok jua̍h",
+        "synthesisRoman": "thinn-khì tsiok jua̍h."
+      },
+      {
+        "zh": "有一點熱",
+        "tw": "有淡薄仔熱",
+        "roman": "ū tām-po̍h-á jua̍h",
+        "synthesisRoman": "ū tām-po̍h-á jua̍h."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "今天天氣很熱",
+        "tw": "今仔日天氣足熱",
+        "roman": "kin-á-ji̍t thinn-khì tsiok jua̍h",
+        "synthesisRoman": "kin-á-ji̍t thinn-khì tsiok jua̍h."
+      },
+      {
+        "zh": "我有一點熱",
+        "tw": "我有淡薄仔熱",
+        "roman": "guá ū tām-po̍h-á jua̍h",
+        "synthesisRoman": "guá ū tām-po̍h-á jua̍h."
+      }
+    ]
+  },
+  {
+    "word": "pain",
+    "phrases": [
+      {
+        "zh": "頭痛",
+        "tw": "頭疼",
+        "roman": "thâu thiànn"
+      },
+      {
+        "zh": "肚子痛",
+        "tw": "腹肚疼",
+        "roman": "pak-tóo thiànn"
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我頭痛",
+        "tw": "我頭疼",
+        "roman": "guá thâu thiànn",
+        "synthesisRoman": "guá thâu thiànn."
+      },
+      {
+        "zh": "我肚子痛",
+        "tw": "我腹肚疼",
+        "roman": "guá pak-tóo thiànn",
+        "synthesisRoman": "guá pak-tóo thiànn."
+      }
+    ]
+  },
+  {
+    "word": "hungry",
+    "phrases": [
+      {
+        "zh": "肚子餓",
+        "tw": "腹肚枵",
+        "roman": "pak-tóo iau",
+        "synthesisRoman": "pak-tóo iau."
+      },
+      {
+        "zh": "有一點餓",
+        "tw": "有淡薄仔枵",
+        "roman": "ū tām-po̍h-á iau",
+        "synthesisRoman": "ū tām-po̍h-á iau."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我肚子餓",
+        "tw": "我腹肚枵",
+        "roman": "guá pak-tóo iau",
+        "synthesisRoman": "guá pak-tóo iau."
+      },
+      {
+        "zh": "我有一點餓",
+        "tw": "我有淡薄仔枵",
+        "roman": "guá ū tām-po̍h-á iau",
+        "synthesisRoman": "guá ū tām-po̍h-á iau."
+      }
+    ]
+  },
+  {
+    "word": "thirsty",
+    "phrases": [
+      {
+        "zh": "有一點口渴",
+        "tw": "有淡薄仔喙焦",
+        "roman": "ū tām-po̍h-á tshuì-ta",
+        "synthesisRoman": "ū tām-po̍h-á tshuì-ta."
+      },
+      {
+        "zh": "口渴想喝水",
+        "tw": "喙焦欲啉水",
+        "roman": "tshuì-ta beh lim tsuí",
+        "synthesisRoman": "tshuì-ta beh lim tsuí."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我有一點口渴",
+        "tw": "我有淡薄仔喙焦",
+        "roman": "guá ū tām-po̍h-á tshuì-ta",
+        "synthesisRoman": "guá ū tām-po̍h-á tshuì-ta."
+      },
+      {
+        "zh": "我口渴想喝水",
+        "tw": "我喙焦欲啉水",
+        "roman": "guá tshuì-ta beh lim tsuí",
+        "synthesisRoman": "guá tshuì-ta beh lim tsuí."
+      }
+    ]
+  },
+  {
+    "word": "tired",
+    "phrases": [
+      {
+        "zh": "有一點累",
+        "tw": "有淡薄仔忝",
+        "roman": "ū tām-po̍h-á thiám",
+        "synthesisRoman": "ū tām-po̍h-á thiám."
+      },
+      {
+        "zh": "累想休息",
+        "tw": "忝欲歇睏",
+        "roman": "thiám beh hioh-khùn",
+        "synthesisRoman": "thiám beh hioh-khùn."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我有一點累",
+        "tw": "我有淡薄仔忝",
+        "roman": "guá ū tām-po̍h-á thiám",
+        "synthesisRoman": "guá ū tām-po̍h-á thiám."
+      },
+      {
+        "zh": "我累想休息",
+        "tw": "我忝欲歇睏",
+        "roman": "guá thiám beh hioh-khùn",
+        "synthesisRoman": "guá thiám beh hioh-khùn."
+      }
+    ]
+  },
+  {
+    "word": "dizzy",
+    "phrases": [
+      {
+        "zh": "有一點頭暈",
+        "tw": "頭殼有淡薄仔眩",
+        "roman": "thâu-khak ū tām-po̍h-á hîn",
+        "synthesisRoman": "thâu-khak ū tām-po̍h-á hîn."
+      },
+      {
+        "zh": "站起來頭暈",
+        "tw": "徛起來頭殼眩",
+        "roman": "khiā khí-lâi thâu-khak hîn",
+        "synthesisRoman": "khiā khí-lâi thâu-khak hîn."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我有一點頭暈",
+        "tw": "我頭殼有淡薄仔眩",
+        "roman": "guá thâu-khak ū tām-po̍h-á hîn",
+        "synthesisRoman": "guá thâu-khak ū tām-po̍h-á hîn."
+      },
+      {
+        "zh": "我站起來頭暈",
+        "tw": "我徛起來頭殼眩",
+        "roman": "guá khiā khí-lâi thâu-khak hîn",
+        "synthesisRoman": "guá khiā khí-lâi thâu-khak hîn."
+      }
+    ]
+  },
+  {
+    "word": "itchy",
+    "phrases": [
+      {
+        "zh": "手很癢",
+        "tw": "手足癢",
+        "roman": "tshiú tsiok tsiūnn",
+        "synthesisRoman": "tshiú tsiok tsiūnn."
+      },
+      {
+        "zh": "腳很癢",
+        "tw": "跤足癢",
+        "roman": "kha tsiok tsiūnn",
+        "synthesisRoman": "kha tsiok tsiūnn."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我手很癢",
+        "tw": "我手足癢",
+        "roman": "guá tshiú tsiok tsiūnn",
+        "synthesisRoman": "guá tshiú tsiok tsiūnn."
+      },
+      {
+        "zh": "我腳很癢",
+        "tw": "我跤足癢",
+        "roman": "guá kha tsiok tsiūnn",
+        "synthesisRoman": "guá kha tsiok tsiūnn."
+      }
+    ]
+  },
+  {
+    "word": "nauseous",
+    "phrases": [
+      {
+        "zh": "有一點反胃",
+        "tw": "有淡薄仔反腹",
+        "roman": "ū tām-po̍h-á píng-pak",
+        "synthesisRoman": "ū tām-po̍h-á píng-pak."
+      },
+      {
+        "zh": "吃完想吐",
+        "tw": "食了想欲吐",
+        "roman": "tsia̍h liáu siūnn-beh thòo",
+        "synthesisRoman": "tsia̍h liáu siūnn-beh thòo."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我有一點反胃",
+        "tw": "我有淡薄仔反腹",
+        "roman": "guá ū tām-po̍h-á píng-pak",
+        "synthesisRoman": "guá ū tām-po̍h-á píng-pak."
+      },
+      {
+        "zh": "我吃完想吐",
+        "tw": "我食了想欲吐",
+        "roman": "guá tsia̍h liáu siūnn-beh thòo",
+        "synthesisRoman": "guá tsia̍h liáu siūnn-beh thòo."
+      }
+    ]
+  },
+  {
+    "word": "numbness",
+    "phrases": [
+      {
+        "zh": "腳發麻",
+        "tw": "跤麻",
+        "roman": "kha bâ",
+        "synthesisRoman": "kha bâ."
+      },
+      {
+        "zh": "手指發麻",
+        "tw": "手指仔麻",
+        "roman": "tshiú-tsí-á bâ",
+        "synthesisRoman": "tshiú-tsí-á bâ."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我腳發麻",
+        "tw": "我跤麻",
+        "roman": "guá kha bâ",
+        "synthesisRoman": "guá kha bâ."
+      },
+      {
+        "zh": "我手指發麻",
+        "tw": "我手指仔麻",
+        "roman": "guá tshiú-tsí-á bâ",
+        "synthesisRoman": "guá tshiú-tsí-á bâ."
+      }
+    ]
+  },
+  {
+    "word": "sunny",
+    "phrases": [
+      {
+        "zh": "好天氣",
+        "tw": "好天氣",
+        "roman": "hó thinn-khì",
+        "synthesisRoman": "hó thinn-khì."
+      },
+      {
+        "zh": "出太陽",
+        "tw": "出日頭",
+        "roman": "tshut ji̍t-thâu",
+        "synthesisRoman": "tshut ji̍t-thâu."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "今天是好天氣",
+        "tw": "今仔日是好天氣",
+        "roman": "kin-á-ji̍t sī hó thinn-khì",
+        "synthesisRoman": "kin-á-ji̍t sī hó thinn-khì."
+      },
+      {
+        "zh": "外面出太陽",
+        "tw": "外口出日頭",
+        "roman": "guā-kháu tshut ji̍t-thâu",
+        "synthesisRoman": "guā-kháu tshut ji̍t-thâu."
+      }
+    ]
+  },
+  {
+    "word": "cloudy",
+    "phrases": [
+      {
+        "zh": "天色暗",
+        "tw": "天色暗",
+        "roman": "thinn-sik àm",
+        "synthesisRoman": "thinn-sik àm."
+      },
+      {
+        "zh": "沒有太陽",
+        "tw": "無日頭",
+        "roman": "bô ji̍t-thâu",
+        "synthesisRoman": "bô ji̍t-thâu."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "外面天色暗",
+        "tw": "外口天色暗",
+        "roman": "guā-kháu thinn-sik àm",
+        "synthesisRoman": "guā-kháu thinn-sik àm."
+      },
+      {
+        "zh": "外面沒有太陽",
+        "tw": "外口無日頭",
+        "roman": "guā-kháu bô ji̍t-thâu",
+        "synthesisRoman": "guā-kháu bô ji̍t-thâu."
+      }
+    ]
+  },
+  {
+    "word": "rain",
+    "phrases": [
+      {
+        "zh": "現在下雨",
+        "tw": "這馬落雨",
+        "roman": "tsit-má lo̍h-hōo",
+        "synthesisRoman": "tsit-má lo̍h-hōo."
+      },
+      {
+        "zh": "又下雨",
+        "tw": "閣落雨",
+        "roman": "koh lo̍h-hōo",
+        "synthesisRoman": "koh lo̍h-hōo."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "外面現在下雨",
+        "tw": "外口這馬落雨",
+        "roman": "guā-kháu tsit-má lo̍h-hōo",
+        "synthesisRoman": "guā-kháu tsit-má lo̍h-hōo."
+      },
+      {
+        "zh": "外面又下雨",
+        "tw": "外口閣落雨",
+        "roman": "guā-kháu koh lo̍h-hōo",
+        "synthesisRoman": "guā-kháu koh lo̍h-hōo."
+      }
+    ]
+  },
+  {
+    "word": "wind",
+    "phrases": [
+      {
+        "zh": "又刮風",
+        "tw": "閣透風",
+        "roman": "koh thàu-hong",
+        "synthesisRoman": "koh thàu-hong."
+      },
+      {
+        "zh": "現在刮風",
+        "tw": "這馬透風",
+        "roman": "tsit-má thàu-hong",
+        "synthesisRoman": "tsit-má thàu-hong."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "外面又刮風",
+        "tw": "外口閣透風",
+        "roman": "guā-kháu koh thàu-hong",
+        "synthesisRoman": "guā-kháu koh thàu-hong."
+      },
+      {
+        "zh": "外面現在刮風",
+        "tw": "外口這馬透風",
+        "roman": "guā-kháu tsit-má thàu-hong",
+        "synthesisRoman": "guā-kháu tsit-má thàu-hong."
+      }
+    ]
+  },
+  {
+    "word": "thunder",
+    "phrases": [
+      {
+        "zh": "現在打雷",
+        "tw": "這馬霆雷公",
+        "roman": "tsit-má tân-luî-kong",
+        "synthesisRoman": "tsit-má tân-luî-kong."
+      },
+      {
+        "zh": "又打雷",
+        "tw": "閣霆雷公",
+        "roman": "koh tân-luî-kong",
+        "synthesisRoman": "koh tân-luî-kong."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "外面現在打雷",
+        "tw": "外口這馬霆雷公",
+        "roman": "guā-kháu tsit-má tân-luî-kong",
+        "synthesisRoman": "guā-kháu tsit-má tân-luî-kong."
+      },
+      {
+        "zh": "外面又打雷",
+        "tw": "外口閣霆雷公",
+        "roman": "guā-kháu koh tân-luî-kong",
+        "synthesisRoman": "guā-kháu koh tân-luî-kong."
+      }
+    ]
+  },
+  {
+    "word": "need_toilet_word",
+    "phrases": [
+      {
+        "zh": "找廁所",
+        "tw": "揣便所",
+        "roman": "tshuē piān-sóo",
+        "synthesisRoman": "tshuē piān-sóo."
+      },
+      {
+        "zh": "廁所在哪",
+        "tw": "便所佇佗",
+        "roman": "piān-sóo tī tó",
+        "synthesisRoman": "piān-sóo tī tó."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "請幫我找廁所",
+        "tw": "請共我揣便所",
+        "roman": "tshiánn kā guá tshuē piān-sóo",
+        "synthesisRoman": "tshiánn kā guá tshuē piān-sóo."
+      },
+      {
+        "zh": "廁所在哪裡",
+        "tw": "便所佇佗位",
+        "roman": "piān-sóo tī tó-uī",
+        "synthesisRoman": "piān-sóo tī tó-uī."
+      }
+    ]
+  },
+  {
+    "word": "need_rest_word",
+    "phrases": [
+      {
+        "zh": "坐著休息",
+        "tw": "坐咧歇睏",
+        "roman": "tsē leh hioh-khùn",
+        "synthesisRoman": "tsē leh hioh-khùn."
+      },
+      {
+        "zh": "休息一下",
+        "tw": "歇睏一下",
+        "roman": "hioh-khùn tsi̍t-ē",
+        "synthesisRoman": "hioh-khùn tsi̍t-ē."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要坐著休息",
+        "tw": "我欲坐咧歇睏",
+        "roman": "guá beh tsē leh hioh-khùn",
+        "synthesisRoman": "guá beh tsē leh hioh-khùn."
+      },
+      {
+        "zh": "讓我休息一下",
+        "tw": "予我歇睏一下",
+        "roman": "hōo guá hioh-khùn tsi̍t-ē",
+        "synthesisRoman": "hōo guá hioh-khùn tsi̍t-ē."
+      }
+    ]
+  },
+  {
+    "word": "need_help_word",
+    "phrases": [
+      {
+        "zh": "來幫忙",
+        "tw": "來鬥相共",
+        "roman": "lâi tàu-sann-kāng",
+        "synthesisRoman": "lâi tàu-sann-kāng."
+      },
+      {
+        "zh": "幫忙一下",
+        "tw": "鬥相共一下",
+        "roman": "tàu-sann-kāng tsi̍t-ē",
+        "synthesisRoman": "tàu-sann-kāng tsi̍t-ē."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "請來幫忙",
+        "tw": "請來鬥相共",
+        "roman": "tshiánn lâi tàu-sann-kāng",
+        "synthesisRoman": "tshiánn lâi tàu-sann-kāng."
+      },
+      {
+        "zh": "請幫忙一下",
+        "tw": "請鬥相共一下",
+        "roman": "tshiánn tàu-sann-kāng tsi̍t-ē",
+        "synthesisRoman": "tshiánn tàu-sann-kāng tsi̍t-ē."
+      }
+    ]
+  },
+  {
+    "word": "faith_earth_god_word",
+    "phrases": [
+      {
+        "zh": "看土地公",
+        "tw": "看土地公",
+        "roman": "khuànn Thóo-tī-kong",
+        "synthesisRoman": "khuànn Thóo-tī-kong."
+      },
+      {
+        "zh": "感謝土地公",
+        "tw": "感謝土地公",
+        "roman": "kám-siā Thóo-tī-kong",
+        "synthesisRoman": "kám-siā Thóo-tī-kong."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看土地公",
+        "tw": "我欲看土地公",
+        "roman": "guá beh khuànn Thóo-tī-kong",
+        "synthesisRoman": "guá beh khuànn Thóo-tī-kong."
+      },
+      {
+        "zh": "我感謝土地公",
+        "tw": "我感謝土地公",
+        "roman": "guá kám-siā Thóo-tī-kong",
+        "synthesisRoman": "guá kám-siā Thóo-tī-kong."
+      }
+    ]
+  },
+  {
+    "word": "faith_buddha_word",
+    "phrases": [
+      {
+        "zh": "看佛祖",
+        "tw": "看佛祖",
+        "roman": "khuànn Pu̍t-tsóo",
+        "synthesisRoman": "khuànn Pu̍t-tsóo."
+      },
+      {
+        "zh": "感謝佛祖",
+        "tw": "感謝佛祖",
+        "roman": "kám-siā Pu̍t-tsóo",
+        "synthesisRoman": "kám-siā Pu̍t-tsóo."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看佛祖",
+        "tw": "我欲看佛祖",
+        "roman": "guá beh khuànn Pu̍t-tsóo",
+        "synthesisRoman": "guá beh khuànn Pu̍t-tsóo."
+      },
+      {
+        "zh": "我感謝佛祖",
+        "tw": "我感謝佛祖",
+        "roman": "guá kám-siā Pu̍t-tsóo"
+      }
+    ]
+  },
+  {
+    "word": "faith_guanyin_word",
+    "phrases": [
+      {
+        "zh": "看觀世音菩薩",
+        "tw": "看觀世音菩薩",
+        "roman": "khuànn Kuan-sè-im phôo-sat",
+        "synthesisRoman": "khuànn Kuan-sè-im phôo-sat."
+      },
+      {
+        "zh": "感謝觀世音菩薩",
+        "tw": "感謝觀世音菩薩",
+        "roman": "kám-siā Kuan-sè-im phôo-sat",
+        "synthesisRoman": "kám-siā Kuan-sè-im phôo-sat."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看觀世音菩薩",
+        "tw": "我欲看觀世音菩薩",
+        "roman": "guá beh khuànn Kuan-sè-im phôo-sat",
+        "synthesisRoman": "guá beh khuànn Kuan-sè-im phôo-sat."
+      },
+      {
+        "zh": "我感謝觀世音菩薩",
+        "tw": "我感謝觀世音菩薩",
+        "roman": "guá kám-siā Kuan-sè-im phôo-sat",
+        "synthesisRoman": "guá kám-siā Kuan-sè-im phôo-sat."
+      }
+    ]
+  },
+  {
+    "word": "faith_mazu_word",
+    "phrases": [
+      {
+        "zh": "看媽祖",
+        "tw": "看媽祖",
+        "roman": "khuànn Má-tsóo",
+        "synthesisRoman": "khuànn Má-tsóo."
+      },
+      {
+        "zh": "感謝媽祖",
+        "tw": "感謝媽祖",
+        "roman": "kám-siā Má-tsóo",
+        "synthesisRoman": "kám-siā Má-tsóo."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看媽祖",
+        "tw": "我欲看媽祖",
+        "roman": "guá beh khuànn Má-tsóo",
+        "synthesisRoman": "guá beh khuànn Má-tsóo."
+      },
+      {
+        "zh": "我感謝媽祖",
+        "tw": "我感謝媽祖",
+        "roman": "guá kám-siā Má-tsóo",
+        "synthesisRoman": "guá kám-siā Má-tsóo."
+      }
+    ]
+  },
+  {
+    "word": "faith_guangong_word",
+    "phrases": [
+      {
+        "zh": "看關公",
+        "tw": "看關帝爺",
+        "roman": "khuànn Kuan-tè-iâ",
+        "synthesisRoman": "khuànn Kuan-tè-iâ."
+      },
+      {
+        "zh": "感謝關公",
+        "tw": "感謝關帝爺",
+        "roman": "kám-siā Kuan-tè-iâ",
+        "synthesisRoman": "kám-siā Kuan-tè-iâ."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看關公",
+        "tw": "我欲看關帝爺",
+        "roman": "guá beh khuànn Kuan-tè-iâ",
+        "synthesisRoman": "guá beh khuànn Kuan-tè-iâ."
+      },
+      {
+        "zh": "我感謝關公",
+        "tw": "我感謝關帝爺",
+        "roman": "guá kám-siā Kuan-tè-iâ",
+        "synthesisRoman": "guá kám-siā Kuan-tè-iâ."
+      }
+    ]
+  },
+  {
+    "word": "faith_maitreya_word",
+    "phrases": [
+      {
+        "zh": "看彌勒佛",
+        "tw": "看彌勒佛",
+        "roman": "khuànn Bî-li̍k-hu̍t",
+        "synthesisRoman": "khuànn Bî-li̍k-hu̍t."
+      },
+      {
+        "zh": "感謝彌勒佛",
+        "tw": "感謝彌勒佛",
+        "roman": "kám-siā Bî-li̍k-hu̍t",
+        "synthesisRoman": "kám-siā Bî-li̍k-hu̍t."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要看彌勒佛",
+        "tw": "我欲看彌勒佛",
+        "roman": "guá beh khuànn Bî-li̍k-hu̍t",
+        "synthesisRoman": "guá beh khuànn Bî-li̍k-hu̍t."
+      },
+      {
+        "zh": "我感謝彌勒佛",
+        "tw": "我感謝彌勒佛",
+        "roman": "guá kám-siā Bî-li̍k-hu̍t",
+        "synthesisRoman": "guá kám-siā Bî-li̍k-hu̍t."
+      }
+    ]
+  },
+  {
+    "word": "faith_worship_word",
+    "phrases": [
+      {
+        "zh": "一起拜拜",
+        "tw": "做伙拜拜",
+        "roman": "tsò-hué pài-pài",
+        "synthesisRoman": "tsò-hué pài-pài."
+      },
+      {
+        "zh": "來拜拜",
+        "tw": "來拜拜",
+        "roman": "lâi pài-pài",
+        "synthesisRoman": "lâi pài-pài."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我們一起拜拜",
+        "tw": "咱做伙拜拜",
+        "roman": "lán tsò-hué pài-pài",
+        "synthesisRoman": "lán tsò-hué pài-pài."
+      },
+      {
+        "zh": "我要來拜拜",
+        "tw": "我欲來拜拜",
+        "roman": "guá beh lâi pài-pài",
+        "synthesisRoman": "guá beh lâi pài-pài."
+      }
+    ]
+  },
+  {
+    "word": "faith_city_god_temple_word",
+    "phrases": [
+      {
+        "zh": "找城隍廟",
+        "tw": "揣城隍廟",
+        "roman": "tshuē Sîng-hông-biō",
+        "synthesisRoman": "tshuē Sîng-hông-biō."
+      },
+      {
+        "zh": "看城隍廟",
+        "tw": "看城隍廟",
+        "roman": "khuànn Sîng-hông-biō",
+        "synthesisRoman": "khuànn Sîng-hông-biō."
+      }
+    ],
+    "sentences": [
+      {
+        "zh": "我要找城隍廟",
+        "tw": "我欲揣城隍廟",
+        "roman": "guá beh tshuē Sîng-hông-biō",
+        "synthesisRoman": "guá beh tshuē Sîng-hông-biō."
+      },
+      {
+        "zh": "我要看城隍廟",
+        "tw": "我欲看城隍廟",
+        "roman": "guá beh khuànn Sîng-hông-biō",
+        "synthesisRoman": "guá beh khuànn Sîng-hông-biō."
+      }
+    ]
+  }
+]

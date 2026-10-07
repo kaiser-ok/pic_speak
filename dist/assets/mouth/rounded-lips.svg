@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">嘴唇收圓的起音位置</title><desc id="desc">正面嘴唇示意：嘴唇微微向前收圓，中央留一個小圓孔。</desc>
+  <rect width="600" height="360" rx="24" fill="#f5f8fd"/>
+  <path d="M204 65 Q170 150 185 238 Q208 302 300 318 Q392 302 415 238 Q430 150 396 65" fill="#fff0e5" stroke="#c2a092" stroke-width="3"/>
+  <path d="M284 65 L270 139 Q277 152 294 147 M306 147 Q323 152 330 139 L316 65" fill="none" stroke="#c2a092" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="300" cy="223" rx="51" ry="53" fill="#e8aba6" stroke="#9e5362" stroke-width="3"/>
+  <ellipse cx="300" cy="220" rx="25" ry="28" fill="#633645" stroke="#9e5362" stroke-width="3"/>
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#162b4d">嘴唇收圓</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">雙唇輕合的起音位置</title><desc id="desc">正面嘴唇示意：上唇和下唇輕輕合攏，嘴裡沒有張開的空隙。</desc>
+  <rect width="600" height="360" rx="24" fill="#f5f8fd"/>
+  <path d="M204 65 Q170 150 185 238 Q208 302 300 318 Q392 302 415 238 Q430 150 396 65" fill="#fff0e5" stroke="#c2a092" stroke-width="3"/>
+  <path d="M284 65 L270 139 Q277 152 294 147 M306 147 Q323 152 330 139 L316 65" fill="none" stroke="#c2a092" stroke-width="3" stroke-linecap="round"/>
+  <path d="M215 214 Q246 193 269 190 Q287 189 300 201 Q313 189 331 190 Q354 193 385 214 Q355 248 300 249 Q245 248 215 214" fill="#e8aba6" stroke="#9e5362" stroke-width="3"/>
+  <path d="M215 214 Q263 218 300 214 Q337 218 385 214" fill="none" stroke="#743c4e" stroke-width="4" stroke-linecap="round"/>
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#162b4d">雙唇輕合</text>
+</svg>

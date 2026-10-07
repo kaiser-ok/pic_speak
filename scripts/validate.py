@@ -8,7 +8,7 @@ public=ROOT/'dist'
 data=json.loads((public/'data.json').read_text())
 assert len(data['photos'])==77
 assert len({p['id'] for p in data['photos']})==77
-assert len(data['words'])==237
+assert len(data['words'])==550
 assert {p['id'] for p in data['photos'] if p.get('category')=='life'}=={p.stem for p in (ROOT/'pic').glob('*.jpeg')}
 for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10),('needs',5),('faith',10)]:
  assert sum(p.get('category')==category for p in data['photos'])==count,(category,count)
@@ -24,6 +24,11 @@ for photo in data['photos']:
  for obj in photo['objects']:
   assert obj['word'] in data['words']
   x,y,w,h=obj['box'];assert min(x,y)>=0 and min(w,h)>0 and x+w<=100 and y+h<=100
+  assert [len(choices) for choices in obj['levelChoices']] == [1,3,3]
+  for choices in obj['levelChoices']:
+   for key in choices: assert key in data['words']
+   for language in ('zh','tw'):
+    assert len({data['words'][key][language] for key in choices}) == len(choices)
   if photo['category']!='needs':
    assert len(obj['levels'])==3
    assert len(set(obj['levels']))==3
@@ -42,6 +47,17 @@ for photo in data['photos']:
   assert len(set(photo['levels']))==3
   assert photo['levels'][0]==photo['objects'][0]['word']
   for word in photo['levels']: assert word in data['words']
+base_words={obj['word'] for photo in data['photos'] for obj in photo['objects']}
+assert len(base_words)==79
+assert set(data['mouthHints']).issubset(base_words)
+for hints in data['mouthHints'].values():
+ for language,hint in hints.items():
+  assert language in ('zh','tw')
+  assert hint['image'].startswith('/assets/mouth/')
+  assert (public/hint['image'].lstrip('/')).exists()
+  assert hint['instruction'] and hint['alt'] and hint['sourceUrl'].startswith('https://')
+used={key for photo in data['photos'] for obj in photo['objects'] for choices in obj['levelChoices'] for key in choices}
+assert used==set(data['words'])
 for key,word in data['words'].items():
  for field in ['zhAudio','twAudio']:
   path=public/word[field].lstrip('/')
@@ -60,7 +76,9 @@ for page in public.glob('*.html'):AssetParser().feed(page.read_text())
 subprocess.run(['node','--check',str(public/'app.js')],check=True)
 subprocess.run(['node','--check',str(public/'practice-state.mjs')],check=True)
 subprocess.run(['node','--check',str(public/'audio-levels.mjs')],check=True)
+subprocess.run(['node','--check',str(public/'speech-player.mjs')],check=True)
 subprocess.run(['node','--test',str(ROOT/'scripts/practice-state.test.mjs')],check=True)
 subprocess.run(['node','--test',str(ROOT/'scripts/audio-levels.test.mjs')],check=True)
+subprocess.run(['node','--test',str(ROOT/'scripts/speech-player.test.mjs')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/prepare_audio_levels.py'),'--check'],check=True)
 print(f'PASS: {len(data["photos"])} photos, {sum(len(p["objects"]) for p in data["photos"])} annotations, {2*len(data["words"])} playable, non-silent audio files; HTML assets and JS syntax valid.')

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { applyAudioLevel } from '../dist/audio-levels.mjs';
+import { applyAudioLevel, peakCeilingCurve } from '../dist/audio-levels.mjs';
 
 function bufferOf(...channels) {
   const samples = channels.map(channel => Float32Array.from(channel));
@@ -36,4 +36,14 @@ test('loud clips are attenuated and silence or missing metadata stays usable', (
   const silence = bufferOf([0, 0, 0]);
   applyAudioLevel(silence, 18);
   assert.deepEqual(Array.from(silence.samples[0]), [0, 0, 0]);
+});
+
+test('the media output guard leaves ordinary speech unchanged and limits either polarity', () => {
+  const curve=peakCeilingCurve(), ceiling=10 ** (-1.5 / 20);
+  assert.equal(curve[(curve.length-1)/2],0);
+  assert.equal(curve[3*(curve.length-1)/4],.5);
+  assert.equal(curve[(curve.length-1)/4],-.5);
+  for (const sample of curve) assert.ok(Math.abs(sample)<=ceiling+1e-7);
+  assert.ok(Math.abs(curve.at(-1)-ceiling)<1e-7);
+  assert.ok(Math.abs(curve[0]+ceiling)<1e-7);
 });

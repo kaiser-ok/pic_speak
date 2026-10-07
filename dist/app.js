@@ -1,9 +1,15 @@
 import { PhrasePractice } from './practice-state.mjs';
-import { applyAudioLevel } from './audio-levels.mjs';
+import { SpeechPlayer, normalizeRate } from './speech-player.mjs';
 const $ = (id) => document.getElementById(id);
 const phrase = new PhrasePractice();
 const speaker = '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15 8a6 6 0 0 1 0 8"/></svg>';
-let data, index = 0, selected, category = 'life', mode = 'both', context, generation = 0, nodes = [], timers = [];
+let data, index = 0, selected, category = 'life', mode = 'both', mouthOpen = false, mouthLanguage = 'zh';
+let playbackRate = 0.75;
+try { playbackRate = normalizeRate(localStorage.getItem('pic-speak-rate-v1')); } catch {}
+const player = new SpeechPlayer({createMedia: () => $('speech-audio'), onClip: clip => {
+  status(`正在唸${clip.label}：${clip.text}`);
+  if (mouthOpen) { mouthLanguage = clip.language; renderMouthHint(); }
+}});
 const photosInCategory = () => data.photos.filter(p => category === 'all' || (p.category || 'life') === category);
 const photoURL = p => p.image || `/assets/photos/${p.id}.webp`;
 function renderCategories() {
@@ -19,13 +25,10 @@ function renderCategories() {
     $('categories').append(button);
   }
 }
-const buffers = new Map();
 const modeText = () => ({both:'中文與台語',zh:'中文',tw:'台語'}[mode]);
 function status(text, error = false) { $('play-status').textContent = text; $('play-status').classList.toggle('error', error); }
 function stopPlayback(message) {
-  generation++;
-  nodes.forEach(node => {try {node.stop();} catch {}}); nodes = [];
-  timers.forEach(clearTimeout); timers = [];
+  player.stop();
   $('stop').hidden = true; $('replay').classList.remove('is-playing');
   document.querySelectorAll('.hotspot').forEach(b => b.classList.remove('is-playing'));
   if (message) status(message);
@@ -41,74 +44,100 @@ function setWord(word) {
     if (button.classList.contains('object-button')) button.setAttribute('aria-pressed', String(active));
   });
 }
-async function getBuffer(url) {
-  if (!buffers.has(url)) {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15000);
-    const promise = fetch(url, {cache:'no-cache', signal:controller.signal})
-      .then(r => {if (!r.ok) throw new Error('audio-missing'); return r.arrayBuffer();})
-      .then(async bytes => {
-        if (bytes.byteLength < 1000) throw new Error('audio-invalid');
-        try {
-          const buffer = await context.decodeAudioData(bytes);
-          return applyAudioLevel(buffer, data.audioLevels?.clips[url]?.gainDb);
-        }
-        catch {throw new Error('audio-invalid');}
-      }).finally(() => clearTimeout(timeout));
-    buffers.set(url, promise); promise.catch(() => buffers.delete(url));
-  }
-  return buffers.get(url);
-}
-async function play(word = selected) {
+async function play(word = selected, language = mode) {
   if (!word || !data) return;
   stopPlayback(); setWord(word);
-  const run = generation; const w = data.words[word];
-  const plan = mode === 'both' ? [[w.zhAudio,'中文'],[w.twAudio,'台語']] : [[mode === 'zh' ? w.zhAudio : w.twAudio, modeText()]];
+  const w = data.words[word];
+  const languages = language === 'both' ? ['zh', 'tw'] : [language];
+  const plan = languages.map(lang => ({url:w[lang+'Audio'], language:lang,
+    text:w[lang], label:lang === 'zh' ? '中文' : '台語',
+    gainDb:data.audioLevels?.clips[w[lang+'Audio']]?.gainDb}));
   $('stop').hidden = false; status('正在準備發音…');
+  $('replay').classList.add('is-playing');
+  document.querySelectorAll('.hotspot').forEach(b => b.classList.toggle('is-playing', b.dataset.word === phrase.objectWord));
   try {
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) throw new Error('audio-unsupported');
-    context ||= new AudioContextClass();
-    await context.resume();
-    const clips = await Promise.all(plan.map(([url]) => getBuffer(url)));
-    if (run !== generation) return;
-    let at = context.currentTime + .04;
-    $('replay').classList.add('is-playing');
-    document.querySelectorAll('.hotspot').forEach(b => b.classList.toggle('is-playing', b.dataset.word === phrase.objectWord));
-    clips.forEach((buffer, i) => {
-      const node = context.createBufferSource(); node.buffer = buffer; node.connect(context.destination);
-      const delay = (at - context.currentTime) * 1000;
-      timers.push(setTimeout(() => {if (run === generation) status(`正在唸${plan[i][1]}：${i === 0 && mode !== 'tw' ? w.zh : w.tw}`);}, Math.max(0,delay)));
-      if (i === clips.length - 1) node.onended = () => {if (run === generation) {stopPlayback(); status('換你說說看。再點一下，可以再聽。');}};
-      nodes.push(node); node.start(at); at += buffer.duration + .65;
-    });
+    if (!await player.play(plan, playbackRate)) return;
+    stopPlayback(); status('換你說說看。再點一下，可以再聽。');
   } catch (error) {
-    if (run !== generation) return;
     stopPlayback();
     const errors = {
-      'audio-missing':'這個單字的音檔尚未準備好，請先試另一個單字。',
+      'audio-missing':'這個音檔載入失敗，請確認網路後再點一次。',
       'audio-invalid':'這個音檔無法讀取，請重新整理後再試一次。',
       'audio-unsupported':'此瀏覽器不支援播放，請用 Safari 或 Chrome 開啟。',
+      'audio-timeout':'音檔載入較久，請確認網路後再點一次。',
+      'audio-slow-unsupported':'此瀏覽器無法保留音高減速，請將語速改為「正常」。',
     };
     status(errors[error.message] || (error.name === 'NotAllowedError' ? '請再點一次「聽發音」，允許瀏覽器播放聲音。' : '音檔載入失敗，請確認網路後再點一次。'), true);
   }
 }
+function renderChoices() {
+  const choices = phrase.choices;
+  $('phrase-choices').hidden = choices.length < 2;
+  $('phrase-options').replaceChildren();
+  $('choice-count').textContent = `第 ${phrase.variant + 1} ${phrase.level === 1 ? '組' : '句'}／共 ${choices.length} ${phrase.level === 1 ? '組' : '句'}`;
+  choices.forEach((word, i) => {
+    const button = document.createElement('button'); button.type = 'button';
+    button.textContent = `${i + 1}　${data.words[word].zh}`;
+    button.setAttribute('aria-pressed', String(i === phrase.variant));
+    button.onclick = () => {
+      stopPlayback(); phrase.setVariant(i); setWord(phrase.word); renderChoices();
+      $('phrase-options').children[i].focus({preventScroll:true});
+      status('已選擇。點「聽發音」就能聽。');
+    };
+    $('phrase-options').append(button);
+  });
+}
+function renderMouthHint() {
+  const hints = data?.mouthHints?.[phrase.objectWord] || {};
+  const languages = ['zh', 'tw'].filter(lang => hints[lang] && (mode === 'both' || mode === lang));
+  const available = phrase.level === 0 && languages.length > 0;
+  $('mouth-toggle').hidden = !available;
+  if (!available) mouthOpen = false;
+  $('mouth-toggle').setAttribute('aria-expanded', String(mouthOpen));
+  $('mouth-toggle').textContent = mouthOpen ? '收起嘴型提示' : '嘴型提示';
+  $('mouth-panel').hidden = !mouthOpen;
+  document.querySelector('.practice').classList.toggle('has-mouth-hint', mouthOpen);
+  if (!mouthOpen) { $('mouth-image').removeAttribute('src'); return; }
+  if (!languages.includes(mouthLanguage)) mouthLanguage = languages[0];
+  const hint = hints[mouthLanguage];
+  $('mouth-language').replaceChildren();
+  $('mouth-language').hidden = languages.length < 2;
+  languages.forEach(lang => {
+    const button = document.createElement('button'); button.type = 'button';
+    button.textContent = lang === 'zh' ? '中文嘴型' : '台語嘴型';
+    button.setAttribute('aria-pressed', String(lang === mouthLanguage));
+    button.onclick = () => {
+      stopPlayback(); mouthLanguage = lang; renderMouthHint();
+      $('mouth-language').children[languages.indexOf(lang)].focus({preventScroll:true});
+      status('點「聽這個單字」配合嘴型練習。');
+    };
+    $('mouth-language').append(button);
+  });
+  $('mouth-title').textContent = `${mouthLanguage === 'zh' ? '中文' : '台語'}：${data.words[phrase.objectWord][mouthLanguage]}`;
+  $('mouth-instruction').textContent = hint.instruction;
+  $('mouth-image').alt = hint.alt;
+  $('mouth-image').src = hint.image;
+  $('mouth-source').href = hint.sourceUrl;
+  $('mouth-source').textContent = '查看發音參考';
+}
+function closeMouthHint() { mouthOpen = false; }
 function renderLengthControls() {
   $('phrase-controls').hidden = phrase.levels.length < 2;
   $('phrase-level').textContent = `${['單字','短語','句子'][phrase.level]} · ${phrase.level + 1} / 3`;
-  $('shorter').disabled = phrase.level === 0;
-  $('longer').disabled = phrase.level === phrase.levels.length - 1;
+  document.querySelectorAll('[data-level]').forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.level) === phrase.level)));
+  renderChoices(); renderMouthHint();
 }
 function renderPhoto(resetLevel = true) {
   stopPlayback(); const photos = photosInCategory(); const p = photos[index];
-  if (resetLevel) phrase.selectPhoto(p);
+  if (resetLevel) { phrase.selectPhoto(p); closeMouthHint(); }
   const isNeed = p.category === 'needs';
   const supportsPhrases = phrase.levels.length > 1;
   const objects = p.objects;
   renderLengthControls();
-  $('object-buttons').hidden = isNeed;
+  $('object-buttons').hidden = isNeed || objects.length === 1;
+  document.querySelector('.listen-heading').hidden = objects.length === 1;
   document.querySelector('.listen-heading h2').textContent = isNeed ? '從單字，慢慢說成一句話' : supportsPhrases ? '選一個詞，練習長短句' : '選一個單字';
-  $('gentle-note').textContent = supportsPhrases ? '換圖或切換長度不會自動播放。點黃色框或「聽發音」才會唸；改選另一個詞會回到單字。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
+  $('gentle-note').textContent = supportsPhrases ? '選一句，點一下聽，再慢慢跟著說。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
   document.querySelector('.intro h1').textContent = isNeed ? '從單字，說出生活需要' : supportsPhrases ? '看圖，從單字練到句子' : '點一下，跟著說';
   document.querySelector('.intro p').textContent = isNeed ? '選擇適合的長度，點一下聽發音，慢慢說。' : '點圖片裡的黃色框框，就能聽發音。';
   $('scene-title').textContent = p.title; $('photo-counter').textContent = `${index+1} / ${photos.length}`;
@@ -124,7 +153,7 @@ function renderPhoto(resetLevel = true) {
   }
   $('hotspots').replaceChildren(); $('object-buttons').replaceChildren();
   objects.forEach(o => {
-    const w = data.words[isNeed ? phrase.word : o.word]; const b = document.createElement('button');
+    const w = data.words[o.word]; const b = document.createElement('button');
     b.type = 'button'; b.className = 'hotspot'; b.dataset.word = o.word;
     b.setAttribute('aria-label', `${w.zh}，點一下聽發音`);
     const [x,y,width,height] = o.box;
@@ -139,6 +168,7 @@ function renderPhoto(resetLevel = true) {
   for (const offset of [-1,1]) {const img = new Image();img.src = photoURL(photos[(index+offset+photos.length)%photos.length]);}
 }
 function selectObjectAndPlay(word) {
+  if (word !== phrase.objectWord) closeMouthHint();
   phrase.selectObject(word);
   renderLengthControls();
   play(phrase.word);
@@ -146,11 +176,36 @@ function selectObjectAndPlay(word) {
 function navigate(delta) {if (!data) return; const length=photosInCategory().length;index = (index + delta + length) % length;renderPhoto();}
 $('previous').onclick = () => navigate(-1); $('next').onclick = () => navigate(1);
 $('replay').onclick = () => play(); $('stop').onclick = () => stopPlayback('已停止。點一下可以再聽。');
-$('shorter').onclick = () => { phrase.setLevel(phrase.level - 1); renderPhoto(false); };
-$('longer').onclick = () => { phrase.setLevel(phrase.level + 1); renderPhoto(false); };
+function selectLength(level) { closeMouthHint(); phrase.setLevel(level); renderPhoto(false); }
+document.querySelectorAll('[data-level]').forEach(b => b.onclick = () => selectLength(Number(b.dataset.level)));
+$('speed').value = String(playbackRate);
+$('speed').onchange = () => {
+  playbackRate = normalizeRate($('speed').value);
+  try { localStorage.setItem('pic-speak-rate-v1', String(playbackRate)); } catch {}
+  stopPlayback(`已選${playbackRate === 1 ? '正常語速' : '慢 25%'}。點一下再聽。`);
+};
+$('mouth-toggle').onclick = () => {
+  mouthOpen = !mouthOpen;
+  stopPlayback(mouthOpen ? '點「聽這個單字」配合嘴型練習。' : `點一下，聽${modeText()}`);
+  renderMouthHint();
+  if (mouthOpen) $('mouth-panel').scrollIntoView({block:'nearest'});
+};
+$('mouth-close').onclick = () => { stopPlayback(`點一下，聽${modeText()}`); closeMouthHint(); renderMouthHint(); $('mouth-toggle').focus(); };
+$('mouth-replay').onclick = () => play(phrase.objectWord, mouthLanguage);
+$('mouth-image').onerror = () => { $('mouth-instruction').textContent = '提示圖片載入失敗，請收起後再試一次。'; };
+$('photo-size-toggle').onclick = () => {
+  const expanded = document.querySelector('.practice').classList.toggle('is-photo-expanded');
+  $('photo-size-toggle').setAttribute('aria-expanded', String(expanded));
+  $('photo-size-toggle').textContent = expanded ? '縮小照片' : '放大照片';
+};
 $('photo').onerror = () => {$('photo-error').hidden = false;};
-document.querySelectorAll('input[name="language"]').forEach(radio => radio.onchange = () => {mode = radio.value;stopPlayback(`點一下，聽${modeText()}`);if(selected) setWord(selected);});
-document.addEventListener('keydown', e => {if(e.target.matches('input,textarea,select')) return;if(e.key==='ArrowLeft'){e.preventDefault();navigate(-1);}if(e.key==='ArrowRight'){e.preventDefault();navigate(1);}if(e.key==='Escape')stopPlayback('已停止播放。');});
+document.querySelectorAll('input[name="language"]').forEach(radio => radio.onchange = () => {mode = radio.value;closeMouthHint();renderMouthHint();stopPlayback(`點一下，聽${modeText()}`);if(selected) setWord(selected);});
+document.addEventListener('keydown', e => {
+  if(e.key==='Escape'){stopPlayback('已停止播放。');return;}
+  if(e.target.matches('input,textarea,select,button,a,summary')) return;
+  if(e.key==='ArrowLeft'){e.preventDefault();navigate(-1);}
+  if(e.key==='ArrowRight'){e.preventDefault();navigate(1);}
+});
 let pointer, suppressClick = false;
 $('photo-stage').addEventListener('pointerdown', e => {if (e.isPrimary) pointer = {x:e.clientX,y:e.clientY,id:e.pointerId};});
 $('photo-stage').addEventListener('pointerup', e => {
@@ -168,7 +223,7 @@ catch {$('scene-title').textContent='載入失敗';status('照片資料無法載
 // Optional agent controls share the same state as the visible interface.
 if (data && document.modelContext?.registerTool) {
   const lifecycle = new AbortController();
-  const snapshot = () => ({photoId:photosInCategory()[index].id,photoNumber:index+1,totalPhotos:photosInCategory().length,category,word:selected,objectWord:phrase.objectWord,language:mode,phraseLevel:phrase.level});
+  const snapshot = () => ({photoId:photosInCategory()[index].id,photoNumber:index+1,totalPhotos:photosInCategory().length,category,word:selected,objectWord:phrase.objectWord,language:mode,phraseLevel:phrase.level,phraseVariant:phrase.variant,playbackRate});
   const register = tool => {
     try {Promise.resolve(document.modelContext.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{});} catch {}
   };

@@ -1,0 +1,22 @@
+{
+  "faith_mazu_word": {
+    "zh": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示媽祖第一個音的嘴唇位置。","instruction":"先將雙唇輕合，再跟著錄音說「媽祖」。","sourceUrl":"https://wd.vghtpe.gov.tw/PMREIP/Fpage.action?fid=7411&muid=7083"},
+    "tw": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示台語 Má-tsóo 起音 m 的位置。","instruction":"先將雙唇輕合，再跟著台語錄音說「媽祖」。","sourceUrl":"https://language.moe.gov.tw/upload/download/jts/01%E6%8B%BC%E9%9F%B3-book.pdf"}
+  },
+  "faith_worship_word": {
+    "zh": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示拜拜第一個音的嘴唇位置。","instruction":"先將雙唇輕合，再張開嘴唇，跟著錄音說「拜拜」。","sourceUrl":"https://wd.vghtpe.gov.tw/PMREIP/Fpage.action?fid=7411&muid=7083"},
+    "tw": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示台語 pài-pài 起音 p 的位置。","instruction":"先將雙唇輕合，再張開嘴唇，跟著台語錄音說「拜拜」。","sourceUrl":"https://language.moe.gov.tw/upload/download/jts/01%E6%8B%BC%E9%9F%B3-book.pdf"}
+  },
+  "faith_buddha_word": {
+    "zh": {"image":"/assets/mouth/lip-teeth.svg","alt":"上齒輕碰下唇，提示國語佛祖起音ㄈ的位置。","instruction":"上排牙齒輕碰下嘴唇，輕輕送氣，再跟著錄音說「佛祖」。","sourceUrl":"https://wd.vghtpe.gov.tw/PMREIP/Fpage.action?fid=7411&muid=7083"},
+    "tw": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示台語 Pu̍t-tsóo 起音 p 的位置。","instruction":"台語「佛祖」先將雙唇輕合，再張開嘴唇跟著錄音說。","sourceUrl":"https://language.moe.gov.tw/upload/download/jts/01%E6%8B%BC%E9%9F%B3-book.pdf"}
+  },
+  "bowl": {
+    "zh": {"image":"/assets/mouth/rounded-lips.svg","alt":"嘴唇收圓，提示國語碗開始時的嘴唇位置。","instruction":"開始時嘴唇收圓，再跟著錄音說「碗」。","sourceUrl":"https://language.moe.gov.tw/001/Upload/FileUpload/3692-16962/Documents/pinyinshouce.pdf"},
+    "tw": {"image":"/assets/mouth/rounded-lips.svg","alt":"嘴唇收圓，提示台語 uánn 開始時的嘴唇位置。","instruction":"開始時嘴唇收圓，再跟著台語錄音說「碗」。","sourceUrl":"https://language.moe.gov.tw/upload/download/jts/01%E6%8B%BC%E9%9F%B3-book.pdf"}
+  },
+  "plate": {
+    "zh": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示盤子起音ㄆ的位置。","instruction":"雙唇先輕合，再張開送氣，跟著錄音說「盤子」。","sourceUrl":"https://wd.vghtpe.gov.tw/PMREIP/Fpage.action?fid=7411&muid=7083"},
+    "tw": {"image":"/assets/mouth/closed-lips.svg","alt":"雙唇輕合，提示台語 puânn 起音 p 的位置。","instruction":"雙唇先輕合，再張開嘴唇，跟著台語錄音說「盤」。","sourceUrl":"https://language.moe.gov.tw/upload/download/jts/01%E6%8B%BC%E9%9F%B3-book.pdf"}
+  }
+}

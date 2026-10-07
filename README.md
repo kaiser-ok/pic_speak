@@ -1,8 +1,8 @@
 # 一起說
 
-手機看圖發音練習。共 77 張練習卡、237 組詞彙與短句、474 個中台語音檔。分類為生活照片（25）、生活需求（5）、身體部位（12）、廚房用具（10）、天氣（5）、身體感受（10）、佛教與信仰（10）；也可選全部。全部分類均可切換單字、短語、句子。生活需求重用「冷」圖卡，另增加 4 張圖片。切換分類不自動發音，左右滑動僅在所選分類換圖。
+手機／平板看圖發音練習。共 77 張練習卡、79 個基礎詞、550 組詞彙與短句、1,100 個中台語音檔。分類為生活照片（25）、生活需求（5）、身體部位（12）、廚房用具（10）、天氣（5）、身體感受（10）、佛教與信仰（10）；也可選全部。全部分類均可切換單字、短語、句子；短語與句子各有三個固定選項。生活需求重用「冷」圖卡，另增加 4 張圖片。切換分類不自動發音，左右滑動僅在所選分類換圖。
 
-預設每次點擊依序播放一次中文、一次台語，中間停頓 0.65 秒；再點會從頭播放，聲音不重疊。可選擇只聽中文或台語。左右滑動、上一張／下一張及鍵盤左右鍵均可換圖。
+預設語速為慢 25%（0.75 倍），可選正常（1 倍），並在本機記住上次設定。每次點擊依序播放一次中文、一次台語，中間停頓 0.65 秒；再點會從頭播放，聲音不重疊。可選擇只聽中文或台語。左右滑動、上一張／下一張及鍵盤左右鍵均可換圖。
 
 播放時會依每段錄音的量測結果自動平衡音量，補足較小聲的台語，同時降低過大的錄音；不需要逐字調整音量。
 
@@ -15,13 +15,13 @@
 - 網頁直接位於 `dist/`，沒有第三方前端套件、登入程式或分析追蹤。
 - 原圖保留在 `pic/`。部署圖片在 `dist/assets/photos/`，縮至 1080 像素寬的 WebP 並保留方向、比例，移除原圖 EXIF。
 - `dist/data.json` 是實際使用的照片清單、詞彙和百分比點選框 `[left, top, width, height]`。
-- 來源標註見 `dist/sources.html`。75 詞使用教育部詞典原始台語錄音；2 詞使用 iTaigi／意傳科技台語合成發音；生活需求 10 段、生活照片 58 段、其他四類新增 70 段短語與句子、佛教與信仰 22 段詞句由意傳服務以完整台羅合成，沒有拼接單字錄音；中文使用 macOS Meijia。
+- 來源標註見 `dist/sources.html`。75 詞使用教育部詞典原始台語錄音；2 詞使用 iTaigi／意傳科技台語合成發音；生活需求 10 段、生活照片 58 段、其他四類新增 70 段短語與句子、佛教與信仰原有 22 段、三選項擴充 313 段詞句由意傳服務以完整台羅合成，沒有拼接單字錄音；中文使用 macOS Meijia。
 - 新增圖片在 `dist/assets/pictograms/`，保留 ARASAAC 原始 PNG。作者 Sergio Palao，所有者 Gobierno de Aragón。依 CC BY-NC-SA 非商業授權使用；衍生圖卡須以相同授權分享。逐張來源見 `content/image-sources.json`，官方條款：https://arasaac.org/terms-of-use 。此授權不改變教育部錄音或原始生活照片的各自權利。
 - 新增詞彙設定在 `content/expansion.json`；執行 `scripts/expand_content.py`（相同兩個詞典參數）可合併為完整資料。執行 `python3 scripts/build_sources.py` 更新來源頁。
 - `scripts/prepare_content.py` 可用 g0v/moedict-data-twblg 的 `dict-twblg.json` 與 `dict-twblg-ext.json` 重建資料。
 - `scripts/prepare_audio.py` 重用已存在音檔，下載詞典原始台語音檔並產生缺少的中文音檔。需要 macOS、ffmpeg，以及生成中文語音的系統服務權限。空音檔會檢查並拒絕。
 - 本機預覽：`python3 -m http.server 4173 --bind 127.0.0.1 --directory dist`。
-- 新增或重建詞句、替換音檔後，最後執行 `python3 scripts/prepare_audio_levels.py` 重建音量資料，再執行驗證。
+- 新增或重建詞句、替換音檔後，最後先執行 `python3 scripts/prepare_variants.py` 合併三選項及嘴型設定，再執行 `python3 scripts/prepare_audio_levels.py` 重建音量資料，再執行驗證。
 - 驗證：`python3 scripts/validate.py`。檢查全部資產、框的位置、照片完整性、所有音檔實際解碼、長度與非靜音、音量資料與檔案是否一致，及 JavaScript 語法與播放增益測試。
 
 ## 音量平衡
@@ -29,17 +29,17 @@
 - `scripts/prepare_audio_levels.py` 以 [FFmpeg loudnorm](https://ffmpeg.org/ffmpeg-filters.html#loudnorm) 量測全部中文及台語，使用 dual-mono 對齊單聲道在雙聲道輸出的響度。短於 0.5 秒的錄音只在分析時補靜音，不改變實際播放長度。
 - 目標為 -16 LUFS，真峰值上限 -1.5 dBTP，最大增益 18 dB。峰值較高的錄音優先保留餘量，因此不強制每段達到完全相同的響度。
 - 結果與原音檔 SHA-256 儲存在 `dist/data.json` 的 `audioLevels`；執行 `python3 scripts/prepare_audio_levels.py --check` 可檢查新增、缺漏或已替換的音檔，避免沿用錯誤增益。
-- `dist/audio-levels.mjs` 在音檔解碼後一次套用增益，並依實際解碼樣本限制峰值。快取保留調整後的音訊，重播不會累加音量；原始 MP3 不重編碼，不改語速、音高或字句。
+- `dist/speech-player.mjs` 使用 HTMLAudioElement 的 `playbackRate` 與 `preservesPitch` 降速保留音高，並透過 MediaElementAudioSourceNode、GainNode 套用每段量測增益。增益每段重新設定，不會累加。`dist/audio-levels.mjs` 提供 WaveShaperNode 的 -1.5 dBFS 樣本峰值保護曲線；原始 MP3 不重編碼。雙語依實際 `ended` 事件排程，中途停止、換詞或換速會取消待播音訊與停頓計時。
 
 ## 生活需求練習
 
-「生活需求」包含疼痛、覺得冷、上廁所、休息、求助。每張卡有單字／短語／句子三種長度，以「練短一點」「練長一點」切換；換卡會回到單字。所有長度都能直接選擇，不設過關條件，也不自動播放。
+「生活需求」包含疼痛、覺得冷、上廁所、休息、求助。每張卡有單字／短語／句子三種長度，以「單字」「短語」「句子」按鈕切換；換卡會回到單字。所有長度都能直接選擇，不設過關條件，也不自動播放。
 
-詞句、台羅與圖片上的詞名直接顯示；點圖片或「聽發音」會播放目前長度。換卡、改長度或切換語言會取消之前的播放。此版沒有評分或練習紀錄。
+詞句與台羅直接顯示，圖片標籤保留基礎詞名；點圖片或「聽發音」會播放目前長度。換卡、改長度或切換語言會取消之前的播放。此版沒有評分或練習紀錄。
 
 - 詞句設定：`content/needs.json`；新增圖片來源：`content/needs-image-sources.json`。4 張新 ARASAAC 原圖採 CC BY-NC-SA 4.0，作者與所有權依來源頁標註。
 - 重建流程：在原本詞彙資料準備好後執行 `python3 scripts/prepare_needs.py --audio-only`、`python3 scripts/prepare_needs_audio.py`、`python3 scripts/prepare_needs.py`、`python3 scripts/build_sources.py`。語音準備需要網路、macOS Meijia 與 ffmpeg。
-- 若重新執行 `expand_content.py`，接著依序執行 `prepare_needs.py`、`prepare_life_phrases.py`、`prepare_topic_phrases.py`、`prepare_faith.py` 補齊所有分類的長短句，再更新來源頁。
+- 若重新執行 `expand_content.py`，接著依序執行 `prepare_needs.py`、`prepare_life_phrases.py`、`prepare_topic_phrases.py`、`prepare_faith.py` 補齊所有分類的首組長短句，再執行 `prepare_variants.py` 合併三選項，最後更新來源頁及音量資料。
 - 狀態回歸測試：`node --test scripts/practice-state.test.mjs`，涵蓋全部分類的三段長度、切換圖卡及物品後的長度重設、多物品照片、同一物品重播、不同分類共用短句時的正確單字；完整驗證也會執行此測試。
 
 ## 生活照片長短句
@@ -64,13 +64,21 @@
 共 10 張照片：土地公、拜拜、佛祖、城隍廟、觀世音菩薩、媽祖、關公、彌勒佛、香爐、佛珠。此分類收錄佛教及臺灣民間信仰常用的稱呼與活動。每張皆提供三種長度，例如「拜拜 → 去拜拜 → 我要去拜拜」、「城隍廟 → 去城隍廟 → 我要去城隍廟」及「佛珠 → 拿佛珠 → 我要拿佛珠」。切換長度不自動播放，沿用中台語與音量平衡。
 
 - 詞句設定：`content/faith.json`；照片及逐張作者、授權資訊：`content/faith-image-sources.json`。照片來源連結同時顯示於圖卡下方及來源頁。
-- 土地公、拜拜、佛祖、城隍廟、媽祖、關公（台語：關帝爺）、香爐、佛珠（台語：念珠）使用教育部辭典原始台語錄音；觀世音菩薩、彌勒佛完整稱呼及全部 20 段短語、句子使用完整台羅合成，未拼接錄音。觀世音菩薩採 Kuan-sè-im phôo-sat；彌勒佛採 Bî-li̍k-hu̍t，讀法參考[維基詞典](https://en.wiktionary.org/wiki/%E5%BD%8C%E5%8B%92%E4%BD%9B)。
+- 土地公、拜拜、佛祖、城隍廟、媽祖、關公（台語：關帝爺）、香爐、佛珠（台語：念珠）使用教育部辭典原始台語錄音；觀世音菩薩、彌勒佛完整稱呼及首組 20 段短語、句子使用完整台羅合成，未拼接錄音。觀世音菩薩採 Kuan-sè-im phôo-sat；彌勒佛採 Bî-li̍k-hu̍t，讀法參考[維基詞典](https://en.wiktionary.org/wiki/%E5%BD%8C%E5%8B%92%E4%BD%9B)。
 - 重建：`python3 scripts/prepare_faith.py --audio-only`、`python3 scripts/prepare_needs_audio.py /tmp/speak-faith-audio.json --prefix faith_`、`python3 scripts/prepare_faith.py`、`python3 scripts/build_sources.py`、`python3 scripts/prepare_audio_levels.py`，最後執行 `python3 scripts/validate.py`。
+
+## 三選項與按需嘴型提示
+
+- `content/phrase-variants.json` 為每個基礎詞追加兩組短語及兩句句子；第一個選項保留原有設定。`scripts/prepare_variants.py` 以完整中台語文字及台羅去重，將 `objects[].levelChoices` 合併成一個單字／三個短語／三個句子；`levels` 仍保留原有第一個選項以利重建。
+- 每次選項切換不自動播放；點照片或「聽發音」重播目前選項。同一物品重播保留選項，換長度、物品或照片回到第一個選項。手機與平板共用介面，照片可放大，嘴型提示展開時保留較多提示空間。
+- 重建：`python3 scripts/prepare_variants.py --audio-only`、`python3 scripts/prepare_needs_audio.py /tmp/speak-variants-audio.json --prefix variant_ --workers 2`、`python3 scripts/prepare_variants.py`、`python3 scripts/build_sources.py`、`python3 scripts/prepare_audio_levels.py`、`python3 scripts/validate.py`。音檔產生可重入，只補缺漏；最多同時兩個工作，網路錯誤有限次重試。部分台語合成以 `synthesisRoman` 加句末標點，避免服務產生異常長音。
+- 嘴型設定為 `content/mouth-hints.json`，目前試作媽祖、拜拜、佛祖、碗、盤子的中台語起音提示。只有單字層級且該語言有素材時才顯示按鈕，按下才載入圖片；換詞、語言、長度或照片會收起。提示區可單獨播放正在顯示的語言，雙語播放時依目前音檔切換提示。
+- 圖片位於 `dist/assets/mouth/`，由本網站繪製，不是擷取外部圖像或生成真人影片。發音位置參考教育部《學拼音》與臺北榮總的構音說明，來源連結逐詞保留於設定及來源頁。圖片只提示起音位置，未呈現完整詞彙的連續動作，也未經語言治療師個別審核。新增嘴型按實際需求逐詞設定，未替全部詞彙套用通用圖示。
 
 ## 驗證範圍
 
-音量平衡功能已將原有 414 段解碼為 48 kHz 浮點音訊，套用實際播放函式後重新量測：響度範圍 -17.85～-15.59 LUFS，最高真峰值 -1.5 dBTP。另有增益、雙聲道峰值限制、靜音及缺少設定的回歸測試。
+舊版緩衝音訊播放器曾將原有 414 段解碼為 48 kHz 浮點音訊，套用增益後重新量測：響度範圍 -17.85～-15.59 LUFS，最高真峰值 -1.5 dBTP。現版另驗證音量曲線、慢速保留音高設定、雙語排序、停止與重播取消、播放失敗重試及載入逾時；舊量測不代表瀏覽器降速後的實際響度。
 
-本次已進行靜態資產與所有音檔的實際解碼檢查。尚未在實體 iPhone／Android 上驗證觸控及音訊輸出；台語整句合成也尚未經使用者或台語教師審聽。支援 WebMCP 的瀏覽器可使用 `read_photo_practice` 和 `select_photo_practice`；目前環境無可用 WebMCP 驗證上下文，未驗證其註冊與執行。
+本次已進行靜態資產與所有音檔的實際解碼檢查。本機瀏覽器已檢查 320、390、1024 像素版面、三句選擇、語速記憶、慢速保留音高支援及嘴型的中台語切換。尚未在實體 iPhone／Android 上驗證觸控及音訊輸出；台語整句合成也尚未經使用者或台語教師審聽。支援 WebMCP 的瀏覽器可使用 `read_photo_practice` 和 `select_photo_practice`；已在本機瀏覽器驗證其註冊、讀取及照片選擇。
 
 台語地區腔調可能不同，iTaigi 的兩個詞為群眾提供的讀法。這是發音練習工具，沒有療效評估、診斷或語音評分。

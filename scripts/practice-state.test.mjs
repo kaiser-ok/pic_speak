@@ -107,3 +107,40 @@ test('shared phrases retain each category’s base word and reset on navigation'
   state.setLevel(2);
   assert.equal(state.word, 'need_pain_sentence');
 });
+
+test('every object has one word and three distinct complete alternatives at each longer level', () => {
+  const state = new PhrasePractice();
+  for (const photo of data.photos) {
+    state.selectPhoto(photo);
+    for (const object of photo.objects) {
+      state.selectObject(object.word);
+      for (const level of [0,1,2]) {
+        state.setLevel(level);
+        assert.equal(state.choices.length,level === 0 ? 1 : 3);
+        for (const language of ['zh','tw']) {
+          assert.equal(new Set(state.choices.map(key => data.words[key][language])).size,state.choices.length);
+        }
+        for (let i=0;i<state.choices.length;i++) {
+          state.setVariant(i);
+          assert.equal(state.word,state.choices[i]);
+          assert.ok(data.words[state.word].zhAudio);
+          assert.ok(data.words[state.word].twAudio);
+        }
+      }
+    }
+  }
+});
+
+test('replaying an object retains its selected variant; lengths, objects and cards reset it', () => {
+  const state = new PhrasePractice();
+  const photo = data.photos.find(p => p.id === 'IMG_4321');
+  state.selectPhoto(photo);state.setLevel(2);state.setVariant(2);
+  const chosen = state.word;
+  state.selectObject('sink');assert.equal(state.word,chosen);
+  state.setLevel(1);assert.equal(state.variant,0);
+  state.setVariant(2);state.selectObject('faucet');
+  assert.equal(state.level,0);assert.equal(state.variant,0);
+  state.setLevel(2);state.setVariant(99);assert.equal(state.variant,2);
+  state.setVariant(-1);assert.equal(state.variant,0);
+  state.setVariant(2);state.selectPhoto(cards[0]);assert.equal(state.level,0);assert.equal(state.variant,0);
+});
