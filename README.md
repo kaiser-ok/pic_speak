@@ -1,6 +1,6 @@
 # 一起說
 
-手機看圖發音練習。共 72 張練習卡、222 組詞彙與短句、444 個中台語音檔。分類為生活照片（25）、生活需求（5）、身體部位（12）、廚房用具（10）、天氣（5）、身體感受（10）、佛教與信仰（5）；也可選全部。全部分類均可切換單字、短語、句子。生活需求重用「冷」圖卡，另增加 4 張圖片。切換分類不自動發音，左右滑動僅在所選分類換圖。
+手機看圖發音練習。共 77 張練習卡、237 組詞彙與短句、474 個中台語音檔。分類為生活照片（25）、生活需求（5）、身體部位（12）、廚房用具（10）、天氣（5）、身體感受（10）、佛教與信仰（10）；也可選全部。全部分類均可切換單字、短語、句子。生活需求重用「冷」圖卡，另增加 4 張圖片。切換分類不自動發音，左右滑動僅在所選分類換圖。
 
 預設每次點擊依序播放一次中文、一次台語，中間停頓 0.65 秒；再點會從頭播放，聲音不重疊。可選擇只聽中文或台語。左右滑動、上一張／下一張及鍵盤左右鍵均可換圖。
 
@@ -15,7 +15,7 @@
 - 網頁直接位於 `dist/`，沒有第三方前端套件、登入程式或分析追蹤。
 - 原圖保留在 `pic/`。部署圖片在 `dist/assets/photos/`，縮至 1080 像素寬的 WebP 並保留方向、比例，移除原圖 EXIF。
 - `dist/data.json` 是實際使用的照片清單、詞彙和百分比點選框 `[left, top, width, height]`。
-- 來源標註見 `dist/sources.html`。71 詞使用教育部詞典原始台語錄音；2 詞使用 iTaigi／意傳科技台語合成發音；生活需求 10 段、生活照片 58 段、其他四類新增 70 段短語與句子、佛教與信仰 11 段詞句由意傳服務以完整台羅合成，沒有拼接單字錄音；中文使用 macOS Meijia。
+- 來源標註見 `dist/sources.html`。75 詞使用教育部詞典原始台語錄音；2 詞使用 iTaigi／意傳科技台語合成發音；生活需求 10 段、生活照片 58 段、其他四類新增 70 段短語與句子、佛教與信仰 22 段詞句由意傳服務以完整台羅合成，沒有拼接單字錄音；中文使用 macOS Meijia。
 - 新增圖片在 `dist/assets/pictograms/`，保留 ARASAAC 原始 PNG。作者 Sergio Palao，所有者 Gobierno de Aragón。依 CC BY-NC-SA 非商業授權使用；衍生圖卡須以相同授權分享。逐張來源見 `content/image-sources.json`，官方條款：https://arasaac.org/terms-of-use 。此授權不改變教育部錄音或原始生活照片的各自權利。
 - 新增詞彙設定在 `content/expansion.json`；執行 `scripts/expand_content.py`（相同兩個詞典參數）可合併為完整資料。執行 `python3 scripts/build_sources.py` 更新來源頁。
 - `scripts/prepare_content.py` 可用 g0v/moedict-data-twblg 的 `dict-twblg.json` 與 `dict-twblg-ext.json` 重建資料。
@@ -61,10 +61,10 @@
 
 ## 佛教與信仰
 
-新增 5 張照片：土地公、拜拜、佛祖、城隍廟、觀世音菩薩。此分類收錄佛教及臺灣民間信仰常用的稱呼與活動。每張皆提供三種長度，例如「拜拜 → 去拜拜 → 我要去拜拜」及「城隍廟 → 去城隍廟 → 我要去城隍廟」。切換長度不自動播放，沿用中台語與音量平衡。
+共 10 張照片：土地公、拜拜、佛祖、城隍廟、觀世音菩薩、媽祖、關公、彌勒佛、香爐、佛珠。此分類收錄佛教及臺灣民間信仰常用的稱呼與活動。每張皆提供三種長度，例如「拜拜 → 去拜拜 → 我要去拜拜」、「城隍廟 → 去城隍廟 → 我要去城隍廟」及「佛珠 → 拿佛珠 → 我要拿佛珠」。切換長度不自動播放，沿用中台語與音量平衡。
 
 - 詞句設定：`content/faith.json`；照片及逐張作者、授權資訊：`content/faith-image-sources.json`。照片來源連結同時顯示於圖卡下方及來源頁。
-- 土地公、拜拜、佛祖、城隍廟使用教育部辭典原始台語錄音；觀世音菩薩完整稱呼及全部 10 段短語、句子使用完整台羅合成，未拼接錄音。觀世音菩薩採 Kuan-sè-im phôo-sat。
+- 土地公、拜拜、佛祖、城隍廟、媽祖、關公（台語：關帝爺）、香爐、佛珠（台語：念珠）使用教育部辭典原始台語錄音；觀世音菩薩、彌勒佛完整稱呼及全部 20 段短語、句子使用完整台羅合成，未拼接錄音。觀世音菩薩採 Kuan-sè-im phôo-sat；彌勒佛採 Bî-li̍k-hu̍t，讀法參考[維基詞典](https://en.wiktionary.org/wiki/%E5%BD%8C%E5%8B%92%E4%BD%9B)。
 - 重建：`python3 scripts/prepare_faith.py --audio-only`、`python3 scripts/prepare_needs_audio.py /tmp/speak-faith-audio.json --prefix faith_`、`python3 scripts/prepare_faith.py`、`python3 scripts/build_sources.py`、`python3 scripts/prepare_audio_levels.py`，最後執行 `python3 scripts/validate.py`。
 
 ## 驗證範圍

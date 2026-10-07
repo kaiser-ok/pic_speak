@@ -48,5 +48,55 @@
       {"word": "faith_guanyin_phrase", "zh": "拜觀世音菩薩", "tw": "拜觀世音菩薩", "roman": "pài Kuan-sè-im phôo-sat"},
       {"word": "faith_guanyin_sentence", "zh": "我要拜觀世音菩薩", "tw": "我欲拜觀世音菩薩", "roman": "guá beh pài Kuan-sè-im phôo-sat"}
     ]
+  },
+  {
+    "id": "mazu",
+    "title": "媽祖",
+    "alt": "媽祖神像",
+    "levels": [
+      {"word": "faith_mazu_word", "zh": "媽祖", "tw": "媽祖", "roman": "Má-tsóo", "audioId": "09441"},
+      {"word": "faith_mazu_phrase", "zh": "拜媽祖", "tw": "拜媽祖", "roman": "pài Má-tsóo"},
+      {"word": "faith_mazu_sentence", "zh": "我要拜媽祖", "tw": "我欲拜媽祖", "roman": "guá beh pài Má-tsóo"}
+    ]
+  },
+  {
+    "id": "guangong",
+    "title": "關公",
+    "alt": "關公神像",
+    "levels": [
+      {"word": "faith_guangong_word", "zh": "關公", "tw": "關帝爺", "roman": "Kuan-tè-iâ", "audioId": "12946"},
+      {"word": "faith_guangong_phrase", "zh": "拜關公", "tw": "拜關帝爺", "roman": "pài Kuan-tè-iâ"},
+      {"word": "faith_guangong_sentence", "zh": "我要拜關公", "tw": "我欲拜關帝爺", "roman": "guá beh pài Kuan-tè-iâ"}
+    ]
+  },
+  {
+    "id": "maitreya",
+    "title": "彌勒佛",
+    "alt": "笑容滿面的彌勒佛像",
+    "levels": [
+      {"word": "faith_maitreya_word", "zh": "彌勒佛", "tw": "彌勒佛", "roman": "Bî-li̍k-hu̍t"},
+      {"word": "faith_maitreya_phrase", "zh": "拜彌勒佛", "tw": "拜彌勒佛", "roman": "pài Bî-li̍k-hu̍t"},
+      {"word": "faith_maitreya_sentence", "zh": "我要拜彌勒佛", "tw": "我欲拜彌勒佛", "roman": "guá beh pài Bî-li̍k-hu̍t"}
+    ]
+  },
+  {
+    "id": "incense_burner",
+    "title": "香爐",
+    "alt": "插著香的香爐",
+    "levels": [
+      {"word": "faith_incense_burner_word", "zh": "香爐", "tw": "香爐", "roman": "hiunn-lôo", "audioId": "05706"},
+      {"word": "faith_incense_burner_phrase", "zh": "擦香爐", "tw": "拭香爐", "roman": "tshit hiunn-lôo"},
+      {"word": "faith_incense_burner_sentence", "zh": "我要擦香爐", "tw": "我欲拭香爐", "roman": "guá beh tshit hiunn-lôo"}
+    ]
+  },
+  {
+    "id": "prayer_beads",
+    "title": "佛珠",
+    "alt": "一串佛珠",
+    "levels": [
+      {"word": "faith_prayer_beads_word", "zh": "佛珠", "tw": "念珠", "roman": "liām-tsu", "audioId": "03930"},
+      {"word": "faith_prayer_beads_phrase", "zh": "拿佛珠", "tw": "提念珠", "roman": "the̍h liām-tsu"},
+      {"word": "faith_prayer_beads_sentence", "zh": "我要拿佛珠", "tw": "我欲提念珠", "roman": "guá beh the̍h liām-tsu"}
+    ]
   }
 ]

@@ -6,11 +6,11 @@ from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 public=ROOT/'dist'
 data=json.loads((public/'data.json').read_text())
-assert len(data['photos'])==72
-assert len({p['id'] for p in data['photos']})==72
-assert len(data['words'])==222
+assert len(data['photos'])==77
+assert len({p['id'] for p in data['photos']})==77
+assert len(data['words'])==237
 assert {p['id'] for p in data['photos'] if p.get('category')=='life'}=={p.stem for p in (ROOT/'pic').glob('*.jpeg')}
-for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10),('needs',5),('faith',5)]:
+for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10),('needs',5),('faith',10)]:
  assert sum(p.get('category')==category for p in data['photos'])==count,(category,count)
 for category in data['categories']:
  visible=[p for p in data['photos'] if category['id']=='all' or p['category']==category['id']]
