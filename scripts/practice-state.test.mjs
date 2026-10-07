@@ -71,9 +71,9 @@ test('switching between a sink and faucet resets length without selecting the wr
   assert.equal(state.word, 'sink');
 });
 
-test('all four additional categories support words, phrases and sentences', () => {
+test('all vocabulary categories support words, phrases and sentences', () => {
   const state = new PhrasePractice();
-  for (const category of ['body', 'kitchen', 'weather', 'feelings']) {
+  for (const category of ['body', 'kitchen', 'weather', 'feelings', 'faith']) {
     const photos = data.photos.filter(p => p.category === category);
     assert.ok(photos.length > 0);
     for (const photo of photos) {

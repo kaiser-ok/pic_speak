@@ -118,8 +118,9 @@ function renderPhoto(resetLevel = true) {
   $('photo').src = photoURL(p); $('photo').alt = p.alt;
   $('image-credit').replaceChildren();$('image-credit').hidden = !p.source;
   if(p.source){
-    const link=document.createElement('a');link.href=p.source.sourcePage;link.target='_blank';link.rel='noopener noreferrer';link.textContent='ARASAAC';
-    $('image-credit').append(link,document.createTextNode(' · Sergio Palao · Gobierno de Aragón · CC BY-NC-SA'));
+    const link=document.createElement('a');link.href=p.source.sourcePage;link.target='_blank';link.rel='noopener noreferrer';link.textContent=p.source.provider || 'ARASAAC';
+    const attribution=[p.source.creator,p.source.owner,p.source.license].filter(Boolean).join(' · ');
+    $('image-credit').append(link,document.createTextNode(' · '+attribution));
   }
   $('hotspots').replaceChildren(); $('object-buttons').replaceChildren();
   objects.forEach(o => {

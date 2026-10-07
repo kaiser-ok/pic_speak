@@ -1,0 +1,107 @@
+[
+  {
+    "key": "earth_god",
+    "provider": "Wikimedia Commons",
+    "title": "桃園市土地公文化館 土地公神像 20200321.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg",
+    "creator": "氏子",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:%E6%B0%8F%E5%AD%90",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg/960px-%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg",
+    "localPath": "/assets/faith/earth_god.jpg",
+    "alt": "桃園市土地公文化館的土地公石雕，手持元寶及手杖",
+    "box": [
+      20,
+      3,
+      58,
+      94
+    ],
+    "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+  },
+  {
+    "key": "worship",
+    "provider": "Wikimedia Commons",
+    "title": "Riva Chang praying with incense sticks at Taipei Xia-Hai City God Temple 20110124.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Riva_Chang_praying_with_incense_sticks_at_Taipei_Xia-Hai_City_God_Temple_20110124.jpg",
+    "creator": "Jerry Lai",
+    "creatorUrl": "https://www.flickr.com/photos/jerrylai0208/5389452266/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Riva_Chang_praying_with_incense_sticks_at_Taipei_Xia-Hai_City_God_Temple_20110124.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Riva_Chang_praying_with_incense_sticks_at_Taipei_Xia-Hai_City_God_Temple_20110124.jpg",
+    "localPath": "/assets/faith/worship.jpg",
+    "alt": "在臺北霞海城隍廟前，雙手持香拜拜的情境",
+    "box": [
+      42,
+      44,
+      31,
+      30
+    ],
+    "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+  },
+  {
+    "key": "buddha",
+    "provider": "Wikimedia Commons",
+    "title": "玉里華山寺 (13)釋迦牟尼佛像.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg",
+    "creator": "舟集 Toadboat",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Boattoad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg/960px-%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg",
+    "localPath": "/assets/faith/buddha.jpg",
+    "alt": "玉里華山寺的金色釋迦牟尼佛像",
+    "box": [
+      18,
+      13,
+      64,
+      48
+    ],
+    "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+  },
+  {
+    "key": "city_god_temple",
+    "provider": "Wikimedia Commons",
+    "title": "Taipei Xia-Hai City God Temple front view 20190309.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg",
+    "creator": "nakashi",
+    "creatorUrl": "https://www.flickr.com/photos/nakashi/33455767138/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg/960px-Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg",
+    "localPath": "/assets/faith/city_god_temple.jpg",
+    "alt": "臺北霞海城隍廟正面",
+    "box": [
+      7,
+      3,
+      85,
+      90
+    ],
+    "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+  },
+  {
+    "key": "guanyin",
+    "provider": "Wikimedia Commons",
+    "title": "松竹寺白衣觀音大士像.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg",
+    "creator": "Outlookxp",
+    "creatorUrl": "https://commons.wikimedia.org/wiki/User:Outlookxp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg/960px-%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg",
+    "localPath": "/assets/faith/guanyin.jpg",
+    "alt": "臺中松竹寺的白衣觀世音菩薩像，手持淨瓶",
+    "box": [
+      28,
+      2,
+      41,
+      80
+    ],
+    "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+  }
+]

@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 entries=json.loads((ROOT/'content/expansion.json').read_text())
 dictionary=json.loads(Path(sys.argv[1]).read_text())+json.loads(Path(sys.argv[2]).read_text())
 data=json.loads((ROOT/'dist/data.json').read_text())
-data['photos']=[p for p in data['photos'] if p.get('kind')!='pictogram']
+data['photos']=[p for p in data['photos'] if p.get('category','life')=='life']
 for p in data['photos']:
  p['category']='life'
  p['image']=f'/assets/photos/{p["id"]}.webp'

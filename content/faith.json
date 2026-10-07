@@ -1,0 +1,52 @@
+[
+  {
+    "id": "earth_god",
+    "title": "土地公",
+    "alt": "土地公神像",
+    "levels": [
+      {"word": "faith_earth_god_word", "zh": "土地公", "tw": "土地公", "roman": "Thóo-tī-kong", "audioId": "00317"},
+      {"word": "faith_earth_god_phrase", "zh": "拜土地公", "tw": "拜土地公", "roman": "pài Thóo-tī-kong"},
+      {"word": "faith_earth_god_sentence", "zh": "我要拜土地公", "tw": "我欲拜土地公", "roman": "guá beh pài Thóo-tī-kong"}
+    ]
+  },
+  {
+    "id": "worship",
+    "title": "拜拜",
+    "alt": "在廟裡拜拜的情境",
+    "levels": [
+      {"word": "faith_worship_word", "zh": "拜拜", "tw": "拜拜", "roman": "pài-pài", "audioId": "04959"},
+      {"word": "faith_worship_phrase", "zh": "去拜拜", "tw": "去拜拜", "roman": "khì pài-pài"},
+      {"word": "faith_worship_sentence", "zh": "我要去拜拜", "tw": "我欲去拜拜", "roman": "guá beh khì pài-pài"}
+    ]
+  },
+  {
+    "id": "buddha",
+    "title": "佛祖",
+    "alt": "釋迦牟尼佛像",
+    "levels": [
+      {"word": "faith_buddha_word", "zh": "佛祖", "tw": "佛祖", "roman": "Pu̍t-tsóo", "audioId": "02930"},
+      {"word": "faith_buddha_phrase", "zh": "拜佛祖", "tw": "拜佛祖", "roman": "pài Pu̍t-tsóo"},
+      {"word": "faith_buddha_sentence", "zh": "我要拜佛祖", "tw": "我欲拜佛祖", "roman": "guá beh pài Pu̍t-tsóo"}
+    ]
+  },
+  {
+    "id": "city_god_temple",
+    "title": "城隍廟",
+    "alt": "城隍廟外觀",
+    "levels": [
+      {"word": "faith_city_god_temple_word", "zh": "城隍廟", "tw": "城隍廟", "roman": "Sîng-hông-biō", "audioId": "04859"},
+      {"word": "faith_city_god_temple_phrase", "zh": "去城隍廟", "tw": "去城隍廟", "roman": "khì Sîng-hông-biō"},
+      {"word": "faith_city_god_temple_sentence", "zh": "我要去城隍廟", "tw": "我欲去城隍廟", "roman": "guá beh khì Sîng-hông-biō"}
+    ]
+  },
+  {
+    "id": "guanyin",
+    "title": "觀世音菩薩",
+    "alt": "觀世音菩薩像",
+    "levels": [
+      {"word": "faith_guanyin_word", "zh": "觀世音菩薩", "tw": "觀世音菩薩", "roman": "Kuan-sè-im phôo-sat"},
+      {"word": "faith_guanyin_phrase", "zh": "拜觀世音菩薩", "tw": "拜觀世音菩薩", "roman": "pài Kuan-sè-im phôo-sat"},
+      {"word": "faith_guanyin_sentence", "zh": "我要拜觀世音菩薩", "tw": "我欲拜觀世音菩薩", "roman": "guá beh pài Kuan-sè-im phôo-sat"}
+    ]
+  }
+]

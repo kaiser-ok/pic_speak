@@ -2136,6 +2136,160 @@
       "zhAudio": "/assets/audio/zh/topic_numbness_sentence.mp3",
       "twAudio": "/assets/audio/tw/topic_numbness_sentence.mp3",
       "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+%C3%AA+tshi%C3%BA+b%C3%A2"
+    },
+    "faith_earth_god_word": {
+      "zh": "土地公",
+      "tw": "土地公",
+      "roman": "Thóo-tī-kong",
+      "zhAudio": "/assets/audio/zh/faith_earth_god_word.mp3",
+      "source": "moe",
+      "audioId": "00317",
+      "twAudio": "/assets/audio/tw/00317.mp3",
+      "sourceUrl": "https://www.moedict.tw/'土地公",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/00317.mp3"
+    },
+    "faith_earth_god_phrase": {
+      "zh": "拜土地公",
+      "tw": "拜土地公",
+      "roman": "pài Thóo-tī-kong",
+      "zhAudio": "/assets/audio/zh/faith_earth_god_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_earth_god_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=p%C3%A0i+Th%C3%B3o-t%C4%AB-kong"
+    },
+    "faith_earth_god_sentence": {
+      "zh": "我要拜土地公",
+      "tw": "我欲拜土地公",
+      "roman": "guá beh pài Thóo-tī-kong",
+      "zhAudio": "/assets/audio/zh/faith_earth_god_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_earth_god_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+p%C3%A0i+Th%C3%B3o-t%C4%AB-kong"
+    },
+    "faith_worship_word": {
+      "zh": "拜拜",
+      "tw": "拜拜",
+      "roman": "pài-pài",
+      "zhAudio": "/assets/audio/zh/faith_worship_word.mp3",
+      "source": "moe",
+      "audioId": "04959",
+      "twAudio": "/assets/audio/tw/04959.mp3",
+      "sourceUrl": "https://www.moedict.tw/'拜拜",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/04959.mp3"
+    },
+    "faith_worship_phrase": {
+      "zh": "去拜拜",
+      "tw": "去拜拜",
+      "roman": "khì pài-pài",
+      "zhAudio": "/assets/audio/zh/faith_worship_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_worship_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kh%C3%AC+p%C3%A0i-p%C3%A0i"
+    },
+    "faith_worship_sentence": {
+      "zh": "我要去拜拜",
+      "tw": "我欲去拜拜",
+      "roman": "guá beh khì pài-pài",
+      "zhAudio": "/assets/audio/zh/faith_worship_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_worship_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+kh%C3%AC+p%C3%A0i-p%C3%A0i"
+    },
+    "faith_buddha_word": {
+      "zh": "佛祖",
+      "tw": "佛祖",
+      "roman": "Pu̍t-tsóo",
+      "zhAudio": "/assets/audio/zh/faith_buddha_word.mp3",
+      "source": "moe",
+      "audioId": "02930",
+      "twAudio": "/assets/audio/tw/02930.mp3",
+      "sourceUrl": "https://www.moedict.tw/'佛祖",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/02930.mp3"
+    },
+    "faith_buddha_phrase": {
+      "zh": "拜佛祖",
+      "tw": "拜佛祖",
+      "roman": "pài Pu̍t-tsóo",
+      "zhAudio": "/assets/audio/zh/faith_buddha_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_buddha_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=p%C3%A0i+Pu%CC%8Dt-ts%C3%B3o"
+    },
+    "faith_buddha_sentence": {
+      "zh": "我要拜佛祖",
+      "tw": "我欲拜佛祖",
+      "roman": "guá beh pài Pu̍t-tsóo",
+      "zhAudio": "/assets/audio/zh/faith_buddha_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_buddha_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+p%C3%A0i+Pu%CC%8Dt-ts%C3%B3o"
+    },
+    "faith_city_god_temple_word": {
+      "zh": "城隍廟",
+      "tw": "城隍廟",
+      "roman": "Sîng-hông-biō",
+      "zhAudio": "/assets/audio/zh/faith_city_god_temple_word.mp3",
+      "source": "moe",
+      "audioId": "04859",
+      "twAudio": "/assets/audio/tw/04859.mp3",
+      "sourceUrl": "https://www.moedict.tw/'城隍廟",
+      "recordingUrl": "https://r2-assets.moedict.tw/audio/t/04859.mp3"
+    },
+    "faith_city_god_temple_phrase": {
+      "zh": "去城隍廟",
+      "tw": "去城隍廟",
+      "roman": "khì Sîng-hông-biō",
+      "zhAudio": "/assets/audio/zh/faith_city_god_temple_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_city_god_temple_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=kh%C3%AC+S%C3%AEng-h%C3%B4ng-bi%C5%8D"
+    },
+    "faith_city_god_temple_sentence": {
+      "zh": "我要去城隍廟",
+      "tw": "我欲去城隍廟",
+      "roman": "guá beh khì Sîng-hông-biō",
+      "zhAudio": "/assets/audio/zh/faith_city_god_temple_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_city_god_temple_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+kh%C3%AC+S%C3%AEng-h%C3%B4ng-bi%C5%8D"
+    },
+    "faith_guanyin_word": {
+      "zh": "觀世音菩薩",
+      "tw": "觀世音菩薩",
+      "roman": "Kuan-sè-im phôo-sat",
+      "zhAudio": "/assets/audio/zh/faith_guanyin_word.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_guanyin_word.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=Kuan-s%C3%A8-im+ph%C3%B4o-sat"
+    },
+    "faith_guanyin_phrase": {
+      "zh": "拜觀世音菩薩",
+      "tw": "拜觀世音菩薩",
+      "roman": "pài Kuan-sè-im phôo-sat",
+      "zhAudio": "/assets/audio/zh/faith_guanyin_phrase.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_guanyin_phrase.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=p%C3%A0i+Kuan-s%C3%A8-im+ph%C3%B4o-sat"
+    },
+    "faith_guanyin_sentence": {
+      "zh": "我要拜觀世音菩薩",
+      "tw": "我欲拜觀世音菩薩",
+      "roman": "guá beh pài Kuan-sè-im phôo-sat",
+      "zhAudio": "/assets/audio/zh/faith_guanyin_sentence.mp3",
+      "source": "ithuan-sentence",
+      "twAudio": "/assets/audio/tw/faith_guanyin_sentence.mp3",
+      "sourceUrl": "https://itaigi.tw/",
+      "recordingUrl": "https://hapsing.itaigi.tw/bangtsam?taibun=gu%C3%A1+beh+p%C3%A0i+Kuan-s%C3%A8-im+ph%C3%B4o-sat"
     }
   },
   "photos": [
@@ -4401,6 +4555,241 @@
           ]
         }
       ]
+    },
+    {
+      "id": "faith_earth_god",
+      "category": "faith",
+      "kind": "photo",
+      "title": "土地公",
+      "alt": "桃園市土地公文化館的土地公石雕，手持元寶及手杖",
+      "image": "/assets/faith/earth_god.jpg",
+      "width": 960,
+      "height": 960,
+      "source": {
+        "key": "earth_god",
+        "provider": "Wikimedia Commons",
+        "title": "桃園市土地公文化館 土地公神像 20200321.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg",
+        "creator": "氏子",
+        "creatorUrl": "https://commons.wikimedia.org/wiki/User:%E6%B0%8F%E5%AD%90",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg/960px-%E6%A1%83%E5%9C%92%E5%B8%82%E5%9C%9F%E5%9C%B0%E5%85%AC%E6%96%87%E5%8C%96%E9%A4%A8_%E5%9C%9F%E5%9C%B0%E5%85%AC%E7%A5%9E%E5%83%8F_20200321.jpg",
+        "localPath": "/assets/faith/earth_god.jpg",
+        "alt": "桃園市土地公文化館的土地公石雕，手持元寶及手杖",
+        "box": [
+          20,
+          3,
+          58,
+          94
+        ],
+        "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+      },
+      "objects": [
+        {
+          "word": "faith_earth_god_word",
+          "levels": [
+            "faith_earth_god_word",
+            "faith_earth_god_phrase",
+            "faith_earth_god_sentence"
+          ],
+          "box": [
+            20,
+            3,
+            58,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith_worship",
+      "category": "faith",
+      "kind": "photo",
+      "title": "拜拜",
+      "alt": "在臺北霞海城隍廟前，雙手持香拜拜的情境",
+      "image": "/assets/faith/worship.jpg",
+      "width": 900,
+      "height": 1350,
+      "source": {
+        "key": "worship",
+        "provider": "Wikimedia Commons",
+        "title": "Riva Chang praying with incense sticks at Taipei Xia-Hai City God Temple 20110124.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Riva_Chang_praying_with_incense_sticks_at_Taipei_Xia-Hai_City_God_Temple_20110124.jpg",
+        "creator": "Jerry Lai",
+        "creatorUrl": "https://www.flickr.com/photos/jerrylai0208/5389452266/",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Riva_Chang_praying_with_incense_sticks_at_Taipei_Xia-Hai_City_God_Temple_20110124.jpg",
+        "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Riva_Chang_praying_with_incense_sticks_at_Taipei_Xia-Hai_City_God_Temple_20110124.jpg",
+        "localPath": "/assets/faith/worship.jpg",
+        "alt": "在臺北霞海城隍廟前，雙手持香拜拜的情境",
+        "box": [
+          42,
+          44,
+          31,
+          30
+        ],
+        "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+      },
+      "objects": [
+        {
+          "word": "faith_worship_word",
+          "levels": [
+            "faith_worship_word",
+            "faith_worship_phrase",
+            "faith_worship_sentence"
+          ],
+          "box": [
+            42,
+            44,
+            31,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith_buddha",
+      "category": "faith",
+      "kind": "photo",
+      "title": "佛祖",
+      "alt": "玉里華山寺的金色釋迦牟尼佛像",
+      "image": "/assets/faith/buddha.jpg",
+      "width": 960,
+      "height": 1280,
+      "source": {
+        "key": "buddha",
+        "provider": "Wikimedia Commons",
+        "title": "玉里華山寺 (13)釋迦牟尼佛像.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg",
+        "creator": "舟集 Toadboat",
+        "creatorUrl": "https://commons.wikimedia.org/wiki/User:Boattoad",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg/960px-%E7%8E%89%E9%87%8C%E8%8F%AF%E5%B1%B1%E5%AF%BA_%2813%29%E9%87%8B%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E5%83%8F.jpg",
+        "localPath": "/assets/faith/buddha.jpg",
+        "alt": "玉里華山寺的金色釋迦牟尼佛像",
+        "box": [
+          18,
+          13,
+          64,
+          48
+        ],
+        "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+      },
+      "objects": [
+        {
+          "word": "faith_buddha_word",
+          "levels": [
+            "faith_buddha_word",
+            "faith_buddha_phrase",
+            "faith_buddha_sentence"
+          ],
+          "box": [
+            18,
+            13,
+            64,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith_city_god_temple",
+      "category": "faith",
+      "kind": "photo",
+      "title": "城隍廟",
+      "alt": "臺北霞海城隍廟正面",
+      "image": "/assets/faith/city_god_temple.jpg",
+      "width": 960,
+      "height": 720,
+      "source": {
+        "key": "city_god_temple",
+        "provider": "Wikimedia Commons",
+        "title": "Taipei Xia-Hai City God Temple front view 20190309.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg",
+        "creator": "nakashi",
+        "creatorUrl": "https://www.flickr.com/photos/nakashi/33455767138/",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg/960px-Taipei_Xia-Hai_City_God_Temple_front_view_20190309.jpg",
+        "localPath": "/assets/faith/city_god_temple.jpg",
+        "alt": "臺北霞海城隍廟正面",
+        "box": [
+          7,
+          3,
+          85,
+          90
+        ],
+        "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+      },
+      "objects": [
+        {
+          "word": "faith_city_god_temple_word",
+          "levels": [
+            "faith_city_god_temple_word",
+            "faith_city_god_temple_phrase",
+            "faith_city_god_temple_sentence"
+          ],
+          "box": [
+            7,
+            3,
+            85,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith_guanyin",
+      "category": "faith",
+      "kind": "photo",
+      "title": "觀世音菩薩",
+      "alt": "臺中松竹寺的白衣觀世音菩薩像，手持淨瓶",
+      "image": "/assets/faith/guanyin.jpg",
+      "width": 960,
+      "height": 720,
+      "source": {
+        "key": "guanyin",
+        "provider": "Wikimedia Commons",
+        "title": "松竹寺白衣觀音大士像.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg",
+        "creator": "Outlookxp",
+        "creatorUrl": "https://commons.wikimedia.org/wiki/User:Outlookxp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg",
+        "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg/960px-%E6%9D%BE%E7%AB%B9%E5%AF%BA%E7%99%BD%E8%A1%A3%E8%A7%80%E9%9F%B3%E5%A4%A7%E5%A3%AB%E5%83%8F.jpg",
+        "localPath": "/assets/faith/guanyin.jpg",
+        "alt": "臺中松竹寺的白衣觀世音菩薩像，手持淨瓶",
+        "box": [
+          28,
+          2,
+          41,
+          80
+        ],
+        "changes": "使用 Wikimedia Commons 提供的圖片版本，未另作裁切或修圖。"
+      },
+      "objects": [
+        {
+          "word": "faith_guanyin_word",
+          "levels": [
+            "faith_guanyin_word",
+            "faith_guanyin_phrase",
+            "faith_guanyin_sentence"
+          ],
+          "box": [
+            28,
+            2,
+            41,
+            80
+          ]
+        }
+      ]
     }
   ],
   "categories": [
@@ -4431,6 +4820,10 @@
     {
       "id": "feelings",
       "label": "身體感受"
+    },
+    {
+      "id": "faith",
+      "label": "佛教與信仰"
     }
   ],
   "audioLevels": {
@@ -4439,6 +4832,12 @@
     "maxGainDb": 18.0,
     "measurement": "loudnorm-dual-mono-pad-0.5s-v1",
     "clips": {
+      "/assets/audio/tw/00317.mp3": {
+        "gainDb": -5.43,
+        "loudnessLufs": -10.57,
+        "truePeakDb": -1.66,
+        "sha256": "fc3e13220e02df040931e3f4fb0831f134b34f09ad84e03bfa2683ae0af2927c"
+      },
       "/assets/audio/tw/00538.mp3": {
         "gainDb": -4.97,
         "loudnessLufs": -11.03,
@@ -4511,6 +4910,12 @@
         "truePeakDb": -1.64,
         "sha256": "29bb25d67a4ddab056923ea66d369e58199e9b1dd23c19120cf32d52b2f24575"
       },
+      "/assets/audio/tw/02930.mp3": {
+        "gainDb": -7.01,
+        "loudnessLufs": -8.99,
+        "truePeakDb": 3.05,
+        "sha256": "d44299a11d701552fc5b3eccab2ffa1e69dcd81316698ac671f54d4974c754d2"
+      },
       "/assets/audio/tw/03004.mp3": {
         "gainDb": -5.53,
         "loudnessLufs": -10.47,
@@ -4558,6 +4963,18 @@
         "loudnessLufs": -11.32,
         "truePeakDb": -0.83,
         "sha256": "e7e838e6630444654969075e42f12d2b6b14275766c1f994e97fbb7f79ffcbc4"
+      },
+      "/assets/audio/tw/04859.mp3": {
+        "gainDb": -4.92,
+        "loudnessLufs": -11.08,
+        "truePeakDb": -0.8,
+        "sha256": "b69427e9f794073c506b4c642b517586a356340c332fba548bae983b5bc4a6a5"
+      },
+      "/assets/audio/tw/04959.mp3": {
+        "gainDb": -6.54,
+        "loudnessLufs": -9.46,
+        "truePeakDb": -0.18,
+        "sha256": "351e26ede5defdf59cf119f49ab84b7cb88680d1c360196bc4a046964a8c7d5b"
       },
       "/assets/audio/tw/05078.mp3": {
         "gainDb": -3.67,
@@ -4846,6 +5263,72 @@
         "loudnessLufs": -27.49,
         "truePeakDb": -11.68,
         "sha256": "9cc07ff39963ec083b4dca8b8869d0a21dc90460891827a1bd2007b7785de6ab"
+      },
+      "/assets/audio/tw/faith_buddha_phrase.mp3": {
+        "gainDb": 8.3,
+        "loudnessLufs": -24.3,
+        "truePeakDb": -11.8,
+        "sha256": "a41edf596d45cedcb4a3fb84226328020626e7791674b4fb0f5394b4bb999c38"
+      },
+      "/assets/audio/tw/faith_buddha_sentence.mp3": {
+        "gainDb": 7.79,
+        "loudnessLufs": -23.79,
+        "truePeakDb": -9.61,
+        "sha256": "5f85c3035989184f6711328aea03bdfff7a2be47dd15644099501e79ecf9a442"
+      },
+      "/assets/audio/tw/faith_city_god_temple_phrase.mp3": {
+        "gainDb": 6.22,
+        "loudnessLufs": -22.22,
+        "truePeakDb": -8.04,
+        "sha256": "70a7a5e8014000b3ea23488d793abc14a0406b2c8acf1045fc0a0313335bc583"
+      },
+      "/assets/audio/tw/faith_city_god_temple_sentence.mp3": {
+        "gainDb": 9.64,
+        "loudnessLufs": -25.64,
+        "truePeakDb": -14.09,
+        "sha256": "cb7f22fffd8dc827e6001a5ec78fe352c367cdcec9264cb481598a3a6122c03b"
+      },
+      "/assets/audio/tw/faith_earth_god_phrase.mp3": {
+        "gainDb": 6.39,
+        "loudnessLufs": -22.39,
+        "truePeakDb": -8.33,
+        "sha256": "4eb47b06021f7959f5c04ca03ec0b6831ce69db446e9429954ba5479ab6af9be"
+      },
+      "/assets/audio/tw/faith_earth_god_sentence.mp3": {
+        "gainDb": 8.32,
+        "loudnessLufs": -24.32,
+        "truePeakDb": -13.4,
+        "sha256": "bafaf58d5e1106668b851e056ca3c999a521c36c244cf06bf2e4ebd167871f60"
+      },
+      "/assets/audio/tw/faith_guanyin_phrase.mp3": {
+        "gainDb": 8.6,
+        "loudnessLufs": -26.52,
+        "truePeakDb": -10.1,
+        "sha256": "0e31fcbad3f6b240b1122db3bc344027941538bafb866bd6208a4c26818c75d5"
+      },
+      "/assets/audio/tw/faith_guanyin_sentence.mp3": {
+        "gainDb": 9.08,
+        "loudnessLufs": -25.08,
+        "truePeakDb": -12.64,
+        "sha256": "63baf58f6e6e3d9e3b8ec6747608c7b7f9ed12b82100e2364e8ff0bb2aee28d9"
+      },
+      "/assets/audio/tw/faith_guanyin_word.mp3": {
+        "gainDb": 11.63,
+        "loudnessLufs": -27.63,
+        "truePeakDb": -14.61,
+        "sha256": "6e48e76f1eea154e76fd09ff00d7b095d415b15171366df2044a047464fdebca"
+      },
+      "/assets/audio/tw/faith_worship_phrase.mp3": {
+        "gainDb": 10.69,
+        "loudnessLufs": -26.69,
+        "truePeakDb": -16.09,
+        "sha256": "523adab00c4e44a61f40e9dd67b543c537b85658c9d2f7696a080461aef7496b"
+      },
+      "/assets/audio/tw/faith_worship_sentence.mp3": {
+        "gainDb": 9.85,
+        "loudnessLufs": -25.85,
+        "truePeakDb": -13.58,
+        "sha256": "78a0a4b356721e90ebe8a51a289b734e4ff8c6681cea9c96cdb5623c8ed9eccf"
       },
       "/assets/audio/tw/life_ac_phrase.mp3": {
         "gainDb": 12.03,
@@ -5794,6 +6277,96 @@
         "loudnessLufs": -12.08,
         "truePeakDb": -2.61,
         "sha256": "e9ed154a10760f31847ba66a1ab48b1f5972b515e9eb55423fd9733cfa9f0a80"
+      },
+      "/assets/audio/zh/faith_buddha_phrase.mp3": {
+        "gainDb": -1.75,
+        "loudnessLufs": -14.25,
+        "truePeakDb": -2.63,
+        "sha256": "f15c3d9726a366896cdf568adc76f63e8edf7fe0216b2cf3c6adf679c5a9f812"
+      },
+      "/assets/audio/zh/faith_buddha_sentence.mp3": {
+        "gainDb": -2.55,
+        "loudnessLufs": -13.45,
+        "truePeakDb": -2.16,
+        "sha256": "ee2b1c9f3e952b94897ddc7c85113f3a813d280087d1acabe264ea6c541a0abf"
+      },
+      "/assets/audio/zh/faith_buddha_word.mp3": {
+        "gainDb": -1.93,
+        "loudnessLufs": -14.07,
+        "truePeakDb": -3.68,
+        "sha256": "0a3f3ee422fdba2eecffb0b1324ee2ef0a5b705e10bb791a86a229f06ca36c32"
+      },
+      "/assets/audio/zh/faith_city_god_temple_phrase.mp3": {
+        "gainDb": -3.4,
+        "loudnessLufs": -12.6,
+        "truePeakDb": -2.16,
+        "sha256": "56dc61fc4969b509aa449e46f768213f7d1f2dad5175f67d87463e12d7cd08d3"
+      },
+      "/assets/audio/zh/faith_city_god_temple_sentence.mp3": {
+        "gainDb": -3.3,
+        "loudnessLufs": -12.7,
+        "truePeakDb": -1.98,
+        "sha256": "0dd61096e2f4b18cace9b11fb83016ab7cf5e89ce045cc059fdaf15249a2d499"
+      },
+      "/assets/audio/zh/faith_city_god_temple_word.mp3": {
+        "gainDb": -3.99,
+        "loudnessLufs": -12.01,
+        "truePeakDb": -2.73,
+        "sha256": "b0a2618490c084a4c1d951855de1258c3eee00a806c11d0e0bb01d9c7d50efed"
+      },
+      "/assets/audio/zh/faith_earth_god_phrase.mp3": {
+        "gainDb": -2.45,
+        "loudnessLufs": -13.55,
+        "truePeakDb": -2.43,
+        "sha256": "9f2852bc66b18df88e9c604c3308a083039cc97629c82ea6cc8758535d6b96ec"
+      },
+      "/assets/audio/zh/faith_earth_god_sentence.mp3": {
+        "gainDb": -2.68,
+        "loudnessLufs": -13.32,
+        "truePeakDb": -2.4,
+        "sha256": "675c2f3659d9172a387004b736b5a6763bc469506664c3084a33626baa87157e"
+      },
+      "/assets/audio/zh/faith_earth_god_word.mp3": {
+        "gainDb": -3.32,
+        "loudnessLufs": -12.68,
+        "truePeakDb": -2.45,
+        "sha256": "d2c9c9261e5a1b29c77e72bc77f6a5e0d03c738828f73e6e68ac3a7e2726fe5d"
+      },
+      "/assets/audio/zh/faith_guanyin_phrase.mp3": {
+        "gainDb": -3.4,
+        "loudnessLufs": -12.6,
+        "truePeakDb": -2.63,
+        "sha256": "9c74987c0b73ec7a51c42a8def8a15e8cf08ad33cd50a15b6aad14e0cec0cbb6"
+      },
+      "/assets/audio/zh/faith_guanyin_sentence.mp3": {
+        "gainDb": -3.31,
+        "loudnessLufs": -12.69,
+        "truePeakDb": -2.64,
+        "sha256": "edb5eccedcb354a326e7c05613afe976b0cc24681ddc6de6a081945da8834e13"
+      },
+      "/assets/audio/zh/faith_guanyin_word.mp3": {
+        "gainDb": -3.58,
+        "loudnessLufs": -12.42,
+        "truePeakDb": -3.47,
+        "sha256": "0852a315a0ad4a71c72c42bca688e41bb2c44c7449b952f15a4fc92ee8d9d48c"
+      },
+      "/assets/audio/zh/faith_worship_phrase.mp3": {
+        "gainDb": -2.19,
+        "loudnessLufs": -13.81,
+        "truePeakDb": -3.16,
+        "sha256": "e92f25f3a40a76aa571a821688658d8f1f5838dd705cc33acba373179becf0f3"
+      },
+      "/assets/audio/zh/faith_worship_sentence.mp3": {
+        "gainDb": -2.71,
+        "loudnessLufs": -13.29,
+        "truePeakDb": -1.57,
+        "sha256": "c768e07de4def120176be55303cdcd47b4544aa22ef8315eec56963ef3c4cadb"
+      },
+      "/assets/audio/zh/faith_worship_word.mp3": {
+        "gainDb": -1.58,
+        "loudnessLufs": -14.42,
+        "truePeakDb": -3.83,
+        "sha256": "e4412145774f87d91e309484543e54ae593ac441e897b80fd875a89b8e15e947"
       },
       "/assets/audio/zh/fan.mp3": {
         "gainDb": -2.68,

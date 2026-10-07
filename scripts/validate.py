@@ -6,11 +6,11 @@ from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 public=ROOT/'dist'
 data=json.loads((public/'data.json').read_text())
-assert len(data['photos'])==67
-assert len({p['id'] for p in data['photos']})==67
-assert len(data['words'])==207
+assert len(data['photos'])==72
+assert len({p['id'] for p in data['photos']})==72
+assert len(data['words'])==222
 assert {p['id'] for p in data['photos'] if p.get('category')=='life'}=={p.stem for p in (ROOT/'pic').glob('*.jpeg')}
-for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10),('needs',5)]:
+for category,count in [('life',25),('body',12),('kitchen',10),('weather',5),('feelings',10),('needs',5),('faith',5)]:
  assert sum(p.get('category')==category for p in data['photos'])==count,(category,count)
 for category in data['categories']:
  visible=[p for p in data['photos'] if category['id']=='all' or p['category']==category['id']]
@@ -32,6 +32,11 @@ for photo in data['photos']:
  if photo.get('kind')=='pictogram':
   assert photo['source']['creator'] and photo['source']['sourcePage'].startswith('https://arasaac.org/')
   assert photo['source']['license'] in ('CC BY-NC-SA','CC BY-NC-SA 4.0')
+ if photo.get('category')=='faith':
+  source=photo['source']
+  assert source['creator'] and source['provider']
+  assert source['sourcePage'].startswith('https://') and source['licenseUrl'].startswith('https://')
+  assert source['license']
  if photo.get('category')=='needs':
   assert len(photo['levels'])==3
   assert len(set(photo['levels']))==3
