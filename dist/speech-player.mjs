@@ -1,6 +1,6 @@
 // Media playback preserves pitch while Web Audio applies each clip's measured gain.
 import {peakCeilingCurve} from './audio-levels.mjs';
-export const normalizeRate = value => Number(value) === 1 ? 1 : 0.75;
+export const normalizeRate = value => [0.5, 0.75, 1].includes(Number(value)) ? Number(value) : 0.75;
 
 export class SpeechPlayer {
   constructor({createMedia = () => new Audio(), createContext = () => {

@@ -34,14 +34,14 @@ function setup(options = {}) {
 const zh = {url:'/zh.mp3',gainDb:-3}, tw = {url:'/tw.mp3',gainDb:9};
 const tick = () => new Promise(resolve => setTimeout(resolve, 5));
 
-test('starts on the tap, keeps pitch, applies per-language gain and sequences at ended', async () => {
+for (const rate of [.5, .75, 1]) test(`starts on the tap at ${rate}x, keeps pitch, applies gain and sequences at ended`, async () => {
   const {player,media,gains,heard} = setup();
-  const done = player.play([zh,tw], .75);
-  assert.deepEqual(media.plays,[{src:'/zh.mp3',rate:.75,pitch:true}]);
+  const done = player.play([zh,tw], rate);
+  assert.deepEqual(media.plays,[{src:'/zh.mp3',rate,pitch:true}]);
   assert.equal(gains[0],10 ** (-3 / 20));
   media.end(); await tick();
   assert.equal(media.plays.length,2);
-  assert.equal(media.plays[1].rate,.75);
+  assert.equal(media.plays[1].rate,rate);
   assert.equal(gains[1],10 ** (9 / 20));
   media.end(); assert.equal(await done,true);
   assert.deepEqual(heard,['/zh.mp3','/tw.mp3']);
@@ -81,13 +81,15 @@ test('stalled media times out, and invalid speed settings use the 25% slower def
   media.dispatchEvent(new Event('waiting'));
   await assert.rejects(done,{message:'audio-timeout'});
   assert.equal(media.plays.length,1);
-  for (const value of [null,undefined,'bad',.5,.75]) assert.equal(normalizeRate(value),.75);
+  for (const value of [null,undefined,'bad',.6,.75]) assert.equal(normalizeRate(value),.75);
+  assert.equal(normalizeRate('0.5'),.5);
   assert.equal(normalizeRate('1'),1);
 });
 
 test('unsupported pitch correction rejects slow mode but normal speed still works', async () => {
   const {player,media} = setup(); delete media.preservesPitch;
   await assert.rejects(player.play([zh],.75),{message:'audio-slow-unsupported'});
+  await assert.rejects(player.play([zh],.5),{message:'audio-slow-unsupported'});
   assert.equal(media.plays.length,0);
   const done=player.play([zh],1);media.end();assert.equal(await done,true);
 });

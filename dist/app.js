@@ -80,9 +80,9 @@ function renderChoices() {
     button.textContent = `${i + 1}　${data.words[word].zh}`;
     button.setAttribute('aria-pressed', String(i === phrase.variant));
     button.onclick = () => {
-      stopPlayback(); phrase.setVariant(i); setWord(phrase.word); renderChoices();
+      phrase.setVariant(i); renderChoices();
       $('phrase-options').children[i].focus({preventScroll:true});
-      status('已選擇。點「聽發音」就能聽。');
+      play(phrase.word);
     };
     $('phrase-options').append(button);
   });
@@ -137,7 +137,7 @@ function renderPhoto(resetLevel = true) {
   $('object-buttons').hidden = isNeed || objects.length === 1;
   document.querySelector('.listen-heading').hidden = objects.length === 1;
   document.querySelector('.listen-heading h2').textContent = isNeed ? '從單字，慢慢說成一句話' : supportsPhrases ? '選一個詞，練習長短句' : '選一個單字';
-  $('gentle-note').textContent = supportsPhrases ? '選一句，點一下聽，再慢慢跟著說。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
+  $('gentle-note').textContent = supportsPhrases ? '點一句就能聽，再慢慢跟著說。' : '聽一聽，慢慢跟著說。想再聽一次，就再點一下。';
   document.querySelector('.intro h1').textContent = isNeed ? '從單字，說出生活需要' : supportsPhrases ? '看圖，從單字練到句子' : '點一下，跟著說';
   document.querySelector('.intro p').textContent = isNeed ? '選擇適合的長度，點一下聽發音，慢慢說。' : '點圖片裡的黃色框框，就能聽發音。';
   $('scene-title').textContent = p.title; $('photo-counter').textContent = `${index+1} / ${photos.length}`;
@@ -182,7 +182,7 @@ $('speed').value = String(playbackRate);
 $('speed').onchange = () => {
   playbackRate = normalizeRate($('speed').value);
   try { localStorage.setItem('pic-speak-rate-v1', String(playbackRate)); } catch {}
-  stopPlayback(`已選${playbackRate === 1 ? '正常語速' : '慢 25%'}。點一下再聽。`);
+  stopPlayback(`已選${{1:'正常語速',0.75:'慢 25%',0.5:'慢 50%'}[playbackRate]}。點一下再聽。`);
 };
 $('mouth-toggle').onclick = () => {
   mouthOpen = !mouthOpen;

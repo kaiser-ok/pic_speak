@@ -34,7 +34,7 @@ synthesis_count=sum(w['source']=='ithuan-sentence' for w in data['words'].values
 hint_names='、'.join(data['words'][key]['zh'] for key in data.get('mouthHints', {}))
 if hint_names:
  page=page.replace('<h2>單字與生活短句發音</h2>', '<h2>嘴型起音提示</h2><p>目前提供'+escape(hint_names)+'的中文及台語起音提示。三張嘴唇位置示意圖由本網站繪製，未擷取外部圖片。發音位置參考<a href="https://wd.vghtpe.gov.tw/PMREIP/Fpage.action?fid=7411&amp;muid=7083">臺北榮總的雙唇音、唇齒音說明</a>與教育部<a href="https://language.moe.gov.tw/upload/download/jts/01%E6%8B%BC%E9%9F%B3-book.pdf">《學拼音》聲母及單元音說明</a>。碗的國語起音另參考教育部<a href="https://language.moe.gov.tw/001/Upload/FileUpload/3692-16962/Documents/pinyinshouce.pdf">《中文譯音使用原則》音節表</a>。圖示只提示開始發音的位置，需配合整詞錄音；不是整詞嘴型影片，也未經語言治療師個別評估。</p><h2>單字與生活短句發音</h2>')
-page=page.replace('</main>', '<p>每個詞的短語及句子各有三個固定選項，單字保留一個。新增例句依生活情境編寫，台語用詞與台羅參考教育部辭典；每句以完整語句產生錄音。播放可選正常或慢 25%，由瀏覽器保留音高，並套用各音檔的音量平衡；原始錄音檔案保持不變。</p></main>')
+page=page.replace('</main>', '<p>每個詞的短語及句子各有三個固定選項，單字保留一個。新增例句依生活情境編寫，台語用詞與台羅參考教育部辭典；每句以完整語句產生錄音。點選短語或句子即可播放；語速可選正常、慢 25% 或慢 50%，由瀏覽器保留音高，並套用各音檔的音量平衡；原始錄音檔案保持不變。</p></main>')
 categories='、'.join(c['label'] for c in data['categories'] if c['id']!='all')
 page=page.replace('</main>', f'<p>全部 {len(data["photos"])} 張練習卡皆有單字、短語、句子三種長度，包含{escape(categories)}。共 {synthesis_count} 段不同的台語詞句由意傳科技服務以完整台羅語句合成，未將單字音檔拼接。合成語音與詞典錄音的音色可能不同。國語每段也使用完整語句合成。</p><p>台語詞彙與動詞讀法參考教育部辭典，包含疼、寒、便所、歇睏、鬥相共、開、食、拍、提、掛、穿、用、洗、倒、拭、磅、痠、癢、吐、天色、天氣、今仔日、外口、拜、土地公、佛祖、城隍廟、觀音、世、菩薩、媽祖、關帝爺、香爐、念珠等；「掛喙罨」與「我想欲吐」採辭典用例。「觀世音菩薩」與「彌勒佛」完整稱呼使用合成語音；彌勒佛採 Bî-li̍k-hu̍t，讀法參考<a href="https://en.wiktionary.org/wiki/%E5%BD%8C%E5%8B%92%E4%BD%9B">維基詞典</a>。「關公」台語採「關帝爺」，「佛珠」台語採「念珠」。語句為本練習編寫，台羅標示本調；實際合成的語調可能與家人慣用腔調不同。</p></main>')
 (public/'sources.html').write_text(page)
